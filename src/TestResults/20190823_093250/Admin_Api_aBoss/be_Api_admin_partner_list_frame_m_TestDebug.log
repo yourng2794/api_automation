@@ -1,0 +1,218 @@
+
+* Run test case: be_Api_admin_partner_list_frame_m.py
+********Test Case: be_Api_admin_partner_list_frame_m.py********
+
+	Start >>08月23日09時33分12秒 [Feature] API POST partner list frame m
+
+		New ini value is: API.searchType = acc
+		New ini value is: API.search = QAbanker11
+		New ini value is: API.listType = 
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/partner/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/partner/list/frame/m
+
+		- api params: {'page': '', 'searchType': 'acc', 'search': 'QAbanker11', 'listType': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.052578 (seconds)
+
+		Response data: <div class="sort-tab">
+ <a class="act" href="###" id="banker" onclick="ListType(1)">
+  庄家  (1)
+ </a>
+ <a href="###" id="proxy" onclick="ListType(2)">
+  代理  (0)
+ </a>
+</div>
+<div class="boss" id="u">
+</div>
+<div class="1" id="rank">
+</div>
+<div class="result-box">
+ 搜寻结果：共
+ <span>
+  1
+ </span>
+ 个帐号
+</div>
+<ul class="crm-list">
+ <li>
+  <div class="crm-type" id="boss">
+   A_Boss
+   <i class="far fa-angle-down fa-angle-up">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 1px solid rgb(153, 153, 153);">
+   <div class="crm-name" id="619da70cf372717e11eff31f1d619ef9">
+    QAbanker11
+   </div>
+   <div class="crm-edit btn-popup">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="">
+   <div class="crm-item">
+    <label>
+     姓名
+    </label>
+    <p>
+     QATEST11
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     状态
+    </label>
+    <p>
+     <span class="status-type status-a">
+      启用
+     </span>
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     会员人数
+    </label>
+    <p>
+     891
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     代理人数
+    </label>
+    <p>
+     0
+    </p>
+   </div>
+   <div class="crm-item crm-item-w">
+    <label>
+     客户类型
+    </label>
+    <p>
+     莊家
+    </p>
+   </div>
+   <div class="crm-item js-rank" id="2">
+    <label>
+     创建时间
+    </label>
+    <p>
+     2019-08-23 09:33:07
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     上次登入时间
+    </label>
+    <p>
+     2019/01/09 12:12:00
+    </p>
+   </div>
+   <div class="crm-item crm-item-w">
+    <label>
+     网站(点击网站即进入该页面)
+    </label>
+    <p>
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+<div class="pagin-box">
+ <a onclick="Pagination(1 )">
+  <i class="fal fa-angle-double-left" title="第一页">
+  </i>
+ </a>
+ <a onclick="Pagination(1)">
+  <i class="fal fa-angle-left">
+  </i>
+ </a>
+ <div class="pagin-num">
+  <span>
+   1
+  </span>
+  /
+  <span>
+   1
+  </span>
+  <select id="paginSel" name="paginSel">
+   <option selected="" value="1">
+    1
+   </option>
+  </select>
+ </div>
+ <a onclick="Pagination(1 )">
+  <i class="fal fa-angle-double-right" title="最后一页">
+  </i>
+ </a>
+ <a onclick="Pagination(1 )">
+  <i class="fal fa-angle-right">
+  </i>
+ </a>
+</div>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.052578
+
+		- Success get partnerId: 619da70cf372717e11eff31f1d619ef9
+
+		- Success get partnerName: QAbanker11
+
+		- - -
+
+['PASS']
+['PASS']
+		New ini value is: API.bankerId = 619da70cf372717e11eff31f1d619ef9
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.searchType = 
+		New ini value is: API.search = 
+		New ini value is: API.listType = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日09時33分12秒 [Feature] API POST partner list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時33分12秒 [Feature] API POST partner list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/partner/list/frame/m
+- api params: {'page': '', 'searchType': 'acc', 'search': 'QAbanker11', 'listType': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.052578 (seconds)
+- API success (status and response are correct).
+- Response time: 0.052578
+- Success get partnerId: 619da70cf372717e11eff31f1d619ef9
+- Success get partnerName: QAbanker11
+- - -
+# Test Result: PASS
+
+End << 08月23日09時33分12秒 [Feature] API POST partner list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0933
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

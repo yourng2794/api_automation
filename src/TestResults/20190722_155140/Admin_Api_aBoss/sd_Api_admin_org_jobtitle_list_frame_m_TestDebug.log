@@ -1,0 +1,146 @@
+
+* Run test case: sd_Api_admin_org_jobtitle_list_frame_m.py
+********Test Case: sd_Api_admin_org_jobtitle_list_frame_m.py********
+
+	Start >>07月22日15時58分19秒 [Feature] API POST org. jobtitle list frame m
+
+		New ini value is: API.depId = a9bafa0b40a1f9b038ff496891759a90
+		New ini value is: API.api_path = api/organization/department/jobtitle/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/list/frame/m
+
+		- api params: {'depId': 'a9bafa0b40a1f9b038ff496891759a90'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.024106 (seconds)
+
+		- api response: 
+<li>
+ <a class="group-box-85" href="job_title_member_list.html">
+  <div class="box-70">
+   QAtitle1
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="e7245390615ec4f0651db7bb597f541d" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		Response data: <li>
+ <a class="group-box-85" href="job_title_member_list.html">
+  <div class="box-70">
+   QAtitle1
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="e7245390615ec4f0651db7bb597f541d" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.024106
+
+		- Success get depTitle: QAtitle1
+
+		- Success get depTitleId: e7245390615ec4f0651db7bb597f541d
+
+		- - -
+
+['PASS']
+['PASS']
+		New ini value is: API.depTitleId = e7245390615ec4f0651db7bb597f541d
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.depId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時58分19秒 [Feature] API POST org. jobtitle list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時58分19秒 [Feature] API POST org. jobtitle list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/list/frame/m
+- api params: {'depId': 'a9bafa0b40a1f9b038ff496891759a90'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.024106 (seconds)
+- api response: 
+<li>
+ <a class="group-box-85" href="job_title_member_list.html">
+  <div class="box-70">
+   QAtitle1
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="e7245390615ec4f0651db7bb597f541d" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+
+Response data: <li>
+ <a class="group-box-85" href="job_title_member_list.html">
+  <div class="box-70">
+   QAtitle1
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="e7245390615ec4f0651db7bb597f541d" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+
+- API success (status and response are correct).
+- Response time: 0.024106
+- Success get depTitle: QAtitle1
+- Success get depTitleId: e7245390615ec4f0651db7bb597f541d
+- - -
+# Test Result: PASS
+
+End << 07月22日15時58分19秒 [Feature] API POST org. jobtitle list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1558
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

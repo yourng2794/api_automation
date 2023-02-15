@@ -1,0 +1,95 @@
+
+* Run test case: np_Api_admin_provider_payOption_edit_get.py
+********Test Case: np_Api_admin_provider_payOption_edit_get.py********
+
+	Start >>04月19日18時39分49秒 [Feature] API POST provider payOption edit get
+
+		New ini value is: API.payOptionId = 40f00ddd4665100fdce55c92dd6ff9b2
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/edit/get
+
+		- api params: {'payOptionId': '40f00ddd4665100fdce55c92dd6ff9b2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.54093 (seconds)
+
+		Response data: 
+{
+    "company_amount": 50,
+    "company_count": 15,
+    "company_limit": 500,
+    "company_maxdep": 1000000,
+    "company_mindep": 10000,
+    "company_promo": 3,
+    "company_ratio": 1.6,
+    "currency": {
+        "AUD": "0",
+        "CNY": "1",
+        "EUR": "0",
+        "GBP": "0",
+        "HKD": "0",
+        "IDR": "0",
+        "JPY": "0",
+        "KRW": "0",
+        "MMK": "0",
+        "MOP": "0",
+        "MYR": "0",
+        "PHP": "0",
+        "THB": "0",
+        "USD": "0",
+        "VND": "0"
+    },
+    "deposit": [
+        "CNY"
+    ],
+    "online_amount": 100,
+    "online_count": 10,
+    "online_limit": 1000,
+    "online_maxdep": 100000,
+    "online_mindep": 10,
+    "online_promo": 3,
+    "online_ratio": 1.5,
+    "payoption_id": "40f00ddd4665100fdce55c92dd6ff9b2",
+    "payoption_name": "QApay19",
+    "pt_acc": "QAstep4",
+    "review": 0,
+    "review_amount": 0,
+    "review_hour": 0,
+    "v_currency": {
+        "V_BTC": "0",
+        "V_ETH": "0"
+    },
+    "withdraw": [
+        "CNY"
+    ]
+}
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時39分50秒 [Feature] API POST provider payOption edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,46 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190412_173228\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190412_173228\\testresults.xml
+********Test Case: ce_Api_admin_web_domain_create_get.py********
+
+	Start >>04月12日17時32分28秒 [Feature] API POST web domain create get
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_response = {"bankerId":"835bd15c55ec6df3fe054f3aed828e41","bankerAcc":"QAstep5"}
+
+		- api_params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/domain/create/get
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=ke0r22iY5Cq92Iocf2dMbZCHU8y0Ph3jTRGYgCCf for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.588977 (seconds)
+
+		Response data: 
+{
+    "bankerAcc": "QAstep4",
+    "bankerId": "835bd15c55ec6df3fe054f3aed828e41"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月12日17時32分29秒 [Feature] API POST web domain create get
+	Collect temp results or other files...

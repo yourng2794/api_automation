@@ -1,0 +1,125 @@
+
+* Run test case: on_Api_admin_provider_payOption_edit_get.py
+********Test Case: on_Api_admin_provider_payOption_edit_get.py********
+
+	Start >>08月23日09時38分51秒 [Feature] API POST provider payOption edit get
+
+		New ini value is: API.payOptionId = 8b4dfc4c17c8e02e2b922d5c878d3be2
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get
+
+		- api params: {'payOptionId': '8b4dfc4c17c8e02e2b922d5c878d3be2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.04556 (seconds)
+
+		Response data: {
+    "comp_normal_audit": 0,
+    "comp_normal_audit_percent": 100,
+    "comp_normal_audit_process_rate": 50,
+    "comp_normal_audit_relaxation_amount": 10,
+    "comp_preferential_audit": 1,
+    "comp_preferential_audit_times": 10,
+    "comp_preferential_balance_audit": 1,
+    "company_amount": 100,
+    "company_count": 0,
+    "company_limit": 100,
+    "company_maxdep": 5000,
+    "company_mindep": 10,
+    "company_promo": 1,
+    "company_ratio": 50,
+    "currency": {
+        "CNY": 1
+    },
+    "deposit": [
+        "CNY"
+    ],
+    "duplicate_withdraw_hours": 2,
+    "free_process_fee_times": 1,
+    "normal_audit": 0,
+    "normal_audit_percent": 100,
+    "normal_audit_process_rate": 50,
+    "normal_audit_relaxation_amount": 10,
+    "online_amount": 100,
+    "online_count": 0,
+    "online_limit": 1000,
+    "online_maxdep": 5000,
+    "online_mindep": 10,
+    "online_promo": 1,
+    "online_ratio": 50,
+    "payoption_id": "8b4dfc4c17c8e02e2b922d5c878d3be2",
+    "payoption_name": "QApay4",
+    "preferential_audit": 1,
+    "preferential_audit_times": 10,
+    "preferential_balance_audit": 1,
+    "review": 1,
+    "review_amount": 5000,
+    "review_hour": 1,
+    "transfer_preferential_amount": 100,
+    "transfer_preferential_maximum": 500,
+    "transfer_preferential_maximum_a_day": 500,
+    "transfer_preferential_rate": 1,
+    "v_currency": [],
+    "web_id": "ac9c6bc657e91a2fabe517851eb59079",
+    "web_name": "QAweb4",
+    "withdraw": [
+        "CNY"
+    ],
+    "withdraw_maximum": 10000,
+    "withdraw_minimum": 100,
+    "withdraw_process_maximum": 100,
+    "withdraw_process_rate": 10
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.04556
+
+		-QApay4 != QApay11
+
+		- - -
+
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'FAIL', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時38分52秒 [Feature] API POST provider payOption edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時38分51秒 [Feature] API POST provider payOption edit get
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get
+- api params: {'payOptionId': '8b4dfc4c17c8e02e2b922d5c878d3be2'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.04556 (seconds)
+- API success (status and response are correct).
+- Response time: 0.04556
+-QApay4 != QApay11
+- - -
+# Test Result: FAIL
+
+End << 08月23日09時38分52秒 [Feature] API POST provider payOption edit get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0938
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

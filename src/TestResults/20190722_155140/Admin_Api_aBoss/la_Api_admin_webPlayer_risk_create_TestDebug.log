@@ -1,0 +1,90 @@
+
+* Run test case: la_Api_admin_webPlayer_risk_create.py
+********Test Case: la_Api_admin_webPlayer_risk_create.py********
+
+	Start >>07月22日15時56分09秒 [Feature] API POST webPlayer risk create
+
+	<< END Success, checkJSONFile: QArisk
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: a97e6eec6fc58c8d8ce2c339b555bbb1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: a8b3c8bfc49c9301c2a86e55e1bff764
+	<< END Success, replaceJSONValue.
+	<< END Success, isInt
+	<< END Success, checkJSONFile: {'type': 'ipLogin', 'interval': '1', 'time': 'min', 'amount': '', 'count': '5'}
+	<< END Success, replaceJSONValue.
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_risk_create.json
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/create
+
+		- api params: {}
+
+		- api data: {"name": "QArisk", "ptid": "a97e6eec6fc58c8d8ce2c339b555bbb1", "webid": "a8b3c8bfc49c9301c2a86e55e1bff764", "opt": [{"type": "ipLogin", "interval": "1", "time": "min", "amount": "", "count": "5"}]}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.032091 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.032091
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時56分09秒 [Feature] API POST webPlayer risk create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時56分09秒 [Feature] API POST webPlayer risk create
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/create
+- api params: {}
+- api data: {"name": "QArisk", "ptid": "a97e6eec6fc58c8d8ce2c339b555bbb1", "webid": "a8b3c8bfc49c9301c2a86e55e1bff764", "opt": [{"type": "ipLogin", "interval": "1", "time": "min", "amount": "", "count": "5"}]}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.032091 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.032091
+- - -
+# Test Result: PASS
+
+End << 07月22日15時56分09秒 [Feature] API POST webPlayer risk create
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1556
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,2857 @@
+
+* Run test case: hj_Api_admin_webPlayer_web_provider_get.py
+********Test Case: hj_Api_admin_webPlayer_web_provider_get.py********
+
+	Start >>08月23日15時44分58秒 [Feature] API POST webPlayer web provider get
+
+		New ini value is: API.webId = 1c049b9bc588fead28c0e84492f051a2
+		New ini value is: API.lang = zh
+		New ini value is: API.providerId = BB_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_FISH', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.033777 (seconds)
+
+		Response data: {
+    "gameList": {
+        "30598": [
+            "捕魚達人2",
+            1
+        ],
+        "30599": [
+            "捕魚達人",
+            1
+        ],
+        "38001": [
+            "捕魚大師",
+            1
+        ]
+    },
+    "provider": "BBIN捕鱼",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.033777
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_LIVED
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_LIVED', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.040103 (seconds)
+
+		Response data: {
+    "gameList": {
+        "3001": [
+            "百家樂",
+            1
+        ],
+        "3003": [
+            "龍虎鬥",
+            1
+        ],
+        "3005": [
+            "三公",
+            1
+        ],
+        "3006": [
+            "溫州牌九",
+            1
+        ],
+        "3007": [
+            "輪盤",
+            1
+        ],
+        "3008": [
+            "骰寶",
+            1
+        ],
+        "3010": [
+            "德州撲克",
+            1
+        ],
+        "3011": [
+            "色碟",
+            1
+        ],
+        "3012": [
+            "牛牛",
+            1
+        ],
+        "3014": [
+            "無限21點",
+            1
+        ],
+        "3015": [
+            "番攤",
+            1
+        ],
+        "3016": [
+            "魚蝦蟹",
+            1
+        ],
+        "3017": [
+            "保險百家樂",
+            1
+        ],
+        "3018": [
+            "炸金花",
+            1
+        ],
+        "3019": [
+            "幸運轉輪",
+            1
+        ]
+    },
+    "provider": "BBIN真人视讯",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040103
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_LOTTERY
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_LOTTERY', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041541 (seconds)
+
+		Response data: {
+    "gameList": {
+        "B1E5": [
+            "BB 11選5",
+            1
+        ],
+        "B1PK": [
+            "BB 北京PK拾",
+            1
+        ],
+        "B1Q3": [
+            "BB 快3",
+            1
+        ],
+        "B1SC": [
+            "BB 重慶時時彩",
+            1
+        ],
+        "B1SF": [
+            "BB 十分彩",
+            1
+        ],
+        "BB3D": [
+            "BB3D",
+            1
+        ],
+        "BBAD": [
+            "BB 雙喜龍門",
+            1
+        ],
+        "BBGE": [
+            "BB 淘金蛋",
+            1
+        ],
+        "BBHL": [
+            "BB 高低",
+            1
+        ],
+        "BBLM": [
+            "BB 射龍門",
+            1
+        ],
+        "BBLT": [
+            "BB 六合彩",
+            1
+        ],
+        "BBPK": [
+            "BB PK3",
+            1
+        ],
+        "BBPT": [
+            "BB 深海派對",
+            1
+        ],
+        "BBQK": [
+            "BB 競速快樂彩",
+            1
+        ],
+        "BBQL": [
+            "BB 競速六合彩",
+            1
+        ],
+        "BBRB": [
+            "BB 滾球王",
+            1
+        ],
+        "BCR1": [
+            "BB 百家彩票-TB1",
+            1
+        ],
+        "BCR2": [
+            "BB 百家彩票-TB2",
+            1
+        ],
+        "BCRA": [
+            "BB 百家彩票-A",
+            1
+        ],
+        "BCRB": [
+            "BB 百家彩票-B",
+            1
+        ],
+        "BCRC": [
+            "BB 百家彩票-C",
+            1
+        ],
+        "BCRD": [
+            "BB 百家彩票-D",
+            1
+        ],
+        "BCRE": [
+            "BB 百家彩票-E",
+            1
+        ],
+        "BJ3D": [
+            "3D彩",
+            1
+        ],
+        "BJKN": [
+            "北京快樂8",
+            1
+        ],
+        "BJPK": [
+            "北京PK拾",
+            1
+        ],
+        "BQ3D": [
+            "BB 競速3D",
+            1
+        ],
+        "CQSC": [
+            "重慶時時彩",
+            1
+        ],
+        "CQWC": [
+            "重慶百變王牌",
+            1
+        ],
+        "GDE5": [
+            "廣東11選5",
+            1
+        ],
+        "GXSF": [
+            "廣西十分彩",
+            1
+        ],
+        "JSQ3": [
+            "江蘇快3",
+            1
+        ],
+        "JXE5": [
+            "江西11選5",
+            1
+        ],
+        "LDDR": [
+            "梯子遊戲",
+            1
+        ],
+        "LDRS": [
+            "經典梯子",
+            1
+        ],
+        "LKPA": [
+            "BB 幸運熊貓",
+            1
+        ],
+        "LT": [
+            "六合彩",
+            1
+        ],
+        "PL3D": [
+            "排列三",
+            1
+        ],
+        "RDPK": [
+            "BB 雷電PK",
+            1
+        ],
+        "SDE5": [
+            "山東十一運奪金",
+            1
+        ],
+        "SH3D": [
+            "上海時時樂",
+            1
+        ],
+        "TJSC": [
+            "天津時時彩",
+            1
+        ],
+        "TJSF": [
+            "天津十分彩",
+            1
+        ],
+        "XJSC": [
+            "新疆時時彩",
+            1
+        ]
+    },
+    "provider": "BBIN彩票",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041541
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_POKER', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.044299 (seconds)
+
+		Response data: {
+    "gameList": {
+        "66001": [
+            "炸金花",
+            1
+        ],
+        "66002": [
+            "二八槓",
+            1
+        ],
+        "66003": [
+            "通比牛牛",
+            1
+        ],
+        "66004": [
+            "搶莊牛牛",
+            1
+        ],
+        "66005": [
+            "大話骰",
+            1
+        ]
+    },
+    "provider": "BBIN棋牌",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.044299
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041295 (seconds)
+
+		Response data: {
+    "gameList": {
+        "5005": [
+            "惑星戰記",
+            1
+        ],
+        "5006": [
+            "Staronic",
+            1
+        ],
+        "5007": [
+            "激爆水果盤",
+            1
+        ],
+        "5008": [
+            "猴子爬樹",
+            1
+        ],
+        "5009": [
+            "金剛爬樓",
+            1
+        ],
+        "5010": [
+            "外星戰記",
+            1
+        ],
+        "5012": [
+            "外星爭霸",
+            1
+        ],
+        "5013": [
+            "傳統",
+            1
+        ],
+        "5014": [
+            "叢林",
+            1
+        ],
+        "5015": [
+            "FIFA2010",
+            1
+        ],
+        "5016": [
+            "史前叢林冒險",
+            1
+        ],
+        "5017": [
+            "星際大戰",
+            1
+        ],
+        "5018": [
+            "齊天大聖",
+            1
+        ],
+        "5019": [
+            "水果樂園",
+            1
+        ],
+        "5025": [
+            "法海鬥白蛇",
+            1
+        ],
+        "5026": [
+            "2012 倫敦奧運",
+            1
+        ],
+        "5027": [
+            "功夫龍",
+            1
+        ],
+        "5028": [
+            "中秋月光派對",
+            1
+        ],
+        "5029": [
+            "聖誕派對",
+            1
+        ],
+        "5030": [
+            "幸運財神",
+            1
+        ],
+        "5034": [
+            "王牌5PK",
+            1
+        ],
+        "5035": [
+            "加勒比撲克",
+            1
+        ],
+        "5039": [
+            "魚蝦蟹",
+            1
+        ],
+        "5040": [
+            "百搭二王",
+            1
+        ],
+        "5041": [
+            "7PK",
+            1
+        ],
+        "5043": [
+            "鑽石水果盤",
+            1
+        ],
+        "5044": [
+            "明星97II",
+            1
+        ],
+        "5045": [
+            "森林舞會",
+            1
+        ],
+        "5046": [
+            "鬥魂",
+            1
+        ],
+        "5054": [
+            "爆骰",
+            1
+        ],
+        "5057": [
+            "明星97",
+            1
+        ],
+        "5058": [
+            "瘋狂水果盤",
+            1
+        ],
+        "5060": [
+            "動物奇觀五",
+            1
+        ],
+        "5061": [
+            "超級7",
+            1
+        ],
+        "5062": [
+            "龍在囧途",
+            1
+        ],
+        "5063": [
+            "水果拉霸",
+            1
+        ],
+        "5064": [
+            "撲克拉霸",
+            1
+        ],
+        "5065": [
+            "筒子拉霸",
+            1
+        ],
+        "5066": [
+            "足球拉霸",
+            1
+        ],
+        "5067": [
+            "大話西遊",
+            1
+        ],
+        "5068": [
+            "酷搜馬戲團",
+            1
+        ],
+        "5069": [
+            "水果擂台",
+            1
+        ],
+        "5070": [
+            "黃金大轉輪",
+            1
+        ],
+        "5073": [
+            "百家樂大轉輪",
+            1
+        ],
+        "5076": [
+            "數字大轉輪",
+            1
+        ],
+        "5077": [
+            "水果大轉輪",
+            1
+        ],
+        "5078": [
+            "象棋大轉輪",
+            1
+        ],
+        "5079": [
+            "3D數字大轉輪",
+            1
+        ],
+        "5080": [
+            "樂透轉輪",
+            1
+        ],
+        "5083": [
+            "鑽石列車",
+            1
+        ],
+        "5084": [
+            "聖獸傳說",
+            1
+        ],
+        "5088": [
+            "鬥大",
+            1
+        ],
+        "5089": [
+            "紅狗",
+            1
+        ],
+        "5090": [
+            "金雞報喜",
+            1
+        ],
+        "5091": [
+            "三國拉霸",
+            1
+        ],
+        "5092": [
+            "封神榜",
+            1
+        ],
+        "5093": [
+            "金瓶梅",
+            1
+        ],
+        "5094": [
+            "金瓶梅2",
+            1
+        ],
+        "5095": [
+            "鬥雞",
+            1
+        ],
+        "5096": [
+            "五行",
+            1
+        ],
+        "5097": [
+            "海底世界",
+            1
+        ],
+        "5098": [
+            "五福臨門",
+            1
+        ],
+        "5099": [
+            "金狗旺歲",
+            1
+        ],
+        "5100": [
+            "七夕",
+            1
+        ],
+        "5105": [
+            "歐式輪盤",
+            1
+        ],
+        "5106": [
+            "三國",
+            1
+        ],
+        "5107": [
+            "美式輪盤",
+            1
+        ],
+        "5108": [
+            "彩金輪盤",
+            1
+        ],
+        "5109": [
+            "法式輪盤",
+            1
+        ],
+        "5110": [
+            "夜上海",
+            1
+        ],
+        "5116": [
+            "西班牙21點",
+            1
+        ],
+        "5117": [
+            "維加斯21點",
+            1
+        ],
+        "5118": [
+            "獎金21點",
+            1
+        ],
+        "5119": [
+            "神秘島",
+            1
+        ],
+        "5120": [
+            "女媧補天",
+            1
+        ],
+        "5121": [
+            "奧林帕斯",
+            1
+        ],
+        "5122": [
+            "球球大作戰",
+            1
+        ],
+        "5123": [
+            "經典21點",
+            1
+        ],
+        "5127": [
+            "絕地求生",
+            1
+        ],
+        "5128": [
+            "多福多財",
+            1
+        ],
+        "5131": [
+            "皇家德州撲克",
+            1
+        ],
+        "5138": [
+            "夾豬珠",
+            1
+        ],
+        "5139": [
+            "熊貓樂園",
+            1
+        ],
+        "5140": [
+            "啤酒嘉年華",
+            1
+        ],
+        "5142": [
+            "魔光幻音",
+            1
+        ],
+        "5201": [
+            "火燄山",
+            1
+        ],
+        "5202": [
+            "月光寶盒",
+            1
+        ],
+        "5203": [
+            "愛你一萬年",
+            1
+        ],
+        "5204": [
+            "2014 FIFA",
+            1
+        ],
+        "5402": [
+            "夜市人生",
+            1
+        ],
+        "5404": [
+            "沙灘排球",
+            1
+        ],
+        "5406": [
+            "神舟27",
+            1
+        ],
+        "5407": [
+            "大紅帽與小野狼",
+            1
+        ],
+        "5601": [
+            "秘境冒險",
+            1
+        ],
+        "5701": [
+            "連連看",
+            1
+        ],
+        "5703": [
+            "發達囉",
+            1
+        ],
+        "5704": [
+            "鬥牛",
+            1
+        ],
+        "5705": [
+            "聚寶盆",
+            1
+        ],
+        "5706": [
+            "濃情巧克力",
+            1
+        ],
+        "5707": [
+            "金錢豹",
+            1
+        ],
+        "5802": [
+            "阿基里斯",
+            1
+        ],
+        "5803": [
+            "阿兹特克寶藏",
+            1
+        ],
+        "5804": [
+            "大明星",
+            1
+        ],
+        "5805": [
+            "凱薩帝國",
+            1
+        ],
+        "5806": [
+            "奇幻花園",
+            1
+        ],
+        "5808": [
+            "浪人武士",
+            1
+        ],
+        "5809": [
+            "空戰英豪",
+            1
+        ],
+        "5810": [
+            "航海時代",
+            1
+        ],
+        "5823": [
+            "發大財",
+            1
+        ],
+        "5824": [
+            "惡龍傳說",
+            1
+        ],
+        "5825": [
+            "金蓮",
+            1
+        ],
+        "5826": [
+            "金礦工",
+            1
+        ],
+        "5827": [
+            "老船長",
+            1
+        ],
+        "5828": [
+            "霸王龍",
+            1
+        ],
+        "5835": [
+            "喜福牛年",
+            1
+        ],
+        "5836": [
+            "龍捲風",
+            1
+        ],
+        "5837": [
+            "喜福猴年",
+            1
+        ],
+        "5839": [
+            "經典高球",
+            1
+        ],
+        "5901": [
+            "連環奪寶",
+            1
+        ],
+        "5902": [
+            "糖果派對",
+            1
+        ],
+        "5903": [
+            "秦皇祕寶",
+            1
+        ],
+        "5904": [
+            "蒸氣炸彈",
+            1
+        ],
+        "5907": [
+            "趣味台球",
+            1
+        ],
+        "5908": [
+            "糖果派對2",
+            1
+        ],
+        "5909": [
+            "開心消消樂",
+            1
+        ],
+        "5910": [
+            "魔法元素",
+            1
+        ],
+        "5912": [
+            "連環奪寶2",
+            1
+        ]
+    },
+    "provider": "BBIN电子游戏",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041295
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_SPORT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_SPORT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.042987 (seconds)
+
+		Response data: {
+    "gameList": {
+        "BK": [
+            "籃球",
+            1
+        ],
+        "BS": [
+            "棒球",
+            1
+        ],
+        "CB": [
+            "混合過關",
+            1
+        ],
+        "F1": [
+            "其他",
+            1
+        ],
+        "FB": [
+            "美式足球",
+            1
+        ],
+        "FT": [
+            "足球",
+            1
+        ],
+        "IH": [
+            "冰球",
+            1
+        ],
+        "SP": [
+            "冠軍賽",
+            1
+        ],
+        "TN": [
+            "網球",
+            1
+        ]
+    },
+    "provider": "BBIN体育",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.042987
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = CQ9_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_FISH', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.040304 (seconds)
+
+		Response data: {
+    "gameList": {
+        "AB1": [
+            "皇金渔场2",
+            1
+        ],
+        "AB3": [
+            "皇金渔场",
+            1
+        ],
+        "AP01": [
+            "海霸龙",
+            1
+        ]
+    },
+    "provider": "CQ9捕鱼",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040304
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = CQ9_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_POKER', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.039885 (seconds)
+
+		Response data: {
+    "gameList": {
+        "AD03": [
+            "斗地主",
+            1
+        ],
+        "AD04": [
+            "万人牛牛",
+            1
+        ],
+        "BG04": [
+            "骰宝",
+            1
+        ]
+    },
+    "provider": "CQ9棋牌",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.039885
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = CQ9_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.040111 (seconds)
+
+		Response data: {
+    "gameList": {
+        "1": [
+            "钻石水果王",
+            1
+        ],
+        "2": [
+            "棋圣",
+            1
+        ],
+        "3": [
+            "血之吻",
+            1
+        ]
+    },
+    "provider": "CQ9电子游戏",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040111
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = CR_SPORT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CR_SPORT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.045529 (seconds)
+
+		Response data: {
+    "gameList": {
+        "Lobby": [
+            "大廳",
+            1
+        ]
+    },
+    "provider": "CR体育",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.045529
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = DL_LOTTERY
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'DL_LOTTERY', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.040745 (seconds)
+
+		Response data: {
+    "gameList": {
+        "1": [
+            "北京赛车",
+            1
+        ],
+        "10": [
+            "飙速农场",
+            1
+        ],
+        "11": [
+            "飙速飞艇",
+            1
+        ],
+        "12": [
+            "欧洲快乐",
+            1
+        ],
+        "13": [
+            "欧洲快乐5",
+            1
+        ],
+        "14": [
+            "欧洲快乐8",
+            1
+        ],
+        "2": [
+            "幸运飞艇",
+            1
+        ],
+        "3": [
+            "重庆时时彩",
+            1
+        ],
+        "4": [
+            "新疆时时彩",
+            1
+        ],
+        "6": [
+            "飙速赛车",
+            1
+        ],
+        "7": [
+            "飙速时时彩",
+            1
+        ],
+        "8": [
+            "快乐十分",
+            1
+        ],
+        "9": [
+            "幸运农场",
+            1
+        ]
+    },
+    "provider": "DL彩票",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040745
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = FP_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'FP_FISH', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041428 (seconds)
+
+		Response data: {
+    "gameList": {
+        "57": [
+            "李逵劈鱼",
+            1
+        ],
+        "58": [
+            "金蟾捕鱼",
+            1
+        ],
+        "59": [
+            "招财钱龟",
+            1
+        ]
+    },
+    "provider": "FP捕鱼",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041428
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = FP_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'FP_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.040293 (seconds)
+
+		Response data: {
+    "gameList": {
+        "1": [
+            "爱尔兰小精灵",
+            1
+        ],
+        "10": [
+            "五行",
+            1
+        ],
+        "11": [
+            "荷塘月色",
+            1
+        ],
+        "12": [
+            "失落之城",
+            1
+        ],
+        "13": [
+            "喜福猪年",
+            1
+        ],
+        "14": [
+            "金矿达人",
+            1
+        ],
+        "15": [
+            "麻将",
+            1
+        ],
+        "16": [
+            "致富之夜",
+            1
+        ],
+        "17": [
+            "五福临门",
+            1
+        ],
+        "18": [
+            "埃及艳后",
+            1
+        ],
+        "19": [
+            "连环夺宝",
+            1
+        ],
+        "2": [
+            "幸运钻石",
+            1
+        ],
+        "20": [
+            "艾丽斯",
+            1
+        ],
+        "21": [
+            "印加帝国",
+            1
+        ],
+        "22": [
+            "桃园三结义",
+            1
+        ],
+        "23": [
+            "欧冠杯",
+            1
+        ],
+        "24": [
+            "冰雪乐园",
+            1
+        ],
+        "25": [
+            "龙卷风",
+            1
+        ],
+        "26": [
+            "招财熊猫",
+            1
+        ],
+        "27": [
+            "花开富贵",
+            1
+        ],
+        "28": [
+            "阿拉丁",
+            1
+        ],
+        "29": [
+            "连环计",
+            1
+        ],
+        "3": [
+            "经典 888",
+            1
+        ],
+        "30": [
+            "维京海盗",
+            1
+        ],
+        "31": [
+            "经典 水果",
+            1
+        ],
+        "32": [
+            "幸运双喜",
+            1
+        ],
+        "33": [
+            "墨西哥辣椒",
+            1
+        ],
+        "34": [
+            "三世情缘",
+            1
+        ],
+        "35": [
+            "王者之剑",
+            1
+        ],
+        "36": [
+            "海底世界",
+            1
+        ],
+        "37": [
+            "经典 168",
+            1
+        ],
+        "38": [
+            "波赛顿",
+            1
+        ],
+        "39": [
+            "宝石派对",
+            1
+        ],
+        "4": [
+            "福禄双喜",
+            1
+        ],
+        "40": [
+            "福尔摩沙",
+            1
+        ],
+        "41": [
+            "糖果梦公园",
+            1
+        ],
+        "42": [
+            "马达加斯加",
+            1
+        ],
+        "43": [
+            "皇宫宝藏",
+            1
+        ],
+        "44": [
+            "超级霓虹",
+            1
+        ],
+        "45": [
+            "幸运宝石",
+            1
+        ],
+        "46": [
+            "恭喜发财",
+            1
+        ],
+        "47": [
+            "八仙过海",
+            1
+        ],
+        "48": [
+            "喵吉拉",
+            1
+        ],
+        "49": [
+            "恶龙宝藏",
+            1
+        ],
+        "5": [
+            "亡灵节",
+            1
+        ],
+        "50": [
+            "水果王",
+            1
+        ],
+        "51": [
+            "三只小狼",
+            1
+        ],
+        "52": [
+            "富贵千金",
+            1
+        ],
+        "53": [
+            "蒸气帝国",
+            1
+        ],
+        "54": [
+            "凤凰涅盘",
+            1
+        ],
+        "55": [
+            "招财神兽",
+            1
+        ],
+        "56": [
+            "升官发财",
+            1
+        ],
+        "6": [
+            "非洲草原",
+            1
+        ],
+        "7": [
+            "四季招财",
+            1
+        ],
+        "8": [
+            "女娲传说",
+            1
+        ],
+        "9": [
+            "大唐盛世",
+            1
+        ]
+    },
+    "provider": "FP电子游戏",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040293
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = JDB_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_FISH', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.038355 (seconds)
+
+		Response data: {
+    "gameList": {
+        "7001": [
+            "龙王捕鱼",
+            1
+        ],
+        "7002": [
+            "龙王捕鱼2",
+            1
+        ],
+        "7003": [
+            "财神捕鱼",
+            1
+        ],
+        "7004": [
+            "五龙捕魚",
+            1
+        ]
+    },
+    "provider": "JDB捕鱼",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.038355
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = JDB_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_POKER', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.029712 (seconds)
+
+		Response data: {
+    "gameList": {
+        "18001": [
+            "通比牛牛",
+            1
+        ],
+        "18002": [
+            "抢庄牛牛",
+            1
+        ],
+        "18004": [
+            "押庄射龙门",
+            1
+        ],
+        "18008": [
+            "通比德州斗牛",
+            1
+        ],
+        "18010": [
+            "金葫芦5PK",
+            1
+        ],
+        "18011": [
+            "幸运星5PK",
+            1
+        ],
+        "18012": [
+            "百变抢庄牛牛",
+            1
+        ],
+        "18013": [
+            "通比六牛",
+            1
+        ],
+        "18014": [
+            "抢庄六牛",
+            1
+        ],
+        "18015": [
+            "千变百人牛牛",
+            1
+        ],
+        "18016": [
+            "极速炸金花",
+            1
+        ],
+        "18017": [
+            "抢庄三公",
+            1
+        ],
+        "18018": [
+            "德州抢庄斗牛",
+            1
+        ]
+    },
+    "provider": "JDB棋牌",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.029712
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = JDB_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.043196 (seconds)
+
+		Response data: {
+    "gameList": {
+        "14001": [
+            "斗鸡",
+            1
+        ],
+        "14002": [
+            "玛雅",
+            1
+        ],
+        "14003": [
+            "屌丝熊猫",
+            1
+        ],
+        "14004": [
+            "塞尔达传说",
+            1
+        ],
+        "14005": [
+            "包大人",
+            1
+        ],
+        "14006": [
+            "亿万富翁",
+            1
+        ],
+        "14007": [
+            "一拳超人",
+            1
+        ],
+        "14008": [
+            "神龙大侠",
+            1
+        ],
+        "14010": [
+            "飞龙在天",
+            1
+        ],
+        "14011": [
+            "银河护卫队",
+            1
+        ],
+        "14012": [
+            "街头霸王",
+            1
+        ],
+        "14013": [
+            "春宵苦短",
+            1
+        ],
+        "14015": [
+            "星球大战",
+            1
+        ],
+        "14016": [
+            "王牌特工",
+            1
+        ],
+        "14017": [
+            "少女前线",
+            1
+        ],
+        "14018": [
+            "妲己",
+            1
+        ],
+        "14019": [
+            "宝石物语",
+            1
+        ],
+        "14020": [
+            "魔法乳神",
+            1
+        ],
+        "14021": [
+            "钱滚钱",
+            1
+        ],
+        "14022": [
+            "采矿土豪",
+            1
+        ],
+        "14023": [
+            "赌王扑克",
+            1
+        ],
+        "14025": [
+            "幸运赛车",
+            1
+        ],
+        "14026": [
+            "发大财",
+            1
+        ],
+        "14027": [
+            "好运777",
+            1
+        ],
+        "14029": [
+            "东方神兽",
+            1
+        ],
+        "14030": [
+            "三倍金刚",
+            1
+        ],
+        "14032": [
+            "发发",
+            1
+        ],
+        "14033": [
+            "飞鸟派对",
+            1
+        ],
+        "14034": [
+            "狗来富",
+            1
+        ],
+        "14035": [
+            "龙舞",
+            1
+        ],
+        "14036": [
+            "超级牛B",
+            1
+        ],
+        "15001": [
+            "金鸡报囍",
+            1
+        ],
+        "15002": [
+            "齐天大圣",
+            1
+        ],
+        "15004": [
+            " 火牛阵",
+            1
+        ],
+        "15005": [
+            "幸运福娃",
+            1
+        ],
+        "15006": [
+            "印加帝国",
+            1
+        ],
+        "15009": [
+            "忍者大进击",
+            1
+        ],
+        "15010": [
+            "熊猫厨王",
+            1
+        ],
+        "15011": [
+            "后羿傳",
+            1
+        ],
+        "15012": [
+            "五福临门",
+            1
+        ],
+        "15013": [
+            "九尾狐",
+            1
+        ],
+        "8001": [
+            "幸运龙",
+            1
+        ],
+        "8002": [
+            "唐伯虎点秋香",
+            1
+        ],
+        "8003": [
+            "变脸",
+            1
+        ],
+        "8004": [
+            "悟空",
+            1
+        ],
+        "8005": [
+            "骆马大冒险",
+            1
+        ],
+        "8006": [
+            "台湾黑熊",
+            1
+        ],
+        "8007": [
+            "幸运麟",
+            1
+        ],
+        "8014": [
+            "招财狮",
+            1
+        ],
+        "8015": [
+            "月光秘宝",
+            1
+        ],
+        "8016": [
+            "上班族狂想曲",
+            1
+        ],
+        "8017": [
+            "过新年",
+            1
+        ],
+        "8018": [
+            "拿破仑",
+            1
+        ],
+        "8019": [
+            "文房四宝",
+            1
+        ],
+        "8020": [
+            "芝麻开门",
+            1
+        ],
+        "8021": [
+            "黄金香蕉帝国",
+            1
+        ],
+        "8022": [
+            "麻雀无双",
+            1
+        ],
+        "8023": [
+            "奥林匹亚神庙",
+            1
+        ],
+        "8024": [
+            "水晶王国",
+            1
+        ],
+        "8025": [
+            "神偷妙贼",
+            1
+        ],
+        "8026": [
+            "热舞教父",
+            1
+        ],
+        "8027": [
+            "料理厨王",
+            1
+        ],
+        "8028": [
+            "幸运淘金鼠",
+            1
+        ],
+        "8029": [
+            "奇幻糖果岛",
+            1
+        ],
+        "8030": [
+            "疯狂科学家",
+            1
+        ],
+        "8031": [
+            "金饺子",
+            1
+        ],
+        "8032": [
+            "爆发虎",
+            1
+        ],
+        "8034": [
+            "金钱侠",
+            1
+        ],
+        "8035": [
+            "幸运凤",
+            1
+        ],
+        "8036": [
+            "龙王",
+            1
+        ],
+        "8037": [
+            "魔术秀",
+            1
+        ],
+        "8040": [
+            "抓金龙",
+            1
+        ],
+        "8041": [
+            "福来了",
+            1
+        ],
+        "8042": [
+            "梦幻峇里岛",
+            1
+        ],
+        "8043": [
+            "人鱼公主",
+            1
+        ],
+        "8044": [
+            "江山美人",
+            1
+        ],
+        "8046": [
+            "关公",
+            1
+        ],
+        "8047": [
+            "变脸II",
+            1
+        ],
+        "8048": [
+            "芝麻开门II",
+            1
+        ],
+        "8049": [
+            "唐伯虎点秋香II",
+            1
+        ],
+        "8050": [
+            "马上有钱",
+            1
+        ],
+        "8051": [
+            "喜洋羊",
+            1
+        ]
+    },
+    "provider": "JDB电子游戏",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.043196
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = KA_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'KA_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041259 (seconds)
+
+		Response data: {
+    "gameList": {
+        "777Vegas": [
+            "777拉斯维加斯",
+            1
+        ],
+        "AliceInWonderland": [
+            "梦游爱丽丝",
+            1
+        ],
+        "Apes": [
+            "猿人",
+            1
+        ],
+        "Ares": [
+            "战神之战",
+            1
+        ],
+        "Aurora": [
+            "极光",
+            1
+        ],
+        "BaWangBieJi": [
+            "霸王别姬",
+            1
+        ],
+        "Bakery": [
+            "香甜面包店",
+            1
+        ],
+        "BoyToys": [
+            "高富帅",
+            1
+        ],
+        "CaiYuanGuangJin": [
+            "财源广进",
+            1
+        ],
+        "CandyStorm": [
+            "糖果风暴",
+            1
+        ],
+        "ChineseOpera": [
+            "中国戏曲",
+            1
+        ],
+        "Cinderella": [
+            "灰姑娘的玻璃鞋",
+            1
+        ],
+        "Cowboys": [
+            "西部牛仔",
+            1
+        ],
+        "CrazyCircus": [
+            "疯狂马戏团",
+            1
+        ],
+        "DaVinci": [
+            "发明家达芬奇",
+            1
+        ],
+        "DayOfDead": [
+            "亡灵节",
+            1
+        ],
+        "DeepSea": [
+            "深海之旅",
+            1
+        ],
+        "DimSum": [
+            "中式点心",
+            1
+        ],
+        "DragonGate": [
+            "鲤鱼跃龙门",
+            1
+        ],
+        "DragonsLegend": [
+            "九龙传说",
+            1
+        ],
+        "Dreamcatcher": [
+            "捕梦网",
+            1
+        ],
+        "Egypt": [
+            "神秘金字塔",
+            1
+        ],
+        "EgyptianEmpress": [
+            "埃及艳后",
+            1
+        ],
+        "Enchanted": [
+            "魔幻世界",
+            1
+        ],
+        "FairyDust": [
+            "妖精的尘埃",
+            1
+        ],
+        "Fantasy777": [
+            "梦幻777",
+            1
+        ],
+        "FantasyPark": [
+            "奇幻乐园",
+            1
+        ],
+        "Fastbreak": [
+            "快攻",
+            1
+        ],
+        "Flaming7": [
+            "火焰777",
+            1
+        ],
+        "FlowersFruitMountain": [
+            "花果山",
+            1
+        ],
+        "FluffyBuddy": [
+            "胆小毛毛怪",
+            1
+        ],
+        "FormosanBirds": [
+            "灵雀",
+            1
+        ],
+        "FortuneGod": [
+            "财神爷报到",
+            1
+        ],
+        "FortunePiggyBank": [
+            "猪元滚滚",
+            1
+        ],
+        "FourBeauties": [
+            "四大美人",
+            1
+        ],
+        "FruitParty": [
+            "水果派对",
+            1
+        ],
+        "Gem": [
+            "钻石闪亮亮",
+            1
+        ],
+        "Giants": [
+            "巨人",
+            1
+        ],
+        "GoldRush": [
+            "加州淘金潮",
+            1
+        ],
+        "GoldenShanghai": [
+            "夜上海",
+            1
+        ],
+        "HappyFarm": [
+            "活力庄园",
+            1
+        ],
+        "Horoscope": [
+            "星座",
+            1
+        ],
+        "HuaMulan": [
+            "花木兰",
+            1
+        ],
+        "ImperialGuards": [
+            "大明锦衣卫",
+            1
+        ],
+        "Jungle": [
+            "丛林冒险",
+            1
+        ],
+        "Kitty": [
+            "猫咪生活",
+            1
+        ],
+        "Knights": [
+            "中世纪骑士",
+            1
+        ],
+        "KungFu": [
+            "功夫传说",
+            1
+        ],
+        "LandOfGold": [
+            "黄金之源",
+            1
+        ],
+        "LastFantasy": [
+            "最终幻想曲",
+            1
+        ],
+        "LeagueOfGods": [
+            "媚狐妲己",
+            1
+        ],
+        "Leprechauns": [
+            "魔法精灵",
+            1
+        ],
+        "LiveStreamingStar": [
+            "直播主",
+            1
+        ],
+        "LostRealm": [
+            "失落的王国",
+            1
+        ],
+        "LotusLamp": [
+            "宝莲灯",
+            1
+        ],
+        "LuxuryGarage": [
+            "豪华车库",
+            1
+        ],
+        "Mahjong": [
+            "牌神",
+            1
+        ],
+        "MayanGold": [
+            "玛雅宝藏",
+            1
+        ],
+        "Mermaid": [
+            "美人鱼",
+            1
+        ],
+        "Millionaires": [
+            "百万富翁",
+            1
+        ],
+        "MissTiger": [
+            "虎妞",
+            1
+        ],
+        "Mushrooms": [
+            "迷幻蘑菇",
+            1
+        ],
+        "Mythic": [
+            "神话世纪",
+            1
+        ],
+        "Neanderthals": [
+            "尼安德塔人",
+            1
+        ],
+        "Nezha": [
+            "哪吒",
+            1
+        ],
+        "OriginOfFire": [
+            "火之源",
+            1
+        ],
+        "PartyGirl": [
+            "夜店美眉",
+            1
+        ],
+        "Pirate": [
+            "海盗船长",
+            1
+        ],
+        "PirateKing": [
+            "海贼王寻宝",
+            1
+        ],
+        "Polynesian": [
+            "南岛风情",
+            1
+        ],
+        "Poseidon": [
+            "波塞顿的宝藏",
+            1
+        ],
+        "QuickPlayJewels": [
+            "钻石闪闪亮",
+            1
+        ],
+        "RedRidingHood": [
+            "小红帽",
+            1
+        ],
+        "RoyalDemeanor": [
+            "王者风范",
+            1
+        ],
+        "SNS": [
+            "社交网之友",
+            1
+        ],
+        "Safari": [
+            "野外探险",
+            1
+        ],
+        "Samurai": [
+            "武士道",
+            1
+        ],
+        "SevenHeroines": [
+            "巾帼7烈传",
+            1
+        ],
+        "SilkRoad": [
+            "丝路",
+            1
+        ],
+        "Space": [
+            "太空旋转",
+            1
+        ],
+        "StockedBar": [
+            "不醉不归",
+            1
+        ],
+        "Stonehenge": [
+            "巨石阵",
+            1
+        ],
+        "SuperKeno": [
+            "超级基诺",
+            1
+        ],
+        "SuperShot": [
+            "超级旋转",
+            1
+        ],
+        "SuperVideoPoker": [
+            "电动扑克",
+            1
+        ],
+        "TRex": [
+            "霸王龙",
+            1
+        ],
+        "TaiwanBlackBear": [
+            "台湾黑熊",
+            1
+        ],
+        "Tao": [
+            "炼丹术",
+            1
+        ],
+        "ThreeGods": [
+            "福禄寿报喜",
+            1
+        ],
+        "ThreeLittlePigs": [
+            "三只小猪",
+            1
+        ],
+        "UFO": [
+            "飞碟",
+            1
+        ],
+        "Vampire": [
+            "吸血鬼传说",
+            1
+        ],
+        "Viking": [
+            "维京时代",
+            1
+        ],
+        "Wencheng": [
+            "文成公主",
+            1
+        ],
+        "WildAlaska": [
+            "荒野生存",
+            1
+        ],
+        "Wizardry": [
+            "魔法师的巫术",
+            1
+        ],
+        "Yamato": [
+            "宇宙战舰",
+            1
+        ],
+        "YuGong": [
+            "愚公移山",
+            1
+        ],
+        "YunCaiTongZi": [
+            "运财童子",
+            1
+        ],
+        "ZombieLand": [
+            "僵尸的世界",
+            1
+        ]
+    },
+    "provider": "KA电子游戏",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041259
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = KY_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'KY_POKER', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.030352 (seconds)
+
+		Response data: {
+    "gameList": {
+        "620": [
+            "德州扑克",
+            1
+        ],
+        "720": [
+            "二八杠",
+            1
+        ],
+        "830": [
+            "抢庄牛牛",
+            1
+        ]
+    },
+    "provider": "KY棋牌",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.030352
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = MG_LIVED
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'MG_LIVED', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.030118 (seconds)
+
+		Response data: {
+    "gameList": {
+        "Baccarat - Playboy": [
+            "百家乐 花花公子",
+            1
+        ]
+    },
+    "provider": "MG真人视讯",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.030118
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = MG_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'MG_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.044482 (seconds)
+
+		Response data: {
+    "gameList": {
+        "SMG_108Heroes": [
+            "108好汉",
+            1
+        ],
+        "SMG_actionOpsSnowAndSable": [
+            "秘密行动-雪诺和塞布尔",
+            1
+        ]
+    },
+    "provider": "MG电子游戏",
+    "status": 0,
+    "webName": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.044482
+
+		- - -
+
+['PASS']
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+BBIN捕鱼 = 3
+
+BBIN真人视讯 = 15
+
+BBIN彩票 = 44
+
+BBIN棋牌 = 5
+
+BBIN电子游戏 = 127
+
+BBIN体育 = 9
+
+CQ9捕鱼 = 3
+
+CQ9棋牌 = 3
+
+CQ9电子游戏 = 3
+
+CR体育 = 1
+
+DL彩票 = 13
+
+FP捕鱼 = 3
+
+FP电子游戏 = 56
+
+JDB捕鱼 = 4
+
+JDB棋牌 = 13
+
+JDB电子游戏 = 82
+
+KA电子游戏 = 100
+
+KY棋牌 = 3
+
+MG真人视讯 = 1
+
+MG电子游戏 = 2
+
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.providerId = 
+		New ini value is: API.webId = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日15時44分59秒 [Feature] API POST webPlayer web provider get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時44分58秒 [Feature] API POST webPlayer web provider get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_FISH', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.033777 (seconds)
+- API success (status and response are correct).
+- Response time: 0.033777
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_LIVED', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.040103 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040103
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_LOTTERY', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041541 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041541
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_POKER', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.044299 (seconds)
+- API success (status and response are correct).
+- Response time: 0.044299
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041295 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041295
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_SPORT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.042987 (seconds)
+- API success (status and response are correct).
+- Response time: 0.042987
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_FISH', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.040304 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040304
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_POKER', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.039885 (seconds)
+- API success (status and response are correct).
+- Response time: 0.039885
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.040111 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040111
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CR_SPORT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.045529 (seconds)
+- API success (status and response are correct).
+- Response time: 0.045529
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'DL_LOTTERY', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.040745 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040745
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'FP_FISH', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041428 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041428
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'FP_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.040293 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040293
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_FISH', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.038355 (seconds)
+- API success (status and response are correct).
+- Response time: 0.038355
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_POKER', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.029712 (seconds)
+- API success (status and response are correct).
+- Response time: 0.029712
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.043196 (seconds)
+- API success (status and response are correct).
+- Response time: 0.043196
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'KA_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041259 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041259
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'KY_POKER', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.030352 (seconds)
+- API success (status and response are correct).
+- Response time: 0.030352
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'MG_LIVED', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.030118 (seconds)
+- API success (status and response are correct).
+- Response time: 0.030118
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/get
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'MG_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.044482 (seconds)
+- API success (status and response are correct).
+- Response time: 0.044482
+- - -
+# Test Result: PASS
+
+End << 08月23日15時44分59秒 [Feature] API POST webPlayer web provider get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1544
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

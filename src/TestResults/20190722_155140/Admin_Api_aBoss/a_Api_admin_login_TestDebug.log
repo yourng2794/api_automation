@@ -1,0 +1,141 @@
+
+* Run test case: a_Api_admin_login.py
+********Test Case: a_Api_admin_login.py********
+
+	Start >>07月22日15時51分48秒 [Portal] API POST login Boss account (web)
+
+		New ini value is: API.api_path = login/code
+
+		- api url: http://tadmapi.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=IHuIIAr1E38gGhaqlgjtuKWYNiG3hyvBB2XRusl5 for .o2ogt.com/>, <Cookie laravel_session=IHuIIAr1E38gGhaqlgjtuKWYNiG3hyvBB2XRusl5 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.020858 (seconds)
+
+		- api response: 
+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
+
+		Response data: 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
+
+		- Session expired until: 15:52:48
+
+		- API success (status and response are correct).
+
+		- Response time: 0.020858
+
+		- - - 
+
+		- 6, accurate: 98 %
+
+		- 4, accurate: 89 %
+
+		- 6, accurate: 95 %
+
+		- 8, accurate: 96 %
+
+		- - - 
+New code: 6468
+		New ini value is: API.code = 6468
+		New ini value is: API.acc = tommyauto
+		New ini value is: API.pwd = 123456
+
+		- api url: http://tadmapi.o2ogt.com/login
+
+		- api params: {'acc': 'tommyauto', 'pwd': '123456', 'code': '6468'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _admin=9tt5ZIT6xhePIEyG8D%2F94Uba6WgJjAoScaoPbSPE4uDTu1zjydsGIg7YmVYa7FHSYI8VbO85FoMPO9cJS6SWYVu5ycwm5hA4uSFhyB2wmPClCEnDjX9T8IuZrIM2B7XYK2nhK6ohPGDJXQuR%2BtlLlQ%3D%3D for .o2ogt.com/>, <Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.01173 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.01173
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.code = 
+		New ini value is: API.acc = 
+		New ini value is: API.pwd = 
+	<< End Tear Down
+
+
+	End << 07月22日15時51分48秒 [Portal] API POST login Boss account (web)
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時51分48秒 [Portal] API POST login Boss account (web)
+
+- api url: http://tadmapi.o2ogt.com/login/code
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.020858 (seconds)
+- api response: 
+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
+- Session expired until: 15:52:48
+- API success (status and response are correct).
+- Response time: 0.020858
+- - - 
+- 6, accurate: 98 %
+- 4, accurate: 89 %
+- 6, accurate: 95 %
+- 8, accurate: 96 %
+- api url: http://tadmapi.o2ogt.com/login
+- api params: {'acc': 'tommyauto', 'pwd': '123456', 'code': '6468'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.01173 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+- API success (status and response are correct).
+- Response time: 0.01173
+- - -
+# Test Result: PASS
+
+End << 07月22日15時51分48秒 [Portal] API POST login Boss account (web)
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1551
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

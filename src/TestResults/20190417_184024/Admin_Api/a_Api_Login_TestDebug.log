@@ -1,0 +1,787 @@
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190417_184024\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190417_184024\\testresults.xml
+<< Success, End replaceJSONValue.
+{'id': 86, 'suite_id': 1, 'name': 'Automation test report Apr17_1840', 'description': None, 'milestone_id': None, 'assignedto_id': 1, 'include_all': False, 'is_completed': False, 'completed_on': None, 'config': None, 'config_ids': [], 'passed_count': 0, 'blocked_count': 0, 'untested_count': 73, 'retest_count': 0, 'failed_count': 0, 'custom_status1_count': 0, 'custom_status2_count': 0, 'custom_status3_count': 0, 'custom_status4_count': 0, 'custom_status5_count': 0, 'custom_status6_count': 0, 'custom_status7_count': 0, 'project_id': 1, 'plan_id': None, 'created_on': 1555497623, 'created_by': 1, 'url': 'https://o2ogt.testrail.io/index.php?/runs/view/86'}
+		New ini value is: TestRail.TestRailRunID = 86
+------------------------ Test is started------------------------
+>> Enter Test Suites: Admin_Api
+	find test case: a_Api_Login.py
+	find test case: b_Api_admin_profile.py
+	find test case: ca_Api_admin_partner_list_frame.py
+	find test case: cb_Api_admin_web_domain_create.py
+	find test case: cc_Api_admin_web_domain_list_frame.py
+	find test case: cd_Api_admin_web_domain_list_frame_m.py
+	find test case: ce_Api_admin_web_domain_create_get.py
+	find test case: cf_Api_admin_web_domain_edit.py
+	find test case: cg_Api_admin_web_domain_edit_get.py
+	find test case: da_Api_admin_webPlayer_web_create.py
+	find test case: db_Api_admin_webPlayer_web_create_get_frame.py
+	find test case: dc_Api_admin_webPlayer_web_create_get_frame_m.py
+	find test case: dd_Api_admin_webPlayer_web_list_frame.py
+	find test case: de_Api_admin_webPlayer_web_list_frame_m.py
+	find test case: df_Api_admin_webPlayer_web_edit_get_frame.py
+	find test case: dg_Api_admin_webPlayer_web_edit_get_frame_m.py
+	find test case: dh_Api_admin_webPlayer_web_edit.py
+	find test case: fa_Api_admin_webPlayer_vip_create_get.py
+	find test case: fb_Api_admin_webPlayer_vip_create.py
+	find test case: fc_Api_admin_webPlayer_vip_list_frame.py
+	find test case: fd_Api_admin_webPlayer_vip_list_frame_m.py
+	find test case: fe_Api_admin_webPlayer_vip_edit_get.py
+	find test case: ff_Api_admin_webPlayer_vip_edit.py
+	find test case: ga_Api_admin_webPlayer_vip_group_create_get_frame.py
+	find test case: gb_Api_admin_webPlayer_vip_group_create_get_frame_m.py
+	find test case: gc_Api_admin_webPlayer_vip_group_create.py
+	find test case: gd_Api_admin_webPlayer_vip_group_list_frame.py
+	find test case: ge_Api_admin_webPlayer_vip_group_list_frame_m.py
+	find test case: gf_Api_admin_webPlayer_vip_group_edit_get_frame.py
+	find test case: gg_Api_admin_webPlayer_vip_group_edit_get_frame_m.py
+	find test case: gh_Api_admin_webPlayer_vip_group_edit.py
+	find test case: ha_Api_admin_webPlayer_web_vip_domain_edit.py
+	find test case: hb_Api_admin_webPlayer_web_vip_domain_list.py
+	find test case: hc_Api_admin_webPlayer_web_vip_group_edit_frame.py
+	find test case: hd_Api_admin_webPlayer_web_vip_group_edit_frame_m.py
+	find test case: he_Api_admin_webPlayer_web_vip_list_frame.py
+	find test case: hf_Api_admin_webPlayer_web_vip_list_frame_m.py
+	find test case: hg_Api_admin_webPlayer_web_vip_domain_get.py
+	find test case: ja_Api_admin_webPlayer_promo_create.py
+	find test case: jb_Api_admin_webPlayer_promo_list_frame.py
+	find test case: jc_Api_admin_webPlayer_promo_list_frame_m.py
+	find test case: jd_Api_admin_webPlayer_promo_providerContent_list.py
+	find test case: je_Api_admin_webPlayer_promo_edit_get.py
+	find test case: jf_Api_admin_webPlayer_promo_state_edit.py
+	find test case: jg_Api_admin_webPlayer_promo_web_frame.py
+	find test case: jh_Api_admin_webPlayer_promo_web_frame_m.py
+	find test case: ji_Api_admin_webPlayer_promo_cnr_frame.py
+	find test case: jj_Api_admin_webPlayer_promo_cnr_frame_m.py
+	find test case: jk_Api_admin_webPlayer_promo_edit.py
+	find test case: jl_Api_admin_webPlayer_promo_delete.py
+	find test case: ka_Api_admin_webPlayer_risk_create.py
+	find test case: kb_Api_admin_webPlayer_risk_list_frame.py
+	find test case: kc_Api_admin_webPlayer_risk_list_frame_m.py
+	find test case: kd_Api_admin_webPlayer_risk_rule_frame.py
+	find test case: ke_Api_admin_webPlayer_risk_rule_frame_m.py
+	find test case: kf_Api_admin_webPlayer_risk_edit.py
+	find test case: kg_Api_admin_webPlayer_risk_web_frame_X.py
+	find test case: kh_Api_admin_webPlayer_risk_web_frame_m_X.py
+	find test case: ki_Api_admin_webPlayer_risk_edit_get.py
+	find test case: kj_Api_admin_webPlayer_risk_state_edit_delete.py
+	find test case: la_Api_admin_provider_bankCard_create.py
+	find test case: lb_Api_admin_provider_bankCard_list_frame.py
+	find test case: lc_Api_admin_provider_bankCard_list_frame_m.py
+	find test case: ld_Api_admin_provider_bankCard_edit_get.py
+	find test case: le_Api_admin_provider_bankCard_edit.py
+	find test case: ma_Api_admin_provider_payment_list_frame.py
+	find test case: mb_Api_admin_provider_payment_list_frame_m.py
+	find test case: mc_Api_admin_provider_payment_edit_info_get.py
+	find test case: md_Api_admin_provider_payment_edit_currency_get.py
+	find test case: me_Api_admin_provider_payment_bank_info.py
+	find test case: mf_Api_admin_provider_payment_bank_get.py
+	find test case: mg_Api_admin_provider_payment_edit.py
+	find test case: mh_Api_admin_provider_payment_bank_link_edit.py
+	find test case: z_Api_Logout.py
+
+
+* Run test case: a_Api_Login.py
+********Test Case: a_Api_Login.py********
+
+	Start >>04月17日18時40分28秒 [Portal] API POST login exist account
+
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=6MDzRXDYKTbT4J6TYkmPuVyBUZiYlCzRstEesvy1 for .o2ogt.com/>, <Cookie laravel_session=6MDzRXDYKTbT4J6TYkmPuVyBUZiYlCzRstEesvy1 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.475415 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:28
+
+		- API success (status and response are correct).
+
+		- Response time: 0.475415
+
+		---
+
+		- - - 
+
+		- 5, accurate: 87 %
+
+		- 0, accurate: 94 %
+
+		- 1, accurate: 98 %
+
+		- 1, accurate: 93 %
+
+		- - - 
+New code: 5011
+		New ini value is: API.code = 5011
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '5011'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '5011'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=aCr8kxe3VqafdvM7QM1ZnsceKBs4ln2MHK8x1KHn for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.097103 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=vg8MaDF1Z3pWvUxCBAdWQNuROhLywJ2PW07IQYd9 for .o2ogt.com/>, <Cookie laravel_session=vg8MaDF1Z3pWvUxCBAdWQNuROhLywJ2PW07IQYd9 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.072066 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:29
+
+		- API success (status and response are correct).
+
+		- Response time: 0.072066
+
+		---
+
+		- - - 
+
+		- 3, accurate: 84 %
+
+		- null, accurate: 89 %
+
+		- 1, accurate: 90 %
+
+		- 5, accurate: 95 %
+
+		- - - 
+New code: 3null15
+		New ini value is: API.code = 3null15
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '3null15'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '3null15'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=aKVWSNG0sk1Q3zwJNzOmjhQhgCfRs0Ug7s0bYTOy for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.076871 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=eHKq1746vkIAfafuZZJMBzzJTlg4oIQxh1lbWYjn for .o2ogt.com/>, <Cookie laravel_session=eHKq1746vkIAfafuZZJMBzzJTlg4oIQxh1lbWYjn for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.066206 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:30
+
+		- API success (status and response are correct).
+
+		- Response time: 0.066206
+
+		---
+
+		- - - 
+
+		- 6, accurate: 96 %
+
+		- 7, accurate: 89 %
+
+		- 6, accurate: 93 %
+
+		- 2, accurate: 96 %
+
+		- - - 
+New code: 6762
+		New ini value is: API.code = 6762
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '6762'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '6762'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=NWZmYqb8ghLFbrNyPoW4XYHO9wG7tOWU5TqU9g8C for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.372579 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=ueP3ujX1C15zNjUz0YqYmlBihzG7H8wcTE9hnvwT for .o2ogt.com/>, <Cookie laravel_session=ueP3ujX1C15zNjUz0YqYmlBihzG7H8wcTE9hnvwT for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.112834 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:31
+
+		- API success (status and response are correct).
+
+		- Response time: 0.112834
+
+		---
+
+		- - - 
+
+		- 2, accurate: 90 %
+
+		- 1, accurate: 96 %
+
+		- 3, accurate: 94 %
+
+		- 0, accurate: 96 %
+
+		- - - 
+New code: 2130
+		New ini value is: API.code = 2130
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '2130'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '2130'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=X8kIUH4sDlojiX820ACM5X23AKvLyLRu1Lc4rPoT for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.118737 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=ia5peVS6wxw23nzmO4czLk5FRrXtslSOBEokQ43O for .o2ogt.com/>, <Cookie laravel_session=ia5peVS6wxw23nzmO4czLk5FRrXtslSOBEokQ43O for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.077448 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:32
+
+		- API success (status and response are correct).
+
+		- Response time: 0.077448
+
+		---
+
+		- - - 
+
+		- 4, accurate: 95 %
+
+		- 2, accurate: 92 %
+
+		- 1, accurate: 90 %
+
+		- 8, accurate: 94 %
+
+		- - - 
+New code: 4218
+		New ini value is: API.code = 4218
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '4218'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '4218'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=1hGO3XTzZMuInazBDu12uXBY2WVA1MSlIy7fme34 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.061086 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=WDGxjCc44bXjxmbkgORbtTySC0DxiPIdSlGlNzIa for .o2ogt.com/>, <Cookie laravel_session=WDGxjCc44bXjxmbkgORbtTySC0DxiPIdSlGlNzIa for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.064411 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:32
+
+		- API success (status and response are correct).
+
+		- Response time: 0.064411
+
+		---
+
+		- - - 
+
+		- 3, accurate: 90 %
+
+		- 2, accurate: 91 %
+
+		- 2, accurate: 92 %
+
+		- 9, accurate: 99 %
+
+		- - - 
+New code: 3229
+		New ini value is: API.code = 3229
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '3229'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '3229'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=0plLL7xK8lDGBO4tDl1rY3zgDIzBdoIBMeUX9Ce9 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.069241 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=Hno9pRSJw6lYXbqRPmxQuzh4sjrnSmmKNQInGuLE for .o2ogt.com/>, <Cookie laravel_session=Hno9pRSJw6lYXbqRPmxQuzh4sjrnSmmKNQInGuLE for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.073135 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:33
+
+		- API success (status and response are correct).
+
+		- Response time: 0.073135
+
+		---
+
+		- - - 
+
+		- 6, accurate: 85 %
+
+		- 9, accurate: 91 %
+
+		- 9, accurate: 90 %
+
+		- 4, accurate: 96 %
+
+		- - - 
+New code: 6994
+		New ini value is: API.code = 6994
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '6994'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '6994'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=OvnPBc5E1IydIVoPR6o6GpWrX4p1Xzb5256E3X81 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.388131 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=1fr2t79wDhBs1zKNCzCNLxUp6rskKuhb9EdaI0kt for .o2ogt.com/>, <Cookie laravel_session=1fr2t79wDhBs1zKNCzCNLxUp6rskKuhb9EdaI0kt for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.072613 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:34
+
+		- API success (status and response are correct).
+
+		- Response time: 0.072613
+
+		---
+
+		- - - 
+
+		- 5, accurate: 90 %
+
+		- 2, accurate: 94 %
+
+		- 2, accurate: 91 %
+
+		- 1, accurate: 94 %
+
+		- - - 
+New code: 5221
+		New ini value is: API.code = 5221
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '5221'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '5221'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=CqDp6qAuWjV1AsDbLFmgIm0ewZ8JFFKd4JWZoq08 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.093414 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=LIIhO0lY7ZcZWRwA71tl2YaKSeI5raFvluh3aWVF for .o2ogt.com/>, <Cookie laravel_session=LIIhO0lY7ZcZWRwA71tl2YaKSeI5raFvluh3aWVF for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.05619 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:35
+
+		- API success (status and response are correct).
+
+		- Response time: 0.05619
+
+		---
+
+		- - - 
+
+		- 2, accurate: 89 %
+
+		- 1, accurate: 92 %
+
+		- 2, accurate: 93 %
+
+		- 6, accurate: 99 %
+
+		- - - 
+New code: 2126
+		New ini value is: API.code = 2126
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '2126'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '2126'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=3T7hNrgMgBXjvDc6RqKzNwIHo7KsSa1dqIqV25dV for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.104214 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=tMlCdZg6LUVsc1lw0Q4JJ1xnwHqMefSASRUWC4jP for .o2ogt.com/>, <Cookie laravel_session=tMlCdZg6LUVsc1lw0Q4JJ1xnwHqMefSASRUWC4jP for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.069725 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 18:41:36
+
+		- API success (status and response are correct).
+
+		- Response time: 0.069725
+
+		---
+
+		- - - 
+
+		- 8, accurate: 91 %
+
+		- 6, accurate: 94 %
+
+		- 1, accurate: 97 %
+
+		- 5, accurate: 90 %
+
+		- - - 
+New code: 8615
+		New ini value is: API.code = 8615
+
+		- api_params: {'acc': 'magic', 'pwd': '123456', 'code': '8615'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'magic', 'pwd': '123456', 'code': '8615'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=GNmIUbLJ7X9Na9Oic3hggvPBnA9sdWoJyG6aJlMa for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.416955 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/LoginController.php",
+    "Error_code": "E08",
+    "Error_line": 50,
+    "Error_message": "No verification code"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		- - - 
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時40分37秒 [Portal] API POST login exist account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

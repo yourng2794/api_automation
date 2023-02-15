@@ -1,0 +1,59 @@
+{
+    "webId": "eefe247755b8b16c33e8730e9e168211",
+    "bankerId": "619da70cf372717e11eff31f1d619ef9",
+    "payName": "QApay11",
+    "currency": [
+        "CNY"
+    ],
+    "duplicateWithdrawHours": "2",
+    "freeProcessFeeTimes": "1",
+    "withdrawProcessRate": "10",
+    "withdrawProcessMax": "100",
+    "withdrawMax": "10000",
+    "withdrawMin": "100",
+    "review": "1",
+    "reviewAmount": "5000",
+    "reviewHour": "1",
+    "onlinePromo": "1",
+    "onlineCount": "",
+    "onlineAmount": "100",
+    "onlineRatio": "50",
+    "onlineMaxdep": "5000",
+    "onlineMindep": "10",
+    "onlineLimit": "1000",
+    "preferentialAudit": "1",
+    "preferentialAuditTimes": "10",
+    "preferentialBalanceAudit": "1",
+    "normalAudit": "0",
+    "normalAuditPercent": "100",
+    "normalAuditRelaxationAmount": "10",
+    "normalAuditProcessRate": "50",
+    "companyPromo": "1",
+    "companyCount": "",
+    "companyAmount": "100",
+    "companyRatio": "50",
+    "companyMaxdep": "5000",
+    "companyMindep": "10",
+    "companyLimit": "100",
+    "transferPreferentialAmount": "100",
+    "transferPreferentialRate": "1",
+    "transferPreferentialMaximum": "500",
+    "transferPreferentialMaximumADay": "500",
+    "compPreferentialAudit": "1",
+    "compPreferentialAuditTimes": "10",
+    "compPreferentialBalanceAudit": "1",
+    "compNormalAudit": "0",
+    "compNormalAuditPercent": "100",
+    "compNormalAuditRelaxationAmount": "10",
+    "compNormalAuditProcessRate": "50",
+    "withdraw": {
+        "CNY": [
+            "b8eb8bb9c2291fcf4299b1023d9713cf"
+        ]
+    },
+    "deposit": {
+        "CNY": [
+            "b8eb8bb9c2291fcf4299b1023d9713cf"
+        ]
+    }
+}

@@ -1,0 +1,90 @@
+
+* Run test case: ob_Api_admin_provider_payOption_create_get.py
+********Test Case: ob_Api_admin_provider_payOption_create_get.py********
+
+	Start >>07月22日15時57分16秒 [Feature] API POST provider payOption create get
+
+		New ini value is: API.webId = a8b3c8bfc49c9301c2a86e55e1bff764
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/create/get
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021467 (seconds)
+
+		- api response: 
+{
+    "currency": {
+        "AUD": "0"
+    },
+    "pt_acc": "QAwebmaster1",
+    "v_currency": []
+}
+
+		Response data: {
+    "currency": {
+        "AUD": "0"
+    },
+    "pt_acc": "QAwebmaster1",
+    "v_currency": []
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021467
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時57分16秒 [Feature] API POST provider payOption create get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時57分16秒 [Feature] API POST provider payOption create get
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/create/get
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021467 (seconds)
+- api response: 
+{
+    "currency": {
+        "AUD": "0"
+    },
+    "pt_acc": "QAwebmaster1",
+    "v_currency": []
+}
+- API success (status and response are correct).
+- Response time: 0.021467
+- - -
+# Test Result: PASS
+
+End << 07月22日15時57分16秒 [Feature] API POST provider payOption create get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1557
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,1276 @@
+
+* Run test case: rc_Api_admin_org_dept_list_frame.py
+********Test Case: rc_Api_admin_org_dept_list_frame.py********
+
+	Start >>08月23日15時48分12秒 [Feature] API POST org. dept. list frame
+
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/organization/department/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/list/frame
+
+		- api params: {'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.042501 (seconds)
+
+		Response data: <ul class="list pointer-list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-20">
+    部门
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=bossSid" id="bossSid">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-20">
+    管理部門
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     44
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     12
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     19
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=c7b15614e29e2c31cdb821de2ab18680" id="c7b15614e29e2c31cdb821de2ab18680">
+   <div class="box-8 txt-c">
+    2
+   </div>
+   <div class="box-20">
+    QAdept12
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     0
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=ce7e87808db3b345cc752ef0490eed63" id="ce7e87808db3b345cc752ef0490eed63">
+   <div class="box-8 txt-c">
+    3
+   </div>
+   <div class="box-20">
+    QAdept11
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     0
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=7d28e69d0b4c81c803ca1c52a03b3597" id="7d28e69d0b4c81c803ca1c52a03b3597">
+   <div class="box-8 txt-c">
+    4
+   </div>
+   <div class="box-20">
+    QAdept10
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     0
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=2803ef08090d48fa483dd2ad67eb9142" id="2803ef08090d48fa483dd2ad67eb9142">
+   <div class="box-8 txt-c">
+    5
+   </div>
+   <div class="box-20">
+    test
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     44
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     12
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     19
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=bfc633b1589fcb3ef11d35f29167fc90" id="bfc633b1589fcb3ef11d35f29167fc90">
+   <div class="box-8 txt-c">
+    6
+   </div>
+   <div class="box-20">
+    測試0822
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     44
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     12
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     19
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=e5ecd949d96d35293c7adc9f74cd3a85" id="e5ecd949d96d35293c7adc9f74cd3a85">
+   <div class="box-8 txt-c">
+    7
+   </div>
+   <div class="box-20">
+    test0822
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     44
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     12
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     19
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=884e089b90f8224ccfe88f7676bd091b" id="884e089b90f8224ccfe88f7676bd091b">
+   <div class="box-8 txt-c">
+    8
+   </div>
+   <div class="box-20">
+    QAdept6
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     0
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=e7ccdcfe28a00b9c60bc14c16bbbb1a1" id="e7ccdcfe28a00b9c60bc14c16bbbb1a1">
+   <div class="box-8 txt-c">
+    9
+   </div>
+   <div class="box-20">
+    QA測試部
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     44
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     12
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     19
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=ac876d00d7d3a1b636bfc2082324b7f4" id="ac876d00d7d3a1b636bfc2082324b7f4">
+   <div class="box-8 txt-c">
+    10
+   </div>
+   <div class="box-20">
+    QAdept5
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     0
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=4ecb75de3b10793fd58fab06b3032b28" id="4ecb75de3b10793fd58fab06b3032b28">
+   <div class="box-8 txt-c">
+    11
+   </div>
+   <div class="box-20">
+    QAdept4
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     0
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=a6af5339de7c550eb62232e649f1a09b" id="a6af5339de7c550eb62232e649f1a09b">
+   <div class="box-8 txt-c">
+    12
+   </div>
+   <div class="box-20">
+    QAdept3
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     0
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=c355363b15a08221a3e21359513d2e7a" id="c355363b15a08221a3e21359513d2e7a">
+   <div class="box-8 txt-c">
+    13
+   </div>
+   <div class="box-20">
+    QAdept2
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     0
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=a9bafa0b40a1f9b038ff496891759a90" id="a9bafa0b40a1f9b038ff496891759a90">
+   <div class="box-8 txt-c">
+    14
+   </div>
+   <div class="box-20">
+    QAdept1
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     0
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     0
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=b8a91b4c5b745c3b21273cd3f4db3d32" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   <div class="box-8 txt-c">
+    15
+   </div>
+   <div class="box-20">
+    会计部门
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     44
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     12
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     19
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=c566ebabc422b191ac6dc27ca806ee02" id="c566ebabc422b191ac6dc27ca806ee02">
+   <div class="box-8 txt-c">
+    16
+   </div>
+   <div class="box-20">
+    客服部门
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     44
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     12
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     19
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=8aff10c24b8a0fe2504d37a8851023e2" id="8aff10c24b8a0fe2504d37a8851023e2">
+   <div class="box-8 txt-c">
+    17
+   </div>
+   <div class="box-20">
+    BD部门
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     44
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     12
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     19
+    </span>
+   </div>
+  </div>
+ </li>
+ <li>
+  <a class="list-group" href="organize_office_list.html?id=2e6b2b0c78fa2549b3836d7b6099857f" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   <div class="box-8 txt-c">
+    18
+   </div>
+   <div class="box-20">
+    推广部门
+   </div>
+  </a>
+  <div class="operate-box">
+   <a alt="权限" class="open-btn" title="权限">
+    <i class="fas fa-sort-down">
+    </i>
+   </a>
+  </div>
+  <div class="permission-view-box" style="display:none;">
+   <div>
+    即时报表
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    快速查询
+    <span>
+     1
+    </span>
+   </div>
+   <div>
+    营运资讯
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    组织管理
+    <span>
+     8
+    </span>
+   </div>
+   <div>
+    客户管理
+    <span>
+     11
+    </span>
+   </div>
+   <div>
+    网站及会员管理
+    <span>
+     44
+    </span>
+   </div>
+   <div>
+    供应商管理
+    <span>
+     12
+    </span>
+   </div>
+   <div>
+    现金系统
+    <span>
+     19
+    </span>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.042501
+
+		- Success get depname: QAdept12
+
+		- Success get depId: c7b15614e29e2c31cdb821de2ab18680
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.depId = c7b15614e29e2c31cdb821de2ab18680
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日15時48分12秒 [Feature] API POST org. dept. list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時48分12秒 [Feature] API POST org. dept. list frame
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/list/frame
+- api params: {'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.042501 (seconds)
+- API success (status and response are correct).
+- Response time: 0.042501
+- Success get depname: QAdept12
+- Success get depId: c7b15614e29e2c31cdb821de2ab18680
+- - -
+# Test Result: PASS
+
+End << 08月23日15時48分12秒 [Feature] API POST org. dept. list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1548
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

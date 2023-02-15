@@ -1,0 +1,202 @@
+
+* Run test case: df_Api_admin_webPlayer_web_edit_get_frame.py
+********Test Case: df_Api_admin_webPlayer_web_edit_get_frame.py********
+
+	Start >>04月19日18時35分25秒 [Feature] API POST webPlayer web edit get frame
+
+		New ini value is: API.webId = 0b82165981316ecf67ad30a5887aa1e9
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/web/edit/get/frame
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/edit/get/frame
+
+		- api params: {'webId': '0b82165981316ecf67ad30a5887aa1e9', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.638839 (seconds)
+
+		Response data: 
+<div class="input-box">
+ <label>
+  庄家帐号
+ </label>
+ <span data-bankerid="835bd15c55ec6df3fe054f3aed828e41" id="bankerId">
+  QAstep4
+ </span>
+</div>
+<div class="input-box">
+ <label for="webName">
+  网站名称
+ </label>
+ <i class="fas fa-desktop-alt">
+ </i>
+ <input class="input-sty required" id="webName" name="webName" placeholder="请输入网站名称" type="text" value="Testweb19"/>
+</div>
+<div class="input-box">
+ <label>
+  状态
+ </label>
+ <div class="status-group" id="gameState">
+  <div class="status-box status-open">
+   <input checked="checked" id="sOpen" name="status" type="radio" value="3"/>
+   <label for="sOpen">
+    启用
+   </label>
+  </div>
+  <div class="status-box status-close">
+   <input id="sStop" name="status" type="radio" value="4"/>
+   <label for="sStop">
+    停用
+   </label>
+  </div>
+ </div>
+</div>
+<div class="web-column">
+ <h4 class="fal">
+  网域设定
+ </h4>
+ <div class="web-column-2">
+  <div class="sub-tit">
+   已挂载
+  </div>
+  <div class="src-group">
+   <div class="src-box" id="OnSrc">
+    <i class="fas fa-times-circle">
+    </i>
+    <input class="input-sty" id="srcAddUrl" name="srcAddUrl" placeholder="请输入要搜索的网域关键字" type="text"/>
+   </div>
+   <div class="btn btn-submit">
+    搜索
+    <input id="srcAddUrlBtn" type="button"/>
+   </div>
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOnNum">
+    1
+   </span>
+   个网域
+  </div>
+  <ul class="list sort-tit">
+   <li class="title">
+    <div class="list-group">
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      主网域
+     </div>
+     <div class="box-50">
+      网域
+     </div>
+    </div>
+    <div class="operate-box">
+     卸除
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="dataOnList">
+   <li>
+    <div class="list-group">
+     <div class="box-10 txt-c js-indList">
+      1
+     </div>
+     <div class="box-15 txt-c set-map">
+      <i class="fas fa-map-pin act">
+      </i>
+     </div>
+     <div class="box-50 js-urlId" id="cce895fad5ced5f3129c300a72cbe5bc">
+      10.10.10.232
+     </div>
+    </div>
+    <div class="operate-box list-icon">
+     <i alt="卸除" class="fas fa-arrow-right js-offUrl" title="卸除">
+     </i>
+    </div>
+   </li>
+  </ul>
+  <div class="no-data" id="noOn" style="display: none;">
+   无网域
+  </div>
+ </div>
+ <div class="url-trans">
+  <img alt="" src="img/img_url_transfer.jpg"/>
+ </div>
+ <div class="web-column-2">
+  <div class="sub-tit">
+   未挂载
+  </div>
+  <div class="src-group">
+   <div class="src-box" id="OffSrc">
+    <i class="fas fa-times-circle">
+    </i>
+    <input class="input-sty" id="srcUrl" name="srcUrl" placeholder="请输入要搜索的网域关键字" type="text"/>
+   </div>
+   <div class="btn btn-submit">
+    搜索
+    <input id="srcUrlBtn" type="button"/>
+   </div>
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOffNum">
+    0
+   </span>
+   个网域
+  </div>
+  <ul class="list sort-tit">
+   <li class="title">
+    <div class="list-group-100">
+     <div class="box-10 txt-c">
+      挂载
+     </div>
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-50">
+      网域
+     </div>
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="dataOffList">
+  </ul>
+  <div class="no-data" id="noOff">
+   无网域
+  </div>
+ </div>
+</div>
+
+		- API success (status and response are correct).
+
+		- Response time: 0.638839
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時35分26秒 [Feature] API POST webPlayer web edit get frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

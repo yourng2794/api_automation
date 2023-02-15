@@ -1,0 +1,357 @@
+
+* Run test case: gd_Api_admin_webPlayer_vip_group_list_frame.py
+********Test Case: gd_Api_admin_webPlayer_vip_group_list_frame.py********
+
+	Start >>07月22日15時54分08秒 [Feature] API POST webPlayer vip group list frame
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.api_path = api/webPlayer/vip/group/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/group/list/frame
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.023825 (seconds)
+
+		- api response: 
+<div class="src-group">
+ <label for="selBanker">
+  庄家帐号
+ </label>
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="level">
+   <option value="bffcb58b29c8b639e302aed425e02a54">
+    B_banker1
+   </option>
+   <option value="258931eec7b31ba22fa91e08cdeabb40">
+    B_banker2
+   </option>
+   <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+    B_cc1211
+   </option>
+   <option value="3c7344d76648d2044fbac8b6e9e0950d">
+    B_cindy
+   </option>
+   <option value="6185a3710cd25372dcfb908843a563b0">
+    B_Nicole
+   </option>
+   <option value="2a2b8009b766549fc9daec26af8959c8">
+    B_simple
+   </option>
+   <option selected="" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+    QAbanker1
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input type="submit"/>
+ </div>
+</div>
+<div class="sub-tab under-sub-tab">
+ <a href="web_level_list.html">
+  层级列表
+ </a>
+ <a class="act">
+  层级群组
+ </a>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个群组
+ <a class="btn btn-orange" href="web_level_group_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增层级群组
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-15">
+    层级群组
+   </div>
+   <div class="box-10 txt-c">
+    层级数量
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15" id="cae2dee932b8e8ef94fcb2247ffcbf3b">
+    QAgp1
+   </div>
+   <div class="box-10 txt-c">
+    1
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_level_group_edit.html" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="删除" class="del" href="#" style="display:none;" title="删除">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		Response data: <div class="src-group">
+ <label for="selBanker">
+  庄家帐号
+ </label>
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="level">
+   <option value="bffcb58b29c8b639e302aed425e02a54">
+    B_banker1
+   </option>
+   <option value="258931eec7b31ba22fa91e08cdeabb40">
+    B_banker2
+   </option>
+   <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+    B_cc1211
+   </option>
+   <option value="3c7344d76648d2044fbac8b6e9e0950d">
+    B_cindy
+   </option>
+   <option value="6185a3710cd25372dcfb908843a563b0">
+    B_Nicole
+   </option>
+   <option value="2a2b8009b766549fc9daec26af8959c8">
+    B_simple
+   </option>
+   <option selected="" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+    QAbanker1
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input type="submit"/>
+ </div>
+</div>
+<div class="sub-tab under-sub-tab">
+ <a href="web_level_list.html">
+  层级列表
+ </a>
+ <a class="act">
+  层级群组
+ </a>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个群组
+ <a class="btn btn-orange" href="web_level_group_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增层级群组
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-15">
+    层级群组
+   </div>
+   <div class="box-10 txt-c">
+    层级数量
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15" id="cae2dee932b8e8ef94fcb2247ffcbf3b">
+    QAgp1
+   </div>
+   <div class="box-10 txt-c">
+    1
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_level_group_edit.html" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="删除" class="del" href="#" style="display:none;" title="删除">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.023825
+
+		- Success get vipGroupName: QAgp1
+
+		- Success get vipGroupId: cae2dee932b8e8ef94fcb2247ffcbf3b
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.vipGroupId = cae2dee932b8e8ef94fcb2247ffcbf3b
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時54分08秒 [Feature] API POST webPlayer vip group list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時54分08秒 [Feature] API POST webPlayer vip group list frame
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/group/list/frame
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.023825 (seconds)
+- api response: 
+<div class="src-group">
+ <label for="selBanker">
+  庄家帐号
+ </label>
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="level">
+   <option value="bffcb58b29c8b639e302aed425e02a54">
+    B_banker1
+   </option>
+   <option value="258931eec7b31ba22fa91e08cdeabb40">
+    B_banker2
+   </option>
+   <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+    B_cc1211
+   </option>
+   <option value="3c7344d76648d2044fbac8b6e9e0950d">
+    B_cindy
+   </option>
+   <option value="6185a3710cd25372dcfb908843a563b0">
+    B_Nicole
+   </option>
+   <option value="2a2b8009b766549fc9daec26af8959c8">
+    B_simple
+   </option>
+   <option selected="" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+    QAbanker1
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input type="submit"/>
+ </div>
+</div>
+<div class="sub-tab under-sub-tab">
+ <a href="web_level_list.html">
+  层级列表
+ </a>
+ <a class="act">
+  层级群组
+ </a>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个群组
+ <a class="btn btn-orange" href="web_level_group_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增层级群组
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-15">
+    层级群组
+   </div>
+   <div class="box-10 txt-c">
+    层级数量
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15" id="cae2dee932b8e8ef94fcb2247ffcbf3b">
+    QAgp1
+   </div>
+   <div class="box-10 txt-c">
+    1
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_level_group_edit.html" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="删除" class="del" href="#" style="display:none;" title="删除">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+- API success (status and response are correct).
+- Response time: 0.023825
+- Success get vipGroupName: QAgp1
+- Success get vipGroupId: cae2dee932b8e8ef94fcb2247ffcbf3b
+- - -
+# Test Result: PASS
+
+End << 07月22日15時54分08秒 [Feature] API POST webPlayer vip group list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1554
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

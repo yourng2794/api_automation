@@ -1,0 +1,77 @@
+
+* Run test case: ee_Api_admin_partner_type_list.py
+********Test Case: ee_Api_admin_partner_type_list.py********
+
+	Start >>07月22日15時53分06秒 [Feature] API POST partner type list
+
+
+		- api url: http://tadmapi.o2ogt.com/api/partner/type/list
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022833 (seconds)
+
+		- api response: 
+[{"pt_type_id": "97a2fa8b151e88da50b01f91835ed0cc", "pt_type_name": "QAtype1"}, {"pt_type_id": "bankerType", "pt_type_name": "莊家"}]
+
+		Response data: [{"pt_type_id": "97a2fa8b151e88da50b01f91835ed0cc", "pt_type_name": "QAtype1"}, {"pt_type_id": "bankerType", "pt_type_name": "莊家"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.022833
+
+		- Success get pt_type_name: QAtype1
+
+		- Success get pt_type_id: 97a2fa8b151e88da50b01f91835ed0cc
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時53分06秒 [Feature] API POST partner type list
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時53分06秒 [Feature] API POST partner type list
+
+- api url: http://tadmapi.o2ogt.com/api/partner/type/list
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022833 (seconds)
+- api response: 
+[{"pt_type_id": "97a2fa8b151e88da50b01f91835ed0cc", "pt_type_name": "QAtype1"}, {"pt_type_id": "bankerType", "pt_type_name": "莊家"}]
+- API success (status and response are correct).
+- Response time: 0.022833
+- Success get pt_type_name: QAtype1
+- Success get pt_type_id: 97a2fa8b151e88da50b01f91835ed0cc
+- - -
+# Test Result: PASS
+
+End << 07月22日15時53分06秒 [Feature] API POST partner type list
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1553
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

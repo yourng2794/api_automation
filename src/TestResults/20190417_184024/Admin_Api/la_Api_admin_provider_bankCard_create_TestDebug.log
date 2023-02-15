@@ -1,0 +1,61 @@
+
+* Run test case: la_Api_admin_provider_bankCard_create.py
+********Test Case: la_Api_admin_provider_bankCard_create.py********
+
+	Start >>04月17日18時44分00秒 [Feature] API POST provider bankCard create
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.bankName = QAbank16
+		New ini value is: API.branchName = Branch16
+		New ini value is: API.bankAcc = 00000000123458
+		New ini value is: API.accName = QA3
+		New ini value is: API.currency = CNY
+
+		- api_params: {'bankName': 'QAbank16', 'branchName': 'Branch16', 'bankAcc': '00000000123458', 'accName': 'QA3', 'currency': 'CNY', 'amount': '5000', 'maxwithdraw': '3000', 'maxdeposit': '1000', 'mindeposit': '100', 'option': '3', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/provider/bankCard/create
+
+		- api params: {'bankName': 'QAbank16', 'branchName': 'Branch16', 'bankAcc': '00000000123458', 'accName': 'QA3', 'currency': 'CNY', 'amount': '5000', 'maxwithdraw': '3000', 'maxdeposit': '1000', 'mindeposit': '100', 'option': '3', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=NJ33m2v2Dppn9N1c0ZT2IBKzDQO2FCErE7DrJIGv for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.428383 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.428383
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時44分00秒 [Feature] API POST provider bankCard create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

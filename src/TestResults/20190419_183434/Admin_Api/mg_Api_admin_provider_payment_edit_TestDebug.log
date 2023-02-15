@@ -1,0 +1,222 @@
+
+* Run test case: mg_Api_admin_provider_payment_edit.py
+********Test Case: mg_Api_admin_provider_payment_edit.py********
+
+	Start >>04月19日18時38分51秒 [Feature] API POST provider payment edit
+
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/edit/info/get
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.362737 (seconds)
+
+		Response data: 
+{
+    "enable": 1,
+    "maxdeposit": 10000000,
+    "maxwithdraw": 1000000,
+    "mindeposit": 0,
+    "option": 3,
+    "payacc": "888888",
+    "payment_id": "6583ffebabe59b03947d7ea960907a93",
+    "payname": "金城武幫你出",
+    "payratio": 5,
+    "payurl": "www.168.com",
+    "secretkey": "f455ff77fa023376d810a97b68e54e32"
+}
+
+		- Success get payment_id: 6583ffebabe59b03947d7ea960907a93
+
+		- Success get payname: 金城武幫你出
+
+		---
+
+		---
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/edit/currency/get
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.089368 (seconds)
+
+		Response data: 
+{
+    "currency": [
+        {
+            "CNY": "1"
+        },
+        {
+            "EUR": "1"
+        },
+        {
+            "HKD": "1"
+        },
+        {
+            "MOP": "1"
+        },
+        {
+            "USD": "1"
+        }
+    ],
+    "payname": "金城武幫你出",
+    "v_currency": [
+        {
+            "V_BTC": "1"
+        }
+    ]
+}
+
+		- Success get currency
+
+		- Success get v_currency
+
+		---
+
+		---
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_payment_edit.json
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/edit
+
+		- api params: {}
+
+		- api data: {"bankerId": "835bd15c55ec6df3fe054f3aed828e41", "paymentId": "6583ffebabe59b03947d7ea960907a93", "payname": "金城武幫你出", "payacc": "888888", "key": "f455ff77fa023376d810a97b68e54e32", "url": "www.168.com", "ratio": "5", "enable": "1", "maxwithdraw": "1000", "maxdeposit": "10000000", "mindeposit": "0", "option": "3", "currency": ["CNY", "EUR", "HKD", "MOP", "USD", "V_BTC"]}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.112299 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.112299
+
+		---
+
+		---
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/info
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.17117 (seconds)
+
+		Response data: 
+{
+    "deposit": {
+        "CNY": [
+            "QAbank18"
+        ],
+        "EUR": [],
+        "HKD": [],
+        "MOP": [],
+        "USD": []
+    },
+    "maxdeposit": 10000000,
+    "maxwithdraw": 1000,
+    "mindeposit": 0,
+    "payname": "金城武幫你出",
+    "withdrawal": {
+        "CNY": [
+            "QAbank18"
+        ],
+        "EUR": [],
+        "HKD": [],
+        "MOP": [],
+        "USD": []
+    }
+}
+
+		- Success get maxwithdraw: 1000
+
+		---
+
+		---
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_payment_edit.json
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/edit
+
+		- api params: {}
+
+		- api data: {"bankerId": "835bd15c55ec6df3fe054f3aed828e41", "paymentId": "6583ffebabe59b03947d7ea960907a93", "payname": "金城武幫你出", "payacc": "888888", "key": "f455ff77fa023376d810a97b68e54e32", "url": "www.168.com", "ratio": "5", "enable": "1", "maxwithdraw": "1000000", "maxdeposit": "10000000", "mindeposit": "0", "option": "3", "currency": ["CNY", "EUR", "HKD", "MOP", "USD", "V_BTC"]}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.105449 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.105449
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時38分52秒 [Feature] API POST provider payment edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

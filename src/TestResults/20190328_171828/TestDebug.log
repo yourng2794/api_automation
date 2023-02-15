@@ -1,0 +1,241 @@
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190328_171828\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190328_171828\\testresults.xml
+<< Success, End replaceJSONValue.
+{'id': 68, 'suite_id': 1, 'name': 'Automation test report Mar28_1718', 'description': None, 'milestone_id': None, 'assignedto_id': 1, 'include_all': False, 'is_completed': False, 'completed_on': None, 'config': None, 'config_ids': [], 'passed_count': 0, 'blocked_count': 0, 'untested_count': 14, 'retest_count': 0, 'failed_count': 0, 'custom_status1_count': 0, 'custom_status2_count': 0, 'custom_status3_count': 0, 'custom_status4_count': 0, 'custom_status5_count': 0, 'custom_status6_count': 0, 'custom_status7_count': 0, 'project_id': 1, 'plan_id': None, 'created_on': 1553764708, 'created_by': 1, 'url': 'https://o2ogt.testrail.io/index.php?/runs/view/68'}
+		New ini value is: TestRail.TestRailRunID = 68
+------------------------ Test is started------------------------
+>> Enter Test Suites: Admin_UI
+	find test case: UI_Client.py
+	find test case: UI_Provider.py
+	find test case: UI_Sample.py
+	find test case: UI_Web.py
+
+
+* Run test case: UI_Client.py
+********Test Case: UI_Client.py********
+Set up Pre-condition of this case...
+Success open browser.
+
+		- - - 
+
+		- 2, accurate: 97 %
+
+		- 7, accurate: 94 %
+
+		- 0, accurate: 98 %
+
+		- 3, accurate: 92 %
+
+		- - - 
+	03月28日17時18分42秒>> Start to admin UI client
+
+
+	#Test Result: PASS
+	>> Tear Down of this case
+		Driver closed
+	<< End Tear Down
+
+	03月28日17時18分48秒<< End to admin UI client
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: UI_Provider.py
+********Test Case: UI_Provider.py********
+Set up Pre-condition of this case...
+Success open browser.
+
+		- - - 
+
+		- 1, accurate: 65 %
+
+		- 0, accurate: 97 %
+
+		- 2, accurate: 98 %
+
+		- 8, accurate: 92 %
+
+		- - - 
+Exception: on "Browser time out"... Message: Admin_timeout (very_short_time)
+
+
+		- - - 
+
+		- null, accurate: 98 %
+
+		- 6, accurate: 83 %
+
+		- 9, accurate: 92 %
+
+		- 9, accurate: 96 %
+
+		- - - 
+Exception: on "Browser time out"... Message: Admin_timeout (very_short_time)
+
+
+		- - - 
+
+		- 9, accurate: 98 %
+
+		- 4, accurate: 97 %
+
+		- 0, accurate: 92 %
+
+		- 6, accurate: 92 %
+
+		- - - 
+	03月28日17時19分33秒>> Start to admin UI provider
+
+
+	#Test Result: PASS
+	>> Tear Down of this case
+		Driver closed
+	<< End Tear Down
+
+	03月28日17時19分41秒<< End to admin UI provider
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: UI_Sample.py
+********Test Case: UI_Sample.py********
+Set up Pre-condition of this case...
+Success open browser.
+
+		- - - 
+
+		- null, accurate: 82 %
+
+		- 7, accurate: 89 %
+
+		- 9, accurate: 91 %
+
+		- 2, accurate: 92 %
+
+		- - - 
+Exception: on "Browser time out"... Message: Admin_timeout (very_short_time)
+
+
+		- - - 
+
+		- 1, accurate: 94 %
+
+		- 0, accurate: 90 %
+
+		- 9, accurate: 97 %
+
+		- 1, accurate: 96 %
+
+		- - - 
+	03月28日17時20分10秒>> Start to admin navicon redirect
+
+
+	#Test Result: PASS
+	>> Tear Down of this case
+		Driver closed
+	<< End Tear Down
+
+	03月28日17時20分15秒<< End to admin navicon redirect
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: UI_Web.py
+********Test Case: UI_Web.py********
+Set up Pre-condition of this case...
+Success open browser.
+
+		- - - 
+
+		- 2, accurate: 95 %
+
+		- 7, accurate: 95 %
+
+		- 5, accurate: 90 %
+
+		- 2, accurate: 95 %
+
+		- - - 
+	03月28日17時20分29秒>> Start to admin UI web
+
+
+	#Test Result: PASS
+	>> Tear Down of this case
+		Driver closed
+	<< End Tear Down
+
+	03月28日17時20分51秒<< End to admin UI web
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+<< End Test Suites: Admin_UI
+----------------------------------------------------------------
+
+------------------------Test is finished------------------------
+>> Tear Down for whole test run...
+<< End of Tear Down for whole test run
+Generating overall test results...
+Test Case Number: 4
+Test Case PASS: 4
+Test Case FAIL: 0
+Collecting test log files...

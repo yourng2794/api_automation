@@ -1,0 +1,166 @@
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190712_180104\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190712_180104\\testresults.xml
+	<< END Success, checkJSONFile: Automation test report Jul12_1801
+	<< END Success, replaceJSONValue.
+{'id': 188, 'suite_id': 1, 'name': 'Automation test report Jul12_1801', 'description': None, 'milestone_id': None, 'assignedto_id': 1, 'include_all': False, 'is_completed': False, 'completed_on': None, 'config': None, 'config_ids': [], 'passed_count': 0, 'blocked_count': 0, 'untested_count': 461, 'retest_count': 0, 'failed_count': 0, 'custom_status1_count': 0, 'custom_status2_count': 0, 'custom_status3_count': 0, 'custom_status4_count': 0, 'custom_status5_count': 0, 'custom_status6_count': 0, 'custom_status7_count': 0, 'project_id': 1, 'plan_id': None, 'created_on': 1562925663, 'created_by': 1, 'url': 'https://o2ogt.testrail.io/index.php?/runs/view/188'}
+		New ini value is: TestRail.TestRailRunID = 188
+------------------------ Test is started------------------------
+Set up Pre-condition of this case...
+>> Enter Test Suites: test_xml
+	find test case: a_Api_admin_login.py
+
+
+* Run test case: a_Api_admin_login.py
+********Test Case: a_Api_admin_login.py********
+
+	Start >>07月12日18時01分08秒 [Portal] API POST login Boss account (web)
+
+		New ini value is: API.api_path = login/code
+
+		- api url: https://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=X2YagTHRtqpZ3RcL13kNCDk1A9Tq6CpFtfLTh7PB for .o2ogt.com/>, <Cookie laravel_session=X2YagTHRtqpZ3RcL13kNCDk1A9Tq6CpFtfLTh7PB for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.738898 (seconds)
+
+		- api response: 
+		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
+
+		Response data: 
+		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
+
+		- Session expired until: 18:02:09
+
+		- API success (status and response are correct).
+
+		- Response time: 0.738898
+
+		- - - 
+
+		- 5, accurate: 98 %
+
+		- 5, accurate: 89 %
+
+		- 3, accurate: 87 %
+
+		- 5, accurate: 88 %
+
+		- - - 
+New code: 5535
+		New ini value is: API.code = 5535
+		New ini value is: API.acc = tommy
+		New ini value is: API.pwd = 123456
+
+		- api url: https://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'tommy', 'pwd': '123456', 'code': '5535'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _admin=xRgs04udBfMpRS8inptuFkucG2G8zvhxVXjCB%2Fmi2XBS03l%2B4%2BvH7dZqIdKvqTMtzhzElg55h8%2BnBzoKFE7qs%2BobCdHcJO1mY5wSwTL%2BD%2FAet9nAWb7vd9PyhS59iGXDNLEF7QKYHZhWF0nYqMSzKg%3D%3D for .o2ogt.com/>, <Cookie laravel_session=2jEIagV0mATNqec5uneK0eIJ43Ch3ClFRMuND7jz for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.527389 (seconds)
+
+		- api response: 
+		{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		Response data: 
+		{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.527389
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.code = 
+		New ini value is: API.acc = 
+		New ini value is: API.pwd = 
+	<< End Tear Down
+
+
+	End << 07月12日18時01分10秒 [Portal] API POST login Boss account (web)
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月12日18時01分08秒 [Portal] API POST login Boss account (web)
+
+- api url: https://admtest.o2ogt.com/login/code
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.738898 (seconds)
+- api response: 
+/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAHgBaAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A93ltd8rSx3E8MjeWGKPkbUYtgK2VG7JUkAMQeuQpFdLuyvry1jNtO0yxC8geaykURggp99lASTDMChIcAnIxmrkcbI8zNNJIHfcqsFxGNoG1cAHGQTzk5Y84wB5X4pu49Y+Kk+k3ni2+0DS9P0pZZDa6iLXfMz8ZJ4PysP09a1pUvaNq9rCbseqSQrK8LsZAYn3rtkZQTtK/MAcMMMeDkZweoBGZrGrvoMF9qd+EOlQQxFBCCZjIXYPnJC7cGLHfO7Pasjwh4cs7CdtUsfGGt67byxGJReakt1AMlTuXAxuGMZz0J9aZ8SIb678P21nY2E96815GJI4kJGwZPzHGFGQoyeKxrvki+XodeBoxrYiFOekW9fTrr6Eg8eBgCPCvicg8gjT+v/j1dPdtItnO0UscMgjYpJKhdEOOCygjIHUjI+orhtU8QeKvDsttq2taXYzaduEMv2K5kBtkdlyzqflcjaACB1OAVDE12N3FbXlstwtu9w0sfkpLbuElWKUqGKyZUqMBWO0g/IMZIArOnJu6b19LG2NoxgoyhBKLvqpcye2l+6/U5G38VeKNbY3eh6VZjTmEjQfa/M33CoQCQy/IhJPAY5ODjO046Hw3q9p4m06DV1tBFdRh4HDqC8Jyu9A3oSqn3wM9Kj1yLxS9mE0a501Zj5pd5o2UgZ/dhRkjIXgk8EjIABwML4eyWiWQsrRLq2voZHTUorkSSgsmckMCERi0inOMsEIwdu5Yi5RqKLf9eR0Vo0auDlWhBKzVrNtpa/Ffe+lnbftsd5XnEHxY0q/u4ZrLw74quyY5RC1tabo5UDIHYKJMNg7Buxld2ONxB7DxRLfQeHL+bT1Mk6W8pEKQtI8p8tgqpg8HeVOcNwCMc5HmGlXHjPwv8ObOa50XQLfSNPRZXt9TlZJ2bzN4bnCI28ggHkHHevewOGpVKMqlSzd0knLl6O/6Hhyk07I9M8Ost3oVhPbxavYRK7sbbUizXDDLrtkMhd8ZO4fNnAXnGQedn+HE2o3Et7ceMfF1nPcOZZLaz1g+RCzHJSPMYOwE4HA4A4FWPDvxL8P61odveNqdu17MWJ0+3UyXK/McKIULO+1erAYIBbCjgXLDx3pd5p1tdfZ9Vbzokkzb6PeyxnIB+R/IG5eeGwMjnArzaseWpJWtrt2LWxY/4RX7P/yDde1yx3f6z/TPte/0/wCPkS7cc/d25zznAxyk3wdsF1pdWgu7e8udioy6xYLPEqqgRAkULQoAFGMEMOFxgjnf1bR4dO0a+1TWtc8QajBY28lxtjuxasqopZgPswhDEgfxk4xxjJzyerfCSe11+fVvDo0e9S5+aay8RQtdpv4y6yNufJ7889yeMVRUnK0ZWfz/AEBnOzpcfDr4nnTUvtFjsdbsGe4hFxJpdvEfmAYNukaM/KdrKRyxAx1rrdR+LzaWscj+F9Rv7UNifUdKP2mywe8U21RIR0IIXDAjJxmrngb4bjw5rN3r+pHT21S4Xy0i062EFvbpxkIoAyTgckZ/M13AgMNvbWkUYmtwPKlNxMzMIwhGcsGMjEhQdxGQSSSRgvEtyla92luVTcU7yV0eMeIfjBY+KdB1HQ7Pwvr0k92Vit0Nqr+YvykllDEg53DA3cAHPJA6Kx8dS2ug21il34UsporVYQt94g8m5gYKBiWIwHZID95CTggjJrtbCHRrXXruwsdMt7a7ht4riSWKBEDLK0igZHJOYmz9R17aM32wXlsYfINqdwuFfIccZVlI4OCMFSBndncNu1uSMXfmludVWvHkVKl8Kd9bXv8A5HmNt4l+IdvaKk0FtfO677e5tNKa5hnU8q3mpOi4IIwQg47VoeGfB+v6dp2oapea/q8Wp3rtcS21otmWcgEquZItu85PdV5HSumvvBvhu5lkuT4W0O5upZQ8rz2kYLbmG9i2wktgseep4JGciOHwNotshSCXWYkLs5VNbvVBZmLMeJepYkk9ySaUabTu3exVXGRlTcKcFHm3s3rbyvZK+tjLvvDGm6V4YuL+10nV7p0ja4fSZ9ZuWWVmO+RJF8x0ckltwwwYk9c1iaf4j+FS+Hv7aXTPD9rP5DLLZpaRCcFlKvEF2gsDllJxgg88Guz/ALA1eP54vGGqvIvKrcW9o0bHsHCQqxX1Cspx0IPNZMnhLU11dNakt/C2oX8YYBTpslo0m4gkmXzZcEEAgmNj1AK7ia9ChPDKNq0W9b3Tt8tbr57nA0+hm/BjR7iw8KTajci1EuozNIRHEBIm12UqzZPAOcIRlTuySSQPSK4vWvFGteFLC61/X9LtBpMCRrLHY6gZ5EJfaGRGgj3Es6g5kAAXIGchuPg/aI8G21vFAmn+ICkaBFMiRuxAGOWaUlj7kknvWeJruvVlVfVjSsrH/9k=
+- Session expired until: 18:02:09
+- API success (status and response are correct).
+- Response time: 0.738898
+- - - 
+- 5, accurate: 98 %
+- 5, accurate: 89 %
+- 3, accurate: 87 %
+- 5, accurate: 88 %
+- api url: https://admtest.o2ogt.com/login
+- api params: {'acc': 'tommy', 'pwd': '123456', 'code': '5535'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.527389 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+- API success (status and response are correct).
+- Response time: 0.527389
+- - -
+# Test Result: PASS
+
+End << 07月12日18時01分10秒 [Portal] API POST login Boss account (web)
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul12_1801
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+<< End Test Suites: test_xml
+----------------------------------------------------------------
+
+------------------------Test is finished------------------------
+>> Tear Down for whole test run...
+<< End of Tear Down for whole test run
+Generating overall test results...
+Test Case Number: 1
+Test Case PASS: 1
+Test Case FAIL: 0
+Collecting test log files...

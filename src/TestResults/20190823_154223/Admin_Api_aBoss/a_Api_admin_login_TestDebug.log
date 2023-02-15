@@ -1,0 +1,125 @@
+
+* Run test case: a_Api_admin_login.py
+********Test Case: a_Api_admin_login.py********
+
+	Start >>08月23日15時42分31秒 [Portal] API POST login Boss account (web)
+
+		New ini value is: API.acc = tommyauto
+		New ini value is: API.pwd = 123456
+		New ini value is: API.api_path = login/code
+
+		- api url: http://tadmapi.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=vXUW2K50mLi3KbuYhtbpK0t6jhxdFuzU3ozj9L9g for .o2ogt.com/>, <Cookie laravel_session=vXUW2K50mLi3KbuYhtbpK0t6jhxdFuzU3ozj9L9g for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041323 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 15:43:31
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041323
+
+		- - - 
+
+		- 6, accurate: 96 %
+
+		- 1, accurate: 97 %
+
+		- 3, accurate: 93 %
+
+		- 1, accurate: 93 %
+
+		- - - 
+New code: 6131
+		New ini value is: API.code = 6131
+
+		- api url: http://tadmapi.o2ogt.com/login
+
+		- api params: {'acc': 'tommyauto', 'pwd': '123456', 'code': '6131'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _admin=0h8u3J9lzrv9m1bj8vy5JbhkFnWGLMX0bRZKigxrH6zUrfvroEeZkvomIrZgqWT74BZ62QUy62SsceGjFOC9WD%2BM07d9GQd2EsNrix1IembSLL77XbC3OFedFKsaMe1d7vHacubiisHO%2Ft3quKDFtw%3D%3D for .o2ogt.com/>, <Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.03137 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.03137
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.code = 
+		New ini value is: API.acc = 
+		New ini value is: API.pwd = 
+	<< End Tear Down
+
+
+	End << 08月23日15時42分32秒 [Portal] API POST login Boss account (web)
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時42分31秒 [Portal] API POST login Boss account (web)
+
+- api url: http://tadmapi.o2ogt.com/login/code
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041323 (seconds)
+- Session expired until: 15:43:31
+- API success (status and response are correct).
+- Response time: 0.041323
+- - - 
+- 6, accurate: 96 %
+- 1, accurate: 97 %
+- 3, accurate: 93 %
+- 1, accurate: 93 %
+- api url: http://tadmapi.o2ogt.com/login
+- api params: {'acc': 'tommyauto', 'pwd': '123456', 'code': '6131'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.03137 (seconds)
+- API success (status and response are correct).
+- Response time: 0.03137
+- - -
+# Test Result: PASS
+
+End << 08月23日15時42分32秒 [Portal] API POST login Boss account (web)
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1542
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

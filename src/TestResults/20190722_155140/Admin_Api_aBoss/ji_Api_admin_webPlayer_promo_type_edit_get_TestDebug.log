@@ -1,0 +1,262 @@
+
+* Run test case: ji_Api_admin_webPlayer_promo_type_edit_get.py
+********Test Case: ji_Api_admin_webPlayer_promo_type_edit_get.py********
+
+	Start >>07月22日15時55分15秒 [Feature] API POST webPlayer promo type edit get
+
+		New ini value is: API.promoTypeId = 2
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/edit/get
+
+		- api params: {'promoTypeId': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021782 (seconds)
+
+		- api response: 
+{
+    "conditions": {
+        "login": "1",
+        "reg": "0",
+        "trunover": "1000"
+    },
+    "promo_name": "SQApromo0722_155456",
+    "promo_type_id": 2,
+    "rewards": {
+        "cash": null,
+        "rio": "1"
+    },
+    "trunover_list": [
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_SLOT",
+            "providerid": "BB_SLOT",
+            "type": "slot"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_SPORT",
+            "providerid": "BB_SPORT",
+            "type": "sport"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "AG",
+            "providerid": "AG",
+            "type": "lived"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_LOTTERY",
+            "providerid": "BB_LOTTERY",
+            "type": "lottery"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_FISH",
+            "providerid": "BB_FISH",
+            "type": "fish"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_POKER",
+            "providerid": "BB_POKER",
+            "type": "poker"
+        }
+    ]
+}
+
+		Response data: {
+    "conditions": {
+        "login": "1",
+        "reg": "0",
+        "trunover": "1000"
+    },
+    "promo_name": "SQApromo0722_155456",
+    "promo_type_id": 2,
+    "rewards": {
+        "cash": null,
+        "rio": "1"
+    },
+    "trunover_list": [
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_SLOT",
+            "providerid": "BB_SLOT",
+            "type": "slot"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_SPORT",
+            "providerid": "BB_SPORT",
+            "type": "sport"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "AG",
+            "providerid": "AG",
+            "type": "lived"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_LOTTERY",
+            "providerid": "BB_LOTTERY",
+            "type": "lottery"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_FISH",
+            "providerid": "BB_FISH",
+            "type": "fish"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_POKER",
+            "providerid": "BB_POKER",
+            "type": "poker"
+        }
+    ]
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021782
+
+		- Success compare condition_reg: 0
+
+		- Success compare condition_login: 1
+
+		- Success compare condition_trunover: 1000
+
+		- Success compare reward_rio: 1
+
+		- Success compare reward_cash: None
+
+		- Success compare (promoTypeName, promoTypeId): (SQApromo0722_155456, 2)
+
+		- Success compare trunover_list: [{'game_type': 'all', 'name': 'BB_SLOT', 'providerid': 'BB_SLOT', 'type': 'slot'}, {'game_type': 'all', 'name': 'BB_SPORT', 'providerid': 'BB_SPORT', 'type': 'sport'}, {'game_type': 'all', 'name': 'AG', 'providerid': 'AG', 'type': 'lived'}, {'game_type': 'all', 'name': 'BB_LOTTERY', 'providerid': 'BB_LOTTERY', 'type': 'lottery'}, {'game_type': 'all', 'name': 'BB_FISH', 'providerid': 'BB_FISH', 'type': 'fish'}, {'game_type': 'all', 'name': 'BB_POKER', 'providerid': 'BB_POKER', 'type': 'poker'}]
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.promoTypeId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時55分15秒 [Feature] API POST webPlayer promo type edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時55分15秒 [Feature] API POST webPlayer promo type edit get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/edit/get
+- api params: {'promoTypeId': '2'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021782 (seconds)
+- api response: 
+{
+    "conditions": {
+        "login": "1",
+        "reg": "0",
+        "trunover": "1000"
+    },
+    "promo_name": "SQApromo0722_155456",
+    "promo_type_id": 2,
+    "rewards": {
+        "cash": null,
+        "rio": "1"
+    },
+    "trunover_list": [
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_SLOT",
+            "providerid": "BB_SLOT",
+            "type": "slot"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_SPORT",
+            "providerid": "BB_SPORT",
+            "type": "sport"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "AG",
+            "providerid": "AG",
+            "type": "lived"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_LOTTERY",
+            "providerid": "BB_LOTTERY",
+            "type": "lottery"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_FISH",
+            "providerid": "BB_FISH",
+            "type": "fish"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BB_POKER",
+            "providerid": "BB_POKER",
+            "type": "poker"
+        }
+    ]
+}
+- API success (status and response are correct).
+- Response time: 0.021782
+- Success compare condition_reg: 0
+- Success compare condition_login: 1
+- Success compare condition_trunover: 1000
+- Success compare reward_rio: 1
+- Success compare reward_cash: None
+- Success compare (promoTypeName, promoTypeId): (SQApromo0722_155456, 2)
+- Success compare trunover_list: [{'game_type': 'all', 'name': 'BB_SLOT', 'providerid': 'BB_SLOT', 'type': 'slot'}, {'game_type': 'all', 'name': 'BB_SPORT', 'providerid': 'BB_SPORT', 'type': 'sport'}, {'game_type': 'all', 'name': 'AG', 'providerid': 'AG', 'type': 'lived'}, {'game_type': 'all', 'name': 'BB_LOTTERY', 'providerid': 'BB_LOTTERY', 'type': 'lottery'}, {'game_type': 'all', 'name': 'BB_FISH', 'providerid': 'BB_FISH', 'type': 'fish'}, {'game_type': 'all', 'name': 'BB_POKER', 'providerid': 'BB_POKER', 'type': 'poker'}]
+- - -
+# Test Result: PASS
+
+End << 07月22日15時55分15秒 [Feature] API POST webPlayer promo type edit get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1555
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,92 @@
+
+* Run test case: nk_Api_admin_provider_payOption_edit_get_layer_frame_m.py
+********Test Case: nk_Api_admin_provider_payOption_edit_get_layer_frame_m.py********
+
+	Start >>04月19日18時39分32秒 [Feature] API POST provider payOption edit get layer frame m
+
+		New ini value is: API.webId = 0b82165981316ecf67ad30a5887aa1e9
+		New ini value is: API.payOptionId = 40f00ddd4665100fdce55c92dd6ff9b2
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/provider/payOption/edit/get/layer/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/edit/get/layer/frame/m
+
+		- api params: {'webId': '0b82165981316ecf67ad30a5887aa1e9', 'payOptionId': '40f00ddd4665100fdce55c92dd6ff9b2', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 1.007888 (seconds)
+
+		Response data: 
+<h3>
+ <i class="fas fa-caret-right">
+ </i>
+ Testweb19 -
+ <span>
+  QApay19
+ </span>
+</h3>
+<div class="sub-group">
+ <h4>
+  <i class="far fa-caret-right">
+  </i>
+  编辑层级支付
+ </h4>
+ <div class="sel-box">
+  <label for="bankerList">
+   QAvip19
+  </label>
+  <div class="select-sty">
+   <i class="fas fa-money-check-alt">
+   </i>
+   <select id="5a03c800d507b03990581e1352bf3848" name="5a03c800d507b03990581e1352bf3848">
+    <!--class="pay-selected"-->
+    <option value="">
+     请选择支付组合
+    </option>
+    <option selected="" value="40f00ddd4665100fdce55c92dd6ff9b2">
+     QApay19
+    </option>
+    <option value="53a2ea7f190d9ed06445b8c68b82221c">
+     QApay
+    </option>
+   </select>
+   <i class="fas fa-caret-down">
+   </i>
+  </div>
+ </div>
+</div>
+
+		- Success get payOptionId: 40f00ddd4665100fdce55c92dd6ff9b2
+
+		- Success get payOptionName: QApay19
+
+		---
+
+		---
+['PASS']
+['FAIL', 'PASS', 'PASS', 'FAIL']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時39分33秒 [Feature] API POST provider payOption edit get layer frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

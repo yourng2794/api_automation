@@ -1,0 +1,799 @@
+
+* Run test case: hk_Api_admin_webPlayer_web_provider_edit.py
+********Test Case: hk_Api_admin_webPlayer_web_provider_edit.py********
+
+	Start >>08月23日15時45分01秒 [Feature] API POST webPlayer web provider edit
+
+		New ini value is: API.webId = 1c049b9bc588fead28c0e84492f051a2
+		New ini value is: API.status = 1
+		New ini value is: API.offGames = 
+		New ini value is: API.providerId = BB_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_FISH', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.055778 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.055778
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_LIVED
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_LIVED', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.050781 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.050781
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_LOTTERY
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_LOTTERY', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.050758 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.050758
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_POKER', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.051762 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.051762
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_SLOT', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.051322 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.051322
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = BB_SPORT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_SPORT', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.051429 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.051429
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = CQ9_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_FISH', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.049799 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.049799
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = CQ9_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_POKER', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.059373 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.059373
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = CQ9_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_SLOT', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.041282 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041282
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = CR_SPORT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CR_SPORT', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.047652 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.047652
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = DL_LOTTERY
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'DL_LOTTERY', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.040343 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040343
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = FP_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'FP_FISH', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.049424 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.049424
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = FP_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'FP_SLOT', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.046685 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.046685
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = JDB_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_FISH', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.040125 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040125
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = JDB_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_POKER', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.03823 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.03823
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = JDB_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_SLOT', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.041141 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041141
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = KA_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'KA_SLOT', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.039665 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.039665
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = KY_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'KY_POKER', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.051459 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.051459
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = MG_LIVED
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'MG_LIVED', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.052319 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.052319
+
+		- - -
+
+['PASS']
+		New ini value is: API.providerId = MG_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'MG_SLOT', 'status': '1', 'offGames': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.049085 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.049085
+
+		- - -
+
+['PASS']
+[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.providerId = 
+		New ini value is: API.webId = 
+		New ini value is: API.status = 
+		New ini value is: API.offGames = 
+	<< End Tear Down
+
+
+	End << 08月23日15時45分03秒 [Feature] API POST webPlayer web provider edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時45分01秒 [Feature] API POST webPlayer web provider edit
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_FISH', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.055778 (seconds)
+- API success (status and response are correct).
+- Response time: 0.055778
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_LIVED', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.050781 (seconds)
+- API success (status and response are correct).
+- Response time: 0.050781
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_LOTTERY', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.050758 (seconds)
+- API success (status and response are correct).
+- Response time: 0.050758
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_POKER', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.051762 (seconds)
+- API success (status and response are correct).
+- Response time: 0.051762
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_SLOT', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.051322 (seconds)
+- API success (status and response are correct).
+- Response time: 0.051322
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'BB_SPORT', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.051429 (seconds)
+- API success (status and response are correct).
+- Response time: 0.051429
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_FISH', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.049799 (seconds)
+- API success (status and response are correct).
+- Response time: 0.049799
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_POKER', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.059373 (seconds)
+- API success (status and response are correct).
+- Response time: 0.059373
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CQ9_SLOT', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.041282 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041282
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'CR_SPORT', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.047652 (seconds)
+- API success (status and response are correct).
+- Response time: 0.047652
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'DL_LOTTERY', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.040343 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040343
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'FP_FISH', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.049424 (seconds)
+- API success (status and response are correct).
+- Response time: 0.049424
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'FP_SLOT', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.046685 (seconds)
+- API success (status and response are correct).
+- Response time: 0.046685
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_FISH', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.040125 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040125
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_POKER', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.03823 (seconds)
+- API success (status and response are correct).
+- Response time: 0.03823
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'JDB_SLOT', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.041141 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041141
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'KA_SLOT', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.039665 (seconds)
+- API success (status and response are correct).
+- Response time: 0.039665
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'KY_POKER', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.051459 (seconds)
+- API success (status and response are correct).
+- Response time: 0.051459
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'MG_LIVED', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.052319 (seconds)
+- API success (status and response are correct).
+- Response time: 0.052319
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'providerId': 'MG_SLOT', 'status': '1', 'offGames': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.049085 (seconds)
+- API success (status and response are correct).
+- Response time: 0.049085
+- - -
+# Test Result: PASS
+
+End << 08月23日15時45分03秒 [Feature] API POST webPlayer web provider edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1545
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

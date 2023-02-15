@@ -1,0 +1,58 @@
+
+* Run test case: f_KA_Balance.py
+********Test Case: f_KA_Balance.py********
+
+	Start >>03月25日16時43分01秒 [Portal] POST KA balance API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_balance.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = abb9d6cdedbb508efb10ee65fd8773c528b258bc08a942cfbc594ef24f8a4693
+
+		- api_params: {'hash': 'abb9d6cdedbb508efb10ee65fd8773c528b258bc08a942cfbc594ef24f8a4693'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/balance
+
+		- api params: {'hash': 'abb9d6cdedbb508efb10ee65fd8773c528b258bc08a942cfbc594ef24f8a4693'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503381000, "currency": "CNY", "operatorName": "OTG", "action": "balance", "transactionId": "49886353ff304aaca16731c9fc22e98b", "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d48cea93fc488efc81c44755d1b805c781553503380 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.262014 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時43分01秒 [Portal] POST KA balance API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

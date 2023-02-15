@@ -1,0 +1,77 @@
+
+* Run test case: rg_Api_admin_org_dept_list.py
+********Test Case: rg_Api_admin_org_dept_list.py********
+
+	Start >>07月22日15時58分08秒 [Feature] API POST org. dept. list
+
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/list
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.010758 (seconds)
+
+		- api response: 
+[{"og_name": "推广部门", "og_sid": "2e6b2b0c78fa2549b3836d7b6099857f"}, {"og_name": "BD部门", "og_sid": "8aff10c24b8a0fe2504d37a8851023e2"}, {"og_name": "QAdept1", "og_sid": "a9bafa0b40a1f9b038ff496891759a90"}, {"og_name": "会计部门", "og_sid": "b8a91b4c5b745c3b21273cd3f4db3d32"}, {"og_name": "管理部門", "og_sid": "bossSid"}, {"og_name": "客服部门", "og_sid": "c566ebabc422b191ac6dc27ca806ee02"}]
+
+		Response data: [{"og_name": "推广部门", "og_sid": "2e6b2b0c78fa2549b3836d7b6099857f"}, {"og_name": "BD部门", "og_sid": "8aff10c24b8a0fe2504d37a8851023e2"}, {"og_name": "QAdept1", "og_sid": "a9bafa0b40a1f9b038ff496891759a90"}, {"og_name": "会计部门", "og_sid": "b8a91b4c5b745c3b21273cd3f4db3d32"}, {"og_name": "管理部門", "og_sid": "bossSid"}, {"og_name": "客服部门", "og_sid": "c566ebabc422b191ac6dc27ca806ee02"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.010758
+
+		- Success get depName: QAdept1
+
+		- Success get depId: a9bafa0b40a1f9b038ff496891759a90
+
+		- - -
+
+['PASS']
+['PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時58分08秒 [Feature] API POST org. dept. list
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時58分08秒 [Feature] API POST org. dept. list
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/list
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.010758 (seconds)
+- api response: 
+[{"og_name": "推广部门", "og_sid": "2e6b2b0c78fa2549b3836d7b6099857f"}, {"og_name": "BD部门", "og_sid": "8aff10c24b8a0fe2504d37a8851023e2"}, {"og_name": "QAdept1", "og_sid": "a9bafa0b40a1f9b038ff496891759a90"}, {"og_name": "会计部门", "og_sid": "b8a91b4c5b745c3b21273cd3f4db3d32"}, {"og_name": "管理部門", "og_sid": "bossSid"}, {"og_name": "客服部门", "og_sid": "c566ebabc422b191ac6dc27ca806ee02"}]
+- API success (status and response are correct).
+- Response time: 0.010758
+- Success get depName: QAdept1
+- Success get depId: a9bafa0b40a1f9b038ff496891759a90
+- - -
+# Test Result: PASS
+
+End << 07月22日15時58分08秒 [Feature] API POST org. dept. list
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1558
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

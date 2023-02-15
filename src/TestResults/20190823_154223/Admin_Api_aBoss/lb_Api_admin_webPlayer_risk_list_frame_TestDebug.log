@@ -1,0 +1,110 @@
+
+* Run test case: lb_Api_admin_webPlayer_risk_list_frame.py
+********Test Case: lb_Api_admin_webPlayer_risk_list_frame.py********
+
+	Start >>08月23日15時46分58秒 [Feature] API POST webPlayer risk list frame
+
+		New ini value is: API.type = all
+		New ini value is: API.ptid = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.page = 
+		New ini value is: API.ln = 
+		New ini value is: API.api_path = api/webPlayer/risk/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/list/frame
+
+		- api params: {'type': 'all', 'ptid': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'ln': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.033097 (seconds)
+
+		Response data: <li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   1
+  </div>
+  <div class="box-40" id="3f701406a44256514ceb0d807994007b">
+   QArisk
+  </div>
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-10 txt-c">
+   <div class="status-tag tag-open">
+    监控中
+   </div>
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="活动资讯" class="js-link-view" href="web_monitor_data.html?riskid=3f701406a44256514ceb0d807994007b" title="活动资讯">
+   <i class="fas fa-info-circle">
+   </i>
+  </a>
+  <a alt="停止" class="del js-enable" title="停止" value="0">
+   <i class="fas fa-ban">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.033097
+
+		- Success get riskName: QArisk
+
+		- Success get riskId: 3f701406a44256514ceb0d807994007b
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.riskid = 3f701406a44256514ceb0d807994007b
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.type = 
+		New ini value is: API.ptid = 
+		New ini value is: API.page = 
+		New ini value is: API.ln = 
+	<< End Tear Down
+
+
+	End << 08月23日15時46分58秒 [Feature] API POST webPlayer risk list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時46分58秒 [Feature] API POST webPlayer risk list frame
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/list/frame
+- api params: {'type': 'all', 'ptid': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'ln': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.033097 (seconds)
+- API success (status and response are correct).
+- Response time: 0.033097
+- Success get riskName: QArisk
+- Success get riskId: 3f701406a44256514ceb0d807994007b
+- - -
+# Test Result: PASS
+
+End << 08月23日15時46分58秒 [Feature] API POST webPlayer risk list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1546
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,816 @@
+
+* Run test case: jh_Api_admin_webPlayer_promo_list_frame.py
+********Test Case: jh_Api_admin_webPlayer_promo_list_frame.py********
+
+	Start >>08月23日09時36分11秒 [Feature] API POST webPlayer promo list frame
+
+		New ini value is: API.bankerId = 619da70cf372717e11eff31f1d619ef9
+		New ini value is: API.webId = eefe247755b8b16c33e8730e9e168211
+		New ini value is: API.type = all
+		New ini value is: API.promoType = 1
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+
+		- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.048391 (seconds)
+
+		Response data: <div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span id="dataNum">
+  1
+ </span>
+ <b class="lang23">
+  项活动
+ </b>
+ <a class="btn btn-orange" href="web_event_mount_add.html">
+  <i class="far fa-plus">
+  </i>
+  <b class="lang1038">
+   新增活动设定
+  </b>
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    <b class="lang744">
+     項目
+    </b>
+   </div>
+   <div class="box-18">
+    <b class="lang195">
+     名称
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang511">
+     类型
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang817">
+     状态
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang1034">
+     庄家
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang962">
+     网站
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang244">
+     层级
+    </b>
+   </div>
+   <div class="box-20">
+    <b class="lang1055">
+     活动区间
+    </b>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    1
+   </div>
+   <div class="box-18">
+    QApromo
+   </div>
+   <div class="box-5">
+    一般
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-blue">
+     未开始
+    </div>
+   </div>
+   <div class="box-10">
+    QAbanker11
+   </div>
+   <div class="box-5" id="eefe247755b8b16c33e8730e9e168211">
+    QAweb11
+   </div>
+   <div class="box-10 txt-c layer">
+    <span>
+     1
+    </span>
+    <div class="layer-bubble">
+     <p>
+      QAvip11
+     </p>
+    </div>
+   </div>
+   <div class="box-20">
+    2019-08-24~2019-08-25
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_event_mount_edit.html?promoId=126" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="删除" class="del js-get-status" id="126" title="删除" value="2">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.048391
+
+		Success get promoName: QApromo
+
+		Success get promoId: 126
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 2
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+
+		- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.043708 (seconds)
+
+		Response data: <div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span id="dataNum">
+  1
+ </span>
+ <b class="lang23">
+  项活动
+ </b>
+ <a class="btn btn-orange" href="web_event_mount_add.html">
+  <i class="far fa-plus">
+  </i>
+  <b class="lang1038">
+   新增活动设定
+  </b>
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    <b class="lang744">
+     項目
+    </b>
+   </div>
+   <div class="box-18">
+    <b class="lang195">
+     名称
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang511">
+     类型
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang817">
+     状态
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang1034">
+     庄家
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang962">
+     网站
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang244">
+     层级
+    </b>
+   </div>
+   <div class="box-20">
+    <b class="lang1055">
+     活动区间
+    </b>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    1
+   </div>
+   <div class="box-18">
+    QApromo生日
+   </div>
+   <div class="box-5">
+    生日礼金
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-blue">
+     未开始
+    </div>
+   </div>
+   <div class="box-10">
+    QAbanker11
+   </div>
+   <div class="box-5" id="eefe247755b8b16c33e8730e9e168211">
+    QAweb11
+   </div>
+   <div class="box-10 txt-c layer">
+    <span>
+     1
+    </span>
+    <div class="layer-bubble">
+     <p>
+      QAvip11
+     </p>
+    </div>
+   </div>
+   <div class="box-20">
+    2019-08-24~2019-08-25
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_event_mount_edit.html?promoId=127" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="删除" class="del js-get-status" id="127" title="删除" value="2">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.043708
+
+		Success get promoName: QApromo生日
+
+		Success get promoId: 127
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 3
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+
+		- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '3'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.03487 (seconds)
+
+		Response data: <div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span id="dataNum">
+  1
+ </span>
+ <b class="lang23">
+  项活动
+ </b>
+ <a class="btn btn-orange" href="web_event_mount_add.html">
+  <i class="far fa-plus">
+  </i>
+  <b class="lang1038">
+   新增活动设定
+  </b>
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    <b class="lang744">
+     項目
+    </b>
+   </div>
+   <div class="box-18">
+    <b class="lang195">
+     名称
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang511">
+     类型
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang817">
+     状态
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang1034">
+     庄家
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang962">
+     网站
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang244">
+     层级
+    </b>
+   </div>
+   <div class="box-20">
+    <b class="lang1055">
+     活动区间
+    </b>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    1
+   </div>
+   <div class="box-18">
+    QApromo救援
+   </div>
+   <div class="box-5">
+    救援金
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-blue">
+     未开始
+    </div>
+   </div>
+   <div class="box-10">
+    QAbanker11
+   </div>
+   <div class="box-5" id="eefe247755b8b16c33e8730e9e168211">
+    QAweb11
+   </div>
+   <div class="box-10 txt-c layer">
+    <span>
+     1
+    </span>
+    <div class="layer-bubble">
+     <p>
+      QAvip11
+     </p>
+    </div>
+   </div>
+   <div class="box-20">
+    2019-08-24~2019-08-25
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_event_mount_edit.html?promoId=128" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="删除" class="del js-get-status" id="128" title="删除" value="2">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.03487
+
+		Success get promoName: QApromo救援
+
+		Success get promoId: 128
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 4
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+
+		- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '4'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.043931 (seconds)
+
+		Response data: <div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span id="dataNum">
+  1
+ </span>
+ <b class="lang23">
+  项活动
+ </b>
+ <a class="btn btn-orange" href="web_event_mount_add.html">
+  <i class="far fa-plus">
+  </i>
+  <b class="lang1038">
+   新增活动设定
+  </b>
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    <b class="lang744">
+     項目
+    </b>
+   </div>
+   <div class="box-18">
+    <b class="lang195">
+     名称
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang511">
+     类型
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang817">
+     状态
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang1034">
+     庄家
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang962">
+     网站
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang244">
+     层级
+    </b>
+   </div>
+   <div class="box-20">
+    <b class="lang1055">
+     活动区间
+    </b>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    1
+   </div>
+   <div class="box-18">
+    QApromo好友
+   </div>
+   <div class="box-5">
+    好友礼金
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-blue">
+     未开始
+    </div>
+   </div>
+   <div class="box-10">
+    QAbanker11
+   </div>
+   <div class="box-5" id="eefe247755b8b16c33e8730e9e168211">
+    QAweb11
+   </div>
+   <div class="box-10 txt-c layer">
+    <span>
+     1
+    </span>
+    <div class="layer-bubble">
+     <p>
+      QAvip11
+     </p>
+    </div>
+   </div>
+   <div class="box-20">
+    2019-08-24~2019-08-25
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_event_mount_edit.html?promoId=129" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="删除" class="del js-get-status" id="129" title="删除" value="2">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.043931
+
+		Success get promoName: QApromo好友
+
+		Success get promoId: 129
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 5
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+
+		- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '5'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.044384 (seconds)
+
+		Response data: <div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span id="dataNum">
+  1
+ </span>
+ <b class="lang23">
+  项活动
+ </b>
+ <a class="btn btn-orange" href="web_event_mount_add.html">
+  <i class="far fa-plus">
+  </i>
+  <b class="lang1038">
+   新增活动设定
+  </b>
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    <b class="lang744">
+     項目
+    </b>
+   </div>
+   <div class="box-18">
+    <b class="lang195">
+     名称
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang511">
+     类型
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang817">
+     状态
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang1034">
+     庄家
+    </b>
+   </div>
+   <div class="box-5">
+    <b class="lang962">
+     网站
+    </b>
+   </div>
+   <div class="box-10 txt-c">
+    <b class="lang244">
+     层级
+    </b>
+   </div>
+   <div class="box-20">
+    <b class="lang1055">
+     活动区间
+    </b>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    1
+   </div>
+   <div class="box-18">
+    QApromo簽到
+   </div>
+   <div class="box-5">
+    签到礼金
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-blue">
+     未开始
+    </div>
+   </div>
+   <div class="box-10">
+    QAbanker11
+   </div>
+   <div class="box-5" id="eefe247755b8b16c33e8730e9e168211">
+    QAweb11
+   </div>
+   <div class="box-10 txt-c layer">
+    <span>
+     1
+    </span>
+    <div class="layer-bubble">
+     <p>
+      QAvip11
+     </p>
+    </div>
+   </div>
+   <div class="box-20">
+    2019-08-24~2019-08-25
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_event_mount_edit.html?promoId=130" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="删除" class="del js-get-status" id="130" title="删除" value="2">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.044384
+
+		Success get promoName: QApromo簽到
+
+		Success get promoId: 130
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoId = 126
+		New ini value is: API.promoId2 = 127
+		New ini value is: API.promoId3 = 128
+		New ini value is: API.promoId4 = 129
+		New ini value is: API.promoId5 = 130
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.webId = 
+		New ini value is: API.type = 
+		New ini value is: API.page = 
+		New ini value is: API.promoType = 
+	<< End Tear Down
+
+
+	End << 08月23日09時36分12秒 [Feature] API POST webPlayer promo list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時36分11秒 [Feature] API POST webPlayer promo list frame
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.048391 (seconds)
+- API success (status and response are correct).
+- Response time: 0.048391
+Success get promoName: QApromo
+Success get promoId: 126
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '2'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.043708 (seconds)
+- API success (status and response are correct).
+- Response time: 0.043708
+Success get promoName: QApromo生日
+Success get promoId: 127
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '3'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.03487 (seconds)
+- API success (status and response are correct).
+- Response time: 0.03487
+Success get promoName: QApromo救援
+Success get promoId: 128
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '4'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.043931 (seconds)
+- API success (status and response are correct).
+- Response time: 0.043931
+Success get promoName: QApromo好友
+Success get promoId: 129
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame
+- api params: {'type': 'all', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': '', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'promoType': '5'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.044384 (seconds)
+- API success (status and response are correct).
+- Response time: 0.044384
+Success get promoName: QApromo簽到
+Success get promoId: 130
+- - -
+# Test Result: PASS
+
+End << 08月23日09時36分12秒 [Feature] API POST webPlayer promo list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0936
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

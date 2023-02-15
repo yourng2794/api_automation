@@ -1,0 +1,146 @@
+
+* Run test case: mh_Api_admin_provider_payment_bank_link_edit.py
+********Test Case: mh_Api_admin_provider_payment_bank_link_edit.py********
+
+	Start >>04月17日18時44分42秒 [Feature] API POST provider payment bank link edit
+
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.currency = CNY
+		New ini value is: API.option = 1
+
+		- api_params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'currency': 'CNY', 'option': '1'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/get
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'currency': 'CNY', 'option': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=Nj4rtMe0HGX4EsKXBuNjx23L1q6ui2wLrqSYRWdL for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.442741 (seconds)
+
+		Response data: 
+{
+    "QAbank1": "0",
+    "QAbank16": "0"
+}
+
+		- Success get (bankName, value): QAbank16, 0
+
+		---
+
+		---
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_payment_bank_link_edit.json
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/link/edit
+
+		- api params: {}
+
+		- api data: {"bankerId": "835bd15c55ec6df3fe054f3aed828e41", "paymentId": "6583ffebabe59b03947d7ea960907a93", "withdraw": {"CNY": {"0": "QAbank1"}}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=K3VjwhGbq4wTkZOd6SlMpeEkQurncCdjfMN82Dem for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.36809 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.36809
+
+		---
+
+		---
+
+		- api_params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'currency': 'CNY', 'option': '1'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/get
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'currency': 'CNY', 'option': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=SgRie9s0mjoB44A5O8wFqE5NIjJ1j9aLMC5WoY7u for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.226671 (seconds)
+
+		Response data: 
+{
+    "QAbank1": "1",
+    "QAbank16": "0"
+}
+
+		- Fail get (bankName, value)
+
+		---
+
+		---
+<< Fail, End replaceJSONValue: {'0': 'QAbank1'}
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_payment_bank_link_edit.json
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/link/edit
+
+		- api params: {}
+
+		- api data: {"bankerId": "835bd15c55ec6df3fe054f3aed828e41", "paymentId": "6583ffebabe59b03947d7ea960907a93", "withdraw": {"CNY": {"0": "QAbank1"}}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=9dKpPNSpvaRaQl0WsLSHcwPS7xgVbZrSaqRJE8mB for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.154817 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.154817
+
+		---
+
+		---
+['PASS', 'PASS', 'FAIL', 'PASS']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時44分43秒 [Feature] API POST provider payment bank link edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

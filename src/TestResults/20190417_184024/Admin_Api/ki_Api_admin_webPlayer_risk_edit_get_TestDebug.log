@@ -1,0 +1,98 @@
+
+* Run test case: ki_Api_admin_webPlayer_risk_edit_get.py
+********Test Case: ki_Api_admin_webPlayer_risk_edit_get.py********
+
+	Start >>04月17日18時43分53秒 [Feature] API POST webPlayer risk edit get
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.riskid = 56affa5ebc9033d66958ebc5d7d0174e
+
+		- api_params: {'riskid': '56affa5ebc9033d66958ebc5d7d0174e', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/risk/edit/get
+
+		- api params: {'riskid': '56affa5ebc9033d66958ebc5d7d0174e', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=Ciooc9AbEKKhUDtTQpBNsEbQ3quj0FPN7VvHhjPU for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.462039 (seconds)
+
+		Response data: 
+{
+    "id": "56affa5ebc9033d66958ebc5d7d0174e",
+    "name": "QArisk",
+    "opt": [
+        {
+            "amount": null,
+            "count": "1",
+            "interval": "1",
+            "name": "单一IP登入",
+            "time": "min",
+            "type": "ipLogin"
+        }
+    ],
+    "website": [
+        {
+            "pt_acc": "Bonnie",
+            "pt_id": "123456",
+            "use_status": 1,
+            "web_code": null,
+            "web_createtime": "2019-04-17 10:41:07",
+            "web_id": "cc337abf81b4328ad33c1bf0e957ca4c",
+            "web_modifytime": "2019-04-17 10:41:07",
+            "web_name": "Testweb16",
+            "web_state": 2
+        }
+    ]
+}
+>> Start isInt
+<< Success, End isInt
+>> Start isInt
+<< Success, End isInt
+>> Start isInt
+<< Success, End isInt
+>> Start isInt
+<< Success, End isInt
+
+		- Success get riskid: 56affa5ebc9033d66958ebc5d7d0174e
+
+		- Success get riskname: QArisk
+
+		- Success get opt_name: 单一IP登入
+
+		- Success get opt_count: 1
+
+		- Success get opt_interval: 1
+
+		- Success get opt_time: min
+
+		- Success get opt_type: ipLogin
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時43分54秒 [Feature] API POST webPlayer risk edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,95 @@
+
+* Run test case: jg_Api_admin_webPlayer_promo_edit_get.py
+********Test Case: jg_Api_admin_webPlayer_promo_edit_get.py********
+
+	Start >>04月19日18時37分08秒 [Feature] API POST webPlayer promo edit get
+
+		New ini value is: API.ptId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.promoId = ad676be91ab834b540d14d01963b5415
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/edit/get
+
+		- api params: {'promoid': 'ad676be91ab834b540d14d01963b5415', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.465036 (seconds)
+
+		Response data: 
+{
+    "condition": [
+        {
+            "name": "会员登入"
+        }
+    ],
+    "etime": "2019-04-20 18:36:54",
+    "game": {
+        "list": [],
+        "name": "单一产品投注金额"
+    },
+    "id": "ad676be91ab834b540d14d01963b5415",
+    "name": "QApromo",
+    "reward": [
+        {
+            "amount": 1,
+            "name": "返水"
+        },
+        {
+            "amount": null,
+            "name": "现金奖励"
+        }
+    ],
+    "stime": "2019-04-18 18:36:54",
+    "type": "edit",
+    "website": [
+        {
+            "web_id": "0b82165981316ecf67ad30a5887aa1e9",
+            "web_name": "Testweb19"
+        }
+    ]
+}
+
+		- Success compare condition_reg: 0
+
+		- Success compare condition_login: 1
+
+		- Success compare condition_trunover: ""
+
+		- Fail compare reward_rio: 1
+
+		- Success compare reward_cash: null
+>> Start isInt
+<< Success, End isInt
+>> Start isInt
+<< Success, End isInt
+
+		- Success compare (webId, webName): (0b82165981316ecf67ad30a5887aa1e9 ,Testweb19)
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'Fail', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時37分09秒 [Feature] API POST webPlayer promo edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,57 @@
+
+* Run test case: cb_Api_admin_web_domain_create.py
+********Test Case: cb_Api_admin_web_domain_create.py********
+
+	Start >>04月17日18時40分46秒 [Feature] API POST web domain create
+
+		New ini value is: API.webDomain[] = 10.10.10.229
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'webDomain[]': '10.10.10.229', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/domain/create
+
+		- api params: {'webDomain[]': '10.10.10.229', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=qXyedOm2x8KHLeYmcqUK9L1iJ9Y7gZSv51HxJsjv for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.44069 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.44069
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時40分47秒 [Feature] API POST web domain create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

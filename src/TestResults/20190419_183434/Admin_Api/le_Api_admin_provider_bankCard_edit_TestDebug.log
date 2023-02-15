@@ -1,0 +1,59 @@
+
+* Run test case: le_Api_admin_provider_bankCard_edit.py
+********Test Case: le_Api_admin_provider_bankCard_edit.py********
+
+	Start >>04月19日18時38分28秒 [Feature] API POST provider bankCard edit
+
+		New ini value is: API.bankName = QAbank19
+		New ini value is: API.branchName = Branch19
+		New ini value is: API.bankAcc = 00000000123461
+		New ini value is: API.accName = QA6
+		New ini value is: API.cardId = 13306150968120ad6125838e2a6f4b81
+		New ini value is: API.currency = CNY
+
+		- api url: http://admtest.o2ogt.com/api/provider/bankCard/edit
+
+		- api params: {'cardId': '13306150968120ad6125838e2a6f4b81', 'bankName': 'QAbank19', 'branchName': 'Branch19', 'bankAcc': '00000000123461', 'accName': 'QA6', 'currency': 'CNY', 'amount': '5000', 'maxwithdraw': '3000', 'maxdeposit': '1000', 'mindeposit': '100', 'option': '3', 'enable': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.192196 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/BankCardController.php",
+    "Error_code": "E03",
+    "Error_line": 239,
+    "Error_message": "Duplicate"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時38分28秒 [Feature] API POST provider bankCard edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,91 @@
+
+* Run test case: th_Api_admin_org_employee_list_desc_frame_m.py
+********Test Case: th_Api_admin_org_employee_list_desc_frame_m.py********
+
+	Start >>08月23日09時40分02秒 [Feature] API POST org. employee list desc. frame m
+
+		New ini value is: API.depId = ce7e87808db3b345cc752ef0490eed63
+		New ini value is: API.titleId = 6314dc7d820ba20c934919b15159ae2b
+		New ini value is: API.userAcc = QAemployee11
+		New ini value is: API.api_path = api/organization/department/jobtitle/employee/list/description/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/description/frame/m
+
+		- api params: {'depId': 'ce7e87808db3b345cc752ef0490eed63', 'titleId': '6314dc7d820ba20c934919b15159ae2b', 'userAcc': 'QAemployee11'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.03895 (seconds)
+
+		Response data: <li>
+ <a class="group-box-85">
+  <div class="box-40">
+   QAemployee11
+  </div>
+  <div class="box-55">
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="3959efe489f437877bc9389a55569060" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.03895
+
+		- Success get userId: 3959efe489f437877bc9389a55569060
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.depId = 
+		New ini value is: API.titleId = 
+		New ini value is: API.userAcc = 
+	<< End Tear Down
+
+
+	End << 08月23日09時40分02秒 [Feature] API POST org. employee list desc. frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時40分02秒 [Feature] API POST org. employee list desc. frame m
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/description/frame/m
+- api params: {'depId': 'ce7e87808db3b345cc752ef0490eed63', 'titleId': '6314dc7d820ba20c934919b15159ae2b', 'userAcc': 'QAemployee11'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.03895 (seconds)
+- API success (status and response are correct).
+- Response time: 0.03895
+- Success get userId: 3959efe489f437877bc9389a55569060
+- - -
+# Test Result: PASS
+
+End << 08月23日09時40分02秒 [Feature] API POST org. employee list desc. frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0940
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

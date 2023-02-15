@@ -1,0 +1,93 @@
+
+* Run test case: ti_Api_admin_org_employee_edit.py
+********Test Case: ti_Api_admin_org_employee_edit.py********
+
+	Start >>07月22日15時58分51秒 [Feature] API POST org. employee edit
+
+		New ini value is: API.userId = 75e4d30a7502b99495ebf32e53a29ea5
+		New ini value is: API.userAcc = 
+		New ini value is: API.userPwd = 
+		New ini value is: API.depId = 
+		New ini value is: API.titleId = 
+		New ini value is: API.website[] = 
+		New ini value is: API.userNote = After Edit
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/edit
+
+		- api params: {'userId': '75e4d30a7502b99495ebf32e53a29ea5', 'userAcc': '', 'userPwd': '', 'depId': '', 'titleId': '', 'userNote': 'After Edit', 'website[]': ['']}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.031421 (seconds)
+
+		- api response: 
+{
+    "code": "S01",
+    "msg": "Success"
+}
+
+		Response data: {
+    "code": "S01",
+    "msg": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.031421
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.userId = 
+		New ini value is: API.userAcc = 
+		New ini value is: API.userPwd = 
+		New ini value is: API.depId = 
+		New ini value is: API.titleId = 
+		New ini value is: API.website[] = 
+		New ini value is: API.userNote = 
+	<< End Tear Down
+
+
+	End << 07月22日15時58分51秒 [Feature] API POST org. employee edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時58分51秒 [Feature] API POST org. employee edit
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/edit
+- api params: {'userId': '75e4d30a7502b99495ebf32e53a29ea5', 'userAcc': '', 'userPwd': '', 'depId': '', 'titleId': '', 'userNote': 'After Edit', 'website[]': ['']}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.031421 (seconds)
+- api response: 
+{
+    "code": "S01",
+    "msg": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.031421
+- - -
+# Test Result: PASS
+
+End << 07月22日15時58分51秒 [Feature] API POST org. employee edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1558
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,277 @@
+
+* Run test case: of_Api_admin_provider_payOption_edit_get_layer_frame.py
+********Test Case: of_Api_admin_provider_payOption_edit_get_layer_frame.py********
+
+	Start >>07月22日15時57分26秒 [Feature] API POST provider payOption edit get layer frame
+
+		New ini value is: API.webId = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.api_path = api/provider/payOption/edit/get/layer/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/layer/frame
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.014694 (seconds)
+
+		- api response: 
+<div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span id="dataNum">
+  1
+ </span>
+ <b class="lang21">
+  个层级
+ </b>
+</div>
+<ul class="list sort-tit">
+ <li class="title">
+  <div class="list-group-100">
+   <div class="box-8 txt-c">
+    <b class="lang753">
+     项目
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang553">
+     网站
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang244">
+     层级
+    </b>
+   </div>
+   <div class="box-20">
+    <b class="lang353">
+     支付类型
+    </b>
+   </div>
+  </div>
+ </li>
+</ul>
+<ul class="list">
+ <li>
+  <div alt="編輯" class="list-group-100" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10">
+    QAweb1
+   </div>
+   <div class="box-10">
+    QAvip1
+   </div>
+   <div class="box-20">
+    <select class="sel-sty list-sel-w j-payType" id="b01bf316216d1aa054c9df0aea873425" name="eventType">
+     <option selected="" value="non">
+      请选择支付组合
+     </option>
+    </select>
+   </div>
+  </div>
+ </li>
+</ul>
+<div class="btn-area">
+ <div class="btn btn-submit">
+  <i class="fas fa-check">
+  </i>
+  <b class="lang221">
+  </b>
+  <input id="submit" type="button"/>
+ </div>
+</div>
+
+
+		Response data: <div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span id="dataNum">
+  1
+ </span>
+ <b class="lang21">
+  个层级
+ </b>
+</div>
+<ul class="list sort-tit">
+ <li class="title">
+  <div class="list-group-100">
+   <div class="box-8 txt-c">
+    <b class="lang753">
+     项目
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang553">
+     网站
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang244">
+     层级
+    </b>
+   </div>
+   <div class="box-20">
+    <b class="lang353">
+     支付类型
+    </b>
+   </div>
+  </div>
+ </li>
+</ul>
+<ul class="list">
+ <li>
+  <div alt="編輯" class="list-group-100" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10">
+    QAweb1
+   </div>
+   <div class="box-10">
+    QAvip1
+   </div>
+   <div class="box-20">
+    <select class="sel-sty list-sel-w j-payType" id="b01bf316216d1aa054c9df0aea873425" name="eventType">
+     <option selected="" value="non">
+      请选择支付组合
+     </option>
+    </select>
+   </div>
+  </div>
+ </li>
+</ul>
+<div class="btn-area">
+ <div class="btn btn-submit">
+  <i class="fas fa-check">
+  </i>
+  <b class="lang221">
+  </b>
+  <input id="submit" type="button"/>
+ </div>
+</div>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.014694
+
+		- - -
+
+['PASS']
+['FAIL']
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時57分27秒 [Feature] API POST provider payOption edit get layer frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時57分26秒 [Feature] API POST provider payOption edit get layer frame
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/layer/frame
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.014694 (seconds)
+- api response: 
+<div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span id="dataNum">
+  1
+ </span>
+ <b class="lang21">
+  个层级
+ </b>
+</div>
+<ul class="list sort-tit">
+ <li class="title">
+  <div class="list-group-100">
+   <div class="box-8 txt-c">
+    <b class="lang753">
+     项目
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang553">
+     网站
+    </b>
+   </div>
+   <div class="box-10">
+    <b class="lang244">
+     层级
+    </b>
+   </div>
+   <div class="box-20">
+    <b class="lang353">
+     支付类型
+    </b>
+   </div>
+  </div>
+ </li>
+</ul>
+<ul class="list">
+ <li>
+  <div alt="編輯" class="list-group-100" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10">
+    QAweb1
+   </div>
+   <div class="box-10">
+    QAvip1
+   </div>
+   <div class="box-20">
+    <select class="sel-sty list-sel-w j-payType" id="b01bf316216d1aa054c9df0aea873425" name="eventType">
+     <option selected="" value="non">
+      请选择支付组合
+     </option>
+    </select>
+   </div>
+  </div>
+ </li>
+</ul>
+<div class="btn-area">
+ <div class="btn btn-submit">
+  <i class="fas fa-check">
+  </i>
+  <b class="lang221">
+  </b>
+  <input id="submit" type="button"/>
+ </div>
+</div>
+
+- API success (status and response are correct).
+- Response time: 0.014694
+- - -
+# Test Result: FAIL
+
+End << 07月22日15時57分27秒 [Feature] API POST provider payOption edit get layer frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1557
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,74 @@
+
+* Run test case: jb4_Api_admin_webPlayer_promo_type_create_friend.py
+********Test Case: jb4_Api_admin_webPlayer_promo_type_create_friend.py********
+
+	Start >>08月23日09時35分44秒 [Feature] API POST webPlayer promo type create
+
+		New ini value is: API.promoTypeName4 = QA好友範本11
+		New ini value is: API.promoName = QA好友範本11
+		New ini value is: API.bankerId = 619da70cf372717e11eff31f1d619ef9
+		New ini value is: API.promoType = 4
+		New ini value is: API.promoAudit = 10.00
+		New ini value is: API.condition = [{"countNumbers":10,"countDepositAmount":100,"receiveAmount":10}]
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/create
+
+		- api params: {'promoName': 'QA好友範本11', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'condition': '[{"countNumbers":10,"countDepositAmount":100,"receiveAmount":10}]', 'promoAudit': '10.00', 'promoType': '4'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.048974 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.048974
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時35分44秒 [Feature] API POST webPlayer promo type create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時35分44秒 [Feature] API POST webPlayer promo type create
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/create
+- api params: {'promoName': 'QA好友範本11', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'condition': '[{"countNumbers":10,"countDepositAmount":100,"receiveAmount":10}]', 'promoAudit': '10.00', 'promoType': '4'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.048974 (seconds)
+- API success (status and response are correct).
+- Response time: 0.048974
+- - -
+# Test Result: PASS
+
+End << 08月23日09時35分44秒 [Feature] API POST webPlayer promo type create
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0935
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

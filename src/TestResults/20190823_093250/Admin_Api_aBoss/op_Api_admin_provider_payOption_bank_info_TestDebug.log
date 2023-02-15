@@ -1,0 +1,75 @@
+
+* Run test case: op_Api_admin_provider_payOption_bank_info.py
+********Test Case: op_Api_admin_provider_payOption_bank_info.py********
+
+	Start >>08月23日09時38分57秒 [Feature] API POST provider payOption bank info
+
+		New ini value is: API.payOptionId = 8b4dfc4c17c8e02e2b922d5c878d3be2
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/bank/info
+
+		- api params: {'payOptionId': '8b4dfc4c17c8e02e2b922d5c878d3be2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.043479 (seconds)
+
+		Response data: {
+    "currency": [
+        "CNY"
+    ],
+    "payoption_id": "8b4dfc4c17c8e02e2b922d5c878d3be2",
+    "payoption_name": "QApay4"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.043479
+
+		- Fail get payoption (name, id): (QApay4, 8b4dfc4c17c8e02e2b922d5c878d3be2) != (QApay11, 8b4dfc4c17c8e02e2b922d5c878d3be2)
+
+		- - -
+
+['FAIL']
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時38分57秒 [Feature] API POST provider payOption bank info
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時38分57秒 [Feature] API POST provider payOption bank info
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/bank/info
+- api params: {'payOptionId': '8b4dfc4c17c8e02e2b922d5c878d3be2'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.043479 (seconds)
+- API success (status and response are correct).
+- Response time: 0.043479
+- Fail get payoption (name, id): (QApay4, 8b4dfc4c17c8e02e2b922d5c878d3be2) != (QApay11, 8b4dfc4c17c8e02e2b922d5c878d3be2)
+- - -
+# Test Result: FAIL
+
+End << 08月23日09時38分57秒 [Feature] API POST provider payOption bank info
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0938
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

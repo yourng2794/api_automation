@@ -1,0 +1,113 @@
+
+* Run test case: lg_Api_admin_webPlayer_risk_web_frame.py
+********Test Case: lg_Api_admin_webPlayer_risk_web_frame.py********
+
+	Start >>08月23日09時37分39秒 [Feature] API POST webPlayer risk web frame
+
+		New ini value is: API.ptid = 619da70cf372717e11eff31f1d619ef9
+		New ini value is: API.riskid = e79e4bd7d8b608c3b4e68bbc5f50c4d0
+		New ini value is: API.api_path = api/webPlayer/risk/web/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/web/frame
+
+		- api params: {'riskid': 'e79e4bd7d8b608c3b4e68bbc5f50c4d0', 'ptid': '619da70cf372717e11eff31f1d619ef9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.043185 (seconds)
+
+		Response data: <section>
+ <h4 class="fal">
+  挂载网站
+ </h4>
+ <div class="ckeck-item-unit">
+  <div class="ckeck-item ckeck-all j-c-all">
+   <label for="websiteAll">
+   </label>
+   <input class="required" id="websiteAll" name="website" type="checkbox" value=""/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    全部网站
+   </span>
+  </div>
+  <div class="check-group j-c-area">
+   <div class="ckeck-item j-c-item">
+    <label for="website1">
+    </label>
+    <input 0="" checked="checked" class="required" id="website1" name="website" type="checkbox" value="eefe247755b8b16c33e8730e9e168211"/>
+    <div class="check-box fas">
+    </div>
+    <span>
+     QAweb11
+    </span>
+   </div>
+  </div>
+ </div>
+ <div class="center-info">
+  共选择
+  <span id="eventWebNum">
+   1
+  </span>
+  个网站
+ </div>
+</section>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.043185
+
+		- Success get webName: QAweb11
+
+		- Success get webId: eefe247755b8b16c33e8730e9e168211
+
+		- - -
+
+['PASS']
+['FAIL', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.ptid = 
+		New ini value is: API.riskid = 
+	<< End Tear Down
+
+
+	End << 08月23日09時37分39秒 [Feature] API POST webPlayer risk web frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時37分39秒 [Feature] API POST webPlayer risk web frame
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/web/frame
+- api params: {'riskid': 'e79e4bd7d8b608c3b4e68bbc5f50c4d0', 'ptid': '619da70cf372717e11eff31f1d619ef9'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.043185 (seconds)
+- API success (status and response are correct).
+- Response time: 0.043185
+- Success get webName: QAweb11
+- Success get webId: eefe247755b8b16c33e8730e9e168211
+- - -
+# Test Result: PASS
+
+End << 08月23日09時37分39秒 [Feature] API POST webPlayer risk web frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0937
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

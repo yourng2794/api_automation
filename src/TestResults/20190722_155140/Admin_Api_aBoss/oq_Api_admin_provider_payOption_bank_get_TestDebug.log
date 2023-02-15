@@ -1,0 +1,151 @@
+
+* Run test case: oq_Api_admin_provider_payOption_bank_get.py
+********Test Case: oq_Api_admin_provider_payOption_bank_get.py********
+
+	Start >>07月22日15時57分47秒 [Feature] API POST provider payOption bank get
+
+		New ini value is: API.payoptionId = aa5730cca1069e082198b894dfbf91b2
+		New ini value is: API.currency = CNY
+		New ini value is: API.payOption = 1
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/bank/get
+
+		- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'currency': 'CNY', 'payOption': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022251 (seconds)
+
+		- api response: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/PayOptionController.php",
+    "Error_code": "S02",
+    "Error_line": 1236,
+    "Error_message": "No Data"
+}
+
+		Response data: {
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/PayOptionController.php",
+    "Error_code": "S02",
+    "Error_line": 1236,
+    "Error_message": "No Data"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.022251
+
+		- Exception: on admin_provider_payOption_bank_get... 'QAbank1-000000001231'
+
+		- - -
+
+['PASS', 'FAIL']
+[]
+		New ini value is: API.payOption = 2
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/bank/get
+
+		- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'currency': 'CNY', 'payOption': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021249 (seconds)
+
+		- api response: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/PayOptionController.php",
+    "Error_code": "S02",
+    "Error_line": 1236,
+    "Error_message": "No Data"
+}
+
+		Response data: {
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/PayOptionController.php",
+    "Error_code": "S02",
+    "Error_line": 1236,
+    "Error_message": "No Data"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021249
+
+		- Exception: on admin_provider_payOption_bank_get... 'QAbank1-000000001231'
+
+		- - -
+
+['PASS', 'FAIL']
+[]
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時57分47秒 [Feature] API POST provider payOption bank get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時57分47秒 [Feature] API POST provider payOption bank get
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/bank/get
+- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'currency': 'CNY', 'payOption': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022251 (seconds)
+- api response: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/PayOptionController.php",
+    "Error_code": "S02",
+    "Error_line": 1236,
+    "Error_message": "No Data"
+}
+- API success (status and response are correct).
+- Response time: 0.022251
+- Exception: on admin_provider_payOption_bank_get... 'QAbank1-000000001231'
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/bank/get
+- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'currency': 'CNY', 'payOption': '2'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021249 (seconds)
+- api response: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/PayOptionController.php",
+    "Error_code": "S02",
+    "Error_line": 1236,
+    "Error_message": "No Data"
+}
+- API success (status and response are correct).
+- Response time: 0.021249
+- Exception: on admin_provider_payOption_bank_get... 'QAbank1-000000001231'
+- - -
+# Test Result: FAIL
+
+End << 07月22日15時57分47秒 [Feature] API POST provider payOption bank get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1557
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

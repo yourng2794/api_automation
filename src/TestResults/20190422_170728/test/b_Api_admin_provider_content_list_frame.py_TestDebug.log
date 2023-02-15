@@ -1,0 +1,94 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190422_170728\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190422_170728\\testresults.xml
+********Test Case: b_Api_admin_provider_content_list_frame.py********
+
+	Start >>04月22日17時07分28秒 [Portal] API POST provider content list frame
+
+
+		- api url: http://admtest.o2ogt.com/api/provider/content/list/frame
+
+		- api params: {'gameType': '', 'status': '1', 'page': '', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=ZZ41lbxsvgPVmwfIfNtSF1wDJ0S6DKi9D6dw9cYb for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 1.393085 (seconds)
+
+		Response data: 
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个游戏类别
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    项目
+   </div>
+   <div class="box-15">
+    游戏类别
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+   <div class="box-8 txt-r">
+    游戏开启
+   </div>
+   <div class="box-8 txt-r">
+    游戏关闭
+   </div>
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15">
+    DL彩票
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-8 txt-r">
+    13
+   </div>
+   <div class="box-8 txt-r">
+    0
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_game_edit.html" id="da4905c41162b9bac319630622865fbd" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月22日17時07分30秒 [Portal] API POST provider content list frame
+	Collect temp results or other files...

@@ -1,0 +1,59 @@
+
+* Run test case: or_Api_admin_provider_payOption_bank_edit.py
+********Test Case: or_Api_admin_provider_payOption_bank_edit.py********
+
+	Start >>07月22日15時57分49秒 [Feature] API POST provider payOption bank edit
+
+		New ini value is: API.payoptionId = aa5730cca1069e082198b894dfbf91b2
+		New ini value is: API.withdraw[] = 
+		New ini value is: API.deposit[] = 
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/bank/edit
+
+		- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'withdraw[]': [''], 'deposit[]': ['']}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		Response data: (X) Exception (ApiResponse): 500 Server Error: Internal Server Error for url: http://tadmapi.o2ogt.com/api/provider/payOption/bank/edit?payOptionId=aa5730cca1069e082198b894dfbf91b2&withdraw%5B%5D=&deposit%5B%5D=
+
+		- API fail (status or response is incorrect).
+
+		- - -
+
+['FAIL']
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時57分50秒 [Feature] API POST provider payOption bank edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時57分49秒 [Feature] API POST provider payOption bank edit
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/bank/edit
+- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'withdraw[]': [''], 'deposit[]': ['']}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- API fail (status or response is incorrect).
+- - -
+# Test Result: FAIL
+
+End << 07月22日15時57分50秒 [Feature] API POST provider payOption bank edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1557
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

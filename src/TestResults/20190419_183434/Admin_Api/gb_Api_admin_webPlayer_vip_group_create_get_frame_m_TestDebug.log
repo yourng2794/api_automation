@@ -1,0 +1,154 @@
+
+* Run test case: gb_Api_admin_webPlayer_vip_group_create_get_frame_m.py
+********Test Case: gb_Api_admin_webPlayer_vip_group_create_get_frame_m.py********
+
+	Start >>04月19日18時35分59秒 [Feature] API POST webPlayer vip group create get frame m
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/vip/group/create/get/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/group/create/get/frame/m
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.617861 (seconds)
+
+		Response data: 
+<li>
+ <a class="group-box-85">
+  <div class="box-90 js-urlId" id="4a5517681805229bef638128a55704df">
+   test
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" title="修改">
+   <i alt="挂载" class="fas fa-arrow-up js-addUrl" title="挂载">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-90 js-urlId" id="5a03c800d507b03990581e1352bf3848">
+   QAvip19
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" title="修改">
+   <i alt="挂载" class="fas fa-arrow-up js-addUrl" title="挂载">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-90 js-urlId" id="65419e06b1640cad71140493308ba0dd">
+   QAvip17
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" title="修改">
+   <i alt="挂载" class="fas fa-arrow-up js-addUrl" title="挂载">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-90 js-urlId" id="b87920a6f659c6960bdd9e54ef638a6e">
+   QAvip12
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" title="修改">
+   <i alt="挂载" class="fas fa-arrow-up js-addUrl" title="挂载">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-90 js-urlId" id="d2dc5f6b8f39213bd01b6448a0312ee1">
+   QAvip13
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" title="修改">
+   <i alt="挂载" class="fas fa-arrow-up js-addUrl" title="挂载">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-90 js-urlId" id="d5a30c3b082db0278007a151dbea43bd">
+   QAvip18
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" title="修改">
+   <i alt="挂载" class="fas fa-arrow-up js-addUrl" title="挂载">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-90 js-urlId" id="eabd32b44e2d2fd68a7adcf7cdf3010c">
+   QAvip14
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" title="修改">
+   <i alt="挂载" class="fas fa-arrow-up js-addUrl" title="挂载">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-90 js-urlId" id="f217f1ce1232bc38ad81b439ce4e52a9">
+   QAvip16
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" title="修改">
+   <i alt="挂载" class="fas fa-arrow-up js-addUrl" title="挂载">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- Success get : QAvip19
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時35分59秒 [Feature] API POST webPlayer vip group create get frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

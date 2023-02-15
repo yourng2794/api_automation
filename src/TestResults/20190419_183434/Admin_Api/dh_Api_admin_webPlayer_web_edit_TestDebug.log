@@ -1,0 +1,57 @@
+
+* Run test case: dh_Api_admin_webPlayer_web_edit.py
+********Test Case: dh_Api_admin_webPlayer_web_edit.py********
+
+	Start >>04月19日18時35分32秒 [Feature] API POST admin webPlayer web edit
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.webdomainid = {"cce895fad5ced5f3129c300a72cbe5bc":"1"}
+		New ini value is: API.webName = Testweb19
+		New ini value is: API.webId = 0b82165981316ecf67ad30a5887aa1e9
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/edit
+
+		- api params: {'webId': '0b82165981316ecf67ad30a5887aa1e9', 'webName': 'Testweb19', 'webDomainId': '{"cce895fad5ced5f3129c300a72cbe5bc":"1"}', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'use': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.657526 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.657526
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時35分33秒 [Feature] API POST admin webPlayer web edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

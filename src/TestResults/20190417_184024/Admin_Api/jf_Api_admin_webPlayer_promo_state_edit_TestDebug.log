@@ -1,0 +1,82 @@
+
+* Run test case: jf_Api_admin_webPlayer_promo_state_edit.py
+********Test Case: jf_Api_admin_webPlayer_promo_state_edit.py********
+
+	Start >>04月17日18時43分02秒 [Feature] API POST webPlayer promo state edit
+
+		New ini value is: API.promoid = befaaf980c63f056e9eac8180225ad09
+		New ini value is: API.enable = 0
+
+		- api_params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'enable': '0'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/state/edit
+
+		- api params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'enable': '0'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=k8KBaJdsPkYTF0KaEoFk6NfBLqbqzUbNgv527wI6 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.677403 (seconds)
+
+		Response data: 
+{
+    "state": "停用"
+}
+
+		- Success get state: 停用
+
+		---
+
+		---
+		New ini value is: API.enable = 1
+
+		- api_params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'enable': '1'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/state/edit
+
+		- api params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'enable': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IBm0Yg8TrPYPSPCqC7xHLKxv0n2DEm8grQhrWwE9 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.120883 (seconds)
+
+		Response data: 
+{
+    "state": "进行中"
+}
+
+		- Success get state: 进行中
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時43分03秒 [Feature] API POST webPlayer promo state edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,60 @@
+
+* Run test case: b_KA_Start.py
+********Test Case: b_KA_Start.py********
+
+	Start >>03月22日17時25分20秒 [Portal] POST KA start API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_start.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = 65e7c0dff2adbd66c5b6c320211d88c7a6242a8c449441543b7d1d0eb73b476e
+
+		- api_params: {'hash': '65e7c0dff2adbd66c5b6c320211d88c7a6242a8c449441543b7d1d0eb73b476e'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/start
+
+		- api params: {'hash': '65e7c0dff2adbd66c5b6c320211d88c7a6242a8c449441543b7d1d0eb73b476e'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11afg", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "currency": "CNY", "playerIp": "192.168.50.11", "gameId": "777Vegas", "action": "start", "timestamp": "1553246720000", "token": "nullde978ad1d4403dcdef30a820bc11f585"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.400008 (seconds)
+
+		- API success (status and response are correct).
+
+		Response data: {"balance":"7440","currency":"CNY","sessionId":"1d61124f82204a56ad7e55643d11afg","playerId":"dae8fc1ed2a6e1287ec76dd4ebe732d9","status":"success","statusCode":"0"}
+
+		---
+
+		- - - 
+
+		# Test Result: PASS
+	Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月22日17時25分20秒 [Portal] POST KA start API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

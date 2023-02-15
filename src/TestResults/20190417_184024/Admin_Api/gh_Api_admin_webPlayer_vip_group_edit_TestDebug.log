@@ -1,0 +1,89 @@
+
+* Run test case: gh_Api_admin_webPlayer_vip_group_edit.py
+********Test Case: gh_Api_admin_webPlayer_vip_group_edit.py********
+
+	Start >>04月17日18時42分17秒 [Feature] API POST webPlayer vip group edit
+
+		New ini value is: API.vipGroupId = d45b282c94a1755f5b790709ba586737
+		New ini value is: API.vipid[] = f217f1ce1232bc38ad81b439ce4e52a9
+		New ini value is: API.vipGroupName = newQAgp16
+
+		- api_params: {'vipGroupId': 'd45b282c94a1755f5b790709ba586737', 'vipGroupName': 'newQAgp16', 'vipId[]': 'f217f1ce1232bc38ad81b439ce4e52a9'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/group/edit
+
+		- api params: {'vipGroupId': 'd45b282c94a1755f5b790709ba586737', 'vipGroupName': 'newQAgp16', 'vipId[]': 'f217f1ce1232bc38ad81b439ce4e52a9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=E9bZH0fS1PM935z6nWfFtz2o7eBuUCoIONpX1TwY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.462851 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.462851
+
+		---
+
+		---
+		New ini value is: API.vipGroupName = QAgp16
+
+		- api_params: {'vipGroupId': 'd45b282c94a1755f5b790709ba586737', 'vipGroupName': 'QAgp16', 'vipId[]': 'f217f1ce1232bc38ad81b439ce4e52a9'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/group/edit
+
+		- api params: {'vipGroupId': 'd45b282c94a1755f5b790709ba586737', 'vipGroupName': 'QAgp16', 'vipId[]': 'f217f1ce1232bc38ad81b439ce4e52a9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=NGeBqJhhWfMk86aMYAJ2ksFfOq7HqgUHbyZhiACA for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.131135 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.131135
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時42分18秒 [Feature] API POST webPlayer vip group edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

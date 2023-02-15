@@ -1,0 +1,58 @@
+
+* Run test case: gc_Api_admin_webPlayer_vip_group_create.py
+********Test Case: gc_Api_admin_webPlayer_vip_group_create.py********
+
+	Start >>04月17日18時42分01秒 [Feature] API POST webPlayer vip group create
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.vipid[] = f217f1ce1232bc38ad81b439ce4e52a9
+		New ini value is: API.vipGroupName = QAgp16
+
+		- api_params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'vipGroupName': 'QAgp16', 'vipId[]': 'f217f1ce1232bc38ad81b439ce4e52a9'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/group/create
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'vipGroupName': 'QAgp16', 'vipId[]': 'f217f1ce1232bc38ad81b439ce4e52a9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=wNWzsnU6sb8vjrsXQOMFhXV8zlUv98bFiKSBnWu1 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.498319 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.498319
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時42分02秒 [Feature] API POST webPlayer vip group create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

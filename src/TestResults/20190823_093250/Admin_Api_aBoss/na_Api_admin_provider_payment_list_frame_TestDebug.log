@@ -1,0 +1,137 @@
+
+* Run test case: na_Api_admin_provider_payment_list_frame.py
+********Test Case: na_Api_admin_provider_payment_list_frame.py********
+
+	Start >>08月23日09時38分08秒 [Feature] API POST provider payment list frame
+
+		New ini value is: API.webId = eefe247755b8b16c33e8730e9e168211
+		New ini value is: API.option = 3
+		New ini value is: API.enable = 1
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/provider/payment/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payment/list/frame
+
+		- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'option': '3', 'enable': '1', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.04247 (seconds)
+
+		Response data: <div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 金流
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    项目
+   </div>
+   <div class="box-15">
+    金流名称
+   </div>
+   <div class="box-10">
+    网站
+   </div>
+   <div class="box-10">
+    类型
+   </div>
+   <div class="box-5 txt-c">
+    国币
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15">
+    金城武幫你出
+   </div>
+   <div class="box-10">
+    QAweb11
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    5
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_cash_edit.html" id="b8eb8bb9c2291fcf4299b1023d9713cf" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.04247
+
+		- - -
+
+['PASS', 'PASS']
+['PASS']
+		New ini value is: API.paymentId = b8eb8bb9c2291fcf4299b1023d9713cf
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+		New ini value is: API.option = 
+		New ini value is: API.enable = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日09時38分09秒 [Feature] API POST provider payment list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時38分08秒 [Feature] API POST provider payment list frame
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payment/list/frame
+- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'option': '3', 'enable': '1', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.04247 (seconds)
+- API success (status and response are correct).
+- Response time: 0.04247
+- - -
+# Test Result: PASS
+
+End << 08月23日09時38分09秒 [Feature] API POST provider payment list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0938
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

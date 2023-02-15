@@ -1,0 +1,89 @@
+
+* Run test case: ha_Api_admin_webPlayer_web_vip_domain_edit.py
+********Test Case: ha_Api_admin_webPlayer_web_vip_domain_edit.py********
+
+	Start >>07月22日15時54分21秒 [Feature] API POST webPlayer web vip domain edit
+
+	<< END Success, checkJSONFile: a8b3c8bfc49c9301c2a86e55e1bff764
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: cae2dee932b8e8ef94fcb2247ffcbf3b
+	<< END Success, replaceJSONValue.
+	<< END Success, isInt
+	<< END Success, checkJSONFile: {'vipId': 'b01bf316216d1aa054c9df0aea873425', 'webDomainUrl': '10.1.10.1', 'transferSet': '2', 'timeStart': '', 'timeEnd': '', 'setTime': '00:00'}
+	<< END Success, replaceJSONValue.
+		New ini value is: API.api_path = api/webPlayer/web/vip/domain/edit
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_web_vip_domain_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/vip/domain/edit
+
+		- api params: {}
+
+		- api data: {"webId": "a8b3c8bfc49c9301c2a86e55e1bff764", "vipGroupId": "cae2dee932b8e8ef94fcb2247ffcbf3b", "vipDataList": [{"vipId": "b01bf316216d1aa054c9df0aea873425", "webDomainUrl": "10.1.10.1", "transferSet": "2", "timeStart": "", "timeEnd": "", "setTime": "00:00"}]}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.023049 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.023049
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時54分21秒 [Feature] API POST webPlayer web vip domain edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時54分21秒 [Feature] API POST webPlayer web vip domain edit
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/vip/domain/edit
+- api params: {}
+- api data: {"webId": "a8b3c8bfc49c9301c2a86e55e1bff764", "vipGroupId": "cae2dee932b8e8ef94fcb2247ffcbf3b", "vipDataList": [{"vipId": "b01bf316216d1aa054c9df0aea873425", "webDomainUrl": "10.1.10.1", "transferSet": "2", "timeStart": "", "timeEnd": "", "setTime": "00:00"}]}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.023049 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.023049
+- - -
+# Test Result: PASS
+
+End << 07月22日15時54分21秒 [Feature] API POST webPlayer web vip domain edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1554
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

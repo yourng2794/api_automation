@@ -1,0 +1,99 @@
+
+* Run test case: fg_Api_admin_webPlayer_vip_edit_get.py
+********Test Case: fg_Api_admin_webPlayer_vip_edit_get.py********
+
+	Start >>08月23日09時35分11秒 [Feature] API POST webPlayer vip edit get
+
+		New ini value is: API.webId = eefe247755b8b16c33e8730e9e168211
+		New ini value is: API.vipId = 2e2379cca7728358f0dd2bfe375c6a76
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/edit/get
+
+		- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'vipId': '2e2379cca7728358f0dd2bfe375c6a76'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.048469 (seconds)
+
+		Response data: {
+    "createtime": "2019-08-23 09:34:57",
+    "deposit_times": null,
+    "deposit_total": 1000,
+    "domain_list": {
+        "5c0523e8423d1aab0a77ae6200e544b7": "10.1.10.11",
+        "bb6977f8aca554e9f1bba2723987c0de": "10.1.11.11"
+    },
+    "pt_name": "Bonnie",
+    "vip_id": "2e2379cca7728358f0dd2bfe375c6a76",
+    "vip_name": "QAvip11",
+    "web_domain_id": "5c0523e8423d1aab0a77ae6200e544b7",
+    "web_domain_url": "10.1.10.11",
+    "web_name": "QAweb11"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.048469
+
+		- Success deposit_times: None
+
+		- Success deposit_total: 1000
+
+		- Success get vipId: 2e2379cca7728358f0dd2bfe375c6a76
+
+		- Success get webdomainId: 5c0523e8423d1aab0a77ae6200e544b7
+
+		- Success get webName: QAweb11
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+		New ini value is: API.vipId = 
+	<< End Tear Down
+
+
+	End << 08月23日09時35分11秒 [Feature] API POST webPlayer vip edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時35分11秒 [Feature] API POST webPlayer vip edit get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/edit/get
+- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'vipId': '2e2379cca7728358f0dd2bfe375c6a76'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.048469 (seconds)
+- API success (status and response are correct).
+- Response time: 0.048469
+- Success deposit_times: None
+- Success deposit_total: 1000
+- Success get vipId: 2e2379cca7728358f0dd2bfe375c6a76
+- Success get webdomainId: 5c0523e8423d1aab0a77ae6200e544b7
+- Success get webName: QAweb11
+- - -
+# Test Result: PASS
+
+End << 08月23日09時35分11秒 [Feature] API POST webPlayer vip edit get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0935
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

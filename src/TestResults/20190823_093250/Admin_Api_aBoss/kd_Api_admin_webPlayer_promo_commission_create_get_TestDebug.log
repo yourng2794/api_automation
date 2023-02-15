@@ -1,0 +1,78 @@
+
+* Run test case: kd_Api_admin_webPlayer_promo_commission_create_get.py
+********Test Case: kd_Api_admin_webPlayer_promo_commission_create_get.py********
+
+	Start >>08月23日09時36分52秒 [Feature] API POST webPlayer promo commission create get
+
+		New ini value is: API.bankerId = 619da70cf372717e11eff31f1d619ef9
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/create/get
+
+		- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.046306 (seconds)
+
+		Response data: {
+    "commission_type_list": [
+        {
+            "commission_type_id": 12,
+            "web_commission_name": "SQArake_0823_093643"
+        }
+    ]
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.046306
+
+		- Success get (commissionTypeName, commissionTypeId): (SQArake_0823_093643, 12)
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+	<< End Tear Down
+
+
+	End << 08月23日09時36分52秒 [Feature] API POST webPlayer promo commission create get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時36分52秒 [Feature] API POST webPlayer promo commission create get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/create/get
+- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.046306 (seconds)
+- API success (status and response are correct).
+- Response time: 0.046306
+- Success get (commissionTypeName, commissionTypeId): (SQArake_0823_093643, 12)
+- - -
+# Test Result: PASS
+
+End << 08月23日09時36分52秒 [Feature] API POST webPlayer promo commission create get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0936
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

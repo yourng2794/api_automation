@@ -1,0 +1,282 @@
+
+* Run test case: ed_Api_admin_partner_type_list_frame_m.py
+********Test Case: ed_Api_admin_partner_type_list_frame_m.py********
+
+	Start >>08月23日09時34分13秒 [Feature] API POST partner type list frame m
+
+		New ini value is: API.api_path = api/partner/type/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/partner/type/list/frame/m
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.037766 (seconds)
+
+		Response data: <li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   QAtype11
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="0e31157b7e592ee23d36f5e6b4c722ed" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   QAtype10
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="4074bfaa651885e6185420d50bdd96c7" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   123
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="b44e760b288a58fb932b9041d3cf8fa5" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   QAtype6
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="47297f2f3656dcbf750851add91e2366" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   QAtype5
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="c4ad0c9f642c0048ad33bd2deada779b" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   QAtype4
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="c6484c2167a6c43e8dfe3c4ac7465ea5" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   測測新權限
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="5ed4a6b7f1d8d5b05596f65312872ff0" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   站長
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="2a62223962cabfa80d9fa971ea86c3ec" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   QAtype3
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="84a07a18fbdb5c7d024e461ce7521db6" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   代理
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="19349e314bbad795337cba59538f450a" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   QAtype2
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="0fa8dd50d49b1c8c726af90d0fcae0b2" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li data-type="self">
+ <div class="group-box-85">
+  <div class="box-65">
+   QAtype1
+  </div>
+  <div class="box-30 txt-c">
+   5
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="97a2fa8b151e88da50b01f91835ed0cc" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li class="banker">
+ <div class="group-box-85">
+  <div class="box-65">
+   莊家
+  </div>
+  <div class="box-30 txt-c">
+   23
+  </div>
+ </div>
+ <div class="box-14">
+  <a alt="修改" aria-hidden="true" class="btn-popup glyphicon-move my-handle" id="bankerType" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.037766
+
+		- Success get typeName: QAtype11
+
+		- Success get typeId2: 0e31157b7e592ee23d36f5e6b4c722ed
+
+		- - -
+
+['PASS']
+['FAIL', 'PASS']
+		New ini value is: API.typeid = 0e31157b7e592ee23d36f5e6b4c722ed
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時34分14秒 [Feature] API POST partner type list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時34分13秒 [Feature] API POST partner type list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/partner/type/list/frame/m
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.037766 (seconds)
+- API success (status and response are correct).
+- Response time: 0.037766
+- Success get typeName: QAtype11
+- Success get typeId2: 0e31157b7e592ee23d36f5e6b4c722ed
+- - -
+# Test Result: PASS
+
+End << 08月23日09時34分14秒 [Feature] API POST partner type list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0934
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

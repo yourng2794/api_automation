@@ -1,0 +1,116 @@
+
+* Run test case: jd_Api_admin_webPlayer_promo_list_frame.py
+********Test Case: jd_Api_admin_webPlayer_promo_list_frame.py********
+
+	Start >>04月19日18時36分57秒 [Feature] API POST webPlayer promo list frame
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/list/frame
+
+		- api params: {'type': 'all', 'ptid': '835bd15c55ec6df3fe054f3aed828e41', 'page': '', 'ln': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.730666 (seconds)
+
+		Response data: 
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   1
+  </div>
+  <div class="box-30">
+   QApromo
+  </div>
+  <div class="box-10 txt-c">
+   <div class="status-tag tag-open">
+    进行中
+   </div>
+  </div>
+  <div class="box-25">
+   2019-04-18 18:36:54
+  </div>
+  <div class="box-25">
+   2019-04-20 18:36:54
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="活动资讯" href="web_event_data.html?promoid=ad676be91ab834b540d14d01963b5415" title="活动资讯">
+   <i class="fas fa-info-circle">
+   </i>
+  </a>
+  <a alt="停止" class="del js-get-status" id="ad676be91ab834b540d14d01963b5415" title="停止" value="0">
+   <i class="fas fa-ban">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   2
+  </div>
+  <div class="box-30">
+   OHNO
+  </div>
+  <div class="box-10 txt-c">
+   <div class="status-tag tag-close">
+    未挂载
+   </div>
+  </div>
+  <div class="box-25">
+   2019-04-16 12:24:00
+  </div>
+  <div class="box-25">
+   2019-04-18 12:24:00
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="编辑" href="web_event_edit.html?promoid=351d4e4fe0abc4940513677aa51e73b0" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="删除" class="del js-get-status" id="351d4e4fe0abc4940513677aa51e73b0" title="删除" value="2">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		Success get promoName: QApromo
+		New ini value is: API.promoId = ad676be91ab834b540d14d01963b5415
+
+		Success get promoId: ad676be91ab834b540d14d01963b5415
+
+		---
+
+		---
+['PASS']
+['FAIL', 'FAIL', 'PASS', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時36分58秒 [Feature] API POST webPlayer promo list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

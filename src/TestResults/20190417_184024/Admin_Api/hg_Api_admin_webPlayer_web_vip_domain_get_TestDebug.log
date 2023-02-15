@@ -1,0 +1,74 @@
+
+* Run test case: hg_Api_admin_webPlayer_web_vip_domain_get.py
+********Test Case: hg_Api_admin_webPlayer_web_vip_domain_get.py********
+
+	Start >>04月17日18時42分41秒 [Feature] API POST webPlayer web vip domain get
+
+		New ini value is: API.vipGroupId = d45b282c94a1755f5b790709ba586737
+		New ini value is: API.webId = cc337abf81b4328ad33c1bf0e957ca4c
+		New ini value is: API.vipId = f217f1ce1232bc38ad81b439ce4e52a9
+
+		- api_params: {'vipGroupId': 'd45b282c94a1755f5b790709ba586737', 'webId': 'cc337abf81b4328ad33c1bf0e957ca4c', 'vipId': 'f217f1ce1232bc38ad81b439ce4e52a9'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/vip/domain/get
+
+		- api params: {'vipGroupId': 'd45b282c94a1755f5b790709ba586737', 'webId': 'cc337abf81b4328ad33c1bf0e957ca4c', 'vipId': 'f217f1ce1232bc38ad81b439ce4e52a9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=ZJEE8iKmmxUVAIY8ROwXWRxnNbkQ4NVIE0gZedYJ for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.51009 (seconds)
+
+		Response data: 
+{
+    "counter": 0,
+    "domainId": "93f155e7c6878477e927428e2a07397a",
+    "domainList": {
+        "93f155e7c6878477e927428e2a07397a": "10.10.10.229"
+    },
+    "domainUrl": "10.10.10.229",
+    "setTime": "00:00",
+    "timeEnd": "1970-01-01 00:00:00",
+    "timeStart": "1970-01-01 00:00:00",
+    "transferSet": 2,
+    "vipName": "QAvip16",
+    "webName": "Testweb16"
+}
+
+		- Success get webDomainId: 93f155e7c6878477e927428e2a07397a
+
+		- Success get webDomain: 10.10.10.229
+
+		- Success get vipName: QAvip16
+
+		- Success get transferSet: 2
+
+		- Success get setTime: 00:00
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時42分42秒 [Feature] API POST webPlayer web vip domain get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

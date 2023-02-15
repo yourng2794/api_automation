@@ -1,0 +1,144 @@
+
+* Run test case: mc_Api_admin_provider_bankCard_list_frame_m.py
+********Test Case: mc_Api_admin_provider_bankCard_list_frame_m.py********
+
+	Start >>08月23日15時47分30秒 [Feature] API POST provider bankCard list frame m
+
+		New ini value is: API.bankerId = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.option = 0
+		New ini value is: API.enable = 3
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/provider/bankCard/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/bankCard/list/frame/m
+
+		- api params: {'option': '0', 'enable': '3', 'page': '', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.045569 (seconds)
+
+		Response data: <div class="result-box">
+ 共
+ <span>
+  1
+ </span>
+ 个银行卡
+</div>
+<ul class="crm-list mem-list">
+ <li>
+  <div class="crm-type">
+   出款+入款
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info">
+   <div class="crm-name">
+    QAbank12
+   </div>
+   <div class="crm-edit btn-popup" id="e4a83865f4a8ef339b85c1d69a32c26d">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display:none;">
+   <div class="crm-item crm-item-w">
+    <label>
+     卡号
+    </label>
+    <p>
+     **************0012312
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     单日额度
+    </label>
+    <p>
+     5000
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     币别
+    </label>
+    <p>
+     <img alt="" src="img/coin/coin_CNY.png"/>
+     中國人民幣
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     状态
+    </label>
+    <p>
+     <span class="status-type status-a">
+      启用
+     </span>
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.045569
+
+		- Success get bankName: QAbank12
+
+		- Success get cardId: e4a83865f4a8ef339b85c1d69a32c26d
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.cardid = e4a83865f4a8ef339b85c1d69a32c26d
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.option = 
+		New ini value is: API.enable = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日15時47分31秒 [Feature] API POST provider bankCard list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時47分30秒 [Feature] API POST provider bankCard list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/provider/bankCard/list/frame/m
+- api params: {'option': '0', 'enable': '3', 'page': '', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.045569 (seconds)
+- API success (status and response are correct).
+- Response time: 0.045569
+- Success get bankName: QAbank12
+- Success get cardId: e4a83865f4a8ef339b85c1d69a32c26d
+- - -
+# Test Result: PASS
+
+End << 08月23日15時47分31秒 [Feature] API POST provider bankCard list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1547
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

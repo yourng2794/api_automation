@@ -1,0 +1,19 @@
+{
+    "bankerId": "67d8055d44df916e03024e3fbfc83a2c",
+    "webId": "0b2ab3d05417542282220cd5af960b86",
+    "currency": "CNY",
+    "startTime": "2019-03-10",
+    "endTime": "2019-05-15",
+    "export": "0",
+    "page": "1",
+    "subTitle": "transaction",
+    "type": [
+        "GR_slot",
+        "JS_slot",
+        "REVOKE_DECR",
+        "TRANSFER_WALLET_DECR",
+        "SPIN_BET",
+        "DL_slot",
+        "TRANSFER_WALLET_DECR"
+    ]
+}

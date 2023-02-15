@@ -1,0 +1,912 @@
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190325_164157\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190325_164157\\testresults.xml
+<< Success, End replaceJSONValue.
+{'id': 64, 'suite_id': 1, 'name': 'Automation test report Mar25_1641', 'description': None, 'milestone_id': None, 'assignedto_id': 1, 'include_all': False, 'is_completed': False, 'completed_on': None, 'config': None, 'config_ids': [], 'passed_count': 0, 'blocked_count': 0, 'untested_count': 14, 'retest_count': 0, 'failed_count': 0, 'custom_status1_count': 0, 'custom_status2_count': 0, 'custom_status3_count': 0, 'custom_status4_count': 0, 'custom_status5_count': 0, 'custom_status6_count': 0, 'custom_status7_count': 0, 'project_id': 1, 'plan_id': None, 'created_on': 1553503317, 'created_by': 1, 'url': 'https://o2ogt.testrail.io/index.php?/runs/view/64'}
+		New ini value is: TestRail.TestRailRunID = 64
+------------------------ Test is started------------------------
+>> Enter Test Suites: Admin_Api
+	find test case: a_Api_Login.py
+	find test case: b_Api_admin_profile.py
+	find test case: z_Api_Logout.py
+
+
+* Run test case: a_Api_Login.py
+********Test Case: a_Api_Login.py********
+
+	Start >>03月25日16時42分01秒 [Portal] API POST login exist account
+
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		- Session expired until: 16:43:02
+
+		- API fail (status or response is incorrect).
+
+		Response data: (X) Exception (ApiResponse): HTTPConnectionPool(host='admtest.o2ogt.com', port=80): Read timed out. (read timeout=1)
+
+		---
+
+		- Exception: on solve pic... cannot identify image file 'C:\\Users\\tommy\\git\\tommy_autotest\\ApiAutomation\\src\\code.jpg'
+
+		- - - 
+
+		- 3, accurate: 91 %
+
+		- 7, accurate: 100 %
+
+		- 4, accurate: 92 %
+
+		- 5, accurate: 92 %
+
+		- - - 
+New code: 3745
+		New ini value is: API.code = 3745
+
+		- api_params: {'acc': 'tur111', 'pwd': '111', 'code': '3745'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'tur111', 'pwd': '111', 'code': '3745'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=iWdALzfzwRwpRREILW8XGEil1yRp7TPtj42p6GHa for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.124883 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"Error_code":"E08","Error_message":"No verification code"}
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=iWdALzfzwRwpRREILW8XGEil1yRp7TPtj42p6GHa for .o2ogt.com/>, <Cookie laravel_session=iWdALzfzwRwpRREILW8XGEil1yRp7TPtj42p6GHa for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.107663 (seconds)
+
+		- Session expired until: 16:43:03
+
+		- API success (status and response are correct).
+
+		- Response time: 0.107663
+
+		Response data: /9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAHgBaAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A93s7d7aBo5JfMYyySBstwGdmA+ZmPAIHXHHAUYUcfrXijV7y/wBV0zw8LO2TT4T9s1S+k2x25Kk5HBHygE5YEcHIx16zU41ltUV5ruEC4gbdahi5IlUhTtBOwkYbttLZIGSKt9r0GlWtxJfbPPhV5DBbvvIj/eGMsSFCbxGQC5C7vlDHgnWlJReseZ9P66mlOST1Vzn/AAp4lv5fEN34c16VTqtrbx8xOjRy4GS/yqCrsHUkHjABCrznY8T+LtN8Jw2kl+s8jXcpiiit1DyMdpOQuQSM4HGeWXtyOZ8MWD+JvEjeJHS6h0q2gS000STSCWVUYNvZs7mBIOdxO7JBzznensNOvNX0bWtZtnsdWtN6x5k3w5Y+Vs342fM0ilPuyN8vAwyjqqRoQrr2i0tql3ttrtrvvbUrExUZWjo+vkzPg+IVjq08mjR22p6Pq9zC/wBiXU4Ps3mPg7drEOBz6qfo3Q9tXlfxRu0v/EGg6LBcW4uYLuO/kkI2myhj3GSSR92ApBUjgY2EknIx3l7daXpkVtqniC4sbGb5FDXN3+5il2vxGX2jdh5BuCqzL14GAYyjThCnUgnHmTdm79bX72fmc8W7tM2KK858XfEu1i+waZ4T1Cy1LU7+Ur5lpm8+zooyzmOLcxOOgx2J7VkQ+OvEPhrXbC31SS/17T7+QQLI2ivp0kUx+6oMoRGBPq3TJ4xzFPBSqU1NSV3dpa3du2lvvab6A5WZ6zBI01vFK8MkDugZopCpZCR907SRkdOCR6E15loni/x14zbUb/wvH4aGjQ3j29tLfpcLJKq4IbCnuCOw9McV1s+seJLu3li0vwxJaXewlJdXuoVgBxx/qHldjnB24UEA/MDjPlvh34SeO7aW7iuPE66OokUpc6dKzGfqx3KAhZd0jYLN8pVgFIYMIoOmk3O1+l1cbueuaFDr8tmr+Jzp4vorgvF/ZUkyxFNm0bwxyxyz8HI+6eoBG1Xl/gXUvFXiGTWND1fxB9nuNDufs8lxZWaCaflgrF5N6bSAeBGDwp3dQesg8P601vE1x4v1mOcoDIkaWTqrY5AY2oJGe+Bn0FZVYuM2pKwIIfEOsakh/szw1IpV2VpNQv4I4sqxVlDQNM28MCMFQOGyQQAfOvEmo+L9f8QC31Lw9dW+lWTkrDbWU19FcSKcZb/U7l6kHPYcHJNdzZ6t4k16xaX/AIRvQ3hju5Itk+rSH95BMybgPsx6PHuU9eAeDWh9p8YSfJ/ZWh2+7jzv7Tmm8v8A2vL8hN+Ou3cuem4davD1lRlzWubUqns3exyvh688UarqP2G81DXLG3ZSY3i8PxWixYZiF3yNKNu1guNuf3acg799Lx/qT6AtrpD+KNUu9Tv/APj3FzdxWUNsM486SSBImwPmAUsVPJIJArt/sfjD/oO6H/4Jpv8A5KrJuPCet6uIbnWT4PuL3ylVzJoDz7O5VXacEqCTjgeuBWtCrh411OrC8V0v1+fQzqvm+BWOd8P+Hvh5p8sbajrWia/fXCH7Vd6jqaztJLldu2Jyyn+L5vvDpzuOO80/w7pujXE1xpPh3RrKcusSyW0axM8JKF9xWPIIO4heQdq5Iz8uAvgGdHV0t/BaspyCPDBBB/8AAiteDRfEf2eK1uPE0cMESBUewsds5wMDc9xJOGGOvy7icHd1BnFVKVSXNC/ne34WIimtzl9et45/jz4dFxAJ4m01yquAyo6NI4bB7ghcEc5APbIb8YbYW/hvSVtVt4Yjq6OIliwzTMWbcCDgZzIW4JYtnIwcr448Ha1FFa+JNN8VX0mqaTuaN7yK3AEbDDgbIRyR/eBHXpXMeGo9c+KWrW817rt7BpekzLP5b/Z5JjOM7WUrbouM5+8G9Mc8exhYyapY1L3KStLbdNvTve6/Ezl1j3PZ7gX15pH+iP8A2feSopBnjWVoScZBCttLAZGclQefmHB8307xb4z8PxPYa54X1fU9TE7M93Zw+dBdLtwuCCFg6JnCkcNlQzEjsY/C+oxPM6+NPEBMr723LZsAdoX5QbfCjCjgYGcnqSTG3gqJ/Mll1fVZ7uWVHknN29tvUbQQUtTCrNsXaHYFh8udyqFrwqdSMU1KNzVoofDjw3qekW+q6vripHq2tXRup4UORCvO1M9yMn88dq257XxU1xK1vrOjRwFyY0k0mV2Vc8AsLkAnHfAz6CsfU/C2i6ZMmpXU2syJvgs4Smr3vmxtPMsZ+cz/AHCxiJAAxsJ+bgDQg8HWLW8TXE2sxzlAZEj8Q3zqrY5AYyAkZ74GfQVNSo6knJglY//Z
+
+		---
+
+		- - - 
+
+		- 2, accurate: 94 %
+
+		- 2, accurate: 96 %
+
+		- 0, accurate: 95 %
+
+		- 5, accurate: 98 %
+
+		- - - 
+New code: 2205
+		New ini value is: API.code = 2205
+
+		- api_params: {'acc': 'tur111', 'pwd': '111', 'code': '2205'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'tur111', 'pwd': '111', 'code': '2205'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _admin=yYpCIGCMVIDqCjX7x0DIzLefGE1HwLOigBuN%2FZqkdN24luqVtBqnyTia2rug%2Bu%2BmfxOGgipK7Jx8VRhbcyz3R9M4FNK7p1JByJ7rW9GXMJGeRVKvxUWDq%2FKEVsJRF5fPi8Jq89Kz1BYMkA9HSCw2t534UjVG2789v83ofDOn9vA%3D for .o2ogt.com/>, <Cookie laravel_session=ssyeBxtqmLWJpUcjJ2VUspghbyk0H9oiMNC1sOcY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.228689 (seconds)
+
+		- - - 
+['FAIL', 'PASS', 'PASS']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分04秒 [Portal] API POST login exist account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: b_Api_admin_profile.py
+********Test Case: b_Api_admin_profile.py********
+
+	Start >>03月25日16時42分06秒 [Portal] API POST user profile
+
+
+		- api url: http://admtest.o2ogt.com/api/profile
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=ssyeBxtqmLWJpUcjJ2VUspghbyk0H9oiMNC1sOcY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.059942 (seconds)
+
+		- API success (status and response are correct).
+
+		- Response time: 0.059942
+
+		Response data: {"login_id":"123456","login_acc":"Bonnie","login_rank":1}
+
+		---
+---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分06秒 [Portal] API POST user profile
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: z_Api_Logout.py
+********Test Case: z_Api_Logout.py********
+
+	Start >>03月25日16時42分09秒 [Portal] API POST logout current account
+
+
+		- api url: http://admtest.o2ogt.com/logout
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=ssyeBxtqmLWJpUcjJ2VUspghbyk0H9oiMNC1sOcY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.464578 (seconds)
+
+		- API success (status and response are correct).
+
+		- Response time: 0.464578
+
+		Response data: {"Error_code":"S01","Error_message":"success"}
+
+		---
+---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分10秒 [Portal] API POST logout current account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+<< End Test Suites: Admin_Api
+----------------------------------------------------------------
+
+>> Enter Test Suites: BC_Api
+	find test case: a_Api_Login.py
+	find test case: b_Api_bc_profile.py
+	find test case: z_Api_Logout.py
+
+
+* Run test case: a_Api_Login.py
+********Test Case: a_Api_Login.py********
+
+	Start >>03月25日16時42分13秒 [Portal] API POST login exist account
+
+
+		- api url: https://bctest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=ssyeBxtqmLWJpUcjJ2VUspghbyk0H9oiMNC1sOcY for .o2ogt.com/>, <Cookie laravel_session=ssyeBxtqmLWJpUcjJ2VUspghbyk0H9oiMNC1sOcY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.830212 (seconds)
+
+		- Session expired until: 16:43:14
+
+		- API success (status and response are correct).
+
+		- Response time: 0.830212
+
+		Response data: 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
+
+		---
+
+		- - - 
+
+		- 8, accurate: 87 %
+
+		- 4, accurate: 97 %
+
+		- 4, accurate: 94 %
+
+		- 9, accurate: 83 %
+
+		- - - 
+New code: 8449
+		New ini value is: API.code = 8449
+
+		- api_params: {'acc': 'tommytest1', 'pwd': 'tommytest1', 'code': '8449'}type(api_params): <class 'dict'>
+
+		- api url: https://bctest.o2ogt.com/login
+
+		- api params: {'acc': 'tommytest1', 'pwd': 'tommytest1', 'code': '8449'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _admin=usJjARMBx6wbUCLA2QtXWC5OEm0gqb5zQMb1ymKFbtH4jP9LZvPAnnWyPqYA1IlKLPJLtHRTapdkazQY089D1g4vBVX3dDT%2FfecOt5af2FiVOXYn0dBwo%2F0W7xmsgUpkStANUCSXfhd9ga5wGaShEQ%3D%3D for .o2ogt.com/>, <Cookie laravel_session=l39VYEPgffJypXB8aBG0R6IXBkAs0sYTvq0GhEv5 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.209308 (seconds)
+
+		- - - 
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分14秒 [Portal] API POST login exist account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: b_Api_bc_profile.py
+********Test Case: b_Api_bc_profile.py********
+
+	Start >>03月25日16時42分17秒 [Portal] API POST user profile
+
+
+		- api url: https://bctest.o2ogt.com/profile
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=l39VYEPgffJypXB8aBG0R6IXBkAs0sYTvq0GhEv5 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.896975 (seconds)
+
+		- API success (status and response are correct).
+
+		- Response time: 0.896975
+
+		Response data: {"playerid":"891069e20d564c32fbf7538b41fb35f1","acc":"tommytest1"}
+
+		---
+---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分18秒 [Portal] API POST user profile
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: z_Api_Logout.py
+********Test Case: z_Api_Logout.py********
+
+	Start >>03月25日16時42分21秒 [Portal] API POST logout current account
+
+
+		- api url: https://bctest.o2ogt.com/logout
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=l39VYEPgffJypXB8aBG0R6IXBkAs0sYTvq0GhEv5 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.479252 (seconds)
+
+		- API success (status and response are correct).
+
+		- Response time: 0.479252
+
+		Response data: {"Error_code":"S01","Error_message":"success"}
+
+		---
+
+		- - - 
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分21秒 [Portal] API POST logout current account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+<< End Test Suites: BC_Api
+----------------------------------------------------------------
+
+>> Enter Test Suites: KA_Api
+	find test case: a_KA_Login.py
+	find test case: b_KA_Start.py
+	find test case: c_KA_Play1.py
+	find test case: d_KA_Play2.py
+	find test case: e_KA_Credit.py
+	find test case: f_KA_Balance.py
+	find test case: g_KA_Revoke.py
+	find test case: z_KA_End.py
+
+
+* Run test case: a_KA_Login.py
+********Test Case: a_KA_Login.py********
+
+	Start >>03月25日16時42分25秒 [Portal] POST KA login API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_login.json
+
+		- api url: https://otg.o2ogt.com/prvoider/content/login
+
+		- api params: {}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "playerid": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "providerid": "0C2C23326DE54AA4F855B340F5ED1DFA", "providername": "KA", "gameid": "777Vegas", "walletid": "9737b5c37296b707468fb8a7a358488d", "currency": "CNY", "expiretimespan": "1553510545000", "playerip": "192.168.50.11", "browser": "Chrome OS 70.1", "websiteid": "GHJKLPOIUYTZX", "webname": "otgss", "ln": "en"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		- API fail (status or response is incorrect).
+
+		Response data: (X) Exception (ApiResponse): HTTPSConnectionPool(host='otg.o2ogt.com', port=443): Read timed out. (read timeout=10)
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分35秒 [Portal] POST KA login API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: b_KA_Start.py
+********Test Case: b_KA_Start.py********
+
+	Start >>03月25日16時42分37秒 [Portal] POST KA start API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_start.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = 80c809c0b873b687128d8529ad838094e154620ed4cade13766ec5b1bdf7d14b
+
+		- api_params: {'hash': '80c809c0b873b687128d8529ad838094e154620ed4cade13766ec5b1bdf7d14b'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/start
+
+		- api params: {'hash': '80c809c0b873b687128d8529ad838094e154620ed4cade13766ec5b1bdf7d14b'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "currency": "CNY", "playerIp": "192.168.50.11", "gameId": "777Vegas", "action": "start", "timestamp": "1553503357000", "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d9a43d22c558218fb03eebc8701441a771553503356 for .o2ogt.com/>, <Cookie cf_use_ob=0 for otg.o2ogt.com/>]>
+
+		- API fail (status or response is incorrect).
+
+		Response data: (X) Exception (ApiResponse): 502 Server Error: Bad Gateway for url: https://otg.o2ogt.com/prvoider/content/start?hash=80c809c0b873b687128d8529ad838094e154620ed4cade13766ec5b1bdf7d14b
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分39秒 [Portal] POST KA start API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: c_KA_Play1.py
+********Test Case: c_KA_Play1.py********
+
+	Start >>03月25日16時42分42秒 [Portal] POST KA play1 API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_play1.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = 9ac1d401169dc3aa61826ae36ef6d70f9d6cb91e3cbe683cf7239dcc49d37822
+
+		- api_params: {'hash': '9ac1d401169dc3aa61826ae36ef6d70f9d6cb91e3cbe683cf7239dcc49d37822'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/play
+
+		- api params: {'hash': '9ac1d401169dc3aa61826ae36ef6d70f9d6cb91e3cbe683cf7239dcc49d37822'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503362000, "currency": "CNY", "operatorName": "OTG", "action": "play", "transactionId": "49886353ff304aaca16731c9fc22e98b", "betAmount": 1280, "winAmount": 0, "selections": 8, "betPerSelection": 160, "freeGames": False, "round": 0, "roundsRemaining": 1, "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		- API fail (status or response is incorrect).
+
+		Response data: (X) Exception (ApiResponse): HTTPSConnectionPool(host='otg.o2ogt.com', port=443): Read timed out. (read timeout=10)
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分52秒 [Portal] POST KA play1 API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: d_KA_Play2.py
+********Test Case: d_KA_Play2.py********
+
+	Start >>03月25日16時42分54秒 [Portal] POST KA play2 API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_play2.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = ba649ac394c2d1589961c2054d76e3bc209294404233b55e8605549d8872c039
+
+		- api_params: {'hash': 'ba649ac394c2d1589961c2054d76e3bc209294404233b55e8605549d8872c039'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/play
+
+		- api params: {'hash': 'ba649ac394c2d1589961c2054d76e3bc209294404233b55e8605549d8872c039'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503374000, "currency": "CNY", "operatorName": "OTG", "action": "play", "transactionId": "49886353ff304aaca16731c9fc22e98b", "betAmount": 1280, "winAmount": 0, "selections": 8, "betPerSelection": 160, "freeGames": False, "round": 1, "roundsRemaining": 0, "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d1c4cd4b9a30f7246cc4ab5bd7b60c9e61553503373 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.423022 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分55秒 [Portal] POST KA play2 API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: e_KA_Credit.py
+********Test Case: e_KA_Credit.py********
+
+	Start >>03月25日16時42分58秒 [Portal] POST KA credit API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_credit.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = 61b502a9bc74a83dfc8edcdb3ddb75e7ecd5eb315b03cead78026c665295b390
+
+		- api_params: {'hash': '61b502a9bc74a83dfc8edcdb3ddb75e7ecd5eb315b03cead78026c665295b390'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/credit
+
+		- api params: {'hash': '61b502a9bc74a83dfc8edcdb3ddb75e7ecd5eb315b03cead78026c665295b390'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503378000, "currency": "CNY", "operatorName": "OTG", "action": "credit", "transactionId": "49886353ff304aaca16731c9fc22e98b", "amount": 0, "type": "BonusPick", "creditIndex": 0, "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d7c271c4987d11802b4383fad5c5861b41553503377 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.409046 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分58秒 [Portal] POST KA credit API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: f_KA_Balance.py
+********Test Case: f_KA_Balance.py********
+
+	Start >>03月25日16時43分01秒 [Portal] POST KA balance API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_balance.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = abb9d6cdedbb508efb10ee65fd8773c528b258bc08a942cfbc594ef24f8a4693
+
+		- api_params: {'hash': 'abb9d6cdedbb508efb10ee65fd8773c528b258bc08a942cfbc594ef24f8a4693'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/balance
+
+		- api params: {'hash': 'abb9d6cdedbb508efb10ee65fd8773c528b258bc08a942cfbc594ef24f8a4693'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503381000, "currency": "CNY", "operatorName": "OTG", "action": "balance", "transactionId": "49886353ff304aaca16731c9fc22e98b", "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d48cea93fc488efc81c44755d1b805c781553503380 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.262014 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時43分01秒 [Portal] POST KA balance API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: g_KA_Revoke.py
+********Test Case: g_KA_Revoke.py********
+
+	Start >>03月25日16時43分04秒 [Portal] POST KA revoke API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_revoke.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = bc31b3a149078817f0fbe43cf41a63896afc8736a38b20bc501b14ff3225ae6e
+
+		- api_params: {'hash': 'bc31b3a149078817f0fbe43cf41a63896afc8736a38b20bc501b14ff3225ae6e'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/revoke
+
+		- api params: {'hash': 'bc31b3a149078817f0fbe43cf41a63896afc8736a38b20bc501b14ff3225ae6e'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503384000, "currency": "CNY", "operatorName": "OTG", "action": "revoke", "transactionId": "49886353ff304aaca16731c9fc22e98b", "round": 0, "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d933f8c46c4d98373da041b14ea915cf51553503383 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.340389 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時43分04秒 [Portal] POST KA revoke API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+
+* Run test case: z_KA_End.py
+********Test Case: z_KA_End.py********
+
+	Start >>03月25日16時43分07秒 [Portal] POST KA end API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_end.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = fe214b62a19e7fa061477615d690a629dc2002d8c5a5ee05845f22a2c657504f
+
+		- api_params: {'hash': 'fe214b62a19e7fa061477615d690a629dc2002d8c5a5ee05845f22a2c657504f'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/end
+
+		- api params: {'hash': 'fe214b62a19e7fa061477615d690a629dc2002d8c5a5ee05845f22a2c657504f'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "currency": "CNY", "playerIp": "192.168.50.11", "gameId": "777Vegas", "action": "end", "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d43036dfaf3ce5ddf8d753b61242fe8b51553503386 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.202947 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時43分07秒 [Portal] POST KA end API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
+	<< End collect TestDebug.log to Test Run Folder
+<< End Test Suites: KA_Api
+----------------------------------------------------------------
+
+------------------------Test is finished------------------------
+>> Tear Down for whole test run...
+<< End of Tear Down for whole test run
+Generating overall test results...
+Test Case Number: 14
+Test Case PASS: 5
+Test Case FAIL: 9
+Collecting test log files...

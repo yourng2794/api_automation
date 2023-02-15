@@ -1,0 +1,114 @@
+
+* Run test case: je_Api_admin_webPlayer_promo_create_get.py
+********Test Case: je_Api_admin_webPlayer_promo_create_get.py********
+
+	Start >>07月22日15時55分04秒 [Feature] API POST webPlayer promo create get
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/create/get
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.024413 (seconds)
+
+		- api response: 
+{
+    "promo_type_list": [
+        {
+            "promo_name": "SQApromo0722_155456",
+            "promo_type_id": 2
+        }
+    ],
+    "web_list": [
+        {
+            "web_id": "a8b3c8bfc49c9301c2a86e55e1bff764",
+            "web_name": "QAweb1"
+        }
+    ]
+}
+
+		Response data: {
+    "promo_type_list": [
+        {
+            "promo_name": "SQApromo0722_155456",
+            "promo_type_id": 2
+        }
+    ],
+    "web_list": [
+        {
+            "web_id": "a8b3c8bfc49c9301c2a86e55e1bff764",
+            "web_name": "QAweb1"
+        }
+    ]
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.024413
+
+		- Success get (web_name, web_id): (QAweb1, a8b3c8bfc49c9301c2a86e55e1bff764)
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時55分04秒 [Feature] API POST webPlayer promo create get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時55分04秒 [Feature] API POST webPlayer promo create get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/create/get
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.024413 (seconds)
+- api response: 
+{
+    "promo_type_list": [
+        {
+            "promo_name": "SQApromo0722_155456",
+            "promo_type_id": 2
+        }
+    ],
+    "web_list": [
+        {
+            "web_id": "a8b3c8bfc49c9301c2a86e55e1bff764",
+            "web_name": "QAweb1"
+        }
+    ]
+}
+- API success (status and response are correct).
+- Response time: 0.024413
+- Success get (web_name, web_id): (QAweb1, a8b3c8bfc49c9301c2a86e55e1bff764)
+- - -
+# Test Result: PASS
+
+End << 07月22日15時55分04秒 [Feature] API POST webPlayer promo create get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1555
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

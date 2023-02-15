@@ -1,0 +1,14 @@
+{
+    "bankerId": "e5b6d7d9c6eeae95ddca9011e1153709",
+    "paymentId": "6583ffebabe59b03947d7ea960907a93",
+    "withdraw": {
+        "CNY": {
+            "0": "QAbank98"
+        }
+    },
+    "deposit": {
+        "CNY": {
+            "0": "QAbank98"
+        }
+    }
+}

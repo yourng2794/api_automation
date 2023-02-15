@@ -1,0 +1,74 @@
+
+* Run test case: jb1_Api_admin_webPlayer_promo_type_create.py
+********Test Case: jb1_Api_admin_webPlayer_promo_type_create.py********
+
+	Start >>08月23日09時35分35秒 [Feature] API POST webPlayer promo type create
+
+		New ini value is: API.promoTypeName = QA一般範本11
+		New ini value is: API.promoName = QA一般範本11
+		New ini value is: API.bankerId = 619da70cf372717e11eff31f1d619ef9
+		New ini value is: API.rewards = 2.50
+		New ini value is: API.promoType = 1
+		New ini value is: API.promoAudit = 10.00
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/create
+
+		- api params: {'promoName': 'QA一般範本11', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'condition': '{"reg": "0", "login": "1", "trunover": "1000", "trunover_list": [{"game_type": "all", "name": "BBIN", "providerid": "BB_SLOT", "type": "slot"}, {"game_type": "all", "name": "BBIN", "providerid": "BB_SPORT", "type": "sport"}, {"game_type": "all", "name": "AG", "providerid": "AG_SLOT", "type": "lived"}, {"game_type": "all", "name": "BBIN", "providerid": "BB_LOTTERY", "type": "lottery"}, {"game_type": "all", "name": "BBIN", "providerid": "BB_FISH", "type": "fish"}, {"game_type": "all", "name": "BBIN", "providerid": "BB_POKER", "type": "poker"}]}', 'rewards': '2.50', 'promoAudit': '10.00', 'promoType': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.04336 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.04336
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時35分36秒 [Feature] API POST webPlayer promo type create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時35分35秒 [Feature] API POST webPlayer promo type create
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/create
+- api params: {'promoName': 'QA一般範本11', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'condition': '{"reg": "0", "login": "1", "trunover": "1000", "trunover_list": [{"game_type": "all", "name": "BBIN", "providerid": "BB_SLOT", "type": "slot"}, {"game_type": "all", "name": "BBIN", "providerid": "BB_SPORT", "type": "sport"}, {"game_type": "all", "name": "AG", "providerid": "AG_SLOT", "type": "lived"}, {"game_type": "all", "name": "BBIN", "providerid": "BB_LOTTERY", "type": "lottery"}, {"game_type": "all", "name": "BBIN", "providerid": "BB_FISH", "type": "fish"}, {"game_type": "all", "name": "BBIN", "providerid": "BB_POKER", "type": "poker"}]}', 'rewards': '2.50', 'promoAudit': '10.00', 'promoType': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.04336 (seconds)
+- API success (status and response are correct).
+- Response time: 0.04336
+- - -
+# Test Result: PASS
+
+End << 08月23日09時35分36秒 [Feature] API POST webPlayer promo type create
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0935
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

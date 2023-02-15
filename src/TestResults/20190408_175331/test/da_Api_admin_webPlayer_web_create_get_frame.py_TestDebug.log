@@ -1,0 +1,119 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190408_175331\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190408_175331\\testresults.xml
+********Test Case: da_Api_admin_webPlayer_web_create_get_frame.py********
+
+	Start >>04月08日17時53分31秒 [Feature] API POST admin webPlayer web create get frame
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/create/get/frame
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=v5E18mjJTjfgR0bdRU4CT11vP2TbuzYtp2YTbkjG for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.858758 (seconds)
+
+		- API success (status and response are correct).
+
+		- Response time: 0.858758
+
+		Response data: <div class="input-box">
+    <label>庄家帐号</label>
+    <span id="bankerId" data-bankerId="835bd15c55ec6df3fe054f3aed828e41">QAstep4</span>
+</div>
+<div class="input-box">
+    <label for="webName">网站名称</label>
+    <i class="fas fa-desktop-alt"></i>
+    <input type="text" name="webName" id="webName" class="input-sty required" placeholder="请输入网站名称">
+</div>
+<div class="web-column">
+    <h4 class="fal">网域设定</h4>
+    <div class="web-column-2">
+        <div class="sub-tit">已挂载</div>
+        <div class="src-group">
+            <div class="src-box" id="OnSrc">
+                <i class="fas fa-times-circle"></i>
+                <input type="text" name="srcAddUrl" id="srcAddUrl" class="input-sty"
+                       placeholder="请输入要搜索的网域关键字">
+            </div>
+            <div class="btn btn-submit">
+                搜索
+                <input type="button" id="srcAddUrlBtn">
+            </div>
+        </div>
+        <div class="list-info-box">
+            共
+            <span id="dataOnNum">0</span>
+            个网域
+        </div>
+        <ul class="list sort-tit">
+            <li class="title">
+                <div class="list-group">
+                    <div class="box-10 txt-c">項目</div>
+                    <div class="box-15 txt-c">主网域</div>
+                    <div class="box-50">网域</div>
+                </div>
+                <div class="operate-box">卸除</div>
+            </li>
+        </ul>
+        <ul class="list" id="dataOnList">
+        </ul>
+        <div class="no-data" id="noOn">无网域</div>
+    </div>
+    <div class="url-trans">
+        <img src="img/img_url_transfer.jpg" alt="">
+    </div>
+    <div class="web-column-2">
+        <div class="sub-tit">未挂载</div>
+        <div class="src-group">
+            <div class="src-box" id="OffSrc">
+                <i class="fas fa-times-circle"></i>
+                <input type="text" name="srcUrl" id="srcUrl" class="input-sty"
+                       placeholder="请输入要搜索的网域关键字">
+            </div>
+            <div class="btn btn-submit">
+                搜索
+                <input type="button" id="srcUrlBtn">
+            </div>
+        </div>
+        <div class="list-info-box">
+            共
+            <span id="dataOffNum">0</span>
+            个网域
+        </div>
+        <ul class="list sort-tit">
+            <li class="title">
+                <div class="list-group-100">
+                    <div class="box-10 txt-c">挂载</div>
+                    <div class="box-10 txt-c">項目</div>
+                    <div class="box-50">网域</div>
+                </div>
+            </li>
+        </ul>
+        <ul class="list" id="dataOffList">
+                    </ul>
+        <div class="no-data" id="noOff" >无网域</div>
+    </div>
+</div>
+
+		---
+---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月08日17時53分32秒 [Feature] API POST admin webPlayer web create get frame
+	Collect temp results or other files...

@@ -1,0 +1,57 @@
+
+* Run test case: z_KA_End.py
+********Test Case: z_KA_End.py********
+
+	Start >>03月25日16時43分07秒 [Portal] POST KA end API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_end.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = fe214b62a19e7fa061477615d690a629dc2002d8c5a5ee05845f22a2c657504f
+
+		- api_params: {'hash': 'fe214b62a19e7fa061477615d690a629dc2002d8c5a5ee05845f22a2c657504f'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/end
+
+		- api params: {'hash': 'fe214b62a19e7fa061477615d690a629dc2002d8c5a5ee05845f22a2c657504f'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "currency": "CNY", "playerIp": "192.168.50.11", "gameId": "777Vegas", "action": "end", "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d43036dfaf3ce5ddf8d753b61242fe8b51553503386 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.202947 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時43分07秒 [Portal] POST KA end API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

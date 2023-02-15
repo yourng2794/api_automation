@@ -1,0 +1,148 @@
+
+* Run test case: oe_Api_admin_provider_payOption_list_frame_m.py
+********Test Case: oe_Api_admin_provider_payOption_list_frame_m.py********
+
+	Start >>07月22日15時57分24秒 [Feature] API POST provider payOption list frame m
+
+		New ini value is: API.webId = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.api_path = api/provider/payOption/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/list/frame/m
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021518 (seconds)
+
+		- api response: 
+<div class="result-box">
+ 共
+ <span>
+  0
+ </span>
+ 项支付组合
+</div>
+<ul class="list">
+ <li class="title">
+  <div class="group-box-85">
+   <div class="box-70">
+    支付名称
+   </div>
+   <div class="box-25 txt-c">
+    挂载层级
+   </div>
+  </div>
+  <div class="box-14">
+   操作
+  </div>
+ </li>
+</ul>
+<div class="no-data" id="noData" style="">
+ 无资料
+</div>
+
+
+		Response data: <div class="result-box">
+ 共
+ <span>
+  0
+ </span>
+ 项支付组合
+</div>
+<ul class="list">
+ <li class="title">
+  <div class="group-box-85">
+   <div class="box-70">
+    支付名称
+   </div>
+   <div class="box-25 txt-c">
+    挂载层级
+   </div>
+  </div>
+  <div class="box-14">
+   操作
+  </div>
+ </li>
+</ul>
+<div class="no-data" id="noData" style="">
+ 无资料
+</div>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021518
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL']
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時57分24秒 [Feature] API POST provider payOption list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時57分24秒 [Feature] API POST provider payOption list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/list/frame/m
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021518 (seconds)
+- api response: 
+<div class="result-box">
+ 共
+ <span>
+  0
+ </span>
+ 项支付组合
+</div>
+<ul class="list">
+ <li class="title">
+  <div class="group-box-85">
+   <div class="box-70">
+    支付名称
+   </div>
+   <div class="box-25 txt-c">
+    挂载层级
+   </div>
+  </div>
+  <div class="box-14">
+   操作
+  </div>
+ </li>
+</ul>
+<div class="no-data" id="noData" style="">
+ 无资料
+</div>
+
+- API success (status and response are correct).
+- Response time: 0.021518
+- - -
+# Test Result: FAIL
+
+End << 07月22日15時57分24秒 [Feature] API POST provider payOption list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1557
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

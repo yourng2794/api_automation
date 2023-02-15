@@ -1,0 +1,78 @@
+
+* Run test case: kh_Api_admin_webPlayer_risk_web_frame_m_X.py
+********Test Case: kh_Api_admin_webPlayer_risk_web_frame_m_X.py********
+
+	Start >>04月17日18時43分50秒 [Feature] API POST webPlayer risk web frame m
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.riskid = 56affa5ebc9033d66958ebc5d7d0174e
+
+		- api_params: {'riskid': '56affa5ebc9033d66958ebc5d7d0174e', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/risk/web/frame
+
+		- api params: {'riskid': '56affa5ebc9033d66958ebc5d7d0174e', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=6znNZ0KI2BfKeFoM7ecYUDc1N90QUAu3jx7opK27 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.55719 (seconds)
+
+		Response data: 
+<section>
+ <h4 class="fal">
+  挂载网站
+ </h4>
+ <div class="ckeck-item-unit">
+  <div class="ckeck-item ckeck-all j-c-all">
+   <label for="websiteAll">
+   </label>
+   <input class="required" id="websiteAll" name="website" type="checkbox" value=""/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    全部网站
+   </span>
+  </div>
+  <div class="check-group j-c-area">
+  </div>
+ </div>
+ <div class="center-info">
+  共选择
+  <span id="eventWebNum">
+   0
+  </span>
+  个网站
+ </div>
+</section>
+
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時43分51秒 [Feature] API POST webPlayer risk web frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

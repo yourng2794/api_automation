@@ -1,0 +1,124 @@
+
+* Run test case: nb_Api_admin_provider_payment_list_frame_m.py
+********Test Case: nb_Api_admin_provider_payment_list_frame_m.py********
+
+	Start >>08月23日09時38分11秒 [Feature] API POST provider payment list frame m
+
+		New ini value is: API.webId = eefe247755b8b16c33e8730e9e168211
+		New ini value is: API.option = 3
+		New ini value is: API.enable = 1
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/provider/payment/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payment/list/frame/m
+
+		- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'option': '3', 'enable': '1', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.046483 (seconds)
+
+		Response data: <div class="result-box">
+ 共
+ <span>
+  1
+ </span>
+ 个金流
+</div>
+<ul class="crm-list mem-list">
+ <li>
+  <div class="crm-type">
+   出款+入款
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info">
+   <div class="crm-name">
+    QAweb11-金城武幫你出
+   </div>
+   <div class="crm-edit btn-popup" id="b8eb8bb9c2291fcf4299b1023d9713cf">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display:none;">
+   <div class="crm-item">
+    <label>
+     状态
+    </label>
+    <p>
+     <span class="status-type status-a">
+      启用
+     </span>
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     币别-国币
+    </label>
+    <p>
+     5
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.046483
+
+		- Success get paymentName: QAweb11-金城武幫你出
+
+		- - -
+
+['PASS', 'PASS']
+['PASS']
+		New ini value is: API.paymentId = b8eb8bb9c2291fcf4299b1023d9713cf
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+		New ini value is: API.option = 
+		New ini value is: API.enable = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日09時38分11秒 [Feature] API POST provider payment list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時38分11秒 [Feature] API POST provider payment list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payment/list/frame/m
+- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'option': '3', 'enable': '1', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.046483 (seconds)
+- API success (status and response are correct).
+- Response time: 0.046483
+- Success get paymentName: QAweb11-金城武幫你出
+- - -
+# Test Result: PASS
+
+End << 08月23日09時38分11秒 [Feature] API POST provider payment list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0938
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

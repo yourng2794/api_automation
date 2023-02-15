@@ -1,0 +1,566 @@
+
+* Run test case: jh_Api_admin_webPlayer_promo_list_frame_m.py
+********Test Case: jh_Api_admin_webPlayer_promo_list_frame_m.py********
+
+	Start >>08月23日15時45分48秒 [Feature] API POST webPlayer promo list frame m
+
+		New ini value is: API.bankerId = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.webId = 1c049b9bc588fead28c0e84492f051a2
+		New ini value is: API.type = all
+		New ini value is: API.promoType = 1
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+
+		- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.037952 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type e-not-start" id="nuStart">
+   <b class="lang440">
+    未开始
+   </b>
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QAweb12-QApromo
+   </div>
+   <div class="crm-edit btn-popup" id="131">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang315">
+      开始时间
+     </b>
+    </label>
+    <p>
+     2019-08-24
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang573">
+      结束时间
+     </b>
+    </label>
+    <p>
+     2019-08-25
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang617">
+      庄家
+     </b>
+    </label>
+    <p>
+     QAbanker12
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.037952
+
+		Success get webName-promoName: QAweb12-QApromo
+
+		Success get promoId: 131
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 2
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+
+		- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.042505 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type e-not-start" id="nuStart">
+   <b class="lang440">
+    未开始
+   </b>
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QAweb12-QApromo生日
+   </div>
+   <div class="crm-edit btn-popup" id="132">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang315">
+      开始时间
+     </b>
+    </label>
+    <p>
+     2019-08-24
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang573">
+      结束时间
+     </b>
+    </label>
+    <p>
+     2019-08-25
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang617">
+      庄家
+     </b>
+    </label>
+    <p>
+     QAbanker12
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.042505
+
+		Success get webName-promoName: QAweb12-QApromo生日
+
+		Success get promoId: 132
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 3
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+
+		- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '3'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.037671 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type e-not-start" id="nuStart">
+   <b class="lang440">
+    未开始
+   </b>
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QAweb12-QApromo救援
+   </div>
+   <div class="crm-edit btn-popup" id="133">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang315">
+      开始时间
+     </b>
+    </label>
+    <p>
+     2019-08-24
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang573">
+      结束时间
+     </b>
+    </label>
+    <p>
+     2019-08-25
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang617">
+      庄家
+     </b>
+    </label>
+    <p>
+     QAbanker12
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.037671
+
+		Success get webName-promoName: QAweb12-QApromo救援
+
+		Success get promoId: 133
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 4
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+
+		- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '4'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.042649 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type e-not-start" id="nuStart">
+   <b class="lang440">
+    未开始
+   </b>
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QAweb12-QApromo好友
+   </div>
+   <div class="crm-edit btn-popup" id="134">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang315">
+      开始时间
+     </b>
+    </label>
+    <p>
+     2019-08-24
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang573">
+      结束时间
+     </b>
+    </label>
+    <p>
+     2019-08-25
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang617">
+      庄家
+     </b>
+    </label>
+    <p>
+     QAbanker12
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.042649
+
+		Success get webName-promoName: QAweb12-QApromo好友
+
+		Success get promoId: 134
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 5
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+
+		- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '5'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.045279 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type e-not-start" id="nuStart">
+   <b class="lang440">
+    未开始
+   </b>
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QAweb12-QApromo簽到
+   </div>
+   <div class="crm-edit btn-popup" id="135">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang315">
+      开始时间
+     </b>
+    </label>
+    <p>
+     2019-08-24
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang573">
+      结束时间
+     </b>
+    </label>
+    <p>
+     2019-08-25
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang617">
+      庄家
+     </b>
+    </label>
+    <p>
+     QAbanker12
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.045279
+
+		Success get webName-promoName: QAweb12-QApromo簽到
+
+		Success get promoId: 135
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoId = 131
+		New ini value is: API.promoId2 = 132
+		New ini value is: API.promoId3 = 133
+		New ini value is: API.promoId4 = 134
+		New ini value is: API.promoId5 = 135
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.webId = 
+		New ini value is: API.type = 
+		New ini value is: API.page = 
+		New ini value is: API.promoType = 
+	<< End Tear Down
+
+
+	End << 08月23日15時45分48秒 [Feature] API POST webPlayer promo list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時45分48秒 [Feature] API POST webPlayer promo list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.037952 (seconds)
+- API success (status and response are correct).
+- Response time: 0.037952
+Success get webName-promoName: QAweb12-QApromo
+Success get promoId: 131
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '2'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.042505 (seconds)
+- API success (status and response are correct).
+- Response time: 0.042505
+Success get webName-promoName: QAweb12-QApromo生日
+Success get promoId: 132
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '3'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.037671 (seconds)
+- API success (status and response are correct).
+- Response time: 0.037671
+Success get webName-promoName: QAweb12-QApromo救援
+Success get promoId: 133
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '4'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.042649 (seconds)
+- API success (status and response are correct).
+- Response time: 0.042649
+Success get webName-promoName: QAweb12-QApromo好友
+Success get promoId: 134
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/list/frame/m
+- api params: {'type': 'all', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'page': '', 'webId': '1c049b9bc588fead28c0e84492f051a2', 'promoType': '5'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.045279 (seconds)
+- API success (status and response are correct).
+- Response time: 0.045279
+Success get webName-promoName: QAweb12-QApromo簽到
+Success get promoId: 135
+- - -
+# Test Result: PASS
+
+End << 08月23日15時45分48秒 [Feature] API POST webPlayer promo list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1545
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

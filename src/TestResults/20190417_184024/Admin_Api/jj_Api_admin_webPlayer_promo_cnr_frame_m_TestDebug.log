@@ -1,0 +1,331 @@
+
+* Run test case: jj_Api_admin_webPlayer_promo_cnr_frame_m.py
+********Test Case: jj_Api_admin_webPlayer_promo_cnr_frame_m.py********
+
+	Start >>04月17日18時43分16秒 [Feature] API POST webPlayer promo cnr frame m
+
+		New ini value is: API.promoid = befaaf980c63f056e9eac8180225ad09
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/cnr/frame
+
+		- api params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=rryNWfU6UqXNfTDfwPuEKHfVSiHv9TVNpUnYsKwn for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.640353 (seconds)
+
+		Response data: 
+<section>
+ <h4 class="fal">
+  基本资料
+ </h4>
+ <div class="input-box input-box-w">
+  <label for="name">
+   活动名称
+  </label>
+  <i class="far fa-atom">
+  </i>
+  <input class="input-sty required" id="name" name="name" placeholder="请输入活动名称" type="text" value=" QApromo"/>
+ </div>
+ <div class="input-box">
+  <label for="stime">
+   开始时间
+  </label>
+  <i class="fas fa-hourglass-start">
+  </i>
+  <input class="input-sty required j-starDay datepicker-here" data-language="zh" data-position="top left" data-timepicker="true" id="stime" name="stime" placeholder="请输入开始时间" readonly="" type="text" value="2019-04-16 18:42:45"/>
+ </div>
+ <div class="input-box">
+  <label for="etime">
+   结束时间
+  </label>
+  <i class="fas fa-hourglass-end">
+  </i>
+  <input class="input-sty required j-endDay datepicker-here" data-language="zh" data-position="top left" data-timepicker="true" id="etime" name="etime" placeholder="请输入结束时间" readonly="" type="text" value="2019-04-18 18:42:45"/>
+ </div>
+</section>
+<section>
+ <h4 class="fal">
+  活动条件
+ </h4>
+ <div class="txt-note txt-note-no-mar">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  投注金额适用所有币值。
+ </div>
+ <div class="txt-note txt-note-no-mar">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  请勾选要启用的条件（可复选）！
+ </div>
+ <ul class="list list-no-mar" id="EventRuleList">
+  <li class="title">
+   <div class="list-group">
+    <div class="box-8 txt-c">
+     项目
+    </div>
+    <div class="box-25">
+     条件名称
+    </div>
+    <div class="box-40">
+     类型
+    </div>
+    <div class="box-15 txt-r">
+     累积投注金额
+    </div>
+   </div>
+  </li>
+  <li>
+   <div class="list-group">
+    <div class="box-8 txt-c">
+     <div class="ckeck-item">
+      <label for="conditionReg">
+      </label>
+      <input id="conditionReg" name="conditionReg" type="checkbox" value="0"/>
+      <div class="check-box fas">
+      </div>
+     </div>
+    </div>
+    <div class="box-25">
+     会员注册
+    </div>
+    <div class="box-40">
+     -
+    </div>
+    <div class="box-15 txt-r">
+     -
+    </div>
+   </div>
+   <div class="operate-box">
+   </div>
+  </li>
+  <li>
+   <div class="list-group">
+    <div class="box-8 txt-c">
+     <div class="ckeck-item">
+      <label for="conditionLogin">
+      </label>
+      <input 0="" checked="checked" id="conditionLogin" name="conditionLogin" type="checkbox" value="1"/>
+      <div class="check-box fas">
+      </div>
+     </div>
+    </div>
+    <div class="box-25">
+     会员登入
+    </div>
+    <div class="box-40">
+     -
+    </div>
+    <div class="box-15 txt-r">
+     -
+    </div>
+   </div>
+  </li>
+  <li>
+   <div class="list-group">
+    <div class="box-8 txt-c">
+     <div class="ckeck-item">
+      <label for="conditionTrunover">
+      </label>
+      <input id="conditionTrunover" name="conditionTrunover" type="checkbox"/>
+      <div class="check-box fas">
+      </div>
+     </div>
+    </div>
+    <div class="box-25">
+     总投注金额
+    </div>
+    <div class="box-40">
+     -
+    </div>
+    <div class="box-15 txt-r">
+     <input class="input-sty list-input" id="trunover" placeholder="请输入金额" type="text" value="  "/>
+    </div>
+   </div>
+  </li>
+ </ul>
+ <ul class="list" id="gameBetProd">
+  <li>
+   <div class="list-group">
+    <div class="box-8 txt-c">
+    </div>
+    <div class="box-25">
+     单一产品投注金额
+    </div>
+    <div class="box-40">
+     <select class="sel-sty list-sel" id="gamebetType" name="gamebetType">
+      <option value="slot">
+       电子游戏
+      </option>
+      <option value="fish">
+       捕鱼
+      </option>
+      <option value="lived">
+       真人视讯
+      </option>
+      <option value="lottery">
+       彩票
+      </option>
+      <option value="poker">
+       棋牌
+      </option>
+      <option value="sport">
+       体育
+      </option>
+     </select>
+     <select class="sel-sty list-sel" id="supplierName" name="supplierName">
+     </select>
+    </div>
+    <div class="box-15 txt-r">
+     <!-- <input type="text" class="input-sty list-input" id="prodAmount" placeholder="请输入金额" > -->
+    </div>
+   </div>
+   <div class="operate-box">
+    <a alt="新增" id="addEvent" title="新增">
+     <i class="fas fa-plus-circle">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+ <div class="center-info">
+  共设定
+  <span id="listNum1">
+   1
+  </span>
+  项条件
+ </div>
+</section>
+<section>
+ <h4 class="fal">
+  奖励内容
+ </h4>
+ <div class="txt-note txt-note-no-mar">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  投注金额适用所有币值。
+ </div>
+ <div class="txt-note txt-note-no-mar">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  至少选择一项奖励！
+ </div>
+ <ul class="list" id="dataBonusList">
+  <li class="title">
+   <div class="list-group-100">
+    <div class="box-8 txt-c">
+     项目
+    </div>
+    <div class="box-25">
+     奖励名称
+    </div>
+    <div class="box-15">
+     比例
+    </div>
+    <div class="box-15 txt-r">
+     金额
+    </div>
+   </div>
+  </li>
+  <li>
+   <div class="list-group-100">
+    <div class="box-8 txt-c">
+     <div class="ckeck-item">
+      <label for="rewardRio">
+      </label>
+      <input checked="checked" id="rewardRio" name="rewardRio" type="checkbox"/>
+      <div class="check-box fas">
+      </div>
+     </div>
+    </div>
+    <div class="box-25">
+     返水
+    </div>
+    <div class="box-15">
+     <input class="input-sty list-input02" id="rewRio" placeholder="00" type="text" value="1"/>
+     %
+    </div>
+    <div class="box-15 txt-r">
+     -
+    </div>
+   </div>
+  </li>
+  <li>
+   <div class="list-group-100">
+    <div class="box-8 txt-c">
+     <div class="ckeck-item">
+      <label for="rewardCash">
+      </label>
+      <input id="rewardCash" name="rewardCash" type="checkbox"/>
+      <div class="check-box fas">
+      </div>
+     </div>
+    </div>
+    <div class="box-25">
+     现金奖励
+    </div>
+    <div class="box-15">
+     -
+    </div>
+    <div class="box-15 txt-r">
+     <input class="input-sty list-input" id="rewCash" placeholder="请输入金额" type="text"/>
+    </div>
+   </div>
+  </li>
+ </ul>
+ <div class="no-data" id="noBonusData" style="display:none;">
+  未输入
+ </div>
+ <div class="center-info">
+  共设定
+  <span id="listNum2">
+   0
+  </span>
+  项奖励
+ </div>
+</section>
+
+
+		- Fail get name:  QApromo != QApromo
+
+		- Success get stime: 2019-04-16 18:42:45
+
+		- Success get etime: 2019-04-18 18:42:45
+
+		- Success get conditionTrunover: False
+
+		- Success get conditionTrunover: 0
+
+		- Success get conditionTrunover: 1
+
+		---
+
+		---
+['FAIL', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時43分17秒 [Feature] API POST webPlayer promo cnr frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,120 @@
+
+* Run test case: mf_Api_admin_provider_payment_bank_get.py
+********Test Case: mf_Api_admin_provider_payment_bank_get.py********
+
+	Start >>04月19日18時38分47秒 [Feature] API POST provider payment bank get
+
+		New ini value is: API.enable = 1
+
+		- api url: http://admtest.o2ogt.com/api/provider/bankCard/edit
+
+		- api params: {'cardId': '13306150968120ad6125838e2a6f4b81', 'bankName': 'QAbank19', 'branchName': 'Branch19', 'bankAcc': '00000000123461', 'accName': 'QA6', 'currency': 'CNY', 'amount': '5000', 'maxwithdraw': '3000', 'maxdeposit': '1000', 'mindeposit': '100', 'option': '3', 'enable': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.269136 (seconds)
+
+		Response data: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/BankCardController.php",
+    "Error_code": "E03",
+    "Error_line": 239,
+    "Error_message": "Duplicate"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.currency = CNY
+		New ini value is: API.option = 1
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/get
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'currency': 'CNY', 'option': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.130157 (seconds)
+
+		Response data: 
+{
+    "QAbank1": "0",
+    "QAbank16": "0",
+    "QAbank17": "0",
+    "QAbank18": "1",
+    "QAbank19": "0"
+}
+
+		- Success get (bankName, value): QAbank19, 0
+
+		---
+
+		---
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.currency = CNY
+		New ini value is: API.option = 2
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/get
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'currency': 'CNY', 'option': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.169647 (seconds)
+
+		Response data: 
+{
+    "QAbank1": "0",
+    "QAbank16": "0",
+    "QAbank17": "0",
+    "QAbank18": "1",
+    "QAbank19": "0"
+}
+
+		- Success get (bankName, value): QAbank19, 0
+
+		---
+
+		---
+['FAIL', 'PASS', 'PASS']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時38分48秒 [Feature] API POST provider payment bank get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

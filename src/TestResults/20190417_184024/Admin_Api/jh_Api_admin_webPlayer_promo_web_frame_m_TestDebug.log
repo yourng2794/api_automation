@@ -1,0 +1,66 @@
+
+* Run test case: jh_Api_admin_webPlayer_promo_web_frame_m.py
+********Test Case: jh_Api_admin_webPlayer_promo_web_frame_m.py********
+
+	Start >>04月17日18時43分09秒 [Feature] API POST webPlayer promo web frame m
+
+		New ini value is: API.promoid = befaaf980c63f056e9eac8180225ad09
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/web/frame
+
+		- api params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=dCvuZxipvyXcnc6Ll7QbPx6v5XXxThtvEV9CMmMi for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.542424 (seconds)
+
+		Response data: 
+<div class="ckeck-item-unit">
+ <div class="ckeck-item ckeck-all j-c-all">
+  <label for="websiteAll">
+  </label>
+  <input class="required" id="websiteAll" name="website" type="checkbox" value=""/>
+  <div class="check-box fas">
+  </div>
+  <span>
+   全部网站
+  </span>
+ </div>
+ <div class="check-group j-c-area" id="eventWebsit">
+ </div>
+</div>
+
+
+		- Success get span: websiteAll
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時43分10秒 [Feature] API POST webPlayer promo web frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

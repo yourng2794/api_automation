@@ -1,0 +1,60 @@
+
+* Run test case: jc_Api_admin_webPlayer_promo_create.py
+********Test Case: jc_Api_admin_webPlayer_promo_create.py********
+
+	Start >>04月19日18時36分54秒 [Feature] API POST webPlayer promo create
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_promo_create.json
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/create
+
+		- api params: {}
+
+		- api data: {"name": "QApromo", "currency": "CNY", "stime": "2019-04-18 18:36:54", "etime": "2019-04-20 18:36:54", "condition": {"reg": 0, "login": 1, "trunover": "", "gamebet": [{"type": "slot"}, {"type": "fish"}, {"type": "lived"}, {"type": "lottery"}, {"type": "poker"}, {"type": "sport"}]}, "reward": {"rio": 1, "cash": ""}, "webid": "0b82165981316ecf67ad30a5887aa1e9", "ptid": "835bd15c55ec6df3fe054f3aed828e41"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.718853 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.718853
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時36分54秒 [Feature] API POST webPlayer promo create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,146 @@
+
+* Run test case: ba_Api_admin_profile.py
+********Test Case: ba_Api_admin_profile.py********
+
+	Start >>08月23日15時42分34秒 [Portal] API POST user profile
+
+
+		- api url: http://tadmapi.o2ogt.com/api/profile
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.172481 (seconds)
+
+		Response data: {
+    "accCont01": {
+        "ir": []
+    },
+    "accCont02": {
+        "qs": []
+    },
+    "accCont03": {
+        "gl": [],
+        "or": [],
+        "orb": [],
+        "ord": [],
+        "orp": [],
+        "orplr": [],
+        "orpvd": [],
+        "orw": [],
+        "plrr": [],
+        "prr": [],
+        "wr": []
+    },
+    "accCont04": {
+        "dp": [],
+        "ee": []
+    },
+    "accCont05": {
+        "prt": [],
+        "pt": [],
+        "ptr": [],
+        "ptt": []
+    },
+    "accCont06": {
+        "cms": [],
+        "dm": [],
+        "gs": [],
+        "lv": [],
+        "ma": [],
+        "ms": [],
+        "nt": [],
+        "plr": [],
+        "plrd": [],
+        "plrt": [],
+        "pr": [],
+        "promo": [],
+        "risk": [],
+        "sl": [],
+        "st": [],
+        "wb": []
+    },
+    "accCont07": {
+        "bc": [],
+        "pm": [],
+        "po": [],
+        "pvd": []
+    },
+    "accCont08": {
+        "bh": [],
+        "bt": [],
+        "er": [],
+        "ia": [],
+        "md": [],
+        "mw": [],
+        "rfs": [],
+        "rp": [],
+        "rs": [],
+        "wa": []
+    },
+    "is_member": 0,
+    "login_acc": "A_Boss",
+    "login_banker_id": "o2o",
+    "login_id": "boss",
+    "login_rank": 1,
+    "member_acc": null,
+    "member_id": null,
+    "unread_count": 39509
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.172481
+
+		- This is Boss Account
+		New ini value is: TestData.admin_boss_id = boss
+
+		- Success get login_rank: 1 (Boss)
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日15時42分34秒 [Portal] API POST user profile
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時42分34秒 [Portal] API POST user profile
+
+- api url: http://tadmapi.o2ogt.com/api/profile
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.172481 (seconds)
+- API success (status and response are correct).
+- Response time: 0.172481
+- This is Boss Account
+- Success get login_rank: 1 (Boss)
+- - -
+# Test Result: PASS
+
+End << 08月23日15時42分34秒 [Portal] API POST user profile
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1542
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

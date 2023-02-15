@@ -1,0 +1,395 @@
+
+* Run test case: em_Api_admin_partner_info_get.py
+********Test Case: em_Api_admin_partner_info_get.py********
+
+	Start >>08月23日15時44分11秒 [Feature] API POST partner info get
+
+		New ini value is: API.ptId = e5cdf39b1bbfe5293636b7cab00c040c
+
+		- api url: http://tadmapi.o2ogt.com/api/partner/info/get
+
+		- api params: {'ptId': 'e5cdf39b1bbfe5293636b7cab00c040c'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.055903 (seconds)
+
+		Response data: {
+    "accCont01": {
+        "ir": {
+            "ir_r": 1
+        }
+    },
+    "accCont02": {
+        "qs": {
+            "qs_r": 1
+        }
+    },
+    "accCont03": {
+        "gl": {
+            "gl_r": 1
+        },
+        "or": [],
+        "orb": {
+            "orb_r": 1
+        },
+        "ord": {
+            "ord_r": 1
+        },
+        "orp": {
+            "orp_r": 1
+        },
+        "orplr": {
+            "orplr_r": 1
+        },
+        "orpvd": {
+            "orpvd_r": 1
+        },
+        "orw": {
+            "orw_r": 1
+        },
+        "plrr": {
+            "plrr_r": 1
+        },
+        "prr": {
+            "prr_r": 1
+        },
+        "wr": {
+            "wr_r": 1
+        }
+    },
+    "accCont04": {
+        "dp": {
+            "dp_c": 1,
+            "dp_d": 1,
+            "dp_r": 1,
+            "dp_u": 1
+        },
+        "ee": {
+            "ee_c": 1,
+            "ee_d": 1,
+            "ee_r": 1,
+            "ee_u": 1
+        }
+    },
+    "accCont05": {
+        "prt": [],
+        "pt": {
+            "pt_c": 1,
+            "pt_d": 1,
+            "pt_r": 1,
+            "pt_u": 1
+        },
+        "ptr": {
+            "ptr_r": 1,
+            "ptr_u": 1
+        },
+        "ptt": {
+            "ptt_u": 1
+        }
+    },
+    "accCont06": {
+        "cms": {
+            "cms_c": 1,
+            "cms_d": 1,
+            "cms_r": 1,
+            "cms_u": 1
+        },
+        "dm": {
+            "dm_r": 1,
+            "dm_u": 1
+        },
+        "gs": {
+            "gs_u": 1
+        },
+        "lv": {
+            "lv_r": 1,
+            "lv_u": 1
+        },
+        "ma": {
+            "ma_c": 1,
+            "ma_d": 1,
+            "ma_r": 1,
+            "ma_u": 1
+        },
+        "ms": {
+            "ms_c": 1,
+            "ms_d": 1,
+            "ms_r": 1,
+            "ms_u": 1
+        },
+        "nt": {
+            "nt_c": 1,
+            "nt_d": 1,
+            "nt_r": 1,
+            "nt_u": 1
+        },
+        "plr": {
+            "plr_c": 1,
+            "plr_r": 1,
+            "plr_u": 1
+        },
+        "plrd": {
+            "plrd_r": 1
+        },
+        "plrt": {
+            "plrt_u": 1
+        },
+        "pr": [],
+        "promo": {
+            "promo_c": 1,
+            "promo_d": 1,
+            "promo_r": 1,
+            "promo_u": 1
+        },
+        "risk": {
+            "risk_c": 1,
+            "risk_d": 1,
+            "risk_r": 1,
+            "risk_u": 1
+        },
+        "sl": [],
+        "st": {
+            "st_u": 1
+        },
+        "wb": {
+            "wb_r": 1,
+            "wb_u": 1
+        }
+    },
+    "accCont07": {
+        "bc": {
+            "bc_r": 1
+        },
+        "pm": {
+            "pm_r": 1,
+            "pm_u": 1
+        },
+        "po": {
+            "po_c": 1,
+            "po_d": 1,
+            "po_r": 1,
+            "po_u": 1
+        },
+        "pvd": []
+    },
+    "accCont08": {
+        "bh": {
+            "bh_r": 1
+        },
+        "bt": {
+            "bt_c": 1
+        },
+        "er": {
+            "er_r": 1,
+            "er_u": 1
+        },
+        "ia": {
+            "ia_r": 1
+        },
+        "md": {
+            "md_c": 1
+        },
+        "mw": {
+            "mw_c": 1
+        },
+        "rfs": {
+            "rfs_c": 1,
+            "rfs_d": 1,
+            "rfs_r": 1,
+            "rfs_u": 1
+        },
+        "rp": {
+            "rp_c": 1,
+            "rp_d": 1,
+            "rp_r": 1,
+            "rp_u": 1
+        },
+        "rs": {
+            "rs_r": 1,
+            "rs_u": 1
+        },
+        "wa": {
+            "wa_r": 1,
+            "wa_u": 1
+        }
+    },
+    "currency": {
+        "CNY": 1
+    },
+    "max_percent": "85.00",
+    "min_percent": "0.00",
+    "parent_acc": "QAbanker12",
+    "parent_name": "QATEST12",
+    "percent": "75.00",
+    "pt_acc": "QAwebmaster12",
+    "pt_acc_name": "QATEST12",
+    "pt_id": "e5cdf39b1bbfe5293636b7cab00c040c",
+    "pt_permissionid": "c39d4fd36583ea34f58cf992fbe58ce9",
+    "pt_pwd": "QAwebmaster12",
+    "pt_state": 1,
+    "pt_type_id": "8dccf4efcfa3f7b099967f164138e96d",
+    "pt_type_name": "QAtype12",
+    "pt_website": [
+        {
+            "web_id": "1c049b9bc588fead28c0e84492f051a2",
+            "web_name": "QAweb12"
+        }
+    ],
+    "rank": 3,
+    "v_currency": []
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.055903
+
+		- Success get rank: 3 (WebMaster)
+
+		- Success get pt_acc: QAwebmaster12
+
+		- Success get pt_pwd: QAwebmaster12
+
+		- Success get pt_id: e5cdf39b1bbfe5293636b7cab00c040c
+
+		- Success get percent: 75.00
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True', 'True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+
+		- - -
+
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', True]
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.ptId = 
+	<< End Tear Down
+
+
+	End << 08月23日15時44分11秒 [Feature] API POST partner info get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時44分11秒 [Feature] API POST partner info get
+
+- api url: http://tadmapi.o2ogt.com/api/partner/info/get
+- api params: {'ptId': 'e5cdf39b1bbfe5293636b7cab00c040c'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.055903 (seconds)
+- API success (status and response are correct).
+- Response time: 0.055903
+- Success get rank: 3 (WebMaster)
+- Success get pt_acc: QAwebmaster12
+- Success get pt_pwd: QAwebmaster12
+- Success get pt_id: e5cdf39b1bbfe5293636b7cab00c040c
+- Success get percent: 75.00
+- - -
+# Test Result: PASS
+
+End << 08月23日15時44分11秒 [Feature] API POST partner info get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1544
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

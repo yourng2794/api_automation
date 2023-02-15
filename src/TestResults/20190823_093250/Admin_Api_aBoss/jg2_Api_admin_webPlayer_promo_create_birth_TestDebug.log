@@ -1,0 +1,76 @@
+
+* Run test case: jg2_Api_admin_webPlayer_promo_create_birth.py
+********Test Case: jg2_Api_admin_webPlayer_promo_create_birth.py********
+
+	Start >>08月23日09時36分00秒 [Feature] API POST webPlayer promo create
+
+		New ini value is: API.promoName = QApromo生日
+		New ini value is: API.webId = eefe247755b8b16c33e8730e9e168211
+		New ini value is: API.vipId[] = 2e2379cca7728358f0dd2bfe375c6a76
+		New ini value is: API.promoType = 2
+		New ini value is: API.promoAudit = 10
+		New ini value is: API.rewards = 10.00
+		New ini value is: API.condition = {"currentDepositAmount":100,"relaxationDays":5}
+		New ini value is: API.time = 2019-08-24 ~ 2019-08-25
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/create
+
+		- api params: {'promoName': 'QApromo生日', 'time': '2019-08-24 ~ 2019-08-25', 'condition': '{"currentDepositAmount":100,"relaxationDays":5}', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'vipId[]': ['2e2379cca7728358f0dd2bfe375c6a76'], 'promoType': '2', 'promoAudit': '10', 'rewards': '10.00'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.060361 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.060361
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時36分01秒 [Feature] API POST webPlayer promo create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時36分00秒 [Feature] API POST webPlayer promo create
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/create
+- api params: {'promoName': 'QApromo生日', 'time': '2019-08-24 ~ 2019-08-25', 'condition': '{"currentDepositAmount":100,"relaxationDays":5}', 'webId': 'eefe247755b8b16c33e8730e9e168211', 'vipId[]': ['2e2379cca7728358f0dd2bfe375c6a76'], 'promoType': '2', 'promoAudit': '10', 'rewards': '10.00'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.060361 (seconds)
+- API success (status and response are correct).
+- Response time: 0.060361
+- - -
+# Test Result: PASS
+
+End << 08月23日09時36分01秒 [Feature] API POST webPlayer promo create
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0936
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

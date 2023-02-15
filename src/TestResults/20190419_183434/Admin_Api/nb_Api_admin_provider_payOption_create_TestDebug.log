@@ -1,0 +1,85 @@
+
+* Run test case: nb_Api_admin_provider_payOption_create.py
+********Test Case: nb_Api_admin_provider_payOption_create.py********
+
+	Start >>04月19日18時39分01秒 [Feature] API POST provider payOption create
+
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_payment_bank_link_edit.json
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/link/edit
+
+		- api params: {}
+
+		- api data: {"bankerId": "835bd15c55ec6df3fe054f3aed828e41", "paymentId": "6583ffebabe59b03947d7ea960907a93", "withdraw": {"CNY": {"0": "QAbank19"}}, "deposit": {"CNY": {"0": "QAbank19"}}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.56414 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.56414
+
+		---
+
+		---
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_payOption_create.json
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/create
+
+		- api params: {}
+
+		- api data: {"bankerId": "835bd15c55ec6df3fe054f3aed828e41", "payName": "QApay19", "currency": ["CNY"], "review": "1", "reviewAmount": "1", "reviewHour": "2", "onlinePromo": "2", "onlineCount": "0", "onlineAmount": "4", "onlineRatio": "1.1", "onlineMaxdep": "6", "onlineMindep": "7", "onlineLimit": "8", "companyPromo": "2", "companyCount": "0", "companyAmount": "1", "companyRatio": "2.1", "companyMaxdep": "3", "companyMindep": "4", "companyLimit": "5", "withdraw": {"CNY": ["6583ffebabe59b03947d7ea960907a93"]}, "deposit": {"CNY": ["6583ffebabe59b03947d7ea960907a93"]}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.157471 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.157471
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時39分02秒 [Feature] API POST provider payOption create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

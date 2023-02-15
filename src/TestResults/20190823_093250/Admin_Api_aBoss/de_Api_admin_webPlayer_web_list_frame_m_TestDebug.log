@@ -1,0 +1,212 @@
+
+* Run test case: de_Api_admin_webPlayer_web_list_frame_m.py
+********Test Case: de_Api_admin_webPlayer_web_list_frame_m.py********
+
+	Start >>08月23日09時33分42秒 [Feature] API POST webPlayer web list frame m
+
+		New ini value is: API.bankerId = 619da70cf372717e11eff31f1d619ef9
+		New ini value is: API.api_path = api/webPlayer/web/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/list/frame/m
+
+		- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.046931 (seconds)
+
+		Response data: <h4>
+ <i class="far fa-caret-right">
+ </i>
+ 庄家列表
+</h4>
+<div class="sub-group">
+ <div class="sel-box-b">
+  <div class="select-sty">
+   <select id="bankerList" name="bankerList">
+    <option value="027ed3857c6bb61a10bcd38856f5f98d">
+     B_789
+    </option>
+    <option value="0936a9a61157ad93a984f73d5de8b692">
+     B_Banker001
+    </option>
+    <option value="bffcb58b29c8b639e302aed425e02a54">
+     B_banker1
+    </option>
+    <option value="c6f3d86c6161b7a78949af9526aa3b02">
+     B_banker13
+    </option>
+    <option value="258931eec7b31ba22fa91e08cdeabb40">
+     B_banker2
+    </option>
+    <option value="ac3587c2ac84f7035079d7b0d7b5afb3">
+     B_BANKER666
+    </option>
+    <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+     B_cc1211
+    </option>
+    <option value="d167eafa0a4317c06b7561f2840fa1fa">
+     B_Chris001
+    </option>
+    <option value="3c7344d76648d2044fbac8b6e9e0950d">
+     B_cindy
+    </option>
+    <option value="bb641ea343d63186a1fdd9f1ea1dd4a6">
+     B_DD
+    </option>
+    <option value="79465b7dfbad75b215e2e7f9d6dac69f">
+     B_DDD
+    </option>
+    <option value="6185a3710cd25372dcfb908843a563b0">
+     B_Nicole
+    </option>
+    <option value="2a2b8009b766549fc9daec26af8959c8">
+     B_simple
+    </option>
+    <option value="410fa981da48e2ce75e65ca1b388edfe">
+     B_superman
+    </option>
+    <option value="1d31b3161100ce16f7c8e6d89a596570">
+     QAbanker0
+    </option>
+    <option value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+     QAbanker1
+    </option>
+    <option value="2aade99c42b43ed4f69df9fa45cbd429">
+     QAbanker10
+    </option>
+    <option selected="selected" value="619da70cf372717e11eff31f1d619ef9">
+     QAbanker11
+    </option>
+    <option value="5ad55444c706520f54f03ba384b857d1">
+     QAbanker2
+    </option>
+    <option value="8e4a14b9ab5670cb5191ff4279141b11">
+     QAbanker3
+    </option>
+    <option value="7c699591a21ae5b90f735383bc6c431f">
+     QAbanker4
+    </option>
+    <option value="f194e28aa4c0e6440c59b61f1a73b789">
+     QAbanker5
+    </option>
+    <option value="7b079a0af4afaa0c5c5eb610d449c663">
+     QAbanker6
+    </option>
+   </select>
+   <i class="fas fa-caret-down">
+   </i>
+  </div>
+ </div>
+ <div class="submit-box">
+  <input class="btn submit" id="srcBtn" type="button" value="搜索"/>
+ </div>
+ <div class="result-box">
+  共
+  <span>
+   1
+  </span>
+  个网站
+ </div>
+ <ul class="list">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-55">
+     网站
+    </div>
+    <div class="box-25 txt-c">
+     人数
+    </div>
+    <div class="box-15 txt-c">
+     状态
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+  <!-- 申請狀態不用跳編輯的box -->
+  <!-- 建置狀態不用跳編輯的box -->
+  <li>
+   <a class="group-box-85" href="">
+    <div class="box-55">
+     QAweb11
+    </div>
+    <div class="box-25 txt-c">
+     0
+    </div>
+    <div class="box-15 txt-c">
+     <span class="web-apply">
+      申请
+     </span>
+    </div>
+   </a>
+   <div class="box-14">
+    <a alt="修改" class="btn-disable" id="eefe247755b8b16c33e8730e9e168211" title="修改">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+</div>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.046931
+
+		- Success get webName: QAweb11
+
+		- Success get webId: eefe247755b8b16c33e8730e9e168211
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.webId = eefe247755b8b16c33e8730e9e168211
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日09時33分42秒 [Feature] API POST webPlayer web list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時33分42秒 [Feature] API POST webPlayer web list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/list/frame/m
+- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.046931 (seconds)
+- API success (status and response are correct).
+- Response time: 0.046931
+- Success get webName: QAweb11
+- Success get webId: eefe247755b8b16c33e8730e9e168211
+- - -
+# Test Result: PASS
+
+End << 08月23日09時33分42秒 [Feature] API POST webPlayer web list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0933
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

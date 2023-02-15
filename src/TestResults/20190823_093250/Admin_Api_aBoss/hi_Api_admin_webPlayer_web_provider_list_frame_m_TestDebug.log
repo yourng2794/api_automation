@@ -1,0 +1,611 @@
+
+* Run test case: hi_Api_admin_webPlayer_web_provider_list_frame_m.py
+********Test Case: hi_Api_admin_webPlayer_web_provider_list_frame_m.py********
+
+	Start >>08月23日09時35分22秒 [Feature] API POST webPlayer web provider list frame m
+
+		New ini value is: API.webId = eefe247755b8b16c33e8730e9e168211
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/webPlayer/web/provider/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/list/frame/m
+
+		- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.046883 (seconds)
+
+		Response data: <h3>
+ <i class="fas fa-caret-right">
+ </i>
+ QAweb11 游戏管理
+</h3>
+<div class="sub-group">
+ <ul class="list" id="dataList">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-55">
+     名称
+    </div>
+    <div class="box-15 txt-c">
+     状态
+    </div>
+    <div class="box-25 txt-c">
+     游戏开启
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     BBIN 捕鱼
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     3
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="BB_FISH" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     BBIN 真人视讯
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     25
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="BB_LIVED" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     BBIN 彩票
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     44
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="BB_LOTTERY" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     BBIN 棋牌
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     5
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="BB_POKER" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     BBIN 电子游戏
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     127
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="BB_SLOT" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     BBIN 体育
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     9
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="BB_SPORT" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     CQ9 捕鱼
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     3
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="CQ9_FISH" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     CQ9 棋牌
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     3
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="CQ9_POKER" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     CQ9 电子游戏
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     3
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="CQ9_SLOT" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     CR 体育
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="CR_SPORT" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     DL 彩票
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     13
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="DL_LOTTERY" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     FP 捕鱼
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     3
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="FP_FISH" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     FP 电子游戏
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     56
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="FP_SLOT" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     JDB 捕鱼
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     4
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="JDB_FISH" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     JDB 棋牌
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     13
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="JDB_POKER" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     JDB 电子游戏
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     82
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="JDB_SLOT" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     KA 电子游戏
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     100
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="KA_SLOT" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     KY 棋牌
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     3
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="KY_POKER" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     MG 真人视讯
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="MG_LIVED" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-55">
+     MG 电子游戏
+    </div>
+    <div class="box-15 txt-c">
+     <span class="game-shutdown">
+      关闭
+     </span>
+    </div>
+    <div class="box-25 txt-c">
+     2
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="MG_SLOT" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+</div>
+<div class="pagin-box">
+ <a onclick="Pagination(1 )">
+  <i class="fal fa-angle-double-left" title="第一页">
+  </i>
+ </a>
+ <a onclick="Pagination(1)">
+  <i class="fal fa-angle-left">
+  </i>
+ </a>
+ <div class="pagin-num">
+  <span>
+   1
+  </span>
+  /
+  <span>
+   2
+  </span>
+  <select id="paginSel" name="paginSel">
+   <option selected="" value="1">
+    1
+   </option>
+   <option value="2">
+    2
+   </option>
+  </select>
+ </div>
+ <a onclick="Pagination(2 )">
+  <i class="fal fa-angle-double-right" title="最后一页">
+  </i>
+ </a>
+ <a onclick="Pagination(2 )">
+  <i class="fal fa-angle-right">
+  </i>
+ </a>
+</div>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.046883
+
+		- Success get provider (name, id, status): (BBIN捕鱼, BB_FISH, 关闭)
+
+		- Success get provider (name, id, status): (BBIN真人视讯, BB_LIVED, 关闭)
+
+		- Success get provider (name, id, status): (BBIN彩票, BB_LOTTERY, 关闭)
+
+		- Success get provider (name, id, status): (BBIN棋牌, BB_POKER, 关闭)
+
+		- Success get provider (name, id, status): (BBIN电子游戏, BB_SLOT, 关闭)
+
+		- Success get provider (name, id, status): (BBIN体育, BB_SPORT, 关闭)
+
+		- Success get provider (name, id, status): (CQ9捕鱼, CQ9_FISH, 关闭)
+
+		- Success get provider (name, id, status): (CQ9棋牌, CQ9_POKER, 关闭)
+
+		- Success get provider (name, id, status): (CQ9电子游戏, CQ9_SLOT, 关闭)
+
+		- Success get provider (name, id, status): (CR体育, CR_SPORT, 关闭)
+
+		- Success get provider (name, id, status): (DL彩票, DL_LOTTERY, 关闭)
+
+		- Success get provider (name, id, status): (FP捕鱼, FP_FISH, 关闭)
+
+		- Success get provider (name, id, status): (FP电子游戏, FP_SLOT, 关闭)
+
+		- Success get provider (name, id, status): (JDB捕鱼, JDB_FISH, 关闭)
+
+		- Success get provider (name, id, status): (JDB棋牌, JDB_POKER, 关闭)
+
+		- Success get provider (name, id, status): (JDB电子游戏, JDB_SLOT, 关闭)
+
+		- Success get provider (name, id, status): (KA电子游戏, KA_SLOT, 关闭)
+
+		- Success get provider (name, id, status): (KY棋牌, KY_POKER, 关闭)
+
+		- Success get provider (name, id, status): (MG真人视讯, MG_LIVED, 关闭)
+
+		- Success get provider (name, id, status): (MG电子游戏, MG_SLOT, 关闭)
+
+		- - -
+
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.provider_ids = BB_FISH, BB_LIVED, BB_LOTTERY, BB_POKER, BB_SLOT, BB_SPORT, CQ9_FISH, CQ9_POKER, CQ9_SLOT, CR_SPORT, DL_LOTTERY, FP_FISH, FP_SLOT, JDB_FISH, JDB_POKER, JDB_SLOT, KA_SLOT, KY_POKER, MG_LIVED, MG_SLOT
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日09時35分22秒 [Feature] API POST webPlayer web provider list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時35分22秒 [Feature] API POST webPlayer web provider list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/provider/list/frame/m
+- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.046883 (seconds)
+- API success (status and response are correct).
+- Response time: 0.046883
+- Success get provider (name, id, status): (BBIN捕鱼, BB_FISH, 关闭)
+- Success get provider (name, id, status): (BBIN真人视讯, BB_LIVED, 关闭)
+- Success get provider (name, id, status): (BBIN彩票, BB_LOTTERY, 关闭)
+- Success get provider (name, id, status): (BBIN棋牌, BB_POKER, 关闭)
+- Success get provider (name, id, status): (BBIN电子游戏, BB_SLOT, 关闭)
+- Success get provider (name, id, status): (BBIN体育, BB_SPORT, 关闭)
+- Success get provider (name, id, status): (CQ9捕鱼, CQ9_FISH, 关闭)
+- Success get provider (name, id, status): (CQ9棋牌, CQ9_POKER, 关闭)
+- Success get provider (name, id, status): (CQ9电子游戏, CQ9_SLOT, 关闭)
+- Success get provider (name, id, status): (CR体育, CR_SPORT, 关闭)
+- Success get provider (name, id, status): (DL彩票, DL_LOTTERY, 关闭)
+- Success get provider (name, id, status): (FP捕鱼, FP_FISH, 关闭)
+- Success get provider (name, id, status): (FP电子游戏, FP_SLOT, 关闭)
+- Success get provider (name, id, status): (JDB捕鱼, JDB_FISH, 关闭)
+- Success get provider (name, id, status): (JDB棋牌, JDB_POKER, 关闭)
+- Success get provider (name, id, status): (JDB电子游戏, JDB_SLOT, 关闭)
+- Success get provider (name, id, status): (KA电子游戏, KA_SLOT, 关闭)
+- Success get provider (name, id, status): (KY棋牌, KY_POKER, 关闭)
+- Success get provider (name, id, status): (MG真人视讯, MG_LIVED, 关闭)
+- Success get provider (name, id, status): (MG电子游戏, MG_SLOT, 关闭)
+- - -
+# Test Result: PASS
+
+End << 08月23日09時35分22秒 [Feature] API POST webPlayer web provider list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0935
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

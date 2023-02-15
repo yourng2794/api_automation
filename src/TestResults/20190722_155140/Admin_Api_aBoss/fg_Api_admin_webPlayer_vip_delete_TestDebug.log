@@ -1,0 +1,665 @@
+
+* Run test case: fg_Api_admin_webPlayer_vip_delete.py
+********Test Case: fg_Api_admin_webPlayer_vip_delete.py********
+
+	Start >>07月22日15時53分57秒 [Feature] API POST webPlayer vip delete
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.vipname = DeleteVIP
+		New ini value is: API.deposittimes = 10
+		New ini value is: API.deposittotal = 
+		New ini value is: API.maxdepositamount = 2000
+		New ini value is: API.maxwithdrawalamount = 1000
+		New ini value is: API.withdrawaltimes = 10
+		New ini value is: API.withdrawaltotal = 100
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/create
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipName': 'DeleteVIP', 'depositTimes': '10', 'depositTotal': '', 'maxDepositAmount': '2000', 'maxWithdrawalAmount': '1000', 'withdrawalTimes': '10', 'withdrawalTotal': '100'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.030629 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.030629
+
+		- - -
+
+['PASS']
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.api_path = api/webPlayer/vip/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/list/frame
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.011653 (seconds)
+
+		- api response: 
+<div class="src-group">
+ <label for="selBanker">
+  庄家帐号
+ </label>
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="level">
+   <option value="bffcb58b29c8b639e302aed425e02a54">
+    B_banker1
+   </option>
+   <option value="258931eec7b31ba22fa91e08cdeabb40">
+    B_banker2
+   </option>
+   <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+    B_cc1211
+   </option>
+   <option value="3c7344d76648d2044fbac8b6e9e0950d">
+    B_cindy
+   </option>
+   <option value="6185a3710cd25372dcfb908843a563b0">
+    B_Nicole
+   </option>
+   <option value="2a2b8009b766549fc9daec26af8959c8">
+    B_simple
+   </option>
+   <option selected="selected" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+    QAbanker1
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input id="srcBtn" type="button"/>
+ </div>
+</div>
+<div class="sub-tab under-sub-tab">
+ <a class="act">
+  层级列表
+ </a>
+ <a href="web_level_group.html">
+  层级群组
+ </a>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  2
+ </span>
+ 个层级
+ <a class="btn btn-orange" href="web_level_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增层级
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10">
+    层级
+   </div>
+   <div class="box-10 txt-c">
+    网站数量
+   </div>
+   <div class="box-10 txt-c">
+    存款次数
+   </div>
+   <div class="box-10 txt-c">
+    存款总额
+   </div>
+   <div class="box-20">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10" id="66f0d0efc8a3203ceae2466a36602d17">
+    DeleteVIP
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-10 txt-c">
+    10
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-20">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-07-22 07:53:56
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_level_edit.html" id="66f0d0efc8a3203ceae2466a36602d17" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+   <a alt="删除" class="del" href="#" style="" title="删除">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    2
+   </div>
+   <div class="box-10" id="b01bf316216d1aa054c9df0aea873425">
+    QAvip1
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-10 txt-c">
+    10
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-20">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-07-22 07:53:43
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_level_edit.html" id="b01bf316216d1aa054c9df0aea873425" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+   <a alt="删除" class="del" href="#" style="" title="删除">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		Response data: <div class="src-group">
+ <label for="selBanker">
+  庄家帐号
+ </label>
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="level">
+   <option value="bffcb58b29c8b639e302aed425e02a54">
+    B_banker1
+   </option>
+   <option value="258931eec7b31ba22fa91e08cdeabb40">
+    B_banker2
+   </option>
+   <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+    B_cc1211
+   </option>
+   <option value="3c7344d76648d2044fbac8b6e9e0950d">
+    B_cindy
+   </option>
+   <option value="6185a3710cd25372dcfb908843a563b0">
+    B_Nicole
+   </option>
+   <option value="2a2b8009b766549fc9daec26af8959c8">
+    B_simple
+   </option>
+   <option selected="selected" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+    QAbanker1
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input id="srcBtn" type="button"/>
+ </div>
+</div>
+<div class="sub-tab under-sub-tab">
+ <a class="act">
+  层级列表
+ </a>
+ <a href="web_level_group.html">
+  层级群组
+ </a>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  2
+ </span>
+ 个层级
+ <a class="btn btn-orange" href="web_level_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增层级
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10">
+    层级
+   </div>
+   <div class="box-10 txt-c">
+    网站数量
+   </div>
+   <div class="box-10 txt-c">
+    存款次数
+   </div>
+   <div class="box-10 txt-c">
+    存款总额
+   </div>
+   <div class="box-20">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10" id="66f0d0efc8a3203ceae2466a36602d17">
+    DeleteVIP
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-10 txt-c">
+    10
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-20">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-07-22 07:53:56
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_level_edit.html" id="66f0d0efc8a3203ceae2466a36602d17" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+   <a alt="删除" class="del" href="#" style="" title="删除">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    2
+   </div>
+   <div class="box-10" id="b01bf316216d1aa054c9df0aea873425">
+    QAvip1
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-10 txt-c">
+    10
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-20">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-07-22 07:53:43
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_level_edit.html" id="b01bf316216d1aa054c9df0aea873425" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+   <a alt="删除" class="del" href="#" style="" title="删除">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.011653
+
+		- Success get vipname: DeleteVIP
+
+		- Success get vipid: 66f0d0efc8a3203ceae2466a36602d17
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.vipId = 66f0d0efc8a3203ceae2466a36602d17
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/delete
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipId': '66f0d0efc8a3203ceae2466a36602d17'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.030667 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.030667
+
+		- - -
+
+['PASS']
+[True, True, True]
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.vipId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時53分57秒 [Feature] API POST webPlayer vip delete
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時53分57秒 [Feature] API POST webPlayer vip delete
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/create
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipName': 'DeleteVIP', 'depositTimes': '10', 'depositTotal': '', 'maxDepositAmount': '2000', 'maxWithdrawalAmount': '1000', 'withdrawalTimes': '10', 'withdrawalTotal': '100'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.030629 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.030629
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/list/frame
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.011653 (seconds)
+- api response: 
+<div class="src-group">
+ <label for="selBanker">
+  庄家帐号
+ </label>
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="level">
+   <option value="bffcb58b29c8b639e302aed425e02a54">
+    B_banker1
+   </option>
+   <option value="258931eec7b31ba22fa91e08cdeabb40">
+    B_banker2
+   </option>
+   <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+    B_cc1211
+   </option>
+   <option value="3c7344d76648d2044fbac8b6e9e0950d">
+    B_cindy
+   </option>
+   <option value="6185a3710cd25372dcfb908843a563b0">
+    B_Nicole
+   </option>
+   <option value="2a2b8009b766549fc9daec26af8959c8">
+    B_simple
+   </option>
+   <option selected="selected" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+    QAbanker1
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input id="srcBtn" type="button"/>
+ </div>
+</div>
+<div class="sub-tab under-sub-tab">
+ <a class="act">
+  层级列表
+ </a>
+ <a href="web_level_group.html">
+  层级群组
+ </a>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  2
+ </span>
+ 个层级
+ <a class="btn btn-orange" href="web_level_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增层级
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10">
+    层级
+   </div>
+   <div class="box-10 txt-c">
+    网站数量
+   </div>
+   <div class="box-10 txt-c">
+    存款次数
+   </div>
+   <div class="box-10 txt-c">
+    存款总额
+   </div>
+   <div class="box-20">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10" id="66f0d0efc8a3203ceae2466a36602d17">
+    DeleteVIP
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-10 txt-c">
+    10
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-20">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-07-22 07:53:56
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_level_edit.html" id="66f0d0efc8a3203ceae2466a36602d17" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+   <a alt="删除" class="del" href="#" style="" title="删除">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    2
+   </div>
+   <div class="box-10" id="b01bf316216d1aa054c9df0aea873425">
+    QAvip1
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-10 txt-c">
+    10
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-20">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-07-22 07:53:43
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_level_edit.html" id="b01bf316216d1aa054c9df0aea873425" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+   <a alt="删除" class="del" href="#" style="" title="删除">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+- API success (status and response are correct).
+- Response time: 0.011653
+- Success get vipname: DeleteVIP
+- Success get vipid: 66f0d0efc8a3203ceae2466a36602d17
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/delete
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipId': '66f0d0efc8a3203ceae2466a36602d17'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.030667 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.030667
+- - -
+# Test Result: PASS
+
+End << 07月22日15時53分57秒 [Feature] API POST webPlayer vip delete
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1553
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

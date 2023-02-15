@@ -1,0 +1,60 @@
+
+* Run test case: ha_Api_admin_webPlayer_web_vip_domain_edit.py
+********Test Case: ha_Api_admin_webPlayer_web_vip_domain_edit.py********
+
+	Start >>04月17日18時42分21秒 [Feature] API POST webPlayer web vip domain edit
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+>> Start isInt
+<< Success, End isInt
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_web_vip_domain_edit.json
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/vip/domain/edit
+
+		- api params: {}
+
+		- api data: {"webId": "cc337abf81b4328ad33c1bf0e957ca4c", "vipGroupId": "d45b282c94a1755f5b790709ba586737", "vipDataList": [{"vipId": "f217f1ce1232bc38ad81b439ce4e52a9", "webDomainUrl": "10.10.10.229", "transferSet": "2", "timeStart": "", "timeEnd": "", "setTime": "00:00"}]}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=OCQ8AMazfqZblYUKbg2ybuC4IKzm9WXFYQujFqtQ for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.583315 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.583315
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時42分21秒 [Feature] API POST webPlayer web vip domain edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,131 @@
+
+* Run test case: ce_Api_admin_webPlayer_domain_edit.py
+********Test Case: ce_Api_admin_webPlayer_domain_edit.py********
+
+	Start >>07月22日15時52分18秒 [Feature] API POST webPlayer domain edit
+
+		New ini value is: API.webDomainId = c0f63e237cebde21e3b7ef9580d2349b
+		New ini value is: API.webDomain = 10.1.10.1
+		New ini value is: API.status = 0
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/edit
+
+		- api params: {'webDomainId': 'c0f63e237cebde21e3b7ef9580d2349b', 'webDomain': '10.1.10.1', 'status': '0'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.024989 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.024989
+
+		- - -
+
+['PASS']
+		New ini value is: API.status = 1
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/edit
+
+		- api params: {'webDomainId': 'c0f63e237cebde21e3b7ef9580d2349b', 'webDomain': '10.1.10.1', 'status': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.054852 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.054852
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時52分18秒 [Feature] API POST webPlayer domain edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時52分18秒 [Feature] API POST webPlayer domain edit
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/edit
+- api params: {'webDomainId': 'c0f63e237cebde21e3b7ef9580d2349b', 'webDomain': '10.1.10.1', 'status': '0'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.024989 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+- API success (status and response are correct).
+- Response time: 0.024989
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/edit
+- api params: {'webDomainId': 'c0f63e237cebde21e3b7ef9580d2349b', 'webDomain': '10.1.10.1', 'status': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.054852 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+- API success (status and response are correct).
+- Response time: 0.054852
+- - -
+# Test Result: PASS
+
+End << 07月22日15時52分18秒 [Feature] API POST webPlayer domain edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1552
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

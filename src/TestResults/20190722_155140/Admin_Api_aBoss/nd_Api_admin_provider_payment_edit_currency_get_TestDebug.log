@@ -1,0 +1,138 @@
+
+* Run test case: nd_Api_admin_provider_payment_edit_currency_get.py
+********Test Case: nd_Api_admin_provider_payment_edit_currency_get.py********
+
+	Start >>07月22日15時57分03秒 [Feature] API POST provider payment edit currency get
+
+		New ini value is: API.paymentId = a21dd5a0970084747ead2136793e914d
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payment/edit/currency/get
+
+		- api params: {'paymentId': 'a21dd5a0970084747ead2136793e914d'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.023099 (seconds)
+
+		- api response: 
+{
+    "currency": [
+        {
+            "CNY": "1"
+        },
+        {
+            "EUR": "1"
+        },
+        {
+            "HKD": "1"
+        },
+        {
+            "MOP": "1"
+        },
+        {
+            "USD": "1"
+        }
+    ],
+    "payname": "金城武幫你出",
+    "v_currency": []
+}
+
+		Response data: {
+    "currency": [
+        {
+            "CNY": "1"
+        },
+        {
+            "EUR": "1"
+        },
+        {
+            "HKD": "1"
+        },
+        {
+            "MOP": "1"
+        },
+        {
+            "USD": "1"
+        }
+    ],
+    "payname": "金城武幫你出",
+    "v_currency": []
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.023099
+
+		- Success get currency: CNY, EUR, HKD, MOP, USD
+
+		- Fail get v_currency
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.paymentId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時57分03秒 [Feature] API POST provider payment edit currency get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時57分03秒 [Feature] API POST provider payment edit currency get
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payment/edit/currency/get
+- api params: {'paymentId': 'a21dd5a0970084747ead2136793e914d'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.023099 (seconds)
+- api response: 
+{
+    "currency": [
+        {
+            "CNY": "1"
+        },
+        {
+            "EUR": "1"
+        },
+        {
+            "HKD": "1"
+        },
+        {
+            "MOP": "1"
+        },
+        {
+            "USD": "1"
+        }
+    ],
+    "payname": "金城武幫你出",
+    "v_currency": []
+}
+- API success (status and response are correct).
+- Response time: 0.023099
+- Success get currency: CNY, EUR, HKD, MOP, USD
+- Fail get v_currency
+- - -
+# Test Result: PASS
+
+End << 07月22日15時57分03秒 [Feature] API POST provider payment edit currency get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1557
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

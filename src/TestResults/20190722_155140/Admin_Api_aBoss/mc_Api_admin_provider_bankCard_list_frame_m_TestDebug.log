@@ -1,0 +1,273 @@
+
+* Run test case: mc_Api_admin_provider_bankCard_list_frame_m.py
+********Test Case: mc_Api_admin_provider_bankCard_list_frame_m.py********
+
+	Start >>07月22日15時56分44秒 [Feature] API POST provider bankCard list frame m
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.option = 0
+		New ini value is: API.enable = 2
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/provider/bankCard/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/bankCard/list/frame/m
+
+		- api params: {'option': '0', 'enable': '2', 'page': '', 'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.023343 (seconds)
+
+		- api response: 
+<div class="result-box">
+ 共
+ <span>
+  1
+ </span>
+ 个银行卡
+</div>
+<ul class="crm-list mem-list">
+ <li>
+  <div class="crm-type">
+   出款+入款
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info">
+   <div class="crm-name">
+    QAbank1
+   </div>
+   <div class="crm-edit btn-popup" id="21bc3b3696d75a846fffb7cd3b67317b">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display:none;">
+   <div class="crm-item crm-item-w">
+    <label>
+     卡号
+    </label>
+    <p>
+     **************0001231
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     单日额度
+    </label>
+    <p>
+     5000
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     币别
+    </label>
+    <p>
+     <img alt="" src="img/coin/coin_CNY.png"/>
+     中國人民幣
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     状态
+    </label>
+    <p>
+     <span class="status-type status-a">
+      启用
+     </span>
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		Response data: <div class="result-box">
+ 共
+ <span>
+  1
+ </span>
+ 个银行卡
+</div>
+<ul class="crm-list mem-list">
+ <li>
+  <div class="crm-type">
+   出款+入款
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info">
+   <div class="crm-name">
+    QAbank1
+   </div>
+   <div class="crm-edit btn-popup" id="21bc3b3696d75a846fffb7cd3b67317b">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display:none;">
+   <div class="crm-item crm-item-w">
+    <label>
+     卡号
+    </label>
+    <p>
+     **************0001231
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     单日额度
+    </label>
+    <p>
+     5000
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     币别
+    </label>
+    <p>
+     <img alt="" src="img/coin/coin_CNY.png"/>
+     中國人民幣
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     状态
+    </label>
+    <p>
+     <span class="status-type status-a">
+      启用
+     </span>
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.023343
+
+		- Success get bankName: QAbank1
+
+		- Success get cardId: 21bc3b3696d75a846fffb7cd3b67317b
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.cardid = 21bc3b3696d75a846fffb7cd3b67317b
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.option = 
+		New ini value is: API.enable = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 07月22日15時56分44秒 [Feature] API POST provider bankCard list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時56分44秒 [Feature] API POST provider bankCard list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/provider/bankCard/list/frame/m
+- api params: {'option': '0', 'enable': '2', 'page': '', 'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.023343 (seconds)
+- api response: 
+<div class="result-box">
+ 共
+ <span>
+  1
+ </span>
+ 个银行卡
+</div>
+<ul class="crm-list mem-list">
+ <li>
+  <div class="crm-type">
+   出款+入款
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info">
+   <div class="crm-name">
+    QAbank1
+   </div>
+   <div class="crm-edit btn-popup" id="21bc3b3696d75a846fffb7cd3b67317b">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display:none;">
+   <div class="crm-item crm-item-w">
+    <label>
+     卡号
+    </label>
+    <p>
+     **************0001231
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     单日额度
+    </label>
+    <p>
+     5000
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     币别
+    </label>
+    <p>
+     <img alt="" src="img/coin/coin_CNY.png"/>
+     中國人民幣
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     状态
+    </label>
+    <p>
+     <span class="status-type status-a">
+      启用
+     </span>
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+- API success (status and response are correct).
+- Response time: 0.023343
+- Success get bankName: QAbank1
+- Success get cardId: 21bc3b3696d75a846fffb7cd3b67317b
+- - -
+# Test Result: PASS
+
+End << 07月22日15時56分44秒 [Feature] API POST provider bankCard list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1556
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

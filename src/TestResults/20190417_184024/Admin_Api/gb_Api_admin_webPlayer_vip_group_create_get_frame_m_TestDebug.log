@@ -1,0 +1,165 @@
+
+* Run test case: gb_Api_admin_webPlayer_vip_group_create_get_frame_m.py
+********Test Case: gb_Api_admin_webPlayer_vip_group_create_get_frame_m.py********
+
+	Start >>04月17日18時41分58秒 [Feature] API POST webPlayer vip group create get frame m
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/group/create/get/frame
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=k2ZmLiroW3h80R2vxv9cS0QkxAFiAU0bcRlktPHx for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.435557 (seconds)
+
+		Response data: 
+<div class="sub-tit">
+ 未挂载
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataOffNum">
+  4
+ </span>
+ 个层级
+</div>
+<ul class="list" id="dataOffList">
+ <li class="title">
+  <div class="list-group-100">
+   <div class="box-10 txt-c">
+    挂载
+   </div>
+   <div class="box-10 txt-c">
+    項目
+   </div>
+   <div class="box-15 txt-c">
+    层级
+   </div>
+   <div class="box-15 txt-c">
+    存款次数
+   </div>
+   <div class="box-15 txt-c">
+    存款总额
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group-100">
+   <div class="box-10 txt-c set-map">
+    <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+    </i>
+   </div>
+   <div class="box-10 txt-c js-indList">
+    1
+   </div>
+   <div class="box-15 txt-c js-urlId" id="b87920a6f659c6960bdd9e54ef638a6e">
+    QAvip12
+   </div>
+   <div class="box-15 txt-c js-frequency">
+    10
+   </div>
+   <div class="box-15 txt-c js-total">
+    0
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group-100">
+   <div class="box-10 txt-c set-map">
+    <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+    </i>
+   </div>
+   <div class="box-10 txt-c js-indList">
+    2
+   </div>
+   <div class="box-15 txt-c js-urlId" id="d2dc5f6b8f39213bd01b6448a0312ee1">
+    QAvip13
+   </div>
+   <div class="box-15 txt-c js-frequency">
+    10
+   </div>
+   <div class="box-15 txt-c js-total">
+    0
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group-100">
+   <div class="box-10 txt-c set-map">
+    <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+    </i>
+   </div>
+   <div class="box-10 txt-c js-indList">
+    3
+   </div>
+   <div class="box-15 txt-c js-urlId" id="eabd32b44e2d2fd68a7adcf7cdf3010c">
+    QAvip14
+   </div>
+   <div class="box-15 txt-c js-frequency">
+    10
+   </div>
+   <div class="box-15 txt-c js-total">
+    0
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group-100">
+   <div class="box-10 txt-c set-map">
+    <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+    </i>
+   </div>
+   <div class="box-10 txt-c js-indList">
+    4
+   </div>
+   <div class="box-15 txt-c js-urlId" id="f217f1ce1232bc38ad81b439ce4e52a9">
+    QAvip16
+   </div>
+   <div class="box-15 txt-c js-frequency">
+    10
+   </div>
+   <div class="box-15 txt-c js-total">
+    0
+   </div>
+  </div>
+ </li>
+</ul>
+<div class="no-data" id="noOff" style="display:none;">
+ 无网域
+</div>
+
+
+		- Success get : QAvip16
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時41分58秒 [Feature] API POST webPlayer vip group create get frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

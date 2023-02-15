@@ -1,0 +1,56 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190416_181146\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190416_181146\\testresults.xml
+********Test Case: me_Api_admin_provider_payment_bank_info.py********
+
+	Start >>04月16日18時11分46秒 [Feature] API POST provider payment bank info
+
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/info
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=2dVU68fGYB5LASgroCH5H7Ftzr14crSZ9yRA8goB for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.947602 (seconds)
+
+		Response data: 
+{
+    "deposit": {
+        "CNY": [],
+        "EUR": [],
+        "HKD": []
+    },
+    "maxdeposit": 10000000,
+    "maxwithdraw": 1000000,
+    "mindeposit": 0,
+    "payname": "金城武幫你出",
+    "withdrawal": {
+        "CNY": [],
+        "EUR": [],
+        "HKD": []
+    }
+}
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月16日18時11分47秒 [Feature] API POST provider payment bank info
+	Collect temp results or other files...

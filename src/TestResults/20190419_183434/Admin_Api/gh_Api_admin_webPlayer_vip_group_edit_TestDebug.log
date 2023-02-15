@@ -1,0 +1,85 @@
+
+* Run test case: gh_Api_admin_webPlayer_vip_group_edit.py
+********Test Case: gh_Api_admin_webPlayer_vip_group_edit.py********
+
+	Start >>04月19日18時36分18秒 [Feature] API POST webPlayer vip group edit
+
+		New ini value is: API.vipGroupId = 31a71dec774d2b861533f3413c0ee8fc
+		New ini value is: API.vipid[] = 5a03c800d507b03990581e1352bf3848
+		New ini value is: API.vipGroupName = newQAgp19
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/group/edit
+
+		- api params: {'vipGroupId': '31a71dec774d2b861533f3413c0ee8fc', 'vipGroupName': 'newQAgp19', 'vipId[]': '5a03c800d507b03990581e1352bf3848'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.585481 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.585481
+
+		---
+
+		---
+		New ini value is: API.vipGroupName = QAgp19
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/group/edit
+
+		- api params: {'vipGroupId': '31a71dec774d2b861533f3413c0ee8fc', 'vipGroupName': 'QAgp19', 'vipId[]': '5a03c800d507b03990581e1352bf3848'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.15579 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.15579
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時36分19秒 [Feature] API POST webPlayer vip group edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

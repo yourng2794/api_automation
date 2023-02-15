@@ -1,0 +1,78 @@
+
+* Run test case: dh_Api_admin_webPlayer_web_edit.py
+********Test Case: dh_Api_admin_webPlayer_web_edit.py********
+
+	Start >>08月23日15時43分23秒 [Feature] API POST admin webPlayer web edit
+
+		New ini value is: API.bankerId = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.use = 1
+		New ini value is: API.webdomainid = {"508ed892fd23d591f2113b078c2bbe9d":"1"}
+		New ini value is: API.webName = QAweb12
+		New ini value is: API.webId = 1c049b9bc588fead28c0e84492f051a2
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/edit
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'webName': 'QAweb12', 'webDomainId': '{"508ed892fd23d591f2113b078c2bbe9d":"1"}', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'use': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.064706 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.064706
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.use = 
+		New ini value is: API.webdomainid = 
+		New ini value is: API.webName = 
+		New ini value is: API.webId = 
+	<< End Tear Down
+
+
+	End << 08月23日15時43分23秒 [Feature] API POST admin webPlayer web edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時43分23秒 [Feature] API POST admin webPlayer web edit
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/edit
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'webName': 'QAweb12', 'webDomainId': '{"508ed892fd23d591f2113b078c2bbe9d":"1"}', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'use': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.064706 (seconds)
+- API success (status and response are correct).
+- Response time: 0.064706
+- - -
+# Test Result: PASS
+
+End << 08月23日15時43分23秒 [Feature] API POST admin webPlayer web edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1543
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

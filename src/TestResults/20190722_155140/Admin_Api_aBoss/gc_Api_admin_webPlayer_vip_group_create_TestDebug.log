@@ -1,0 +1,85 @@
+
+* Run test case: gc_Api_admin_webPlayer_vip_group_create.py
+********Test Case: gc_Api_admin_webPlayer_vip_group_create.py********
+
+	Start >>07月22日15時54分05秒 [Feature] API POST webPlayer vip group create
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.vipid[] = b01bf316216d1aa054c9df0aea873425
+		New ini value is: API.vipGroupName = QAgp1
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/group/create
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipGroupName': 'QAgp1', 'vipId[]': ['b01bf316216d1aa054c9df0aea873425']}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.034206 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.034206
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.vipid[] = 
+		New ini value is: API.vipGroupName = 
+	<< End Tear Down
+
+
+	End << 07月22日15時54分05秒 [Feature] API POST webPlayer vip group create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時54分05秒 [Feature] API POST webPlayer vip group create
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/group/create
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipGroupName': 'QAgp1', 'vipId[]': ['b01bf316216d1aa054c9df0aea873425']}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.034206 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.034206
+- - -
+# Test Result: PASS
+
+End << 07月22日15時54分05秒 [Feature] API POST webPlayer vip group create
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1554
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

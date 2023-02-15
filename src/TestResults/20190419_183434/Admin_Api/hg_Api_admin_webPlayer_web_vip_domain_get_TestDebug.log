@@ -1,0 +1,72 @@
+
+* Run test case: hg_Api_admin_webPlayer_web_vip_domain_get.py
+********Test Case: hg_Api_admin_webPlayer_web_vip_domain_get.py********
+
+	Start >>04月19日18時36分44秒 [Feature] API POST webPlayer web vip domain get
+
+		New ini value is: API.vipGroupId = 31a71dec774d2b861533f3413c0ee8fc
+		New ini value is: API.webId = 0b82165981316ecf67ad30a5887aa1e9
+		New ini value is: API.vipId = 5a03c800d507b03990581e1352bf3848
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/vip/domain/get
+
+		- api params: {'vipGroupId': '31a71dec774d2b861533f3413c0ee8fc', 'webId': '0b82165981316ecf67ad30a5887aa1e9', 'vipId': '5a03c800d507b03990581e1352bf3848'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.783527 (seconds)
+
+		Response data: 
+{
+    "counter": 0,
+    "domainId": "cce895fad5ced5f3129c300a72cbe5bc",
+    "domainList": {
+        "cce895fad5ced5f3129c300a72cbe5bc": "10.10.10.232"
+    },
+    "domainUrl": "10.10.10.232",
+    "setTime": "00:00",
+    "timeEnd": "1970-01-01 00:00:00",
+    "timeStart": "1970-01-01 00:00:00",
+    "transferSet": 2,
+    "vipName": "QAvip19",
+    "webName": "Testweb19"
+}
+
+		- Success get webDomainId: cce895fad5ced5f3129c300a72cbe5bc
+
+		- Success get webDomain: 10.10.10.232
+
+		- Success get vipName: QAvip19
+
+		- Success get transferSet: 2
+
+		- Success get setTime: 00:00
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時36分45秒 [Feature] API POST webPlayer web vip domain get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

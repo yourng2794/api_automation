@@ -1,0 +1,107 @@
+
+* Run test case: kn_FET_Api_admin_webPlayer_promo_commission_type_create.py
+********Test Case: kn_FET_Api_admin_webPlayer_promo_commission_type_create.py********
+
+	Start >>07月22日15時56分06秒 [Feature] API POST webPlayer promo commission type create
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.webCommissionName = SQArake_0722_155531
+		New ini value is: API.commissionTimes = 100
+		New ini value is: API.receiveTimesDaily = 200
+		New ini value is: API.totalBet = 300
+		New ini value is: API.promotionLimit = 400
+		New ini value is: API.maxReceiveAmount = 500
+		New ini value is: API.singleMinReceiveAmount = 600
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/type/create
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'webCommissionName': 'SQArake_0722_155531', 'commissionTimes': '100', 'receiveTimesDaily': '200', 'totalBet': '300', 'promotionLimit': '400', 'maxReceiveAmount': '500', 'singleMinReceiveAmount': '600'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021343 (seconds)
+
+		- api response: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/PromotionController.php",
+    "Error_code": "E23",
+    "Error_line": 1529,
+    "Error_message": "Error Parameters"
+}
+
+		Response data: {
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/PromotionController.php",
+    "Error_code": "E23",
+    "Error_line": 1529,
+    "Error_message": "Error Parameters"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021343
+
+		- Success (Error_code, Error_message): (E23, Error Parameters)
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.webCommissionName = 
+		New ini value is: API.commissionTimes = 
+		New ini value is: API.receiveTimesDaily = 
+		New ini value is: API.totalBet = 
+		New ini value is: API.promotionLimit = 
+		New ini value is: API.maxReceiveAmount = 
+		New ini value is: API.singleMinReceiveAmount = 
+	<< End Tear Down
+
+
+	End << 07月22日15時56分06秒 [Feature] API POST webPlayer promo commission type create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時56分06秒 [Feature] API POST webPlayer promo commission type create
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/type/create
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'webCommissionName': 'SQArake_0722_155531', 'commissionTimes': '100', 'receiveTimesDaily': '200', 'totalBet': '300', 'promotionLimit': '400', 'maxReceiveAmount': '500', 'singleMinReceiveAmount': '600'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021343 (seconds)
+- api response: 
+{
+    "Error_at": "/var/www/PHP/phpadmin/app/Http/Controllers/PromotionController.php",
+    "Error_code": "E23",
+    "Error_line": 1529,
+    "Error_message": "Error Parameters"
+}
+- API success (status and response are correct).
+- Response time: 0.021343
+- Success (Error_code, Error_message): (E23, Error Parameters)
+---
+---
+# Test Result: PASS
+
+End << 07月22日15時56分06秒 [Feature] API POST webPlayer promo commission type create
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1556
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

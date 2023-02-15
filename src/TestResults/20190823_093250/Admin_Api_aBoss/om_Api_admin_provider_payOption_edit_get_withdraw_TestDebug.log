@@ -1,0 +1,119 @@
+
+* Run test case: om_Api_admin_provider_payOption_edit_get_withdraw.py
+********Test Case: om_Api_admin_provider_payOption_edit_get_withdraw.py********
+
+	Start >>08月23日09時38分49秒 [Feature] API POST provider payOption edit get withdraw
+
+		New ini value is: API.payOptionId = 8b4dfc4c17c8e02e2b922d5c878d3be2
+		New ini value is: API.currency = CNY
+		New ini value is: API.payOption = 1
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw
+
+		- api params: {'payOptionId': '8b4dfc4c17c8e02e2b922d5c878d3be2', 'currency': 'CNY', 'payOption': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.049259 (seconds)
+
+		Response data: {
+    "金城武幫你出": [
+        "1e2563f467e0f59171afcd4f02403bfb",
+        "1"
+    ]
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.049259
+
+		- Fail get list_payment: ['1e2563f467e0f59171afcd4f02403bfb', '1'] != ['b8eb8bb9c2291fcf4299b1023d9713cf', '1']
+
+		- - -
+
+['PASS', 'FAIL']
+		New ini value is: API.payOption = 2
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw
+
+		- api params: {'payOptionId': '8b4dfc4c17c8e02e2b922d5c878d3be2', 'currency': 'CNY', 'payOption': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.04403 (seconds)
+
+		Response data: {
+    "金城武幫你出": [
+        "1e2563f467e0f59171afcd4f02403bfb",
+        "1"
+    ]
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.04403
+
+		- Fail get list_payment: ['1e2563f467e0f59171afcd4f02403bfb', '1'] != ['b8eb8bb9c2291fcf4299b1023d9713cf', '1']
+
+		- - -
+
+['PASS', 'FAIL']
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時38分49秒 [Feature] API POST provider payOption edit get withdraw
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時38分49秒 [Feature] API POST provider payOption edit get withdraw
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw
+- api params: {'payOptionId': '8b4dfc4c17c8e02e2b922d5c878d3be2', 'currency': 'CNY', 'payOption': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.049259 (seconds)
+- API success (status and response are correct).
+- Response time: 0.049259
+- Fail get list_payment: ['1e2563f467e0f59171afcd4f02403bfb', '1'] != ['b8eb8bb9c2291fcf4299b1023d9713cf', '1']
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw
+- api params: {'payOptionId': '8b4dfc4c17c8e02e2b922d5c878d3be2', 'currency': 'CNY', 'payOption': '2'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.04403 (seconds)
+- API success (status and response are correct).
+- Response time: 0.04403
+- Fail get list_payment: ['1e2563f467e0f59171afcd4f02403bfb', '1'] != ['b8eb8bb9c2291fcf4299b1023d9713cf', '1']
+- - -
+# Test Result: FAIL
+
+End << 08月23日09時38分49秒 [Feature] API POST provider payOption edit get withdraw
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0938
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

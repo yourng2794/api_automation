@@ -1,0 +1,148 @@
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190325_164157\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190325_164157\\testresults.xml
+<< Success, End replaceJSONValue.
+{'id': 64, 'suite_id': 1, 'name': 'Automation test report Mar25_1641', 'description': None, 'milestone_id': None, 'assignedto_id': 1, 'include_all': False, 'is_completed': False, 'completed_on': None, 'config': None, 'config_ids': [], 'passed_count': 0, 'blocked_count': 0, 'untested_count': 14, 'retest_count': 0, 'failed_count': 0, 'custom_status1_count': 0, 'custom_status2_count': 0, 'custom_status3_count': 0, 'custom_status4_count': 0, 'custom_status5_count': 0, 'custom_status6_count': 0, 'custom_status7_count': 0, 'project_id': 1, 'plan_id': None, 'created_on': 1553503317, 'created_by': 1, 'url': 'https://o2ogt.testrail.io/index.php?/runs/view/64'}
+		New ini value is: TestRail.TestRailRunID = 64
+------------------------ Test is started------------------------
+>> Enter Test Suites: Admin_Api
+	find test case: a_Api_Login.py
+	find test case: b_Api_admin_profile.py
+	find test case: z_Api_Logout.py
+
+
+* Run test case: a_Api_Login.py
+********Test Case: a_Api_Login.py********
+
+	Start >>03月25日16時42分01秒 [Portal] API POST login exist account
+
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		- Session expired until: 16:43:02
+
+		- API fail (status or response is incorrect).
+
+		Response data: (X) Exception (ApiResponse): HTTPConnectionPool(host='admtest.o2ogt.com', port=80): Read timed out. (read timeout=1)
+
+		---
+
+		- Exception: on solve pic... cannot identify image file 'C:\\Users\\tommy\\git\\tommy_autotest\\ApiAutomation\\src\\code.jpg'
+
+		- - - 
+
+		- 3, accurate: 91 %
+
+		- 7, accurate: 100 %
+
+		- 4, accurate: 92 %
+
+		- 5, accurate: 92 %
+
+		- - - 
+New code: 3745
+		New ini value is: API.code = 3745
+
+		- api_params: {'acc': 'tur111', 'pwd': '111', 'code': '3745'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'tur111', 'pwd': '111', 'code': '3745'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=iWdALzfzwRwpRREILW8XGEil1yRp7TPtj42p6GHa for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.124883 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"Error_code":"E08","Error_message":"No verification code"}
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=iWdALzfzwRwpRREILW8XGEil1yRp7TPtj42p6GHa for .o2ogt.com/>, <Cookie laravel_session=iWdALzfzwRwpRREILW8XGEil1yRp7TPtj42p6GHa for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.107663 (seconds)
+
+		- Session expired until: 16:43:03
+
+		- API success (status and response are correct).
+
+		- Response time: 0.107663
+
+		Response data: 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
+
+		---
+
+		- - - 
+
+		- 2, accurate: 94 %
+
+		- 2, accurate: 96 %
+
+		- 0, accurate: 95 %
+
+		- 5, accurate: 98 %
+
+		- - - 
+New code: 2205
+		New ini value is: API.code = 2205
+
+		- api_params: {'acc': 'tur111', 'pwd': '111', 'code': '2205'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'tur111', 'pwd': '111', 'code': '2205'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _admin=yYpCIGCMVIDqCjX7x0DIzLefGE1HwLOigBuN%2FZqkdN24luqVtBqnyTia2rug%2Bu%2BmfxOGgipK7Jx8VRhbcyz3R9M4FNK7p1JByJ7rW9GXMJGeRVKvxUWDq%2FKEVsJRF5fPi8Jq89Kz1BYMkA9HSCw2t534UjVG2789v83ofDOn9vA%3D for .o2ogt.com/>, <Cookie laravel_session=ssyeBxtqmLWJpUcjJ2VUspghbyk0H9oiMNC1sOcY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.228689 (seconds)
+
+		- - - 
+['FAIL', 'PASS', 'PASS']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分04秒 [Portal] API POST login exist account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

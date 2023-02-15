@@ -1,0 +1,78 @@
+
+* Run test case: di_Api_admin_webPlayer_web_edit_enable.py
+********Test Case: di_Api_admin_webPlayer_web_edit_enable.py********
+
+	Start >>08月23日09時33分53秒 [Feature] API POST admin webPlayer web edit enable
+
+		New ini value is: API.bankerId = 619da70cf372717e11eff31f1d619ef9
+		New ini value is: API.use = 2
+		New ini value is: API.webdomainid = {"5c0523e8423d1aab0a77ae6200e544b7":"1"}
+		New ini value is: API.webName = QAweb11
+		New ini value is: API.webId = eefe247755b8b16c33e8730e9e168211
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/edit
+
+		- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'webName': 'QAweb11', 'webDomainId': '{"5c0523e8423d1aab0a77ae6200e544b7":"1"}', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'use': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.061353 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.061353
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.use = 
+		New ini value is: API.webdomainid = 
+		New ini value is: API.webName = 
+		New ini value is: API.webId = 
+	<< End Tear Down
+
+
+	End << 08月23日09時33分53秒 [Feature] API POST admin webPlayer web edit enable
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時33分53秒 [Feature] API POST admin webPlayer web edit enable
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/edit
+- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211', 'webName': 'QAweb11', 'webDomainId': '{"5c0523e8423d1aab0a77ae6200e544b7":"1"}', 'bankerId': '619da70cf372717e11eff31f1d619ef9', 'use': '2'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.061353 (seconds)
+- API success (status and response are correct).
+- Response time: 0.061353
+- - -
+# Test Result: PASS
+
+End << 08月23日09時33分53秒 [Feature] API POST admin webPlayer web edit enable
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0933
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

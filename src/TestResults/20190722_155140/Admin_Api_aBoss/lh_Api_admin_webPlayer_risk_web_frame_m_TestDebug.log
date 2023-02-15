@@ -1,0 +1,172 @@
+
+* Run test case: lh_Api_admin_webPlayer_risk_web_frame_m.py
+********Test Case: lh_Api_admin_webPlayer_risk_web_frame_m.py********
+
+	Start >>07月22日15時56分27秒 [Feature] API POST webPlayer risk web frame m
+
+		New ini value is: API.ptid = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.riskid = 4d0aa30798771435f51d850bc85b96ed
+		New ini value is: API.api_path = api/webPlayer/risk/web/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/web/frame/m
+
+		- api params: {'riskid': '4d0aa30798771435f51d850bc85b96ed', 'ptid': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.026142 (seconds)
+
+		- api response: 
+<h4>
+ <i class="far fa-caret-right">
+ </i>
+ 挂载网站
+</h4>
+<div class="coin-label-box">
+ <label class="check-all" for="vipAll">
+  <input id="vipAll" name="vipAll" type="checkbox"/>
+  <i class="fas fa-square">
+  </i>
+  全部网站
+ </label>
+ <div class="label-area">
+  <label for="1">
+   <input 0="" checked="checked" id="1" name="webGroup" type="checkbox" value="a8b3c8bfc49c9301c2a86e55e1bff764"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    QAweb1
+   </span>
+  </label>
+ </div>
+</div>
+<div class="btn-domain-create">
+ 共选择
+ <span>
+  1
+ </span>
+ 个网站
+</div>
+
+
+		Response data: <h4>
+ <i class="far fa-caret-right">
+ </i>
+ 挂载网站
+</h4>
+<div class="coin-label-box">
+ <label class="check-all" for="vipAll">
+  <input id="vipAll" name="vipAll" type="checkbox"/>
+  <i class="fas fa-square">
+  </i>
+  全部网站
+ </label>
+ <div class="label-area">
+  <label for="1">
+   <input 0="" checked="checked" id="1" name="webGroup" type="checkbox" value="a8b3c8bfc49c9301c2a86e55e1bff764"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    QAweb1
+   </span>
+  </label>
+ </div>
+</div>
+<div class="btn-domain-create">
+ 共选择
+ <span>
+  1
+ </span>
+ 个网站
+</div>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.026142
+
+		- Success get webName: QAweb1
+
+		- Success get webId: a8b3c8bfc49c9301c2a86e55e1bff764
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.ptid = 
+		New ini value is: API.riskid = 
+	<< End Tear Down
+
+
+	End << 07月22日15時56分28秒 [Feature] API POST webPlayer risk web frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時56分27秒 [Feature] API POST webPlayer risk web frame m
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/web/frame/m
+- api params: {'riskid': '4d0aa30798771435f51d850bc85b96ed', 'ptid': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.026142 (seconds)
+- api response: 
+<h4>
+ <i class="far fa-caret-right">
+ </i>
+ 挂载网站
+</h4>
+<div class="coin-label-box">
+ <label class="check-all" for="vipAll">
+  <input id="vipAll" name="vipAll" type="checkbox"/>
+  <i class="fas fa-square">
+  </i>
+  全部网站
+ </label>
+ <div class="label-area">
+  <label for="1">
+   <input 0="" checked="checked" id="1" name="webGroup" type="checkbox" value="a8b3c8bfc49c9301c2a86e55e1bff764"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    QAweb1
+   </span>
+  </label>
+ </div>
+</div>
+<div class="btn-domain-create">
+ 共选择
+ <span>
+  1
+ </span>
+ 个网站
+</div>
+
+- API success (status and response are correct).
+- Response time: 0.026142
+- Success get webName: QAweb1
+- Success get webId: a8b3c8bfc49c9301c2a86e55e1bff764
+- - -
+# Test Result: PASS
+
+End << 07月22日15時56分28秒 [Feature] API POST webPlayer risk web frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1556
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

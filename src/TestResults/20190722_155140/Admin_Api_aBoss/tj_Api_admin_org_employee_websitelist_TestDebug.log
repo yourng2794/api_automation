@@ -1,0 +1,75 @@
+
+* Run test case: tj_Api_admin_org_employee_websitelist.py
+********Test Case: tj_Api_admin_org_employee_websitelist.py********
+
+	Start >>07月22日15時58分54秒 [Feature] API POST org. employee websitelist
+
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/websitelist
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021387 (seconds)
+
+		- api response: 
+[{"web_id": "3a7bd170a63d05ad51bd8a7af575fd05", "web_name": "蟲蟲維修站"}, {"web_id": "a8b3c8bfc49c9301c2a86e55e1bff764", "web_name": "QAweb1"}, {"web_id": "0e4e80449b7f4492c7725b69c1d8d6de", "web_name": "O2O測試一站"}, {"web_id": "c238b01d0e8f154b17abf2c208a28846", "web_name": "O2O測試二站"}]
+
+		Response data: [{"web_id": "3a7bd170a63d05ad51bd8a7af575fd05", "web_name": "蟲蟲維修站"}, {"web_id": "a8b3c8bfc49c9301c2a86e55e1bff764", "web_name": "QAweb1"}, {"web_id": "0e4e80449b7f4492c7725b69c1d8d6de", "web_name": "O2O測試一站"}, {"web_id": "c238b01d0e8f154b17abf2c208a28846", "web_name": "O2O測試二站"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021387
+
+		Exception: on CheckPermissionDenied... list indices must be integers or slices, not str
+
+		- No data
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時58分54秒 [Feature] API POST org. employee websitelist
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時58分54秒 [Feature] API POST org. employee websitelist
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/websitelist
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021387 (seconds)
+- api response: 
+[{"web_id": "3a7bd170a63d05ad51bd8a7af575fd05", "web_name": "蟲蟲維修站"}, {"web_id": "a8b3c8bfc49c9301c2a86e55e1bff764", "web_name": "QAweb1"}, {"web_id": "0e4e80449b7f4492c7725b69c1d8d6de", "web_name": "O2O測試一站"}, {"web_id": "c238b01d0e8f154b17abf2c208a28846", "web_name": "O2O測試二站"}]
+- API success (status and response are correct).
+- Response time: 0.021387
+- No data
+- - -
+# Test Result: PASS
+
+End << 07月22日15時58分54秒 [Feature] API POST org. employee websitelist
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1558
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

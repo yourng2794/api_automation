@@ -1,0 +1,185 @@
+
+* Run test case: ji_Api_admin_webPlayer_promo_web_frame.py
+********Test Case: ji_Api_admin_webPlayer_promo_web_frame.py********
+
+	Start >>04月19日18時37分15秒 [Feature] API POST webPlayer promo web frame
+
+		New ini value is: API.promoid = ad676be91ab834b540d14d01963b5415
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/promo/web/frame
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/web/frame
+
+		- api params: {'promoid': 'ad676be91ab834b540d14d01963b5415', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.493529 (seconds)
+
+		Response data: 
+<div class="ckeck-item-unit">
+ <div class="ckeck-item ckeck-all j-c-all">
+  <label for="websiteAll">
+  </label>
+  <input class="required" id="websiteAll" name="website" type="checkbox" value=""/>
+  <div class="check-box fas">
+  </div>
+  <span>
+   全部网站
+  </span>
+ </div>
+ <div class="check-group j-c-area" id="eventWebsit">
+  <div class="ckeck-item j-c-item" id="0b82165981316ecf67ad30a5887aa1e9">
+   <label for="website1">
+   </label>
+   <input checked="checked" class="required" id="website1" name="website" type="checkbox" value="0b82165981316ecf67ad30a5887aa1e9"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb19
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="212b97d2151382781bd1f06c24cf5d08">
+   <label for="website2">
+   </label>
+   <input class="required" id="website2" name="website" type="checkbox" value="212b97d2151382781bd1f06c24cf5d08"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb14
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="3743bb7a69166950fda91a0a098faae1">
+   <label for="website3">
+   </label>
+   <input class="required" id="website3" name="website" type="checkbox" value="3743bb7a69166950fda91a0a098faae1"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testwebss
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="6e0cf20b5d29293655a929122a631567">
+   <label for="website4">
+   </label>
+   <input class="required" id="website4" name="website" type="checkbox" value="6e0cf20b5d29293655a929122a631567"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb99
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="86746712cb5fd15a235d62dbd97d4052">
+   <label for="website5">
+   </label>
+   <input class="required" id="website5" name="website" type="checkbox" value="86746712cb5fd15a235d62dbd97d4052"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb33
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="914f95e80273f5b5bed03ef066b8b388">
+   <label for="website6">
+   </label>
+   <input class="required" id="website6" name="website" type="checkbox" value="914f95e80273f5b5bed03ef066b8b388"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb88
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="b5b3094b34fee8ad7f237976d3673af9">
+   <label for="website7">
+   </label>
+   <input class="required" id="website7" name="website" type="checkbox" value="b5b3094b34fee8ad7f237976d3673af9"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb22
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="b5ba81093d96a08e0f67db94ab820a05">
+   <label for="website8">
+   </label>
+   <input class="required" id="website8" name="website" type="checkbox" value="b5ba81093d96a08e0f67db94ab820a05"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb17
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="bce99199a6e39decb77d6b1abdb427ce">
+   <label for="website9">
+   </label>
+   <input class="required" id="website9" name="website" type="checkbox" value="bce99199a6e39decb77d6b1abdb427ce"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb12
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="ca6dc2a642b321ca705b45495dec1434">
+   <label for="website10">
+   </label>
+   <input class="required" id="website10" name="website" type="checkbox" value="ca6dc2a642b321ca705b45495dec1434"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb18
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="cc337abf81b4328ad33c1bf0e957ca4c">
+   <label for="website11">
+   </label>
+   <input class="required" id="website11" name="website" type="checkbox" value="cc337abf81b4328ad33c1bf0e957ca4c"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb16
+   </span>
+  </div>
+  <div class="ckeck-item j-c-item" id="d900073f7aade1f3bbeb1233f6ecd72a">
+   <label for="website12">
+   </label>
+   <input class="required" id="website12" name="website" type="checkbox" value="d900073f7aade1f3bbeb1233f6ecd72a"/>
+   <div class="check-box fas">
+   </div>
+   <span>
+    Testweb13
+   </span>
+  </div>
+ </div>
+</div>
+
+
+		- Success get span: websiteAll
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時37分15秒 [Feature] API POST webPlayer promo web frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

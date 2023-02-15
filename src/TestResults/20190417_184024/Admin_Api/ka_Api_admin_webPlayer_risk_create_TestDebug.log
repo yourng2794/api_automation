@@ -1,0 +1,61 @@
+
+* Run test case: ka_Api_admin_webPlayer_risk_create.py
+********Test Case: ka_Api_admin_webPlayer_risk_create.py********
+
+	Start >>04月17日18時43分27秒 [Feature] API POST webPlayer risk create
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+>> Start isInt
+<< Success, End isInt
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_risk_create.json
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/risk/create
+
+		- api params: {}
+
+		- api data: {"name": "QArisk", "ptid": "835bd15c55ec6df3fe054f3aed828e41", "webid": "cc337abf81b4328ad33c1bf0e957ca4c", "opt": [{"type": "ipLogin", "interval": "1", "time": "min", "amount": "", "count": "5"}]}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=0Qddwkxgn5x0vAb4zLNdwNKlyDhH85z55MQdbBbs for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.440946 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.440946
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時43分27秒 [Feature] API POST webPlayer risk create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

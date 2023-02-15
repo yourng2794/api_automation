@@ -1,0 +1,284 @@
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190823_154223\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190823_154223\\testresults.xml
+	<< END Success, checkJSONFile: Automation test report Aug23_1542
+	<< END Success, replaceJSONValue.
+{'id': 206, 'suite_id': 1, 'name': 'Automation test report Aug23_1542', 'description': None, 'milestone_id': None, 'assignedto_id': 1, 'include_all': False, 'is_completed': False, 'completed_on': None, 'config': None, 'config_ids': [], 'passed_count': 0, 'blocked_count': 0, 'untested_count': 461, 'retest_count': 0, 'failed_count': 0, 'custom_status1_count': 0, 'custom_status2_count': 0, 'custom_status3_count': 0, 'custom_status4_count': 0, 'custom_status5_count': 0, 'custom_status6_count': 0, 'custom_status7_count': 0, 'project_id': 1, 'plan_id': None, 'created_on': 1566546144, 'created_by': 1, 'url': 'https://o2ogt.testrail.io/index.php?/runs/view/206'}
+		New ini value is: TestRail.TestRailRunID = 206
+------------------------ Test is started------------------------
+Set up Pre-condition of this case...
+>> Enter Test Suites: Admin_Api_aBoss
+	find test case: ab_API_admin_login_m.py
+	find test case: a_Api_admin_login.py
+	find test case: ba_Api_admin_profile.py
+	find test case: bb_Api_admin_partner_permission_get.py
+	find test case: bc_Api_admin_partner_create.py
+	find test case: bd_Api_admin_partner_list_frame.py
+	find test case: be_Api_admin_partner_list_frame_m.py
+	find test case: bf_Api_admin_partner_info_get.py
+	find test case: ca_Api_admin_webPlayer_domain_create.py
+	find test case: cb_Api_admin_webPlayer_domain_list_frame.py
+	find test case: cc_Api_admin_webPlayer_domain_list_frame_m.py
+	find test case: cd_Api_admin_webPlayer_domain_edit_get.py
+	find test case: ce_Api_admin_webPlayer_domain_edit.py
+	find test case: da_Api_admin_webPlayer_web_create_get_frame.py
+	find test case: db_Api_admin_webPlayer_web_create_get_frame_m.py
+	find test case: dc_Api_admin_webPlayer_web_create.py
+	find test case: dd_Api_admin_webPlayer_web_list_frame.py
+	find test case: de_Api_admin_webPlayer_web_list_frame_m.py
+	find test case: df_Api_admin_webPlayer_web_edit_get_frame.py
+	find test case: dg_Api_admin_webPlayer_web_edit_get_frame_m.py
+	find test case: dh_Api_admin_webPlayer_web_edit.py
+	find test case: di_Api_admin_webPlayer_web_edit_enable.py
+	find test case: ea_Api_admin_partner_type_permission_get.py
+	find test case: eb_Api_admin_partner_type_create.py
+	find test case: ec_Api_admin_partner_type_list_frame.py
+	find test case: ed_Api_admin_partner_type_list_frame_m.py
+	find test case: ee_Api_admin_partner_type_list.py
+	find test case: ef_Api_admin_partner_type_get.py
+	find test case: eg_Api_admin_partner_type_edit.py
+	find test case: eh_Api_admin_partner_permission_get.py
+	find test case: ei_Api_admin_partner_type_info.py
+	find test case: ej_Api_admin_partner_create_webmaster.py
+	find test case: ek_Api_admin_partner_list_sub_frame_webmaster.py
+	find test case: el_Api_admin_partner_list_sub_frame_m_webmaster.py
+	find test case: em_Api_admin_partner_info_get.py
+	find test case: en_FET_Api_admin_partner_type_delete.py
+	find test case: eo_Api_admin_partner_create_agent.py
+	find test case: ep_Api_admin_partner_list_sub_frame_agent.py
+	find test case: eq_Api_admin_partner_list_sub_frame_m_agent.py
+	find test case: er_Api_admin_webPlayer_web_edit_activate.py
+	find test case: fa_Api_admin_webPlayer_vip_create_get.py
+	find test case: fb_Api_admin_webPlayer_vip_create.py
+	find test case: fc_Api_admin_webPlayer_vip_list_frame.py
+	find test case: fd_X_Api_admin_webPlayer_vip_list_frame_m.py
+	find test case: fe_Api_admin_webPlayer_vip_edit_get.py
+	find test case: ff_Api_admin_webPlayer_vip_edit.py
+	find test case: fg_Api_admin_webPlayer_vip_edit_get.py
+	find test case: fh_Api_admin_webPlayer_vip_delete.py
+	find test case: fi_Api_admin_webPlayer_vip_sort.py
+	find test case: hh_Api_admin_webPlayer_web_provider_list_frame.py
+	find test case: hi_Api_admin_webPlayer_web_provider_list_frame_m.py
+	find test case: hj_Api_admin_webPlayer_web_provider_get.py
+	find test case: hk_Api_admin_webPlayer_web_provider_edit.py
+	find test case: ja_Api_admin_webPlayer_promo_providerContent_list.py
+	find test case: jb1_Api_admin_webPlayer_promo_type_create.py
+	find test case: jb2_Api_admin_webPlayer_promo_type_create_birth.py
+	find test case: jb3_Api_admin_webPlayer_promo_type_create_save.py
+	find test case: jb4_Api_admin_webPlayer_promo_type_create_friend.py
+	find test case: jb5_Api_admin_webPlayer_promo_type_create_attend.py
+	find test case: jc_Api_admin_webPlayer_promo_type_list_frame.py
+	find test case: jd_Api_admin_webPlayer_promo_type_list_frame_m.py
+	find test case: je_Api_admin_webPlayer_promo_create_get.py
+	find test case: jf1_Api_admin_webPlayer_promo_create.py
+	find test case: jg2_Api_admin_webPlayer_promo_create_birth.py
+	find test case: jg3_Api_admin_webPlayer_promo_create_save.py
+	find test case: jg4_Api_admin_webPlayer_promo_create_friend.py
+	find test case: jg5_Api_admin_webPlayer_promo_create_attend.py
+	find test case: jh_Api_admin_webPlayer_promo_list_frame.py
+	find test case: jh_Api_admin_webPlayer_promo_list_frame_m.py
+	find test case: ji_Api_admin_webPlayer_promo_type_edit_get.py
+	find test case: jj_Api_admin_webPlayer_promo_type_edit.py
+	find test case: jk_Api_admin_webPlayer_promo_type_edit_get.py
+	find test case: jl_Api_admin_webPlayer_promo_state_edit_pending.py
+	find test case: jm_Api_admin_webPlayer_promo_edit_get.py
+	find test case: jn_Api_admin_webPlayer_promo_edit.py
+	find test case: jo_Api_admin_webPlayer_promo_state_edit_active.py
+	find test case: jp_Api_admin_webPlayer_promo_state_edit_deactive.py
+	find test case: jq_Api_admin_webPlayer_promo_delete.py
+	find test case: ka_Api_admin_webPlayer_promo_commission_type_create.py
+	find test case: kb_Api_admin_webPlayer_promo_commission_type_list_frame.py
+	find test case: kc_Api_admin_webPlayer_promo_commission_type_list_frame_m.py
+	find test case: kd_Api_admin_webPlayer_promo_commission_create_get.py
+	find test case: ke_Api_admin_webPlayer_promo_commission_create_type_get.py
+	find test case: kf_Api_admin_webPlayer_promo_commission_create.py
+	find test case: kg_Api_admin_webPlayer_promo_commission_list_frame.py
+	find test case: kh_Api_admin_webPlayer_promo_commission_list_frame_m.py
+	find test case: ki_Api_admin_webPlayer_promo_commission_type_edit_get.py
+	find test case: kj_Api_admin_webPlayer_promo_commission_type_edit.py
+	find test case: kk_Api_admin_webPlayer_promo_commission_edit_get.py
+	find test case: kl_Api_admin_webPlayer_promo_commission_edit_type_get.py
+	find test case: km_Api_admin_webPlayer_promo_commission_edit.py
+	find test case: kn_FET_Api_admin_webPlayer_promo_commission_type_create.py
+	find test case: la_Api_admin_webPlayer_risk_create.py
+	find test case: lb_Api_admin_webPlayer_risk_list_frame.py
+	find test case: lc_Api_admin_webPlayer_risk_list_frame_m.py
+	find test case: ld_Api_admin_webPlayer_risk_rule_frame.py
+	find test case: le_Api_admin_webPlayer_risk_rule_frame_m.py
+	find test case: lf_Api_admin_webPlayer_risk_edit.py
+	find test case: lg_Api_admin_webPlayer_risk_web_frame.py
+	find test case: lh_Api_admin_webPlayer_risk_web_frame_m.py
+	find test case: li_Api_admin_webPlayer_risk_edit_get.py
+	find test case: lj_Api_admin_webPlayer_risk_state_edit.py
+	find test case: lk_Api_admin_webPlayer_risk_delete.py
+	find test case: ma_Api_admin_provider_bankCard_create.py
+	find test case: mb_Api_admin_provider_bankCard_list_frame.py
+	find test case: mc_Api_admin_provider_bankCard_list_frame_m.py
+	find test case: md_Api_admin_provider_bankCard_edit_get.py
+	find test case: me_Api_admin_provider_bankCard_edit.py
+	find test case: n0_waiting_backend_set_payment.py
+	find test case: na_Api_admin_provider_payment_list_frame.py
+	find test case: nb_Api_admin_provider_payment_list_frame_m.py
+	find test case: nc_Api_admin_provider_payment_edit_info_get.py
+	find test case: nd_Api_admin_provider_payment_edit_currency_get.py
+	find test case: ne_Api_admin_provider_payment_payType_edit.py
+	find test case: nf_Api_admin_provider_payment_edit_payType_get.py
+	find test case: ng_Api_admin_provider_payment_edit.py
+	find test case: oa_Api_admin_provider_payOption_payment_get.py
+	find test case: ob_Api_admin_provider_payOption_create_get.py
+	find test case: ra_Api_admin_org_dept_load_create.py
+	find test case: rb_Api_admin_org_dept_create.py
+	find test case: rc_Api_admin_org_dept_list_frame.py
+	find test case: rd_Api_admin_org_dept_list_frame_m.py
+	find test case: re_Api_admin_org_dept_load_edit.py
+	find test case: rf_Api_admin_org_dept_edit.py
+	find test case: rg_Api_admin_org_dept_list.py
+	find test case: sa_Api_admin_org_jobtitle_permission.py
+	find test case: sb_Api_admin_org_jobtitle_create.py
+	find test case: sc_Api_admin_org_jobtitle_list_frame.py
+	find test case: sd_Api_admin_org_jobtitle_list_frame_m.py
+	find test case: se_Api_admin_org_jobtitle_list.py
+	find test case: sf_Api_admin_org_jobtitle_get.py
+	find test case: sg_Api_admin_org_jobtitle_edit.py
+	find test case: ta_Api_admin_org_employee_create.py
+	find test case: tb_Api_admin_org_employee_list_frame.py
+	find test case: tc_Api_admin_org_employee_list_frame_m.py
+	find test case: td_Api_admin_org_employee_list_single.py
+	find test case: te_Api_admin_org_employee_list_all_frame.py
+	find test case: tf_Api_admin_org_employee_list_all_frame_m.py
+	find test case: tg_Api_admin_org_employee_list_desc_frame.py
+	find test case: th_Api_admin_org_employee_list_desc_frame_m.py
+	find test case: ti_Api_admin_org_employee_edit.py
+	find test case: tj_Api_admin_org_employee_websitelist.py
+	find test case: ua_Api_admin_provider_content_comm_list.py
+	find test case: ub_Api_admin_provider_content_comm_game_list.py
+	find test case: uc_Api_admin_provider_content_sort_edit_games.py
+	find test case: ud_Api_admin_provider_content_sort_list_games.py
+	find test case: ue_Api_admin_provider_content_sort_edit_providers.py
+	find test case: uf_Api_admin_provider_content_sort_list_providers.py
+	find test case: z_Api_Logout.py
+
+
+* Run test case: ab_API_admin_login_m.py
+********Test Case: ab_API_admin_login_m.py********
+
+	Start >>08月23日15時42分27秒 [Portal] API POST login Boss account (mobile)
+
+		New ini value is: API.acc = tommyauto
+		New ini value is: API.pwd = 123456
+		New ini value is: API.api_path = login/code/m
+
+		- api url: http://tadmapi.o2ogt.com/login/code/m
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>, <Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.029871 (seconds)
+
+		Response data: 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
+
+		- Session expired until: 15:43:27
+
+		- API success (status and response are correct).
+
+		- Response time: 0.029871
+
+		- - - 
+
+		- 4, accurate: 79 %
+
+		- 7, accurate: 97 %
+
+		- 6, accurate: 88 %
+
+		- 7, accurate: 91 %
+
+		- - - 
+New code: 4767
+		New ini value is: API.code = 4767
+
+		- api url: http://tadmapi.o2ogt.com/login
+
+		- api params: {'acc': 'tommyauto', 'pwd': '123456', 'code': '4767'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _admin=UyO%2BLnmsDasNfOm7GcTDyjL6jEYenYDpKPi8VSl51saFE9fj9S8B3hDtsLcrek6N8%2BpEipHGuyVCzH54jf49mmbFssdOsfHDF51yUBYwvb0BbhfM%2BI%2FJYLOhRJfDtxmfnP7Nms8GngKXWAkNWNRAgA%3D%3D for .o2ogt.com/>, <Cookie laravel_session=vXUW2K50mLi3KbuYhtbpK0t6jhxdFuzU3ozj9L9g for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.029726 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.029726
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.code = 
+		New ini value is: API.acc = 
+		New ini value is: API.pwd = 
+	<< End Tear Down
+
+
+	End << 08月23日15時42分28秒 [Portal] API POST login Boss account (mobile)
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時42分27秒 [Portal] API POST login Boss account (mobile)
+
+- api url: http://tadmapi.o2ogt.com/login/code/m
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.029871 (seconds)
+- Session expired until: 15:43:27
+- API success (status and response are correct).
+- Response time: 0.029871
+- - - 
+- 4, accurate: 79 %
+- 7, accurate: 97 %
+- 6, accurate: 88 %
+- 7, accurate: 91 %
+- api url: http://tadmapi.o2ogt.com/login
+- api params: {'acc': 'tommyauto', 'pwd': '123456', 'code': '4767'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.029726 (seconds)
+- API success (status and response are correct).
+- Response time: 0.029726
+- - -
+# Test Result: PASS
+
+End << 08月23日15時42分28秒 [Portal] API POST login Boss account (mobile)
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1542
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

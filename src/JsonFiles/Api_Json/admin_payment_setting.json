@@ -1,0 +1,24 @@
+{
+    "webId": "1c049b9bc588fead28c0e84492f051a2",
+    "paymentName": "ª÷«°ªZÀ°§A¥X",
+    "payTypeId": "4",
+    "url": "https://tw.yahoo.com/",
+    "depositAcc": "888888",
+    "depositRatio": 5,
+    "withdrawKey": "f455ff77fa023376d810a97b68e54e32",
+    "maxDeposit": 88888,
+    "maxWithdraw": 6666,
+    "minDeposit": 10,
+    "payOption": 3,
+    "withdrawAcc": "666666",
+    "withdrawRatio": 5,
+    "depositKey": "f455ff77fa023376d810a97b68e54e33",
+    "currency": [
+        "CNY",
+        "EUR",
+        "HKD",
+        "MOP",
+        "USD",
+        "V_BTC"
+    ]
+}

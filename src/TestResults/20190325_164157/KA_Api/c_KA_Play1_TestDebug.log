@@ -1,0 +1,52 @@
+
+* Run test case: c_KA_Play1.py
+********Test Case: c_KA_Play1.py********
+
+	Start >>03月25日16時42分42秒 [Portal] POST KA play1 API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_play1.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = 9ac1d401169dc3aa61826ae36ef6d70f9d6cb91e3cbe683cf7239dcc49d37822
+
+		- api_params: {'hash': '9ac1d401169dc3aa61826ae36ef6d70f9d6cb91e3cbe683cf7239dcc49d37822'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/play
+
+		- api params: {'hash': '9ac1d401169dc3aa61826ae36ef6d70f9d6cb91e3cbe683cf7239dcc49d37822'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503362000, "currency": "CNY", "operatorName": "OTG", "action": "play", "transactionId": "49886353ff304aaca16731c9fc22e98b", "betAmount": 1280, "winAmount": 0, "selections": 8, "betPerSelection": 160, "freeGames": False, "round": 0, "roundsRemaining": 1, "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		- API fail (status or response is incorrect).
+
+		Response data: (X) Exception (ApiResponse): HTTPSConnectionPool(host='otg.o2ogt.com', port=443): Read timed out. (read timeout=10)
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分52秒 [Portal] POST KA play1 API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,56 @@
+
+* Run test case: ng_Api_admin_provider_payOption_edit_layer.py
+********Test Case: ng_Api_admin_provider_payOption_edit_layer.py********
+
+	Start >>04月19日18時39分18秒 [Feature] API POST provider payOption edit layer
+
+		New ini value is: API.webId = 0b82165981316ecf67ad30a5887aa1e9
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.layerPay = {"5a03c800d507b03990581e1352bf3848":"40f00ddd4665100fdce55c92dd6ff9b2"}
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/edit/layer
+
+		- api params: {'webId': '0b82165981316ecf67ad30a5887aa1e9', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'layerPay': '{"5a03c800d507b03990581e1352bf3848":"40f00ddd4665100fdce55c92dd6ff9b2"}'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.615068 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.615068
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時39分19秒 [Feature] API POST provider payOption edit layer
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

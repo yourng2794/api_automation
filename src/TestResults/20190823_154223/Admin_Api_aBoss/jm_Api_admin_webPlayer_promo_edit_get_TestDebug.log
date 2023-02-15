@@ -1,0 +1,443 @@
+
+* Run test case: jm_Api_admin_webPlayer_promo_edit_get.py
+********Test Case: jm_Api_admin_webPlayer_promo_edit_get.py********
+
+	Start >>08月23日15時46分02秒 [Feature] API POST webPlayer promo edit get
+
+		New ini value is: API.promoId = 131
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+
+		- api params: {'promoId': '131'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.036958 (seconds)
+
+		Response data: {
+    "banker_id": "bb49393a1b6b9e58aa6a346df8d2d758",
+    "conditions": {
+        "login": "1",
+        "reg": "0",
+        "trunover": 1000
+    },
+    "end_time": "2019-08-25",
+    "promoAudit": "10.00",
+    "promo_id": 131,
+    "promo_name": "QApromo",
+    "promo_type": 1,
+    "rewards": "10.00",
+    "start_time": "2019-08-24",
+    "trunover_list": [
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BBIN",
+            "providerid": "BB_SLOT",
+            "type": "slot"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BBIN",
+            "providerid": "BB_SPORT",
+            "type": "sport"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "AG",
+            "providerid": "AG_SLOT",
+            "type": "lived"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BBIN",
+            "providerid": "BB_LOTTERY",
+            "type": "lottery"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BBIN",
+            "providerid": "BB_FISH",
+            "type": "fish"
+        },
+        {
+            "game_type": "all",
+            "game_type_name": "全部遊戲",
+            "name": "BBIN",
+            "providerid": "BB_POKER",
+            "type": "poker"
+        }
+    ],
+    "vip_id": [
+        "e1f69f6148f64c940e76b08809050fe8"
+    ],
+    "web_id": "1c049b9bc588fead28c0e84492f051a2",
+    "web_name": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.036958
+
+		- Success compare rewards: 10.00
+
+		- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+
+		- Success compare (promoName, promoId): (QApromo, 131)
+
+		- Success compare condition_reg: 0
+
+		- Success compare condition_login: 1
+
+		- Success compare condition_trunover: 1000
+
+		- Success compare trunover_list: [{'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_SLOT', 'type': 'slot'}, {'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_SPORT', 'type': 'sport'}, {'game_type': 'all', 'name': 'AG', 'providerid': 'AG_SLOT', 'type': 'lived'}, {'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_LOTTERY', 'type': 'lottery'}, {'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_FISH', 'type': 'fish'}, {'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_POKER', 'type': 'poker'}]
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.promoId = 132
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+
+		- api params: {'promoId': '132'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.042702 (seconds)
+
+		Response data: {
+    "banker_id": "bb49393a1b6b9e58aa6a346df8d2d758",
+    "conditions": {
+        "currentDepositAmount": 100,
+        "relaxationDays": 5
+    },
+    "end_time": "2019-08-25",
+    "promoAudit": "10.00",
+    "promo_id": 132,
+    "promo_name": "QApromo生日",
+    "promo_type": 2,
+    "rewards": "10.00",
+    "start_time": "2019-08-24",
+    "trunover_list": [],
+    "vip_id": [
+        "e1f69f6148f64c940e76b08809050fe8"
+    ],
+    "web_id": "1c049b9bc588fead28c0e84492f051a2",
+    "web_name": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.042702
+
+		- Success compare rewards: 10.00
+
+		- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+
+		- Success compare (promoName, promoId): (QApromo生日, 132)
+
+		- Success compare currentDepositAmount: 100
+
+		- Success compare relaxationDays: 5
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.promoId = 133
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+
+		- api params: {'promoId': '133'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.039822 (seconds)
+
+		Response data: {
+    "banker_id": "bb49393a1b6b9e58aa6a346df8d2d758",
+    "conditions": {
+        "sendMax": 1000,
+        "sendMin": 10,
+        "sendTime": "06:00"
+    },
+    "end_time": "2019-08-25",
+    "promoAudit": "10.00",
+    "promo_id": 133,
+    "promo_name": "QApromo救援",
+    "promo_type": 3,
+    "rewards": "10.00",
+    "start_time": "2019-08-24",
+    "trunover_list": [],
+    "vip_id": [
+        "e1f69f6148f64c940e76b08809050fe8"
+    ],
+    "web_id": "1c049b9bc588fead28c0e84492f051a2",
+    "web_name": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.039822
+
+		- Success compare rewards: 10.00
+
+		- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+
+		- Success compare (promoName, promoId): (QApromo救援, 133)
+
+		- Success compare sendTime: 06:00
+
+		- Success compare sendMin: 10
+
+		- Success compare sendMax: 1000
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.promoId = 134
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+
+		- api params: {'promoId': '134'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.030532 (seconds)
+
+		Response data: {
+    "banker_id": "bb49393a1b6b9e58aa6a346df8d2d758",
+    "conditions": [
+        {
+            "countDepositAmount": 100,
+            "countNumbers": 10,
+            "receiveAmount": 10
+        }
+    ],
+    "end_time": "2019-08-25",
+    "promoAudit": "10.00",
+    "promo_id": 134,
+    "promo_name": "QApromo好友",
+    "promo_type": 4,
+    "rewards": "0.00",
+    "start_time": "2019-08-24",
+    "trunover_list": [],
+    "vip_id": [
+        "e1f69f6148f64c940e76b08809050fe8"
+    ],
+    "web_id": "1c049b9bc588fead28c0e84492f051a2",
+    "web_name": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.030532
+
+		- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+
+		- Success compare (promoName, promoId): (QApromo好友, 134)
+
+		- Success compare countNumbers: 10
+
+		- Success compare countDepositAmount: 100
+
+		- Success compare receiveAmount: 10
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.promoId = 135
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+
+		- api params: {'promoId': '135'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.031953 (seconds)
+
+		Response data: {
+    "banker_id": "bb49393a1b6b9e58aa6a346df8d2d758",
+    "conditions": {
+        "depositAmountMin": 100,
+        "signDays": 7,
+        "signReceiveAmount": 100
+    },
+    "end_time": "2019-08-25",
+    "promoAudit": "10.00",
+    "promo_id": 135,
+    "promo_name": "QApromo簽到",
+    "promo_type": 5,
+    "rewards": "10.00",
+    "start_time": "2019-08-24",
+    "trunover_list": [],
+    "vip_id": [
+        "e1f69f6148f64c940e76b08809050fe8"
+    ],
+    "web_id": "1c049b9bc588fead28c0e84492f051a2",
+    "web_name": "QAweb12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.031953
+
+		- Success compare rewards: 10.00
+
+		- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+
+		- Success compare (promoName, promoId): (QApromo簽到, 135)
+
+		- Success compare depositAmountMin: 100
+
+		- Success compare signDays: 7
+
+		- Success compare signReceiveAmount: 100
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.promoId = 
+	<< End Tear Down
+
+
+	End << 08月23日15時46分03秒 [Feature] API POST webPlayer promo edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時46分02秒 [Feature] API POST webPlayer promo edit get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+- api params: {'promoId': '131'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.036958 (seconds)
+- API success (status and response are correct).
+- Response time: 0.036958
+- Success compare rewards: 10.00
+- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+- Success compare (promoName, promoId): (QApromo, 131)
+- Success compare condition_reg: 0
+- Success compare condition_login: 1
+- Success compare condition_trunover: 1000
+- Success compare trunover_list: [{'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_SLOT', 'type': 'slot'}, {'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_SPORT', 'type': 'sport'}, {'game_type': 'all', 'name': 'AG', 'providerid': 'AG_SLOT', 'type': 'lived'}, {'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_LOTTERY', 'type': 'lottery'}, {'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_FISH', 'type': 'fish'}, {'game_type': 'all', 'name': 'BBIN', 'providerid': 'BB_POKER', 'type': 'poker'}]
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+- api params: {'promoId': '132'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.042702 (seconds)
+- API success (status and response are correct).
+- Response time: 0.042702
+- Success compare rewards: 10.00
+- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+- Success compare (promoName, promoId): (QApromo生日, 132)
+- Success compare currentDepositAmount: 100
+- Success compare relaxationDays: 5
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+- api params: {'promoId': '133'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.039822 (seconds)
+- API success (status and response are correct).
+- Response time: 0.039822
+- Success compare rewards: 10.00
+- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+- Success compare (promoName, promoId): (QApromo救援, 133)
+- Success compare sendTime: 06:00
+- Success compare sendMin: 10
+- Success compare sendMax: 1000
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+- api params: {'promoId': '134'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.030532 (seconds)
+- API success (status and response are correct).
+- Response time: 0.030532
+- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+- Success compare (promoName, promoId): (QApromo好友, 134)
+- Success compare countNumbers: 10
+- Success compare countDepositAmount: 100
+- Success compare receiveAmount: 10
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/edit/get
+- api params: {'promoId': '135'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.031953 (seconds)
+- API success (status and response are correct).
+- Response time: 0.031953
+- Success compare rewards: 10.00
+- Success compare webId: 1c049b9bc588fead28c0e84492f051a2
+- Success compare (promoName, promoId): (QApromo簽到, 135)
+- Success compare depositAmountMin: 100
+- Success compare signDays: 7
+- Success compare signReceiveAmount: 100
+- - -
+# Test Result: PASS
+
+End << 08月23日15時46分03秒 [Feature] API POST webPlayer promo edit get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1546
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

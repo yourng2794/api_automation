@@ -1,0 +1,76 @@
+
+* Run test case: sb_Api_admin_org_jobtitle_create.py
+********Test Case: sb_Api_admin_org_jobtitle_create.py********
+
+	Start >>08月23日09時39分27秒 [Feature] API POST org. jobtitle create
+
+		New ini value is: API.depId = ce7e87808db3b345cc752ef0490eed63
+		New ini value is: API.title = QAtitle11
+		New ini value is: API.descrip = 
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/create
+
+		- api params: {'title': 'QAtitle11', 'depId': 'ce7e87808db3b345cc752ef0490eed63', 'permission': '{"ir_r": 0, "qs_r": 0, "orp_r": 0, "orpvd_r": 0, "orb_r": 0, "orw_r": 0, "ord_r": 0, "orplr_r": 0, "prr_r": 0, "wr_r": 0, "plrr_r": 0, "or_r": 0, "gl_r": 0, "ee_c": 1, "ee_d": 1, "ee_r": 1, "ee_u": 1, "dp_c": 1, "dp_d": 1, "dp_r": 1, "dp_u": 1, "pt_c": 0, "pt_d": 0, "pt_r": 0, "pt_u": 0, "prt_c": 0, "prt_d": 0, "prt_r": 0, "prt_u": 0, "ptt_u": 0, "dm_c": 0, "dm_d": 0, "dm_r": 0, "dm_u": 0, "lv_c": 0, "lv_d": 0, "lv_r": 0, "lv_u": 0, "wb_c": 0, "wb_d": 0, "wb_r": 0, "wb_u": 0, "plr_c": 0, "plr_r": 0, "plr_u": 0, "plrt_u": 0, "plrd_r": 0, "promo_c": 0, "promo_d": 0, "promo_r": 0, "promo_u": 0, "cms_c": 0, "cms_d": 0, "cms_r": 0, "cms_u": 0, "nt_c": 0, "nt_d": 0, "nt_r": 0, "nt_u": 0, "ms_c": 0, "ms_d": 0, "ms_r": 0, "ms_u": 0, "ma_c": 0, "ma_d": 0, "ma_r": 0, "ma_u": 0, "risk_c": 0, "risk_d": 0, "risk_r": 0, "risk_u": 0, "st_u": 0, "gs_u": 0, "ptr_r": 0, "ptr_u": 0, "bc_c": 0, "bc_d": 0, "bc_r": 0, "bc_u": 0, "pm_r": 0, "pm_u": 0, "po_c": 0, "po_d": 0, "po_r": 0, "po_u": 0, "md_c": 0, "mw_c": 0, "bh_r": 0, "er_r": 0, "er_u": 0, "bt_c": 0, "rs_r": 0, "rs_u": 0, "rp_c": 0, "rp_d": 0, "rp_r": 0, "rp_u": 0, "rfs_c": 0, "rfs_d": 0, "rfs_r": 0, "rfs_u": 0, "wa_r": 0, "wa_u": 0, "ia_r": 0}', 'descrip': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.043733 (seconds)
+Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.043733
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.depId = 
+		New ini value is: API.title = 
+		New ini value is: API.descrip = 
+	<< End Tear Down
+
+
+	End << 08月23日09時39分27秒 [Feature] API POST org. jobtitle create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時39分27秒 [Feature] API POST org. jobtitle create
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/create
+- api params: {'title': 'QAtitle11', 'depId': 'ce7e87808db3b345cc752ef0490eed63', 'permission': '{"ir_r": 0, "qs_r": 0, "orp_r": 0, "orpvd_r": 0, "orb_r": 0, "orw_r": 0, "ord_r": 0, "orplr_r": 0, "prr_r": 0, "wr_r": 0, "plrr_r": 0, "or_r": 0, "gl_r": 0, "ee_c": 1, "ee_d": 1, "ee_r": 1, "ee_u": 1, "dp_c": 1, "dp_d": 1, "dp_r": 1, "dp_u": 1, "pt_c": 0, "pt_d": 0, "pt_r": 0, "pt_u": 0, "prt_c": 0, "prt_d": 0, "prt_r": 0, "prt_u": 0, "ptt_u": 0, "dm_c": 0, "dm_d": 0, "dm_r": 0, "dm_u": 0, "lv_c": 0, "lv_d": 0, "lv_r": 0, "lv_u": 0, "wb_c": 0, "wb_d": 0, "wb_r": 0, "wb_u": 0, "plr_c": 0, "plr_r": 0, "plr_u": 0, "plrt_u": 0, "plrd_r": 0, "promo_c": 0, "promo_d": 0, "promo_r": 0, "promo_u": 0, "cms_c": 0, "cms_d": 0, "cms_r": 0, "cms_u": 0, "nt_c": 0, "nt_d": 0, "nt_r": 0, "nt_u": 0, "ms_c": 0, "ms_d": 0, "ms_r": 0, "ms_u": 0, "ma_c": 0, "ma_d": 0, "ma_r": 0, "ma_u": 0, "risk_c": 0, "risk_d": 0, "risk_r": 0, "risk_u": 0, "st_u": 0, "gs_u": 0, "ptr_r": 0, "ptr_u": 0, "bc_c": 0, "bc_d": 0, "bc_r": 0, "bc_u": 0, "pm_r": 0, "pm_u": 0, "po_c": 0, "po_d": 0, "po_r": 0, "po_u": 0, "md_c": 0, "mw_c": 0, "bh_r": 0, "er_r": 0, "er_u": 0, "bt_c": 0, "rs_r": 0, "rs_u": 0, "rp_c": 0, "rp_d": 0, "rp_r": 0, "rp_u": 0, "rfs_c": 0, "rfs_d": 0, "rfs_r": 0, "rfs_u": 0, "wa_r": 0, "wa_u": 0, "ia_r": 0}', 'descrip': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.043733 (seconds)Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.043733
+- - -
+# Test Result: PASS
+
+End << 08月23日09時39分27秒 [Feature] API POST org. jobtitle create
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0939
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

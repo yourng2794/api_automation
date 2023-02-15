@@ -1,0 +1,62 @@
+
+* Run test case: cg_Api_admin_web_domain_edit_get.py
+********Test Case: cg_Api_admin_web_domain_edit_get.py********
+
+	Start >>04月17日18時41分03秒 [Feature] API POST web domain edit get
+
+		New ini value is: API.webDomainId = 93f155e7c6878477e927428e2a07397a
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'webDomainId': '93f155e7c6878477e927428e2a07397a', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/domain/edit/get
+
+		- api params: {'webDomainId': '93f155e7c6878477e927428e2a07397a', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=KgAYsRGPoKo3Aam9y0iHvyWu0Fjv8B8WBOfb0AcL for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.907384 (seconds)
+
+		Response data: 
+{
+    "bankerAcc": "QAstep4",
+    "bankerId": "835bd15c55ec6df3fe054f3aed828e41",
+    "pt_acc": "Bonnie",
+    "use_status": 1,
+    "web_createtime": "2019-04-17 10:40:46",
+    "web_domain_id": "93f155e7c6878477e927428e2a07397a",
+    "web_domain_url": "10.10.10.229"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.907384
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時41分04秒 [Feature] API POST web domain edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

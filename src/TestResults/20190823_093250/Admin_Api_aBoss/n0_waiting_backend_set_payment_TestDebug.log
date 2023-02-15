@@ -1,0 +1,118 @@
+
+* Run test case: n0_waiting_backend_set_payment.py
+********Test Case: n0_waiting_backend_set_payment.py********
+
+	Start >>08月23日09時38分06秒 [Feature] Notify Backend Setting Payment
+
+		New ini value is: API.paymentId = 972a32de4733fdc8d07a120bbae1ba1d
+{
+    "webId": "eefe247755b8b16c33e8730e9e168211",
+    "paymentName": "金城武幫你出",
+    "payTypeId": "4",
+    "url": "https://tw.yahoo.com/",
+    "depositAcc": "888888",
+    "depositRatio": 5,
+    "withdrawKey": "f455ff77fa023376d810a97b68e54e32",
+    "maxDeposit": 88888,
+    "maxWithdraw": 6666,
+    "minDeposit": 10,
+    "payOption": 3,
+    "withdrawAcc": "666666",
+    "withdrawRatio": 5,
+    "depositKey": "f455ff77fa023376d810a97b68e54e33",
+    "currency": [
+        "CNY",
+        "EUR",
+        "HKD",
+        "MOP",
+        "USD",
+        "V_BTC"
+    ]
+}
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_payment_setting.json
+
+		- api url: http://tadmapi.o2ogt.com/qa/payment/create
+
+		- api params: {}
+
+		- api data: {"webId": "eefe247755b8b16c33e8730e9e168211", "paymentName": "金城武幫你出", "payTypeId": "4", "url": "https://tw.yahoo.com/", "depositAcc": "888888", "depositRatio": 5, "withdrawKey": "f455ff77fa023376d810a97b68e54e32", "maxDeposit": 88888, "maxWithdraw": 6666, "minDeposit": 10, "payOption": 3, "withdrawAcc": "666666", "withdrawRatio": 5, "depositKey": "f455ff77fa023376d810a97b68e54e33", "currency": ["CNY", "EUR", "HKD", "MOP", "USD", "V_BTC"]}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.046958 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.046958
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時38分06秒 [Feature] Notify Backend Setting Payment
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時38分06秒 [Feature] Notify Backend Setting Payment
+{
+    "webId": "eefe247755b8b16c33e8730e9e168211",
+    "paymentName": "金城武幫你出",
+    "payTypeId": "4",
+    "url": "https://tw.yahoo.com/",
+    "depositAcc": "888888",
+    "depositRatio": 5,
+    "withdrawKey": "f455ff77fa023376d810a97b68e54e32",
+    "maxDeposit": 88888,
+    "maxWithdraw": 6666,
+    "minDeposit": 10,
+    "payOption": 3,
+    "withdrawAcc": "666666",
+    "withdrawRatio": 5,
+    "depositKey": "f455ff77fa023376d810a97b68e54e33",
+    "currency": [
+        "CNY",
+        "EUR",
+        "HKD",
+        "MOP",
+        "USD",
+        "V_BTC"
+    ]
+}
+- api url: http://tadmapi.o2ogt.com/qa/payment/create
+- api params: {}
+- api data: {"webId": "eefe247755b8b16c33e8730e9e168211", "paymentName": "金城武幫你出", "payTypeId": "4", "url": "https://tw.yahoo.com/", "depositAcc": "888888", "depositRatio": 5, "withdrawKey": "f455ff77fa023376d810a97b68e54e32", "maxDeposit": 88888, "maxWithdraw": 6666, "minDeposit": 10, "payOption": 3, "withdrawAcc": "666666", "withdrawRatio": 5, "depositKey": "f455ff77fa023376d810a97b68e54e33", "currency": ["CNY", "EUR", "HKD", "MOP", "USD", "V_BTC"]}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.046958 (seconds)
+- API success (status and response are correct).
+- Response time: 0.046958
+- - -
+# Test Result: PASS
+
+End << 08月23日09時38分06秒 [Feature] Notify Backend Setting Payment
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0938
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

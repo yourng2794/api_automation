@@ -1,0 +1,362 @@
+
+* Run test case: cd_Api_admin_webPlayer_domain_list_frame_m.py
+********Test Case: cd_Api_admin_webPlayer_domain_list_frame_m.py********
+
+	Start >>04月19日18時34分56秒 [Feature] API POST webPlayer domain list frame m
+
+		New ini value is: API.webDomain = 10.10.10.232
+		New ini value is: API.api_path = api/webPlayer/domain/list/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/domain/list/frame/m
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'webDomain': '10.10.10.232', 'webId': 'all'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.571267 (seconds)
+
+		Response data: 
+<h3>
+ <i class="fas fa-caret-right">
+ </i>
+ 庄家帐号
+</h3>
+<div class="sel-box-b">
+ <div class="select-sty">
+  <select id="bankerList" name="bankerList">
+   <option value="172fb3cc0cc624fd062daeb09a9c818a">
+    brian
+   </option>
+   <option selected="" value="835bd15c55ec6df3fe054f3aed828e41">
+    QAstep4
+   </option>
+   <option value="7a68e472e577de9fcf217b4fd97af51e">
+    qatest5
+   </option>
+   <option value="451c26b4747218590596d3ed949dc1d6">
+    qatest2
+   </option>
+   <option value="b028f02265e2e58945d04d7ee059d71e">
+    lightning666
+   </option>
+   <option value="0d0bb627deb582cde4e2944b70b55d2a">
+    test448866
+   </option>
+   <option value="b824e48a7a38681a74f04895bfb23656">
+    mainbanker
+   </option>
+   <option value="7a70a4e17b6f0fb8e6bc1582dc6007a5">
+    111aa
+   </option>
+   <option value="5734f8229eb938b87e676bbb37cda87e">
+    gugugu
+   </option>
+   <option value="9f35c3d5505732682dbc0542ffbff15c">
+    bobobo
+   </option>
+   <option value="be5085874c6852cb5e142797b4f96679">
+    bankerdog
+   </option>
+   <option value="8ed0e833b845efd30343705d29db49d6">
+    bankercat
+   </option>
+   <option value="fbf54aee3f88beff1700eebe45426133">
+    firemice
+   </option>
+   <option value="159fbfc0c5f4e2bcc15e6cedc9baccfc">
+    micebankermice
+   </option>
+   <option value="85d4f8fc8067e351614dad01e31f0b5b">
+    micebanker
+   </option>
+   <option value="c4b043c3b60c365009cf609fa56d80bc">
+    9865
+   </option>
+   <option value="ae90c7af66b832211ff8a0d97f742e5f">
+    sfaf
+   </option>
+   <option value="bd4c3d718008889017a0fea6ee535dac">
+    123
+   </option>
+   <option value="d26568b25ff40d321bec2d27c57d2868">
+    456
+   </option>
+   <option value="c48c66f29e58d1292e6351e5deb2deb2">
+    tr00
+   </option>
+   <option value="a9c81630ab8f124fd428730c1b5346c0">
+    aw3
+   </option>
+   <option value="10777f4971820152fccb85009361d95d">
+    a0061
+   </option>
+   <option value="67d8055d44df916e03024e3fbfc83a2c">
+    tur111
+   </option>
+   <option value="e98cb75b973ba616983c728cce2a0dea">
+    o2ogmcom3
+   </option>
+   <option value="909a93942974f58ea3ecc6cab72c05df">
+    o2ogtcom2
+   </option>
+   <option value="97b148ebdb8bf9dec7855600240b8260">
+    o2ogtcom
+   </option>
+   <option value="b6dfa4d08cac40c754626c6cf3cb6f10">
+    kipupu
+   </option>
+   <option value="9cd579a99f94324a8a5183740d02d18d">
+    QQ123
+   </option>
+   <option value="ede200227850546aaee4545ac83d3a08">
+    Owen
+   </option>
+   <option value="d883a51896b4a2b4bb3e354beeb3ac43">
+    a0007
+   </option>
+   <option value="28e792b0963c959af392d250aa464a0f">
+    A006
+   </option>
+   <option value="e751dac5d1c412c2f7b16bdbe6bffa53">
+    a004
+   </option>
+   <option value="7878b77aa0affe1315dcab49a882b060">
+    a001
+   </option>
+   <option value="f5e35d9a363e39355f9b1b760a1e48af">
+    a0001
+   </option>
+   <option value="504e17217fcb45f71a80d81991b1d84e">
+    tu
+   </option>
+   <option value="640f76128467fa6c5fc9947bc9956c0d">
+    1111
+   </option>
+   <option value="67418b3849638cfcaf93453997a88db2">
+    0001
+   </option>
+   <option value="b8e2518cc99f772bb69ef616a669a0ae">
+    test12
+   </option>
+   <option value="6b321ac85a37e04390013cb3f4159d8c">
+    test11
+   </option>
+   <option value="abdaa321c8351d33ab8cee64df032043">
+    test10
+   </option>
+   <option value="e8a0ee2664a672b638d6b3be66ce9fb4">
+    test6
+   </option>
+   <option value="b69ea200878506f30a4f71fce3e2d0ca">
+    test5
+   </option>
+   <option value="10de263ee5a8d2d7e84d219762e80e40">
+    test4
+   </option>
+   <option value="7edf633d11837398d98b4b1bc266af7e">
+    test3
+   </option>
+   <option value="800b1e035cc2b5a630c291ae4b1a5a11">
+    test2
+   </option>
+   <option value="590557e390e50f06103eb1499fed27e1">
+    testtest
+   </option>
+   <option value="4d5d1c424bc689e8a5662bb4e28a5efd">
+    nini
+   </option>
+   <option value="56454f79596cb70a5b1f37d404f71980">
+    ACE
+   </option>
+   <option value="fd833d86ecf046f4429d53490e682b58">
+    09876
+   </option>
+   <option value="918c6247827c76ec5f2d0d4bc98eb068">
+    11
+   </option>
+   <option value="522c757dffe7bbd08eca5abf316eda91">
+    122
+   </option>
+   <option value="c5408217a3fcf9a372f1073331040084">
+    truesun123
+   </option>
+   <option value="36322a5d678f18f2bcebaa6decacf949">
+    truesun
+   </option>
+   <option value="7f4c311c66342caffe1fa5de8a8ba21f">
+    123456855sss
+   </option>
+   <option value="0ed2fd5a3a2f223fe9109294e29ef662">
+    allallopen
+   </option>
+   <option value="22611212d81ef8cb3594b4d205136912">
+    allopen
+   </option>
+   <option value="7f09300b8b44d07eae1a5a362e7b1627">
+    nuderlist
+   </option>
+   <option value="cc65ac42fd28d8997570f30c9af20f0d">
+    givememoney
+   </option>
+  </select>
+  <i class="fas fa-caret-down">
+  </i>
+ </div>
+</div>
+<h3>
+ <i class="fas fa-caret-right">
+ </i>
+ 网域列表
+</h3>
+<div class="sel-box-b">
+ <div class="select-sty">
+  <select id="webSiteName" name="">
+   <option selected="" value="all">
+    全部网站
+   </option>
+   <option value="nothing">
+    无挂载网站
+   </option>
+   <option value="ca6dc2a642b321ca705b45495dec1434">
+    Testweb18
+   </option>
+   <option value="b5ba81093d96a08e0f67db94ab820a05">
+    Testweb17
+   </option>
+   <option value="cc337abf81b4328ad33c1bf0e957ca4c">
+    Testweb16
+   </option>
+   <option value="2ecf5a0f2835b2928740daae2c92e90e">
+    Testweb15
+   </option>
+   <option value="212b97d2151382781bd1f06c24cf5d08">
+    Testweb14
+   </option>
+   <option value="d900073f7aade1f3bbeb1233f6ecd72a">
+    Testweb13
+   </option>
+   <option value="bce99199a6e39decb77d6b1abdb427ce">
+    Testweb12
+   </option>
+   <option value="6e0cf20b5d29293655a929122a631567">
+    Testweb99
+   </option>
+   <option value="f4581b0de48191bf6b6c1d92519e5b64">
+    Testweb88
+   </option>
+   <option value="52126d837733703e832bb6854f46fd3a">
+    Testweb66
+   </option>
+   <option value="91fe256bb1ac33ce7e662f1837bdce1e">
+    Testweb55
+   </option>
+   <option value="914f95e80273f5b5bed03ef066b8b388">
+    Testweb88
+   </option>
+   <option value="86746712cb5fd15a235d62dbd97d4052">
+    Testweb33
+   </option>
+   <option value="b5b3094b34fee8ad7f237976d3673af9">
+    Testweb22
+   </option>
+   <option value="3743bb7a69166950fda91a0a098faae1">
+    Testwebss
+   </option>
+   <option value="457d2df425945c88209f40857c00bc99">
+    Testwebs
+   </option>
+   <option value="9c5d7e63de37f06fe5daa6b03a7e85a1">
+    Qa test
+   </option>
+   <option value="2c72b136f7392fa00f10778dbebeb4f7">
+    TestWeb
+   </option>
+  </select>
+  <i class="fas fa-caret-down">
+  </i>
+ </div>
+</div>
+<div class="input-box-b">
+ <div class="input-sty">
+  <input id="searchDomain" placeholder="请输入网域名称" type="text" value=" 10.10.10.232 "/>
+ </div>
+</div>
+<div class="submit-box">
+ <input class="btn submit" type="submit" value="查询"/>
+</div>
+<div class="result-box">
+ 共
+ <span>
+  1
+ </span>
+ 个网站
+</div>
+<div class="sub-group">
+ <ul class="list">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-70">
+     网域
+    </div>
+    <div class="box-25 txt-c">
+     网站
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+  <li>
+   <a class="group-box-85">
+    <div class="box-70">
+     10.10.10.232
+    </div>
+    <div class="box-25 txt-c">
+     无挂载网站
+    </div>
+   </a>
+   <div class="box-14">
+    <a alt="修改" class="btn-popup" id="cce895fad5ced5f3129c300a72cbe5bc" title="修改">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+</div>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.571267
+
+		---
+
+		- Exception: on admin_webPlayer_domain_list_frame_m... 'NoneType' object is not subscriptable
+
+		---
+['PASS', 'FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時34分57秒 [Feature] API POST webPlayer domain list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

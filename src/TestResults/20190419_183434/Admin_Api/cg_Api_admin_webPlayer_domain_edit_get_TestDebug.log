@@ -1,0 +1,39 @@
+
+* Run test case: cg_Api_admin_webPlayer_domain_edit_get.py
+********Test Case: cg_Api_admin_webPlayer_domain_edit_get.py********
+
+	Start >>04月19日18時35分06秒 [Feature] API POST web domain edit get
+
+		No [API] in ini_file
+		No [API] in ini_file
+	No [API] in ini_file
+False
+(X) IniValue Exception: No section: 'API'
+False
+
+		Response data: (X) Exception (ApiResponse): must be str, not NoneType
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時35分06秒 [Feature] API POST web domain edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

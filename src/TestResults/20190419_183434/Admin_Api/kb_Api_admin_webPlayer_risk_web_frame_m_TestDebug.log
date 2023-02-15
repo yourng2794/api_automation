@@ -1,0 +1,169 @@
+
+* Run test case: kb_Api_admin_webPlayer_risk_web_frame_m.py
+********Test Case: kb_Api_admin_webPlayer_risk_web_frame_m.py********
+
+	Start >>04月19日18時37分39秒 [Feature] API POST webPlayer risk web frame m
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.riskid = 
+		New ini value is: API.api_path = api/webPlayer/risk/web/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/risk/web/frame/m
+
+		- api params: {'riskid': '', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.480062 (seconds)
+
+		Response data: 
+<h4>
+ <i class="far fa-caret-right">
+ </i>
+ 挂载网站
+</h4>
+<div class="coin-label-box">
+ <label class="check-all" for="vipAll">
+  <input id="vipAll" name="vipAll" type="checkbox"/>
+  <i class="fas fa-square">
+  </i>
+  全部网站
+ </label>
+ <div class="label-area">
+  <label for="1">
+   <input id="1" name="webGroup" type="checkbox" value="0b82165981316ecf67ad30a5887aa1e9"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb19
+   </span>
+  </label>
+  <label for="2">
+   <input id="2" name="webGroup" type="checkbox" value="212b97d2151382781bd1f06c24cf5d08"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb14
+   </span>
+  </label>
+  <label for="3">
+   <input id="3" name="webGroup" type="checkbox" value="3743bb7a69166950fda91a0a098faae1"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testwebss
+   </span>
+  </label>
+  <label for="4">
+   <input id="4" name="webGroup" type="checkbox" value="6e0cf20b5d29293655a929122a631567"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb99
+   </span>
+  </label>
+  <label for="5">
+   <input id="5" name="webGroup" type="checkbox" value="86746712cb5fd15a235d62dbd97d4052"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb33
+   </span>
+  </label>
+  <label for="6">
+   <input id="6" name="webGroup" type="checkbox" value="914f95e80273f5b5bed03ef066b8b388"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb88
+   </span>
+  </label>
+  <label for="7">
+   <input id="7" name="webGroup" type="checkbox" value="b5b3094b34fee8ad7f237976d3673af9"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb22
+   </span>
+  </label>
+  <label for="8">
+   <input id="8" name="webGroup" type="checkbox" value="b5ba81093d96a08e0f67db94ab820a05"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb17
+   </span>
+  </label>
+  <label for="9">
+   <input id="9" name="webGroup" type="checkbox" value="bce99199a6e39decb77d6b1abdb427ce"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb12
+   </span>
+  </label>
+  <label for="10">
+   <input id="10" name="webGroup" type="checkbox" value="ca6dc2a642b321ca705b45495dec1434"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb18
+   </span>
+  </label>
+  <label for="11">
+   <input id="11" name="webGroup" type="checkbox" value="cc337abf81b4328ad33c1bf0e957ca4c"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb16
+   </span>
+  </label>
+  <label for="12">
+   <input id="12" name="webGroup" type="checkbox" value="d900073f7aade1f3bbeb1233f6ecd72a"/>
+   <i class="fas fa-square">
+   </i>
+   <span>
+    Testweb13
+   </span>
+  </label>
+ </div>
+</div>
+<div class="btn-domain-create">
+ 共选择
+ <span>
+  0
+ </span>
+ 个网站
+</div>
+
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時37分39秒 [Feature] API POST webPlayer risk web frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

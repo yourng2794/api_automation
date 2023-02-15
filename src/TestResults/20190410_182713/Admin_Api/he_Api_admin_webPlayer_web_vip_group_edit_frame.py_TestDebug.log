@@ -1,0 +1,153 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190410_182713\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190410_182713\\testresults.xml
+********Test Case: he_Api_admin_webPlayer_web_vip_group_edit_frame.py********
+
+	Start >>04月10日18時27分13秒 [Feature] API POST webPlayer web vip group edit frame
+
+		New ini value is: API.webId = 914f95e80273f5b5bed03ef066b8b388
+		New ini value is: API.vipGroupId = b32e1c8ea677cdbf66fa569ff1543977
+
+		- api_params: {'webId': '914f95e80273f5b5bed03ef066b8b388', 'vipGroupId': 'b32e1c8ea677cdbf66fa569ff1543977'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/vip/group/edit/frame
+
+		- api params: {'webId': '914f95e80273f5b5bed03ef066b8b388', 'vipGroupId': 'b32e1c8ea677cdbf66fa569ff1543977'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=8BwBdP5XCq9yAzzLixvTUcgx8O5TC6BD7t1WTGwg for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.679534 (seconds)
+
+		Response data: <div id="levelGroupList">
+    <div class="list-info-box">
+        共
+        <span id="dataNum">1</span>
+        个层级
+    </div>
+
+    <div class="txt-note">
+        <i class="fas fa-bullseye-arrow"></i>
+        注册：于特定时段注册，则自动升级为该层级
+    </div>
+
+    <ul class="list sort-tit">
+        <li class="title">
+            <div class="list-group-100">
+                <div class="box-5 txt-c">項目</div>
+                <div class="box-10 txt-c">层级</div>
+                <div class="box-5 txt-c">人数</div>
+                <div class="box-20">网域</div>
+                <div class="box-35">注册时间</div>
+                <div class="box-20">转移方式</div>
+            </div>
+        </li>
+    </ul>
+    <ul class="list" id="dataList">
+                                    <li>
+                    <div class="list-group-100">
+                        <div class="box-5 txt-c">1</div>
+                        <div class="box-10 txt-c j-vipIda" id="0777e7d02344301f553486842a954168">QAvip44</div>
+                        <div class="box-5 txt-c">0</div>
+                        <div class="box-20">
+                            <div class="input-box-w list-input-box">
+                                <a>
+                                    <i class="fas fa-times-circle"></i>
+                                </a>
+                                <input type="text" class="input-sty list-input j-urlList typeahead" placeholder="请输入网域" value="10.10.10.220">
+                            </div>
+                        </div>
+
+                        <div class="box-35 list-date j-signTime">
+                            <input type="text" name="starDay"                             class="input-sty list-input datepicker-here j-starDay" data-timepicker="true" data-language="zh" data-position="top left" placeholder="注册开始时间">
+                            ~
+                            <input type="text" name="endDay"                             class="input-sty list-input datepicker-here j-endDay" data-timepicker="true" data-language="zh" data-position="top left" placeholder="注册结束时间">
+                        </div>
+
+                        <div class="box-20">
+                            <select name="transSty" class="sel-sty list-sel j-transSty">
+                                                                    <option value="1" selected="selected">手动</option>
+                                    <option value="2">自动</option>
+                                    <option value="3">定时</option>
+                                                            </select>
+
+                            <select name="transTime01" class="sel-sty list-sel j-transTime"
+                                                                style="display:none;"
+                                >
+                                                                                                                                                                                    <option value="00:00" >00:00</option>
+                                                                                                                                                <option value="00:30">00:30</option>
+                                                                                                                                                                                        <option value="01:00" >01:00</option>
+                                                                                                                                                <option value="01:30">01:30</option>
+                                                                                                                                                                                        <option value="02:00" >02:00</option>
+                                                                                                                                                <option value="02:30">02:30</option>
+                                                                                                                                                                                        <option value="03:00" >03:00</option>
+                                                                                                                                                <option value="03:30">03:30</option>
+                                                                                                                                                                                        <option value="04:00" >04:00</option>
+                                                                                                                                                <option value="04:30">04:30</option>
+                                                                                                                                                                                        <option value="05:00" >05:00</option>
+                                                                                                                                                <option value="05:30">05:30</option>
+                                                                                                                                                                                        <option value="06:00" >06:00</option>
+                                                                                                                                                <option value="06:30">06:30</option>
+                                                                                                                                                                                        <option value="07:00" >07:00</option>
+                                                                                                                                                <option value="07:30">07:30</option>
+                                                                                                                                                                                        <option value="08:00" >08:00</option>
+                                                                                                                                                <option value="08:30">08:30</option>
+                                                                                                                                                                                        <option value="09:00" >09:00</option>
+                                                                                                                                                <option value="09:30">09:30</option>
+                                                                                                                                                                                        <option value="10:00" >10:00</option>
+                                                                                                                                                <option value="10:30">10:30</option>
+                                                                                                                                                                                        <option value="11:00" >11:00</option>
+                                                                                                                                                <option value="11:30">11:30</option>
+                                                                                                                                                                                        <option value="12:00" >12:00</option>
+                                                                                                                                                <option value="12:30">12:30</option>
+                                                                                                                                                                                        <option value="13:00" >13:00</option>
+                                                                                                                                                <option value="13:30">13:30</option>
+                                                                                                                                                                                        <option value="14:00" >14:00</option>
+                                                                                                                                                <option value="14:30">14:30</option>
+                                                                                                                                                                                        <option value="15:00" >15:00</option>
+                                                                                                                                                <option value="15:30">15:30</option>
+                                                                                                                                                                                        <option value="16:00" >16:00</option>
+                                                                                                                                                <option value="16:30">16:30</option>
+                                                                                                                                                                                        <option value="17:00" >17:00</option>
+                                                                                                                                                <option value="17:30">17:30</option>
+                                                                                                                                                                                        <option value="18:00" >18:00</option>
+                                                                                                                                                <option value="18:30">18:30</option>
+                                                                                                                                                                                        <option value="19:00" >19:00</option>
+                                                                                                                                                <option value="19:30">19:30</option>
+                                                                                                                                                                                        <option value="20:00" >20:00</option>
+                                                                                                                                                <option value="20:30">20:30</option>
+                                                                                                                                                                                        <option value="21:00" >21:00</option>
+                                                                                                                                                <option value="21:30">21:30</option>
+                                                                                                                                                                                        <option value="22:00" >22:00</option>
+                                                                                                                                                <option value="22:30">22:30</option>
+                                                                                                                                                                                        <option value="23:00" >23:00</option>
+                                                                                                                                                <option value="23:30">23:30</option>
+                                                                                                </select>
+                        </div>
+                    </div>
+                </li>
+                        </ul>
+
+    <div class="no-data" id="noData" style="display:none;">无资料</div>
+</div>
+
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月10日18時27分14秒 [Feature] API POST webPlayer web vip group edit frame
+	Collect temp results or other files...

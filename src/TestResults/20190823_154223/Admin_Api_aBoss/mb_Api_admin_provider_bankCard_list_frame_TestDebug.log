@@ -1,0 +1,169 @@
+
+* Run test case: mb_Api_admin_provider_bankCard_list_frame.py
+********Test Case: mb_Api_admin_provider_bankCard_list_frame.py********
+
+	Start >>08月23日15時47分28秒 [Feature] API POST provider bankCard list frame
+
+		New ini value is: API.bankerId = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.option = 0
+		New ini value is: API.enable = 3
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/provider/bankCard/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/bankCard/list/frame
+
+		- api params: {'option': '0', 'enable': '3', 'page': '', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.038126 (seconds)
+
+		Response data: <div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 银行卡
+ <a class="btn btn-orange" href="provider_card_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增银行卡
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    项目
+   </div>
+   <div class="box-15">
+    银行名称
+   </div>
+   <div class="box-10">
+    类型
+   </div>
+   <div class="box-5 txt-c">
+    币别
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+   <div class="box-10 txt-r">
+    单日额度
+   </div>
+   <div class="box-10 txt-r">
+    出款已使用额度
+   </div>
+   <div class="box-10 txt-r">
+    入款已使用额度
+   </div>
+   <div class="box-20 txt-r">
+    卡号
+   </div>
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15">
+    QAbank12
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    <img alt="" class="coin" src="img/coin/coin_CNY.png"/>
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-10 txt-r">
+    5000
+   </div>
+   <div class="box-10 txt-r">
+    0
+   </div>
+   <div class="box-10 txt-r">
+    0
+   </div>
+   <div class="box-20 txt-r">
+    **************0012312
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_card_edit.html" id="e4a83865f4a8ef339b85c1d69a32c26d" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <!-- <a href="#" title="刪除" alt="刪除" class="del">
+                    <i class="fas fa-times"></i>
+                </a> -->
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.038126
+
+		- Success get bankName: QAbank12
+
+		- Success get cardId: e4a83865f4a8ef339b85c1d69a32c26d
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.cardid = e4a83865f4a8ef339b85c1d69a32c26d
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.option = 
+		New ini value is: API.enable = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日15時47分28秒 [Feature] API POST provider bankCard list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時47分28秒 [Feature] API POST provider bankCard list frame
+
+- api url: http://tadmapi.o2ogt.com/api/provider/bankCard/list/frame
+- api params: {'option': '0', 'enable': '3', 'page': '', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.038126 (seconds)
+- API success (status and response are correct).
+- Response time: 0.038126
+- Success get bankName: QAbank12
+- Success get cardId: e4a83865f4a8ef339b85c1d69a32c26d
+- - -
+# Test Result: PASS
+
+End << 08月23日15時47分28秒 [Feature] API POST provider bankCard list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1547
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

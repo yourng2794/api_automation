@@ -1,0 +1,48 @@
+
+* Run test case: b_Api_admin_profile.py
+********Test Case: b_Api_admin_profile.py********
+
+	Start >>03月22日17時24分57秒 [Portal] API POST user profile
+
+
+		- api url: http://admtest.o2ogt.com/api/profile
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=ldrF1W22vdlaGOvzMNxjjSIoKEqVLbIMqdS0uEKy for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.607764 (seconds)
+
+		- API success (status and response are correct).
+
+		- Response time: 0.607764
+
+		Response data: {"login_id":"123456","login_acc":"Bonnie","login_rank":1}
+
+		---
+---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月22日17時24分58秒 [Portal] API POST user profile
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

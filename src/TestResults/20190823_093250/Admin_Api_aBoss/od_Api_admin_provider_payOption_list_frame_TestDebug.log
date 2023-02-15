@@ -1,0 +1,73 @@
+
+* Run test case: od_Api_admin_provider_payOption_list_frame.py
+********Test Case: od_Api_admin_provider_payOption_list_frame.py********
+
+	Start >>08月23日09時38分35秒 [Feature] API POST provider payOption list frame
+
+		New ini value is: API.webId = eefe247755b8b16c33e8730e9e168211
+		New ini value is: API.api_path = api/provider/payOption/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/list/frame
+
+		- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.044747 (seconds)
+
+		Response data: {
+    "Error_at": "/data/web/tadmapi.o2ogt.com/app/Http/Controllers/PayOptionController.php",
+    "Error_code": "E01",
+    "Error_line": 70,
+    "Error_message": "System Error"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.044747
+
+		- - -
+
+['PASS']
+[]
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時38分35秒 [Feature] API POST provider payOption list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時38分35秒 [Feature] API POST provider payOption list frame
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/list/frame
+- api params: {'webId': 'eefe247755b8b16c33e8730e9e168211'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.044747 (seconds)
+- API success (status and response are correct).
+- Response time: 0.044747
+- - -
+# Test Result: FAIL
+
+End << 08月23日09時38分35秒 [Feature] API POST provider payOption list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0938
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

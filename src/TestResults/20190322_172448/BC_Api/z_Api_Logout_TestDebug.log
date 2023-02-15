@@ -1,0 +1,49 @@
+
+* Run test case: z_Api_Logout.py
+********Test Case: z_Api_Logout.py********
+
+	Start >>03月22日17時25分13秒 [Portal] API POST logout current account
+
+
+		- api url: https://bctest.o2ogt.com/logout
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=ujwTdXJM7yKwcyIJmRMyBuFaP9eigZT7UWPqcY6C for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.398499 (seconds)
+
+		- API success (status and response are correct).
+
+		- Response time: 0.398499
+
+		Response data: {"Error_code":"S01","Error_message":"success"}
+
+		---
+
+		- - - 
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月22日17時25分13秒 [Portal] API POST logout current account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,75 @@
+
+* Run test case: md_Api_admin_provider_payment_edit_currency_get.py
+********Test Case: md_Api_admin_provider_payment_edit_currency_get.py********
+
+	Start >>04月17日18時44分27秒 [Feature] API POST provider payment edit currency get
+
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+
+		- api_params: {'paymentId': '6583ffebabe59b03947d7ea960907a93'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/edit/currency/get
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=i6XOoC5FWW8YnIHqa70gisQG2m0XtCGZ4o2JytMF for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.429761 (seconds)
+
+		Response data: 
+{
+    "currency": [
+        {
+            "CNY": "1"
+        },
+        {
+            "EUR": "1"
+        },
+        {
+            "HKD": "1"
+        },
+        {
+            "MOP": "0"
+        },
+        {
+            "USD": "0"
+        }
+    ],
+    "payname": "金城武幫你出",
+    "v_currency": [
+        {
+            "V_BTC": "1"
+        }
+    ]
+}
+
+		- Success get currency
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時44分27秒 [Feature] API POST provider payment edit currency get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

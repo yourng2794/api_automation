@@ -1,0 +1,70 @@
+
+* Run test case: tj_Api_admin_org_employee_websitelist.py
+********Test Case: tj_Api_admin_org_employee_websitelist.py********
+
+	Start >>08月23日09時40分07秒 [Feature] API POST org. employee websitelist
+
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/websitelist
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.032383 (seconds)
+
+		Response data: [{"web_id": "3a7bd170a63d05ad51bd8a7af575fd05", "web_name": "蟲蟲維修站"}, {"web_id": "295a250b221fc57bb46130e8f84f419c", "web_name": "QAweb10"}, {"web_id": "8efa19ef2090d1e8a1fd0c08bdcea7ba", "web_name": "超人站"}, {"web_id": "388d505904c7235f3dffd7b2925a343e", "web_name": "QAweb2"}, {"web_id": "eefe247755b8b16c33e8730e9e168211", "web_name": "QAweb11"}, {"web_id": "0071823bc5aeea99b626b120e330b47b", "web_name": "CS"}, {"web_id": "a0c42d1d508e759e0d68b22cf0860233", "web_name": "55688"}, {"web_id": "92c2170f5d9551a55ec91944754e3ed7", "web_name": "QAweb6"}, {"web_id": "3dd62309ba3fa9b690da72c4fabbc07e", "web_name": "B_QAweb4"}, {"web_id": "ac9c6bc657e91a2fabe517851eb59079", "web_name": "QAweb4"}, {"web_id": "a8b3c8bfc49c9301c2a86e55e1bff764", "web_name": "QAweb1"}, {"web_id": "0e4e80449b7f4492c7725b69c1d8d6de", "web_name": "O2O測試一站"}, {"web_id": "2f26896dd17b5d5aa9915ce27a6a8e9d", "web_name": "666"}, {"web_id": "c238b01d0e8f154b17abf2c208a28846", "web_name": "O2O測試二站"}, {"web_id": "e9a8a0adeb37f2e1565b22985293acbc", "web_name": "O2O測試一站3"}, {"web_id": "11a9a89c873f32e0ac8bc010f17e668e", "web_name": "B_QAweb5"}, {"web_id": "ae38cdf0c687a9114ee12da9a54a6ac4", "web_name": "QAweb5"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.032383
+
+		Exception: on CheckPermissionDenied... list indices must be integers or slices, not str
+
+		- No data
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時40分07秒 [Feature] API POST org. employee websitelist
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時40分07秒 [Feature] API POST org. employee websitelist
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/websitelist
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.032383 (seconds)
+- API success (status and response are correct).
+- Response time: 0.032383
+- No data
+- - -
+# Test Result: PASS
+
+End << 08月23日09時40分07秒 [Feature] API POST org. employee websitelist
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0940
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

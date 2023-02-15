@@ -1,0 +1,73 @@
+
+* Run test case: me_Api_admin_provider_payment_bank_info.py
+********Test Case: me_Api_admin_provider_payment_bank_info.py********
+
+	Start >>04月19日18時38分44秒 [Feature] API POST provider payment bank info
+
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/bank/info
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.509533 (seconds)
+
+		Response data: 
+{
+    "deposit": {
+        "CNY": [
+            "QAbank18"
+        ],
+        "EUR": [],
+        "HKD": [],
+        "MOP": [],
+        "USD": []
+    },
+    "maxdeposit": 10000000,
+    "maxwithdraw": 1000000,
+    "mindeposit": 0,
+    "payname": "金城武幫你出",
+    "withdrawal": {
+        "CNY": [
+            "QAbank18"
+        ],
+        "EUR": [],
+        "HKD": [],
+        "MOP": [],
+        "USD": []
+    }
+}
+
+		- Success get payname: 金城武幫你出
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時38分44秒 [Feature] API POST provider payment bank info
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

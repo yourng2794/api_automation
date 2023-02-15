@@ -1,0 +1,58 @@
+
+* Run test case: g_KA_Revoke.py
+********Test Case: g_KA_Revoke.py********
+
+	Start >>03月25日16時43分04秒 [Portal] POST KA revoke API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_revoke.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = bc31b3a149078817f0fbe43cf41a63896afc8736a38b20bc501b14ff3225ae6e
+
+		- api_params: {'hash': 'bc31b3a149078817f0fbe43cf41a63896afc8736a38b20bc501b14ff3225ae6e'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/revoke
+
+		- api params: {'hash': 'bc31b3a149078817f0fbe43cf41a63896afc8736a38b20bc501b14ff3225ae6e'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503384000, "currency": "CNY", "operatorName": "OTG", "action": "revoke", "transactionId": "49886353ff304aaca16731c9fc22e98b", "round": 0, "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d933f8c46c4d98373da041b14ea915cf51553503383 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.340389 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時43分04秒 [Portal] POST KA revoke API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

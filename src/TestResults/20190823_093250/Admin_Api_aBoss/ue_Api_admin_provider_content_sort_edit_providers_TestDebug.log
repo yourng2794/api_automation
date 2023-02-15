@@ -1,0 +1,259 @@
+
+* Run test case: ue_Api_admin_provider_content_sort_edit_providers.py
+********Test Case: ue_Api_admin_provider_content_sort_edit_providers.py********
+
+	Start >>08月23日09時40分21秒 [Feature] API POST provider content sort edit providers
+
+		New ini value is: TestData.top_providers_slot = PT_SLOT, FP_SLOT
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_provider_content_sort_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+
+		- api params: {}
+
+		- api data: {"type": "slot", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["PT_SLOT", "FP_SLOT"]}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.057116 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.057116
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: TestData.top_providers_lived = BB_LIVED, AG_SLOT
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_provider_content_sort_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+
+		- api params: {}
+
+		- api data: {"type": "lived", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["BB_LIVED", "AG_SLOT"]}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.052357 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.052357
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: TestData.top_providers_fish = FP_FISH, CQ9_FISH
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_provider_content_sort_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+
+		- api params: {}
+
+		- api data: {"type": "fish", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["FP_FISH", "CQ9_FISH"]}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.051621 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.051621
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: TestData.top_providers_poker = BB_POKER, CQ9_POKER
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_provider_content_sort_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+
+		- api params: {}
+
+		- api data: {"type": "poker", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["BB_POKER", "CQ9_POKER"]}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.041208 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041208
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: TestData.top_providers_sport = BB_SPORT, CR_SPORT
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_provider_content_sort_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+
+		- api params: {}
+
+		- api data: {"type": "sport", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["BB_SPORT", "CR_SPORT"]}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.049754 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.049754
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: TestData.top_providers_lottery = BB_LOTTERY, DL_LOTTERY
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_provider_content_sort_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+
+		- api params: {}
+
+		- api data: {"type": "lottery", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["BB_LOTTERY", "DL_LOTTERY"]}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.052098 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.052098
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時40分21秒 [Feature] API POST provider content sort edit providers
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時40分21秒 [Feature] API POST provider content sort edit providers
+
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+- api params: {}
+- api data: {"type": "slot", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["PT_SLOT", "FP_SLOT"]}}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.057116 (seconds)
+- API success (status and response are correct).
+- Response time: 0.057116
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+- api params: {}
+- api data: {"type": "lived", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["BB_LIVED", "AG_SLOT"]}}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.052357 (seconds)
+- API success (status and response are correct).
+- Response time: 0.052357
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+- api params: {}
+- api data: {"type": "fish", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["FP_FISH", "CQ9_FISH"]}}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.051621 (seconds)
+- API success (status and response are correct).
+- Response time: 0.051621
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+- api params: {}
+- api data: {"type": "poker", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["BB_POKER", "CQ9_POKER"]}}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.041208 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041208
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+- api params: {}
+- api data: {"type": "sport", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["BB_SPORT", "CR_SPORT"]}}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.049754 (seconds)
+- API success (status and response are correct).
+- Response time: 0.049754
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/edit
+- api params: {}
+- api data: {"type": "lottery", "webid": "eefe247755b8b16c33e8730e9e168211", "settype": "provider", "lang": "zh", "data": {"rule": ["BB_LOTTERY", "DL_LOTTERY"]}}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.052098 (seconds)
+- API success (status and response are correct).
+- Response time: 0.052098
+---# Test Result: PASS
+
+End << 08月23日09時40分21秒 [Feature] API POST provider content sort edit providers
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0940
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

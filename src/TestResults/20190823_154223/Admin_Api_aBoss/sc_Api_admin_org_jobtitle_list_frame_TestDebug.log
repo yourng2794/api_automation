@@ -1,0 +1,127 @@
+
+* Run test case: sc_Api_admin_org_jobtitle_list_frame.py
+********Test Case: sc_Api_admin_org_jobtitle_list_frame.py********
+
+	Start >>08月23日15時48分31秒 [Feature] API POST org. jobtitle list frame
+
+		New ini value is: API.depId = c7b15614e29e2c31cdb821de2ab18680
+		New ini value is: API.api_path = api/organization/department/jobtitle/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/list/frame
+
+		- api params: {'depId': 'c7b15614e29e2c31cdb821de2ab18680'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041158 (seconds)
+
+		Response data: <li>
+ <a alt="編輯" class="list-group" href="organize_mem_list.html" title="編輯">
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-15">
+   QAtitle12
+  </div>
+  <div class="box-40">
+  </div>
+  <div class="box-10 txt-c">
+   0
+  </div>
+ </a>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_office_edit.html" id="a3cdedf30a9b35c1a2b376ab9632ca9b" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="a3cdedf30a9b35c1a2b376ab9632ca9b" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041158
+
+		- Success get depTitle: QAtitle12
+
+		- Success get depTitleId: a3cdedf30a9b35c1a2b376ab9632ca9b
+
+		- - -
+
+['PASS']
+['FAIL', 'PASS']
+		New ini value is: API.depTitleId = a3cdedf30a9b35c1a2b376ab9632ca9b
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.depId = 
+	<< End Tear Down
+
+
+	End << 08月23日15時48分32秒 [Feature] API POST org. jobtitle list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時48分31秒 [Feature] API POST org. jobtitle list frame
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/list/frame
+- api params: {'depId': 'c7b15614e29e2c31cdb821de2ab18680'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041158 (seconds)
+Response data: <li>
+ <a alt="編輯" class="list-group" href="organize_mem_list.html" title="編輯">
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-15">
+   QAtitle12
+  </div>
+  <div class="box-40">
+  </div>
+  <div class="box-10 txt-c">
+   0
+  </div>
+ </a>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_office_edit.html" id="a3cdedf30a9b35c1a2b376ab9632ca9b" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="a3cdedf30a9b35c1a2b376ab9632ca9b" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+
+- API success (status and response are correct).
+- Response time: 0.041158
+- Success get depTitle: QAtitle12
+- Success get depTitleId: a3cdedf30a9b35c1a2b376ab9632ca9b
+- - -
+# Test Result: PASS
+
+End << 08月23日15時48分32秒 [Feature] API POST org. jobtitle list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1548
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

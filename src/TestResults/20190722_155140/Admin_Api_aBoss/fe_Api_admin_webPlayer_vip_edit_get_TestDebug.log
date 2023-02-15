@@ -1,0 +1,120 @@
+
+* Run test case: fe_Api_admin_webPlayer_vip_edit_get.py
+********Test Case: fe_Api_admin_webPlayer_vip_edit_get.py********
+
+	Start >>07月22日15時53分51秒 [Feature] API POST webPlayer vip edit get
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.vipId = b01bf316216d1aa054c9df0aea873425
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/edit/get
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipId': 'b01bf316216d1aa054c9df0aea873425'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022479 (seconds)
+
+		- api response: 
+{
+    "banker_id": "a97e6eec6fc58c8d8ce2c339b555bbb1",
+    "createtime": "2019-07-22 07:53:43",
+    "depositTimes": "10",
+    "depositTotal": 0,
+    "maxDepositAmount": "2000",
+    "maxWithdrawalAmount": "1000",
+    "pt_id": "boss",
+    "pt_name": "A_Boss",
+    "vip_id": "b01bf316216d1aa054c9df0aea873425",
+    "vip_name": "QAvip1",
+    "web_site": "",
+    "withdrawalTimes": "10",
+    "withdrawalTotal": "100"
+}
+
+		Response data: {
+    "banker_id": "a97e6eec6fc58c8d8ce2c339b555bbb1",
+    "createtime": "2019-07-22 07:53:43",
+    "depositTimes": "10",
+    "depositTotal": 0,
+    "maxDepositAmount": "2000",
+    "maxWithdrawalAmount": "1000",
+    "pt_id": "boss",
+    "pt_name": "A_Boss",
+    "vip_id": "b01bf316216d1aa054c9df0aea873425",
+    "vip_name": "QAvip1",
+    "web_site": "",
+    "withdrawalTimes": "10",
+    "withdrawalTotal": "100"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.022479
+
+		- Success get: pt_id.
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.vipId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時53分52秒 [Feature] API POST webPlayer vip edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時53分51秒 [Feature] API POST webPlayer vip edit get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/edit/get
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipId': 'b01bf316216d1aa054c9df0aea873425'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022479 (seconds)
+- api response: 
+{
+    "banker_id": "a97e6eec6fc58c8d8ce2c339b555bbb1",
+    "createtime": "2019-07-22 07:53:43",
+    "depositTimes": "10",
+    "depositTotal": 0,
+    "maxDepositAmount": "2000",
+    "maxWithdrawalAmount": "1000",
+    "pt_id": "boss",
+    "pt_name": "A_Boss",
+    "vip_id": "b01bf316216d1aa054c9df0aea873425",
+    "vip_name": "QAvip1",
+    "web_site": "",
+    "withdrawalTimes": "10",
+    "withdrawalTotal": "100"
+}
+- API success (status and response are correct).
+- Response time: 0.022479
+- Success get: pt_id.
+- - -
+# Test Result: PASS
+
+End << 07月22日15時53分52秒 [Feature] API POST webPlayer vip edit get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1553
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

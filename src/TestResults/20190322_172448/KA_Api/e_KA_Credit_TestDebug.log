@@ -1,0 +1,58 @@
+
+* Run test case: e_KA_Credit.py
+********Test Case: e_KA_Credit.py********
+
+	Start >>03月22日17時25分29秒 [Portal] POST KA credit API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_credit.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = 37c0181b1bd271f3fddf07dfa0e4c2429b36ef471b0b9d5446392e45911b8f13
+
+		- api_params: {'hash': '37c0181b1bd271f3fddf07dfa0e4c2429b36ef471b0b9d5446392e45911b8f13'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/credit
+
+		- api params: {'hash': '37c0181b1bd271f3fddf07dfa0e4c2429b36ef471b0b9d5446392e45911b8f13'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11afg", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553246729000, "currency": "CNY", "operatorName": "OTG", "action": "credit", "transactionId": "49886353ff304aaca16731c9fc22e98b", "amount": 0, "type": "BonusPick", "creditIndex": 0, "token": "nullde978ad1d4403dcdef30a820bc11f585"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.427685 (seconds)
+
+		- API success (status and response are correct).
+
+		Response data: {"balance":"7440","status":"success","statusCode":"0"}
+
+		---
+
+		- - - 
+
+		# Test Result: PASS
+	Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月22日17時25分29秒 [Portal] POST KA credit API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

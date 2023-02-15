@@ -1,0 +1,56 @@
+
+* Run test case: nh_Api_admin_provider_payOption_website_list.py
+********Test Case: nh_Api_admin_provider_payOption_website_list.py********
+
+	Start >>04月19日18時39分21秒 [Feature] API POST provider payOption website list
+
+		New ini value is: API.payOptionId = 40f00ddd4665100fdce55c92dd6ff9b2
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/provider/payOption/website/list
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/website/list
+
+		- api params: {'payOptionId': '40f00ddd4665100fdce55c92dd6ff9b2', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.920285 (seconds)
+
+		Response data: 
+{
+    "list": "{\"0b82165981316ecf67ad30a5887aa1e9\":\"Testweb19\"}",
+    "payoption_name": "QApay19"
+}
+
+		- Success get payoption_name: QApay19
+
+		- Success get webName: Testweb19
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時39分22秒 [Feature] API POST provider payOption website list
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

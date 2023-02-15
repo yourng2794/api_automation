@@ -1,0 +1,89 @@
+
+* Run test case: cf_Api_admin_web_domain_edit.py
+********Test Case: cf_Api_admin_web_domain_edit.py********
+
+	Start >>04月17日18時41分00秒 [Feature] API POST web domain edit
+
+		New ini value is: API.webDomainId = 93f155e7c6878477e927428e2a07397a
+		New ini value is: API.webDomain = 10.10.10.229
+		New ini value is: API.status = 0
+
+		- api_params: {'webDomainId': '93f155e7c6878477e927428e2a07397a', 'webDomain': '10.10.10.229', 'status': '0'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/domain/edit
+
+		- api params: {'webDomainId': '93f155e7c6878477e927428e2a07397a', 'webDomain': '10.10.10.229', 'status': '0'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=pIqo2Ke7Cvy52XbFQAdpRq5NB6uguhZphhjVmDcs for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.802546 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.802546
+
+		---
+
+		---
+		New ini value is: API.status = 1
+
+		- api_params: {'webDomainId': '93f155e7c6878477e927428e2a07397a', 'webDomain': '10.10.10.229', 'status': '1'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/domain/edit
+
+		- api params: {'webDomainId': '93f155e7c6878477e927428e2a07397a', 'webDomain': '10.10.10.229', 'status': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=fCwzKXECFMfNbRxqk3Mx6SngRQ86ck9dAlLv7ioS for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.112245 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.112245
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時41分01秒 [Feature] API POST web domain edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

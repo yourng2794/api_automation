@@ -1,0 +1,178 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190411_183245\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190411_183245\\testresults.xml
+********Test Case: jd_Api_admin_webPlayer_promo_providerContent_list.py********
+
+	Start >>04月11日18時32分45秒 [Feature] API POST webPlayer promo providerContent list
+
+		New ini value is: API.gameType = slot
+
+		- api_params: {'gameType': 'slot'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/providerContent/list
+
+		- api params: {'gameType': 'slot'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=zqQX9Lh3RYB0XBvof2gWN3WFU5vVZ0QxJa08jWpY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.477771 (seconds)
+
+		Response data: [{"provider_id":"0C2C23326DE54AA4F855B340F5ED1DFA","name":"KA"},{"provider_id":"0C2C23326DE54AA4F855B340F5ED1DFB","name":"KA For TEST"},{"provider_id":"187a75d888eba800f4cc090cb89ed2cd","name":"BB"},{"provider_id":"7052ea25ed9a0b4acb970b9a7db28893","name":"James"},{"provider_id":"a1e160effea90cb09f59d06cdb8878fa","name":"超級星期天"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.477771
+
+		---
+
+		---
+		New ini value is: API.gameType = fish
+
+		- api_params: {'gameType': 'fish'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/providerContent/list
+
+		- api params: {'gameType': 'fish'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=KgsV2Pn1WtNggpsMoSGS4uDuAjM32HL9RAsffUcY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.216262 (seconds)
+
+		Response data: [{"provider_id":"1","name":"JDB"},{"provider_id":"3dc5139cd1f9d3e8b6d49318f0b219ed","name":"竹鼠"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.216262
+
+		---
+
+		---
+		New ini value is: API.gameType = lived
+
+		- api_params: {'gameType': 'lived'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/providerContent/list
+
+		- api params: {'gameType': 'lived'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=4NCIoq0fiusnkOdKnHYPt2u799CnW2fnFR132ntG for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.114951 (seconds)
+
+		Response data: [{"provider_id":"4237b9ca599f6aa67ade81f5c7e70676","name":"超級實況主"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.114951
+
+		---
+
+		---
+		New ini value is: API.gameType = lottery
+
+		- api_params: {'gameType': 'lottery'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/providerContent/list
+
+		- api params: {'gameType': 'lottery'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=Kr3DYT3AnQgbrbUQWOUBhMqJOEP8O8t8mvj7inC2 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.099216 (seconds)
+
+		Response data: [{"provider_id":"fb48d422088d46c0d220988b206be0ff","name":"超級摸彩王"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.099216
+
+		---
+
+		---
+		New ini value is: API.gameType = poker
+
+		- api_params: {'gameType': 'poker'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/providerContent/list
+
+		- api params: {'gameType': 'poker'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=6CihAvNp8c9tjBEssTqnke5IIeesKZa2WaFWt0K3 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.144855 (seconds)
+
+		Response data: [{"provider_id":"9167e2f94516b182d5869695cd119f64","name":"Crown"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.144855
+
+		---
+
+		---
+		New ini value is: API.gameType = sport
+
+		- api_params: {'gameType': 'sport'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/providerContent/list
+
+		- api params: {'gameType': 'sport'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=GhtPqXg22k0fI1efhAYu3ZH6rvcSGQTdKb5ufWDs for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.20396 (seconds)
+
+		Response data: [{"provider_id":"9b7141cdd3f02011df8c84b4483bf87f","name":"Tokyo"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.20396
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月11日18時32分46秒 [Feature] API POST webPlayer promo providerContent list
+	Collect temp results or other files...

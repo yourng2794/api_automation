@@ -1,0 +1,74 @@
+
+* Run test case: na_Api_admin_provider_payOption_create_get.py
+********Test Case: na_Api_admin_provider_payOption_create_get.py********
+
+	Start >>04月19日18時38分58秒 [Feature] API POST provider payOption create get
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/create/get
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.124131 (seconds)
+
+		Response data: 
+{
+    "currency": {
+        "AUD": "0",
+        "CNY": "0",
+        "EUR": "0",
+        "GBP": "0",
+        "HKD": "0",
+        "IDR": "0",
+        "JPY": "0",
+        "KRW": "0",
+        "MMK": "0",
+        "MOP": "0",
+        "MYR": "0",
+        "PHP": "0",
+        "THB": "0",
+        "USD": "0",
+        "VND": "0"
+    },
+    "pt_acc": "QAstep4",
+    "v_currency": {
+        "V_BTC": "0",
+        "V_ETH": "0"
+    }
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.124131
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時38分58秒 [Feature] API POST provider payOption create get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

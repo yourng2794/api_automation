@@ -1,0 +1,71 @@
+
+* Run test case: z_Api_Logout.py
+********Test Case: z_Api_Logout.py********
+
+	Start >>08月23日09時40分24秒 [Portal] API POST logout current account
+
+
+		- api url: http://tadmapi.o2ogt.com/logout
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.035338 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.035338
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時40分24秒 [Portal] API POST logout current account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時40分24秒 [Portal] API POST logout current account
+
+- api url: http://tadmapi.o2ogt.com/logout
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.035338 (seconds)
+- API success (status and response are correct).
+- Response time: 0.035338
+---
+---
+# Test Result: PASS
+
+End << 08月23日09時40分24秒 [Portal] API POST logout current account
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0940
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

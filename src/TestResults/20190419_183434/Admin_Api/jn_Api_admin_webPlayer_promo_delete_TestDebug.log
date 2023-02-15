@@ -1,0 +1,81 @@
+
+* Run test case: jn_Api_admin_webPlayer_promo_delete.py
+********Test Case: jn_Api_admin_webPlayer_promo_delete.py********
+
+	Start >>04月19日18時37分32秒 [Feature] API POST webPlayer promo delete
+
+		New ini value is: API.promoid = ad676be91ab834b540d14d01963b5415
+		New ini value is: API.enable = 0
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/state/edit
+
+		- api params: {'promoid': 'ad676be91ab834b540d14d01963b5415', 'enable': '0'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.623233 (seconds)
+
+		Response data: 
+{
+    "state": "停用"
+}
+
+		- Success get state: 停用
+
+		---
+
+		---
+		New ini value is: API.enable = 2
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/state/edit
+
+		- api params: {'promoid': 'ad676be91ab834b540d14d01963b5415', 'enable': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.123197 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.123197
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時37分33秒 [Feature] API POST webPlayer promo delete
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

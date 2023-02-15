@@ -1,0 +1,285 @@
+
+* Run test case: hd_Api_admin_webPlayer_web_vip_group_edit_frame_m.py
+********Test Case: hd_Api_admin_webPlayer_web_vip_group_edit_frame_m.py********
+
+	Start >>07月22日15時54分29秒 [Feature] API POST webPlayer web vip group edit frame m
+
+		New ini value is: API.webId = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.vipGroupId = cae2dee932b8e8ef94fcb2247ffcbf3b
+		New ini value is: API.api_path = api/webPlayer/web/vip/group/edit/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/vip/group/edit/frame/m
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipGroupId': 'cae2dee932b8e8ef94fcb2247ffcbf3b'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.026431 (seconds)
+
+		- api response: 
+<div id="levelGroupList">
+ <ul class="list">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-25">
+     层级
+    </div>
+    <div class="box-20 txt-c">
+     人数
+    </div>
+    <div class="box-15 txt-c">
+     注册
+    </div>
+    <div class="box-35">
+     网域
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-25">
+     QAvip1
+    </div>
+    <div class="box-20 txt-c">
+     0
+    </div>
+    <div class="box-15 txt-c light-gold">
+     <i class="fas fa-clock">
+     </i>
+    </div>
+    <div class="box-35 wb" id="c0f63e237cebde21e3b7ef9580d2349b">
+     10.1.10.1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="b01bf316216d1aa054c9df0aea873425" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+ <div class="result-box txt-c">
+  共设定
+  <span>
+   1
+  </span>
+  组阶级
+ </div>
+</div>
+
+		Response data: <div id="levelGroupList">
+ <ul class="list">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-25">
+     层级
+    </div>
+    <div class="box-20 txt-c">
+     人数
+    </div>
+    <div class="box-15 txt-c">
+     注册
+    </div>
+    <div class="box-35">
+     网域
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-25">
+     QAvip1
+    </div>
+    <div class="box-20 txt-c">
+     0
+    </div>
+    <div class="box-15 txt-c light-gold">
+     <i class="fas fa-clock">
+     </i>
+    </div>
+    <div class="box-35 wb" id="c0f63e237cebde21e3b7ef9580d2349b">
+     10.1.10.1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="b01bf316216d1aa054c9df0aea873425" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+ <div class="result-box txt-c">
+  共设定
+  <span>
+   1
+  </span>
+  组阶级
+ </div>
+</div>
+
+		- API success (status and response are correct).
+
+		- Response time: 0.026431
+
+		- API success (status and response are correct).
+
+		- - -
+
+['PASS']
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_web_vip_domain_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/vip/domain/edit
+
+		- api params: {}
+
+		- api data: {"webId": "a8b3c8bfc49c9301c2a86e55e1bff764", "vipGroupId": "cae2dee932b8e8ef94fcb2247ffcbf3b", "vipDataList": [{"vipId": "b01bf316216d1aa054c9df0aea873425", "webDomainUrl": "10.1.10.1", "transferSet": "2", "timeStart": "", "timeEnd": "", "setTime": "00:00"}]}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.034426 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.034426
+
+		- - -
+
+['PASS']
+['PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+		New ini value is: API.vipGroupId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時54分29秒 [Feature] API POST webPlayer web vip group edit frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時54分29秒 [Feature] API POST webPlayer web vip group edit frame m
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/vip/group/edit/frame/m
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipGroupId': 'cae2dee932b8e8ef94fcb2247ffcbf3b'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.026431 (seconds)
+- api response: 
+<div id="levelGroupList">
+ <ul class="list">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-25">
+     层级
+    </div>
+    <div class="box-20 txt-c">
+     人数
+    </div>
+    <div class="box-15 txt-c">
+     注册
+    </div>
+    <div class="box-35">
+     网域
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-25">
+     QAvip1
+    </div>
+    <div class="box-20 txt-c">
+     0
+    </div>
+    <div class="box-15 txt-c light-gold">
+     <i class="fas fa-clock">
+     </i>
+    </div>
+    <div class="box-35 wb" id="c0f63e237cebde21e3b7ef9580d2349b">
+     10.1.10.1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="操作" class="btn-popup" id="b01bf316216d1aa054c9df0aea873425" title="操作">
+     <i class="fas fa-edit">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+ <div class="result-box txt-c">
+  共设定
+  <span>
+   1
+  </span>
+  组阶级
+ </div>
+</div>
+- API success (status and response are correct).
+- Response time: 0.026431
+- API success (status and response are correct).
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/vip/domain/edit
+- api params: {}
+- api data: {"webId": "a8b3c8bfc49c9301c2a86e55e1bff764", "vipGroupId": "cae2dee932b8e8ef94fcb2247ffcbf3b", "vipDataList": [{"vipId": "b01bf316216d1aa054c9df0aea873425", "webDomainUrl": "10.1.10.1", "transferSet": "2", "timeStart": "", "timeEnd": "", "setTime": "00:00"}]}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.034426 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.034426
+- - -
+# Test Result: PASS
+
+End << 07月22日15時54分29秒 [Feature] API POST webPlayer web vip group edit frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1554
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

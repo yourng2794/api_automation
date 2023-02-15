@@ -1,0 +1,87 @@
+
+* Run test case: ej_Api_admin_partner_create_webmaster.py
+********Test Case: ej_Api_admin_partner_create_webmaster.py********
+
+	Start >>07月22日15時53分19秒 [Feature] API POST partner create webmaster
+
+		New ini value is: API.ptAcc = QAwebmaster1
+		New ini value is: API.ptPwd = QAwebmaster1
+		New ini value is: API.ptParentId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.ptTypeId = 97a2fa8b151e88da50b01f91835ed0cc
+		New ini value is: API.ptName = QATEST1
+		New ini value is: API.webId = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.percent = 15.00
+		New ini value is: API.agentType = 
+
+		- api url: http://tadmapi.o2ogt.com/api/partner/create
+
+		- api params: {'ptAcc': 'QAwebmaster1', 'ptPwd': 'QAwebmaster1', 'ptName': 'QATEST1', 'ptParentId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'permission': '{"ir_r":1,"qs_r":1,"orp_r":1,"orpvd_r":1,"orb_r":1,"orw_r":1,"ord_r":1,"orplr_r":1,"prr_r":1,"wr_r":1,"plrr_r":1,"gl_r":1,"ee_c":1,"ee_d":1,"ee_r":1,"ee_u":1,"dp_c":1,"dp_d":1,"dp_r":1,"dp_u":1,"pt_c":1,"pt_d":1,"pt_r":1,"pt_u":1,"ptt_u":1,"dm_r":1,"dm_u":1,"lv_r":1,"lv_u":1,"wb_r":1,"wb_u":1,"plr_c":1,"plr_r":1,"plr_u":1,"plrt_u":1,"plrd_r":1,"promo_c":1,"promo_d":1,"promo_r":1,"promo_u":1,"cms_c":1,"cms_d":1,"cms_r":1,"cms_u":1,"nt_c":1,"nt_d":1,"nt_r":1,"nt_u":1,"ms_c":1,"ms_d":1,"ms_r":1,"ms_u":1,"ma_c":1,"ma_d":1,"ma_r":1,"ma_u":1,"risk_c":1,"risk_d":1,"risk_r":1,"risk_u":1,"st_u":1,"gs_u":1,"ptr_r":1,"ptr_u":1,"bc_c":1,"bc_d":1,"bc_r":1,"bc_u":1,"pm_r":1,"pm_u":1,"po_c":1,"po_d":1,"po_r":1,"po_u":1,"md_c":1,"mw_c":1,"bh_r":1,"er_r":1,"er_u":1,"bt_c":1,"rs_r":1,"rs_u":1,"rp_c":1,"rp_d":1,"rp_r":1,"rp_u":1,"rfs_c":1,"rfs_d":1,"rfs_r":1,"rfs_u":1,"wa_r":1,"wa_u":1,"ia_r":1}', 'currency[]': ['AUD', 'CNY', 'EUR', 'GBP', 'HKD', 'IDR', 'JPY', 'KRW', 'MMK', 'MOP', 'MYR', 'PHP', 'THB', 'USD', 'VND'], 'percent': '15.00', 'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'ptTypeId': '97a2fa8b151e88da50b01f91835ed0cc', 'agentType': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.037481 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.037481
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時53分19秒 [Feature] API POST partner create webmaster
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時53分19秒 [Feature] API POST partner create webmaster
+
+- api url: http://tadmapi.o2ogt.com/api/partner/create
+- api params: {'ptAcc': 'QAwebmaster1', 'ptPwd': 'QAwebmaster1', 'ptName': 'QATEST1', 'ptParentId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'permission': '{"ir_r":1,"qs_r":1,"orp_r":1,"orpvd_r":1,"orb_r":1,"orw_r":1,"ord_r":1,"orplr_r":1,"prr_r":1,"wr_r":1,"plrr_r":1,"gl_r":1,"ee_c":1,"ee_d":1,"ee_r":1,"ee_u":1,"dp_c":1,"dp_d":1,"dp_r":1,"dp_u":1,"pt_c":1,"pt_d":1,"pt_r":1,"pt_u":1,"ptt_u":1,"dm_r":1,"dm_u":1,"lv_r":1,"lv_u":1,"wb_r":1,"wb_u":1,"plr_c":1,"plr_r":1,"plr_u":1,"plrt_u":1,"plrd_r":1,"promo_c":1,"promo_d":1,"promo_r":1,"promo_u":1,"cms_c":1,"cms_d":1,"cms_r":1,"cms_u":1,"nt_c":1,"nt_d":1,"nt_r":1,"nt_u":1,"ms_c":1,"ms_d":1,"ms_r":1,"ms_u":1,"ma_c":1,"ma_d":1,"ma_r":1,"ma_u":1,"risk_c":1,"risk_d":1,"risk_r":1,"risk_u":1,"st_u":1,"gs_u":1,"ptr_r":1,"ptr_u":1,"bc_c":1,"bc_d":1,"bc_r":1,"bc_u":1,"pm_r":1,"pm_u":1,"po_c":1,"po_d":1,"po_r":1,"po_u":1,"md_c":1,"mw_c":1,"bh_r":1,"er_r":1,"er_u":1,"bt_c":1,"rs_r":1,"rs_u":1,"rp_c":1,"rp_d":1,"rp_r":1,"rp_u":1,"rfs_c":1,"rfs_d":1,"rfs_r":1,"rfs_u":1,"wa_r":1,"wa_u":1,"ia_r":1}', 'currency[]': ['AUD', 'CNY', 'EUR', 'GBP', 'HKD', 'IDR', 'JPY', 'KRW', 'MMK', 'MOP', 'MYR', 'PHP', 'THB', 'USD', 'VND'], 'percent': '15.00', 'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'ptTypeId': '97a2fa8b151e88da50b01f91835ed0cc', 'agentType': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.037481 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.037481
+- - -
+# Test Result: PASS
+
+End << 07月22日15時53分19秒 [Feature] API POST partner create webmaster
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1553
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

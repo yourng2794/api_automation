@@ -1,0 +1,427 @@
+
+* Run test case: dd_Api_admin_webPlayer_web_list_frame.py
+********Test Case: dd_Api_admin_webPlayer_web_list_frame.py********
+
+	Start >>07月22日15時52分29秒 [Feature] API POST webPlayer web list frame
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.api_path = api/webPlayer/web/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/list/frame
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022363 (seconds)
+
+		- api response: 
+<div class="src-group">
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="preAcc">
+   <option value="bffcb58b29c8b639e302aed425e02a54">
+    B_banker1
+   </option>
+   <option value="258931eec7b31ba22fa91e08cdeabb40">
+    B_banker2
+   </option>
+   <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+    B_cc1211
+   </option>
+   <option value="3c7344d76648d2044fbac8b6e9e0950d">
+    B_cindy
+   </option>
+   <option value="6185a3710cd25372dcfb908843a563b0">
+    B_Nicole
+   </option>
+   <option value="2a2b8009b766549fc9daec26af8959c8">
+    B_simple
+   </option>
+   <option selected="selected" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+    QAbanker1
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input id="srcBtn" type="button"/>
+ </div>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个网站
+ <a class="btn btn-orange" href="web_website_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增网站
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10 txt-c">
+    网站
+   </div>
+   <div class="box-10 txt-c">
+    状态
+   </div>
+   <div class="box-10 txt-c">
+    人数
+   </div>
+   <div class="box-15">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <!-- 申請狀態不用跳編輯的box -->
+ <!-- 建置狀態不用跳編輯的box -->
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10 txt-c">
+    QAweb1
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019/07/22 07:52:25
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="a8b3c8bfc49c9301c2a86e55e1bff764" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		Response data: <div class="src-group">
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="preAcc">
+   <option value="bffcb58b29c8b639e302aed425e02a54">
+    B_banker1
+   </option>
+   <option value="258931eec7b31ba22fa91e08cdeabb40">
+    B_banker2
+   </option>
+   <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+    B_cc1211
+   </option>
+   <option value="3c7344d76648d2044fbac8b6e9e0950d">
+    B_cindy
+   </option>
+   <option value="6185a3710cd25372dcfb908843a563b0">
+    B_Nicole
+   </option>
+   <option value="2a2b8009b766549fc9daec26af8959c8">
+    B_simple
+   </option>
+   <option selected="selected" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+    QAbanker1
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input id="srcBtn" type="button"/>
+ </div>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个网站
+ <a class="btn btn-orange" href="web_website_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增网站
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10 txt-c">
+    网站
+   </div>
+   <div class="box-10 txt-c">
+    状态
+   </div>
+   <div class="box-10 txt-c">
+    人数
+   </div>
+   <div class="box-15">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <!-- 申請狀態不用跳編輯的box -->
+ <!-- 建置狀態不用跳編輯的box -->
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10 txt-c">
+    QAweb1
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019/07/22 07:52:25
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="a8b3c8bfc49c9301c2a86e55e1bff764" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.022363
+
+		- Success get webName: QAweb1
+
+		- Success get webId: a8b3c8bfc49c9301c2a86e55e1bff764
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.webId = a8b3c8bfc49c9301c2a86e55e1bff764
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 07月22日15時52分29秒 [Feature] API POST webPlayer web list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時52分29秒 [Feature] API POST webPlayer web list frame
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/list/frame
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022363 (seconds)
+- api response: 
+<div class="src-group">
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="preAcc">
+   <option value="bffcb58b29c8b639e302aed425e02a54">
+    B_banker1
+   </option>
+   <option value="258931eec7b31ba22fa91e08cdeabb40">
+    B_banker2
+   </option>
+   <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+    B_cc1211
+   </option>
+   <option value="3c7344d76648d2044fbac8b6e9e0950d">
+    B_cindy
+   </option>
+   <option value="6185a3710cd25372dcfb908843a563b0">
+    B_Nicole
+   </option>
+   <option value="2a2b8009b766549fc9daec26af8959c8">
+    B_simple
+   </option>
+   <option selected="selected" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+    QAbanker1
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input id="srcBtn" type="button"/>
+ </div>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个网站
+ <a class="btn btn-orange" href="web_website_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增网站
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10 txt-c">
+    网站
+   </div>
+   <div class="box-10 txt-c">
+    状态
+   </div>
+   <div class="box-10 txt-c">
+    人数
+   </div>
+   <div class="box-15">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <!-- 申請狀態不用跳編輯的box -->
+ <!-- 建置狀態不用跳編輯的box -->
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10 txt-c">
+    QAweb1
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019/07/22 07:52:25
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="a8b3c8bfc49c9301c2a86e55e1bff764" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+- API success (status and response are correct).
+- Response time: 0.022363
+- Success get webName: QAweb1
+- Success get webId: a8b3c8bfc49c9301c2a86e55e1bff764
+- - -
+# Test Result: PASS
+
+End << 07月22日15時52分29秒 [Feature] API POST webPlayer web list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1552
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

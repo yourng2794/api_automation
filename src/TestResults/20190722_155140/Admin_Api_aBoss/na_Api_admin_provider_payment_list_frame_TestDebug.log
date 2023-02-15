@@ -1,0 +1,264 @@
+
+* Run test case: na_Api_admin_provider_payment_list_frame.py
+********Test Case: na_Api_admin_provider_payment_list_frame.py********
+
+	Start >>07月22日15時56分55秒 [Feature] API POST provider payment list frame
+
+		New ini value is: API.webId = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.option = 3
+		New ini value is: API.enable = 1
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/provider/payment/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payment/list/frame
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'option': '3', 'enable': '1', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021229 (seconds)
+
+		- api response: 
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 金流
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    项目
+   </div>
+   <div class="box-15">
+    金流名称
+   </div>
+   <div class="box-10">
+    网站
+   </div>
+   <div class="box-10">
+    类型
+   </div>
+   <div class="box-5 txt-c">
+    国币
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15">
+    金城武幫你出
+   </div>
+   <div class="box-10">
+    QAweb1
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    5
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_cash_edit.html" id="a21dd5a0970084747ead2136793e914d" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		Response data: <div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 金流
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    项目
+   </div>
+   <div class="box-15">
+    金流名称
+   </div>
+   <div class="box-10">
+    网站
+   </div>
+   <div class="box-10">
+    类型
+   </div>
+   <div class="box-5 txt-c">
+    国币
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15">
+    金城武幫你出
+   </div>
+   <div class="box-10">
+    QAweb1
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    5
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_cash_edit.html" id="a21dd5a0970084747ead2136793e914d" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021229
+
+		- - -
+
+['PASS', 'PASS']
+['PASS']
+		New ini value is: API.paymentId = a21dd5a0970084747ead2136793e914d
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+		New ini value is: API.option = 
+		New ini value is: API.enable = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 07月22日15時56分55秒 [Feature] API POST provider payment list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時56分55秒 [Feature] API POST provider payment list frame
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payment/list/frame
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'option': '3', 'enable': '1', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021229 (seconds)
+- api response: 
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 金流
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    项目
+   </div>
+   <div class="box-15">
+    金流名称
+   </div>
+   <div class="box-10">
+    网站
+   </div>
+   <div class="box-10">
+    类型
+   </div>
+   <div class="box-5 txt-c">
+    国币
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15">
+    金城武幫你出
+   </div>
+   <div class="box-10">
+    QAweb1
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    5
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_cash_edit.html" id="a21dd5a0970084747ead2136793e914d" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+- API success (status and response are correct).
+- Response time: 0.021229
+- - -
+# Test Result: PASS
+
+End << 07月22日15時56分55秒 [Feature] API POST provider payment list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1556
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

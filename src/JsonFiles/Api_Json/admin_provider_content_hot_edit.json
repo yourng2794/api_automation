@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "gameid": "5043",
+            "providerid": "BB_SLOT"
+        },
+        {
+            "gameid": "5065",
+            "providerid": "BB_SLOT"
+        },
+        {
+            "gameid": "36",
+            "providerid": "FP_SLOT"
+        },
+        {
+            "gameid": "25",
+            "providerid": "FP_SLOT"
+        },
+        {
+            "gameid": "8041",
+            "providerid": "JDB_SLOT"
+        },
+        {
+            "gameid": "14017",
+            "providerid": "JDB_SLOT"
+        },
+        {
+            "gameid": "DragonGate",
+            "providerid": "KA_SLOT"
+        },
+        {
+            "gameid": "Nezha",
+            "providerid": "KA_SLOT"
+        },
+        {
+            "gameid": "SMG_108Heroes",
+            "providerid": "MG_SLOT"
+        },
+        {
+            "gameid": "SMG_actionOpsSnowAndSable",
+            "providerid": "MG_SLOT"
+        },
+        {
+            "gameid": "arc",
+            "providerid": "PT_SLOT"
+        },
+        {
+            "gameid": "asfa",
+            "providerid": "PT_SLOT"
+        },
+        {
+            "gameid": "38001",
+            "providerid": "BB_FISH"
+        },
+        {
+            "gameid": "30599",
+            "providerid": "BB_FISH"
+        },
+        {
+            "gameid": "58",
+            "providerid": "FP_FISH"
+        },
+        {
+            "gameid": "57",
+            "providerid": "FP_FISH"
+        },
+        {
+            "gameid": "7004",
+            "providerid": "JDB_FISH"
+        },
+        {
+            "gameid": "7002",
+            "providerid": "JDB_FISH"
+        },
+        {
+            "gameid": "66002",
+            "providerid": "BB_POKER"
+        },
+        {
+            "gameid": "66004",
+            "providerid": "BB_POKER"
+        },
+        {
+            "gameid": "18017",
+            "providerid": "JDB_POKER"
+        },
+        {
+            "gameid": "18004",
+            "providerid": "JDB_POKER"
+        },
+        {
+            "gameid": "620",
+            "providerid": "KY_POKER"
+        },
+        {
+            "gameid": "720",
+            "providerid": "KY_POKER"
+        },
+        {
+            "gameid": "mobbj",
+            "providerid": "PT_POKER"
+        },
+        {
+            "gameid": "cheaa",
+            "providerid": "PT_POKER"
+        },
+        {
+            "gameid": "LT",
+            "providerid": "BB_LOTTERY"
+        },
+        {
+            "gameid": "LKPA",
+            "providerid": "BB_LOTTERY"
+        },
+        {
+            "gameid": "2",
+            "providerid": "DL_LOTTERY"
+        },
+        {
+            "gameid": "9",
+            "providerid": "DL_LOTTERY"
+        }
+    ]
+}

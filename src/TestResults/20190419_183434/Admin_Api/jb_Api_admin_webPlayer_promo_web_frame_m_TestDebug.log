@@ -1,0 +1,157 @@
+
+* Run test case: jb_Api_admin_webPlayer_promo_web_frame_m.py
+********Test Case: jb_Api_admin_webPlayer_promo_web_frame_m.py********
+
+	Start >>04月19日18時36分51秒 [Feature] API POST webPlayer promo web frame m
+
+		New ini value is: API.promoid = 
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/promo/web/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/web/frame/m
+
+		- api params: {'promoid': '', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.145187 (seconds)
+
+		Response data: 
+<div class="sub-group">
+ <div class="coin-label-box">
+  <label class="check-all" for="vipAll">
+   <input id="vipAll" name="vipAll" type="checkbox"/>
+   <i class="fas fa-square">
+   </i>
+   全部网站
+  </label>
+  <div class="label-area">
+   <label for="0b82165981316ecf67ad30a5887aa1e9">
+    <input id="0b82165981316ecf67ad30a5887aa1e9" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb19
+    </span>
+   </label>
+   <label for="212b97d2151382781bd1f06c24cf5d08">
+    <input id="212b97d2151382781bd1f06c24cf5d08" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb14
+    </span>
+   </label>
+   <label for="3743bb7a69166950fda91a0a098faae1">
+    <input id="3743bb7a69166950fda91a0a098faae1" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testwebss
+    </span>
+   </label>
+   <label for="6e0cf20b5d29293655a929122a631567">
+    <input id="6e0cf20b5d29293655a929122a631567" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb99
+    </span>
+   </label>
+   <label for="86746712cb5fd15a235d62dbd97d4052">
+    <input id="86746712cb5fd15a235d62dbd97d4052" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb33
+    </span>
+   </label>
+   <label for="914f95e80273f5b5bed03ef066b8b388">
+    <input id="914f95e80273f5b5bed03ef066b8b388" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb88
+    </span>
+   </label>
+   <label for="b5b3094b34fee8ad7f237976d3673af9">
+    <input id="b5b3094b34fee8ad7f237976d3673af9" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb22
+    </span>
+   </label>
+   <label for="b5ba81093d96a08e0f67db94ab820a05">
+    <input id="b5ba81093d96a08e0f67db94ab820a05" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb17
+    </span>
+   </label>
+   <label for="bce99199a6e39decb77d6b1abdb427ce">
+    <input id="bce99199a6e39decb77d6b1abdb427ce" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb12
+    </span>
+   </label>
+   <label for="ca6dc2a642b321ca705b45495dec1434">
+    <input id="ca6dc2a642b321ca705b45495dec1434" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb18
+    </span>
+   </label>
+   <label for="cc337abf81b4328ad33c1bf0e957ca4c">
+    <input id="cc337abf81b4328ad33c1bf0e957ca4c" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb16
+    </span>
+   </label>
+   <label for="d900073f7aade1f3bbeb1233f6ecd72a">
+    <input id="d900073f7aade1f3bbeb1233f6ecd72a" name="webGroup" type="checkbox"/>
+    <i class="fas fa-square">
+    </i>
+    <span>
+     Testweb13
+    </span>
+   </label>
+  </div>
+ </div>
+</div>
+
+
+		- Exception: on admin_webPlayer_promo_web_frame_m... 'NoneType' object has no attribute 'get'
+
+		---
+[]
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時36分51秒 [Feature] API POST webPlayer promo web frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

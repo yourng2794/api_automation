@@ -1,0 +1,85 @@
+
+* Run test case: jl_Api_admin_webPlayer_promo_delete.py
+********Test Case: jl_Api_admin_webPlayer_promo_delete.py********
+
+	Start >>04月17日18時43分23秒 [Feature] API POST webPlayer promo delete
+
+		New ini value is: API.promoid = befaaf980c63f056e9eac8180225ad09
+		New ini value is: API.enable = 0
+
+		- api_params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'enable': '0'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/state/edit
+
+		- api params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'enable': '0'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=La52fYkuclaL35HcPC2bRoBO4cvXWxRtHfCecvSM for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.916286 (seconds)
+
+		Response data: 
+{
+    "state": "停用"
+}
+
+		- Success get state: 停用
+
+		---
+
+		---
+		New ini value is: API.enable = 2
+
+		- api_params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'enable': '2'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/state/edit
+
+		- api params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'enable': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=PnAES7AKSOecT5AOldhLp6dK299oosZhWPaD9Znv for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.11593 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.11593
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時43分24秒 [Feature] API POST webPlayer promo delete
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

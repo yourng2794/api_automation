@@ -1,0 +1,175 @@
+
+* Run test case: kd_Api_admin_webPlayer_risk_rule_frame.py
+********Test Case: kd_Api_admin_webPlayer_risk_rule_frame.py********
+
+	Start >>04月17日18時43分36秒 [Feature] API POST webPlayer risk rule frame
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.riskid = 56affa5ebc9033d66958ebc5d7d0174e
+>> Start isInt
+<< Success, End isInt
+>> Start isInt
+<< Success, End isInt
+
+		- api_params: {'riskid': '56affa5ebc9033d66958ebc5d7d0174e', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/risk/rule/frame
+
+		- api params: {'riskid': '56affa5ebc9033d66958ebc5d7d0174e', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=uzKLqS79fkMsdXINBMnahBTdjig1NqoOzkMPMDwb for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.64207 (seconds)
+
+		Response data: 
+<h4 class="fal">
+ 监控设定
+</h4>
+<div class="group-column">
+ <div class="input-box">
+  <label for="monOption">
+   项目名称
+  </label>
+  <i class="fas fa-desktop-alt">
+  </i>
+  <select class="sel-sty w300" id="monOption" name="monOption">
+   <option id="reg" value="layoutB">
+    会员注册
+   </option>
+   <option id="login" value="layoutB">
+    会员登入
+   </option>
+   <option id="totalBetAmount" value="layoutA">
+    会员总投注金额
+   </option>
+   <option id="withdrawalCount" value="layoutB">
+    会员取款次数
+   </option>
+   <option id="singleWithdrawalAmount" value="layoutA">
+    会员单笔取款金额
+   </option>
+   <option id="depositCount" value="layoutB">
+    会员入款次数
+   </option>
+   <option id="webTotalBetAmount" value="layoutA">
+    产品总投注金额
+   </option>
+   <option id="webDepositCount" value="layoutB">
+    网站入款次数
+   </option>
+   <option id="webWithdrawalCount" value="layoutB">
+    网站取款次数
+   </option>
+   <option id="ipDepositCount" value="layoutB">
+    单一IP入款次数
+   </option>
+   <option id="ipWithdrawalCount" value="layoutB">
+    单一IP取款次数
+   </option>
+  </select>
+  <div class="btn-add-tag" id="btnAddTag">
+   <i class="fas fa-plus-circle">
+   </i>
+  </div>
+ </div>
+</div>
+<ul class="list sort-tit">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    项目
+   </div>
+   <div class="box-25">
+    名称
+   </div>
+   <div class="box-25 txt-l">
+    监控时间
+   </div>
+   <div class="box-15">
+    次数
+   </div>
+   <div class="box-15 txt-l">
+    金额
+   </div>
+  </div>
+ </li>
+</ul>
+<ul class="list" id="EventRuleList">
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-25 js-type" id="ipLogin" value="layoutB">
+    单一IP登入
+   </div>
+   <div class="box-25 list-input-sel">
+    <input class="input-sty" id="interval" placeholder="0" type="text" value="1"/>
+    <select class="sel-sty" id="time" name="time">
+     <option value="min">
+      分钟
+     </option>
+     <option value="hour">
+      小时
+     </option>
+     <option value="day">
+      天
+     </option>
+    </select>
+   </div>
+   <div class="box-15 times-box">
+    <input class="input-sty list-input03" id="count" placeholder="0" type="text" value="5"/>
+   </div>
+   <div class="box-15 txt-l monAmount-box">
+    -
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="删除" class="del" href="#" title="删除">
+    <i class="fas fa-minus-circle">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+<div class="center-info">
+ 共设定
+ <span id="listNum1">
+  1
+ </span>
+ 项规则
+</div>
+
+
+		- Success get interval: 1
+
+		- Success get count: 5
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時43分37秒 [Feature] API POST webPlayer risk rule frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

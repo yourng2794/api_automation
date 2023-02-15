@@ -1,0 +1,58 @@
+
+* Run test case: da_Api_admin_webPlayer_web_create.py
+********Test Case: da_Api_admin_webPlayer_web_create.py********
+
+	Start >>04月17日18時41分07秒 [Feature] API POST admin webPlayer web create
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.webdomainid = {"93f155e7c6878477e927428e2a07397a":"1"}
+		New ini value is: API.webName = Testweb16
+
+		- api_params: {'webName': 'Testweb16', 'webDomainId': '{"93f155e7c6878477e927428e2a07397a":"1"}', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/create
+
+		- api params: {'webName': 'Testweb16', 'webDomainId': '{"93f155e7c6878477e927428e2a07397a":"1"}', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=FfpwQ969630Wy02n18ZeeDhqRaCg7oRpQCJQN6QM for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.728022 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.728022
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時41分08秒 [Feature] API POST admin webPlayer web create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

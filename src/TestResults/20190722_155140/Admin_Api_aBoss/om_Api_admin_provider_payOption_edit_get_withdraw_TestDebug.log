@@ -1,0 +1,85 @@
+
+* Run test case: om_Api_admin_provider_payOption_edit_get_withdraw.py
+********Test Case: om_Api_admin_provider_payOption_edit_get_withdraw.py********
+
+	Start >>07月22日15時57分35秒 [Feature] API POST provider payOption edit get withdraw
+
+		New ini value is: API.payOptionId = aa5730cca1069e082198b894dfbf91b2
+		New ini value is: API.currency = CNY
+		New ini value is: API.payOption = 1
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw
+
+		- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'currency': 'CNY', 'payOption': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		Response data: (X) Exception (ApiResponse): 500 Server Error: Internal Server Error for url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw?payOptionId=aa5730cca1069e082198b894dfbf91b2&currency=CNY&payOption=1
+
+		- API fail (status or response is incorrect).
+
+		- - -
+
+['FAIL']
+		New ini value is: API.payOption = 2
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw
+
+		- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'currency': 'CNY', 'payOption': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		Response data: (X) Exception (ApiResponse): 500 Server Error: Internal Server Error for url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw?payOptionId=aa5730cca1069e082198b894dfbf91b2&currency=CNY&payOption=2
+
+		- API fail (status or response is incorrect).
+
+		- - -
+
+['FAIL']
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時57分36秒 [Feature] API POST provider payOption edit get withdraw
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時57分35秒 [Feature] API POST provider payOption edit get withdraw
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw
+- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'currency': 'CNY', 'payOption': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- API fail (status or response is incorrect).
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit/get/withdraw
+- api params: {'payOptionId': 'aa5730cca1069e082198b894dfbf91b2', 'currency': 'CNY', 'payOption': '2'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- API fail (status or response is incorrect).
+- - -
+# Test Result: FAIL
+
+End << 07月22日15時57分36秒 [Feature] API POST provider payOption edit get withdraw
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1557
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

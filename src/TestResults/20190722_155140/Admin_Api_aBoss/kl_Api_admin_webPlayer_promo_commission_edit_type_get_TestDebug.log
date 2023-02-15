@@ -1,0 +1,254 @@
+
+* Run test case: kl_Api_admin_webPlayer_promo_commission_edit_type_get.py
+********Test Case: kl_Api_admin_webPlayer_promo_commission_edit_type_get.py********
+
+	Start >>07月22日15時56分01秒 [Feature] API POST webPlayer promo commission edit type get
+
+		New ini value is: API.webId = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.vipId = b01bf316216d1aa054c9df0aea873425
+		New ini value is: API.type = slot
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'slot'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021971 (seconds)
+
+		- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "FP", "providername": "FP"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "KA", "providername": "KA"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_SLOT", "providername": "BB_SLOT"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "JDB_SLOT", "providername": "JDB_SLOT"}]
+
+		Response data: [{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "FP", "providername": "FP"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "KA", "providername": "KA"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_SLOT", "providername": "BB_SLOT"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "JDB_SLOT", "providername": "JDB_SLOT"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021971
+		New ini value is: API.slot = {"FP": {"all": 1}, "KA": {"all": 1}, "BB_SLOT": {"all": 1}, "JDB_SLOT": {"all": 1}}
+		New ini value is: API.type = sport
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'sport'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.023395 (seconds)
+
+		- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_SPORT", "providername": "BB_SPORT"}]
+
+		Response data: [{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_SPORT", "providername": "BB_SPORT"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.023395
+		New ini value is: API.sport = {"BB_SPORT": {"all": 1}}
+		New ini value is: API.type = lived
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'lived'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022505 (seconds)
+
+		- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_LIVED", "providername": "BB_LIVED"}]
+
+		Response data: [{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_LIVED", "providername": "BB_LIVED"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.022505
+		New ini value is: API.lived = {"BB_LIVED": {"all": 1}}
+		New ini value is: API.type = lottery
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'lottery'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022027 (seconds)
+
+		- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "DL", "providername": "DL"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_LOTTERY", "providername": "BB_LOTTERY"}]
+
+		Response data: [{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "DL", "providername": "DL"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_LOTTERY", "providername": "BB_LOTTERY"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.022027
+		New ini value is: API.lottery = {"DL": {"all": 1}, "BB_LOTTERY": {"all": 1}}
+		New ini value is: API.type = fish
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'fish'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.024247 (seconds)
+
+		- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_FISH", "providername": "BB_FISH"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "JDB_FISH", "providername": "JDB_FISH"}]
+
+		Response data: [{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_FISH", "providername": "BB_FISH"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "JDB_FISH", "providername": "JDB_FISH"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.024247
+		New ini value is: API.fish = {"BB_FISH": {"all": 1}, "JDB_FISH": {"all": 1}}
+		New ini value is: API.type = poker
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'poker'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.020715 (seconds)
+
+		- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_POKER", "providername": "BB_POKER"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "JDB_POKER", "providername": "JDB_POKER"}]
+
+		Response data: [{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_POKER", "providername": "BB_POKER"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "JDB_POKER", "providername": "JDB_POKER"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.020715
+		New ini value is: API.poker = {"BB_POKER": {"all": 1}, "JDB_POKER": {"all": 1}}
+
+		- - -
+
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+["{'FP': {'all': 1}, 'KA': {'all': 1}, 'BB_SLOT': {'all': 1}, 'JDB_SLOT': {'all': 1}}", "{'BB_SPORT': {'all': 1}}", "{'BB_LIVED': {'all': 1}}", "{'DL': {'all': 1}, 'BB_LOTTERY': {'all': 1}}", "{'BB_FISH': {'all': 1}, 'JDB_FISH': {'all': 1}}", "{'BB_POKER': {'all': 1}, 'JDB_POKER': {'all': 1}}"]
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+		New ini value is: API.vipId = 
+		New ini value is: API.type = 
+	<< End Tear Down
+
+
+	End << 07月22日15時56分01秒 [Feature] API POST webPlayer promo commission edit type get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時56分01秒 [Feature] API POST webPlayer promo commission edit type get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'slot'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021971 (seconds)
+- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "FP", "providername": "FP"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "KA", "providername": "KA"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_SLOT", "providername": "BB_SLOT"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "JDB_SLOT", "providername": "JDB_SLOT"}]
+- API success (status and response are correct).
+- Response time: 0.021971
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'sport'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.023395 (seconds)
+- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_SPORT", "providername": "BB_SPORT"}]
+- API success (status and response are correct).
+- Response time: 0.023395
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'lived'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022505 (seconds)
+- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_LIVED", "providername": "BB_LIVED"}]
+- API success (status and response are correct).
+- Response time: 0.022505
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'lottery'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022027 (seconds)
+- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "DL", "providername": "DL"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_LOTTERY", "providername": "BB_LOTTERY"}]
+- API success (status and response are correct).
+- Response time: 0.022027
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'fish'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.024247 (seconds)
+- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_FISH", "providername": "BB_FISH"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "JDB_FISH", "providername": "JDB_FISH"}]
+- API success (status and response are correct).
+- Response time: 0.024247
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/type/get
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'type': 'poker'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.020715 (seconds)
+- api response: 
+[{"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "BB_POKER", "providername": "BB_POKER"}, {"game_type_list": [{"gameName": "全部遊戲", "gameType": "all", "value": 1}], "providerid": "JDB_POKER", "providername": "JDB_POKER"}]
+- API success (status and response are correct).
+- Response time: 0.020715
+- - -
+# Test Result: PASS
+
+End << 07月22日15時56分01秒 [Feature] API POST webPlayer promo commission edit type get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1556
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

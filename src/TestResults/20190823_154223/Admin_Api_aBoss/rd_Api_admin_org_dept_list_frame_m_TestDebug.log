@@ -1,0 +1,1511 @@
+
+* Run test case: rd_Api_admin_org_dept_list_frame_m.py
+********Test Case: rd_Api_admin_org_dept_list_frame_m.py********
+
+	Start >>08月23日15時48分15秒 [Feature] API POST org. dept. list frame m
+
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/organization/department/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/list/frame/m
+
+		- api params: {'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.045518 (seconds)
+
+		Response data: <ul class="list" id="listWithHandle">
+ <li class="title">
+  <div class="group-box-85">
+   <div class="box-95">
+    部門
+   </div>
+  </div>
+  <div class="box-14">
+   部门
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    管理部門
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="bossSid">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     44
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     12
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     19
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QAdept12
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="c7b15614e29e2c31cdb821de2ab18680">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QAdept11
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="ce7e87808db3b345cc752ef0490eed63">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QAdept10
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="7d28e69d0b4c81c803ca1c52a03b3597">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    test
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="2803ef08090d48fa483dd2ad67eb9142">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     44
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     12
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     19
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    測試0822
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="bfc633b1589fcb3ef11d35f29167fc90">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     44
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     12
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     19
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    test0822
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="e5ecd949d96d35293c7adc9f74cd3a85">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     44
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     12
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     19
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QAdept6
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="884e089b90f8224ccfe88f7676bd091b">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QA測試部
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="e7ccdcfe28a00b9c60bc14c16bbbb1a1">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     44
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     12
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     19
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QAdept5
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="ac876d00d7d3a1b636bfc2082324b7f4">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QAdept4
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="4ecb75de3b10793fd58fab06b3032b28">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QAdept3
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="a6af5339de7c550eb62232e649f1a09b">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QAdept2
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="c355363b15a08221a3e21359513d2e7a">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    QAdept1
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="a9bafa0b40a1f9b038ff496891759a90">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     0
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    会计部门
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     44
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     12
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     19
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    客服部门
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="c566ebabc422b191ac6dc27ca806ee02">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     44
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     12
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     19
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    BD部门
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="8aff10c24b8a0fe2504d37a8851023e2">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     44
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     12
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     19
+    </div>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-95 js-depName">
+    推广部门
+    <i class="fas fa-caret-up">
+    </i>
+   </div>
+  </div>
+  <div class="box-14">
+   <i class="fas fa-edit btn-popup" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   </i>
+  </div>
+  <div class="dep-sub-info">
+   <div class="dep-info">
+    <div class="dep-permission">
+     即时报表
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     快速查询
+    </div>
+    <div class="dep-permission-num">
+     1
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     营运资讯
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     组织管理
+    </div>
+    <div class="dep-permission-num">
+     8
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     客户管理
+    </div>
+    <div class="dep-permission-num">
+     11
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     网站及会员管理
+    </div>
+    <div class="dep-permission-num">
+     44
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     供应商管理
+    </div>
+    <div class="dep-permission-num">
+     12
+    </div>
+   </div>
+   <div class="dep-info">
+    <div class="dep-permission">
+     现金系统
+    </div>
+    <div class="dep-permission-num">
+     19
+    </div>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.045518
+
+		- Success get depname: QAdept12
+		New ini value is: API.depId = c7b15614e29e2c31cdb821de2ab18680
+
+		- Success get depId: c7b15614e29e2c31cdb821de2ab18680
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.depId = c7b15614e29e2c31cdb821de2ab18680
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日15時48分15秒 [Feature] API POST org. dept. list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時48分15秒 [Feature] API POST org. dept. list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/list/frame/m
+- api params: {'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.045518 (seconds)
+- API success (status and response are correct).
+- Response time: 0.045518
+- Success get depname: QAdept12
+- Success get depId: c7b15614e29e2c31cdb821de2ab18680
+- - -
+# Test Result: PASS
+
+End << 08月23日15時48分15秒 [Feature] API POST org. dept. list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1548
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

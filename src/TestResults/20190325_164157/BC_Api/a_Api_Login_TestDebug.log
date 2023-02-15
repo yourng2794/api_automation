@@ -1,0 +1,89 @@
+<< End Test Suites: Admin_Api
+----------------------------------------------------------------
+
+>> Enter Test Suites: BC_Api
+	find test case: a_Api_Login.py
+	find test case: b_Api_bc_profile.py
+	find test case: z_Api_Logout.py
+
+
+* Run test case: a_Api_Login.py
+********Test Case: a_Api_Login.py********
+
+	Start >>03月25日16時42分13秒 [Portal] API POST login exist account
+
+
+		- api url: https://bctest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=ssyeBxtqmLWJpUcjJ2VUspghbyk0H9oiMNC1sOcY for .o2ogt.com/>, <Cookie laravel_session=ssyeBxtqmLWJpUcjJ2VUspghbyk0H9oiMNC1sOcY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.830212 (seconds)
+
+		- Session expired until: 16:43:14
+
+		- API success (status and response are correct).
+
+		- Response time: 0.830212
+
+		Response data: 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
+
+		---
+
+		- - - 
+
+		- 8, accurate: 87 %
+
+		- 4, accurate: 97 %
+
+		- 4, accurate: 94 %
+
+		- 9, accurate: 83 %
+
+		- - - 
+New code: 8449
+		New ini value is: API.code = 8449
+
+		- api_params: {'acc': 'tommytest1', 'pwd': 'tommytest1', 'code': '8449'}type(api_params): <class 'dict'>
+
+		- api url: https://bctest.o2ogt.com/login
+
+		- api params: {'acc': 'tommytest1', 'pwd': 'tommytest1', 'code': '8449'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _admin=usJjARMBx6wbUCLA2QtXWC5OEm0gqb5zQMb1ymKFbtH4jP9LZvPAnnWyPqYA1IlKLPJLtHRTapdkazQY089D1g4vBVX3dDT%2FfecOt5af2FiVOXYn0dBwo%2F0W7xmsgUpkStANUCSXfhd9ga5wGaShEQ%3D%3D for .o2ogt.com/>, <Cookie laravel_session=l39VYEPgffJypXB8aBG0R6IXBkAs0sYTvq0GhEv5 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.209308 (seconds)
+
+		- - - 
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分14秒 [Portal] API POST login exist account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

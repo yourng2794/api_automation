@@ -1,0 +1,425 @@
+
+* Run test case: cb_Api_admin_webPlayer_domain_list_frame.py
+********Test Case: cb_Api_admin_webPlayer_domain_list_frame.py********
+
+	Start >>07月22日15時52分10秒 [Feature] API POST webPlayer domain list frame
+
+		New ini value is: API.webDomain = 10.1.10.1
+		New ini value is: API.bankerid = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.api_path = api/webPlayer/domain/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/list/frame
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'webDomain': '10.1.10.1', 'webId': 'all'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.012674 (seconds)
+
+		- api response: 
+<div class="src-group">
+ <form action="###">
+  <label for="selBanker">
+   庄家帐号
+  </label>
+  <div class="src-box">
+   <select class="sel-sty" id="selBanker" name="level">
+    <option selected="" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+     QAbanker1
+    </option>
+    <option value="3c7344d76648d2044fbac8b6e9e0950d">
+     B_cindy
+    </option>
+    <option value="6185a3710cd25372dcfb908843a563b0">
+     B_Nicole
+    </option>
+    <option value="2a2b8009b766549fc9daec26af8959c8">
+     B_simple
+    </option>
+    <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+     B_cc1211
+    </option>
+    <option value="258931eec7b31ba22fa91e08cdeabb40">
+     B_banker2
+    </option>
+    <option value="bffcb58b29c8b639e302aed425e02a54">
+     B_banker1
+    </option>
+   </select>
+  </div>
+  <div class="src-box">
+   <select class="sel-sty" id="website" name="website">
+    <option selected="" value="all">
+     全部网站
+    </option>
+    <option value="nothing">
+     无挂载网站
+    </option>
+   </select>
+  </div>
+  <div class="src-box">
+   <input class="input-sty" id="srcName" name="srcName" placeholder="请输入网域名称" type="text" value=" 10.1.10.1 "/>
+  </div>
+  <div class="btn btn-submit">
+   搜索
+   <input id="srcBtn" type="button"/>
+  </div>
+ </form>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个网域
+ <a class="btn btn-orange" href="web_url_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增网域
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10">
+    网站
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+   <div class="box-25">
+    网域
+   </div>
+   <div class="box-15">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10">
+    无挂载网站
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-25">
+    10.1.10.1
+   </div>
+   <div class="box-15">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-07-22 07:52:06
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_url_edit.html" id="c0f63e237cebde21e3b7ef9580d2349b" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		Response data: <div class="src-group">
+ <form action="###">
+  <label for="selBanker">
+   庄家帐号
+  </label>
+  <div class="src-box">
+   <select class="sel-sty" id="selBanker" name="level">
+    <option selected="" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+     QAbanker1
+    </option>
+    <option value="3c7344d76648d2044fbac8b6e9e0950d">
+     B_cindy
+    </option>
+    <option value="6185a3710cd25372dcfb908843a563b0">
+     B_Nicole
+    </option>
+    <option value="2a2b8009b766549fc9daec26af8959c8">
+     B_simple
+    </option>
+    <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+     B_cc1211
+    </option>
+    <option value="258931eec7b31ba22fa91e08cdeabb40">
+     B_banker2
+    </option>
+    <option value="bffcb58b29c8b639e302aed425e02a54">
+     B_banker1
+    </option>
+   </select>
+  </div>
+  <div class="src-box">
+   <select class="sel-sty" id="website" name="website">
+    <option selected="" value="all">
+     全部网站
+    </option>
+    <option value="nothing">
+     无挂载网站
+    </option>
+   </select>
+  </div>
+  <div class="src-box">
+   <input class="input-sty" id="srcName" name="srcName" placeholder="请输入网域名称" type="text" value=" 10.1.10.1 "/>
+  </div>
+  <div class="btn btn-submit">
+   搜索
+   <input id="srcBtn" type="button"/>
+  </div>
+ </form>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个网域
+ <a class="btn btn-orange" href="web_url_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增网域
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10">
+    网站
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+   <div class="box-25">
+    网域
+   </div>
+   <div class="box-15">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10">
+    无挂载网站
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-25">
+    10.1.10.1
+   </div>
+   <div class="box-15">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-07-22 07:52:06
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_url_edit.html" id="c0f63e237cebde21e3b7ef9580d2349b" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.012674
+
+		- Success get webdomainid: c0f63e237cebde21e3b7ef9580d2349b
+
+		- - -
+
+['PASS']
+['PASS']
+		New ini value is: API.webdomainid = c0f63e237cebde21e3b7ef9580d2349b
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webDomain = 
+		New ini value is: API.bankerid = 
+	<< End Tear Down
+
+
+	End << 07月22日15時52分10秒 [Feature] API POST webPlayer domain list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時52分10秒 [Feature] API POST webPlayer domain list frame
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/list/frame
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'webDomain': '10.1.10.1', 'webId': 'all'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.012674 (seconds)
+- api response: 
+<div class="src-group">
+ <form action="###">
+  <label for="selBanker">
+   庄家帐号
+  </label>
+  <div class="src-box">
+   <select class="sel-sty" id="selBanker" name="level">
+    <option selected="" value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+     QAbanker1
+    </option>
+    <option value="3c7344d76648d2044fbac8b6e9e0950d">
+     B_cindy
+    </option>
+    <option value="6185a3710cd25372dcfb908843a563b0">
+     B_Nicole
+    </option>
+    <option value="2a2b8009b766549fc9daec26af8959c8">
+     B_simple
+    </option>
+    <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+     B_cc1211
+    </option>
+    <option value="258931eec7b31ba22fa91e08cdeabb40">
+     B_banker2
+    </option>
+    <option value="bffcb58b29c8b639e302aed425e02a54">
+     B_banker1
+    </option>
+   </select>
+  </div>
+  <div class="src-box">
+   <select class="sel-sty" id="website" name="website">
+    <option selected="" value="all">
+     全部网站
+    </option>
+    <option value="nothing">
+     无挂载网站
+    </option>
+   </select>
+  </div>
+  <div class="src-box">
+   <input class="input-sty" id="srcName" name="srcName" placeholder="请输入网域名称" type="text" value=" 10.1.10.1 "/>
+  </div>
+  <div class="btn btn-submit">
+   搜索
+   <input id="srcBtn" type="button"/>
+  </div>
+ </form>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个网域
+ <a class="btn btn-orange" href="web_url_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增网域
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10">
+    网站
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+   <div class="box-25">
+    网域
+   </div>
+   <div class="box-15">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10">
+    无挂载网站
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-25">
+    10.1.10.1
+   </div>
+   <div class="box-15">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-07-22 07:52:06
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_url_edit.html" id="c0f63e237cebde21e3b7ef9580d2349b" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+- API success (status and response are correct).
+- Response time: 0.012674
+- Success get webdomainid: c0f63e237cebde21e3b7ef9580d2349b
+- - -
+# Test Result: PASS
+
+End << 07月22日15時52分10秒 [Feature] API POST webPlayer domain list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1552
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

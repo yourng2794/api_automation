@@ -1,0 +1,48 @@
+
+* Run test case: b_Api_bc_profile.py
+********Test Case: b_Api_bc_profile.py********
+
+	Start >>03月25日16時42分17秒 [Portal] API POST user profile
+
+
+		- api url: https://bctest.o2ogt.com/profile
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=l39VYEPgffJypXB8aBG0R6IXBkAs0sYTvq0GhEv5 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.896975 (seconds)
+
+		- API success (status and response are correct).
+
+		- Response time: 0.896975
+
+		Response data: {"playerid":"891069e20d564c32fbf7538b41fb35f1","acc":"tommytest1"}
+
+		---
+---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分18秒 [Portal] API POST user profile
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

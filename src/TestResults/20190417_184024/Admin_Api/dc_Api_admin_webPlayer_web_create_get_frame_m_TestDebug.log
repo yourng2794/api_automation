@@ -1,0 +1,165 @@
+
+* Run test case: dc_Api_admin_webPlayer_web_create_get_frame_m.py
+********Test Case: dc_Api_admin_webPlayer_web_create_get_frame_m.py********
+
+	Start >>04月17日18時41分15秒 [Feature] API POST admin webPlayer web create get frame m
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/create/get/frame
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=Rv7kRJXb5b2K2EatajrwWhnCoC9XTjGR6zW4ra18 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.603398 (seconds)
+
+		Response data: 
+<div class="input-box">
+ <label>
+  庄家帐号
+ </label>
+ <span data-bankerid="835bd15c55ec6df3fe054f3aed828e41" id="bankerId">
+  QAstep4
+ </span>
+</div>
+<div class="input-box">
+ <label for="webName">
+  网站名称
+ </label>
+ <i class="fas fa-desktop-alt">
+ </i>
+ <input class="input-sty required" id="webName" name="webName" placeholder="请输入网站名称" type="text"/>
+</div>
+<div class="web-column">
+ <h4 class="fal">
+  网域设定
+ </h4>
+ <div class="web-column-2">
+  <div class="sub-tit">
+   已挂载
+  </div>
+  <div class="src-group">
+   <div class="src-box" id="OnSrc">
+    <i class="fas fa-times-circle">
+    </i>
+    <input class="input-sty" id="srcAddUrl" name="srcAddUrl" placeholder="请输入要搜索的网域关键字" type="text"/>
+   </div>
+   <div class="btn btn-submit">
+    搜索
+    <input id="srcAddUrlBtn" type="button"/>
+   </div>
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOnNum">
+    0
+   </span>
+   个网域
+  </div>
+  <ul class="list sort-tit">
+   <li class="title">
+    <div class="list-group">
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      主网域
+     </div>
+     <div class="box-50">
+      网域
+     </div>
+    </div>
+    <div class="operate-box">
+     卸除
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="dataOnList">
+  </ul>
+  <div class="no-data" id="noOn">
+   无网域
+  </div>
+ </div>
+ <div class="url-trans">
+  <img alt="" src="img/img_url_transfer.jpg"/>
+ </div>
+ <div class="web-column-2">
+  <div class="sub-tit">
+   未挂载
+  </div>
+  <div class="src-group">
+   <div class="src-box" id="OffSrc">
+    <i class="fas fa-times-circle">
+    </i>
+    <input class="input-sty" id="srcUrl" name="srcUrl" placeholder="请输入要搜索的网域关键字" type="text"/>
+   </div>
+   <div class="btn btn-submit">
+    搜索
+    <input id="srcUrlBtn" type="button"/>
+   </div>
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOffNum">
+    0
+   </span>
+   个网域
+  </div>
+  <ul class="list sort-tit">
+   <li class="title">
+    <div class="list-group-100">
+     <div class="box-10 txt-c">
+      挂载
+     </div>
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-50">
+      网域
+     </div>
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="dataOffList">
+  </ul>
+  <div class="no-data" id="noOff">
+   无网域
+  </div>
+ </div>
+</div>
+
+		- API success (status and response are correct).
+
+		- Response time: 0.603398
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時41分15秒 [Feature] API POST admin webPlayer web create get frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

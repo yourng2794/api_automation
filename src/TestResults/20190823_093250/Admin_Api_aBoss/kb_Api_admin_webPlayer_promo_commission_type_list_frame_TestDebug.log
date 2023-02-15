@@ -1,0 +1,184 @@
+
+* Run test case: kb_Api_admin_webPlayer_promo_commission_type_list_frame.py
+********Test Case: kb_Api_admin_webPlayer_promo_commission_type_list_frame.py********
+
+	Start >>08月23日09時36分47秒 [Feature] API POST webPlayer promo commission type list frame
+
+		New ini value is: API.bankerId = 619da70cf372717e11eff31f1d619ef9
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/webPlayer/promo/commission/type/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/type/list/frame
+
+		- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.046714 (seconds)
+
+		Response data: <div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang1063">
+  项返水
+ </b>
+ <a class="btn btn-orange" href="web_event_rakeback_template_add.html">
+  <i class="far fa-plus">
+  </i>
+  <b class="lang1066">
+   新增返水范本
+  </b>
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    <b class="lang744">
+     項目
+    </b>
+   </div>
+   <div class="box-12">
+    <b class="lang1056">
+     返水名称
+    </b>
+   </div>
+   <div class="box-12">
+    <b class="lang282">
+     庄家
+    </b>
+   </div>
+   <div class="box-10 txt-r">
+    <b class="lang1057">
+     有效总投注
+    </b>
+   </div>
+   <div class="box-10 txt-r">
+    <b class="lang1058">
+     优惠上限
+    </b>
+   </div>
+   <div class="box-10 txt-r">
+    <b class="lang1059">
+     综合打码倍数
+    </b>
+   </div>
+   <div class="box-10 txt-r">
+    <b class="lang1060">
+     每日领取次数
+    </b>
+   </div>
+   <div class="box-12 txt-r">
+    <b class="lang1061">
+     单次最低领取金额
+    </b>
+   </div>
+   <div class="box-12 txt-r">
+    <b class="lang1062">
+     每日最高领取金额
+    </b>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-12">
+    SQArake_0823_093643
+   </div>
+   <div class="box-12">
+    QAbanker11
+   </div>
+   <div class="box-10 txt-r">
+    400.00
+   </div>
+   <div class="box-10 txt-r">
+    500.00
+   </div>
+   <div class="box-10 txt-r">
+    200
+   </div>
+   <div class="box-10 txt-r">
+    5
+   </div>
+   <div class="box-12 txt-r">
+    100.00
+   </div>
+   <div class="box-12 txt-r">
+    600.00
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="" class="lang531" href="web_event_rakeback_template_edit.html" id="12" title="">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.046714
+
+		Success get commissionTypeName: SQArake_0823_093643
+
+		Success get commissionTypeId: 12
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.commissionTypeId = 12
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日09時36分47秒 [Feature] API POST webPlayer promo commission type list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時36分47秒 [Feature] API POST webPlayer promo commission type list frame
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/type/list/frame
+- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.046714 (seconds)
+- API success (status and response are correct).
+- Response time: 0.046714
+Success get commissionTypeName: SQArake_0823_093643
+Success get commissionTypeId: 12
+- - -
+# Test Result: PASS
+
+End << 08月23日09時36分47秒 [Feature] API POST webPlayer promo commission type list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0936
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

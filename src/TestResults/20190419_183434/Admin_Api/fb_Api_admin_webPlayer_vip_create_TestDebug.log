@@ -1,0 +1,55 @@
+
+* Run test case: fb_Api_admin_webPlayer_vip_create.py
+********Test Case: fb_Api_admin_webPlayer_vip_create.py********
+
+	Start >>04月19日18時35分39秒 [Feature] API POST webPlayer vip create
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.vipname = QAvip19
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/create
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'vipName': 'QAvip19', 'depositTimes': '10', 'depositTotal': '', 'maxDepositAmount': '2000', 'maxWithdrawalAmount': '1000', 'withdrawalTimes': '10', 'withdrawalTotal': '100'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.553077 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.553077
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時35分39秒 [Feature] API POST webPlayer vip create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

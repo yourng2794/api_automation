@@ -1,0 +1,112 @@
+
+* Run test case: jl_Api_admin_webPlayer_promo_state_edit_pending.py
+********Test Case: jl_Api_admin_webPlayer_promo_state_edit_pending.py********
+
+	Start >>08月23日15時46分00秒 [Feature] API POST webPlayer promo state edit pending
+
+		New ini value is: API.promoId = 131
+		New ini value is: API.enable = 0
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/state/edit
+
+		- api params: {'promoId': '131', 'enable': '0'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.054043 (seconds)
+
+		Response data: {
+    "state": "停用"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.054043
+
+		- Success get state: 停用
+
+		- - -
+
+['PASS']
+		New ini value is: API.enable = 1
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/state/edit
+
+		- api params: {'promoId': '131', 'enable': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.052959 (seconds)
+
+		Response data: {
+    "state": "未开始"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.052959
+
+		- Success get state: 未开始
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日15時46分00秒 [Feature] API POST webPlayer promo state edit pending
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時46分00秒 [Feature] API POST webPlayer promo state edit pending
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/state/edit
+- api params: {'promoId': '131', 'enable': '0'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.054043 (seconds)
+- API success (status and response are correct).
+- Response time: 0.054043
+- Success get state: 停用
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/state/edit
+- api params: {'promoId': '131', 'enable': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.052959 (seconds)
+- API success (status and response are correct).
+- Response time: 0.052959
+- Success get state: 未开始
+- - -
+# Test Result: PASS
+
+End << 08月23日15時46分00秒 [Feature] API POST webPlayer promo state edit pending
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1546
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

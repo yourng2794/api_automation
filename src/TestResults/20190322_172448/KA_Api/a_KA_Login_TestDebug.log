@@ -1,0 +1,67 @@
+<< End Test Suites: BC_Api
+----------------------------------------------------------------
+
+>> Enter Test Suites: KA_Api
+	find test case: a_KA_Login.py
+	find test case: b_KA_Start.py
+	find test case: c_KA_Play1.py
+	find test case: d_KA_Play2.py
+	find test case: e_KA_Credit.py
+	find test case: f_KA_Balance.py
+	find test case: g_KA_Revoke.py
+	find test case: z_KA_End.py
+
+
+* Run test case: a_KA_Login.py
+********Test Case: a_KA_Login.py********
+
+	Start >>03月22日17時25分16秒 [Portal] POST KA login API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_login.json
+
+		- api url: https://otg.o2ogt.com/prvoider/content/login
+
+		- api params: {}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11afg", "playerid": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "providerid": "0C2C23326DE54AA4F855B340F5ED1DFA", "providername": "KA", "gameid": "777Vegas", "walletid": "9737b5c37296b707468fb8a7a358488d", "currency": "CNY", "expiretimespan": "1553253916000", "playerip": "192.168.50.11", "browser": "Chrome OS 70.1", "websiteid": "GHJKLPOIUYTZX", "webname": "otgss", "ln": "en"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=dafe6ee0c37928047b80de7bf59f95b5d1553246714 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.446288 (seconds)
+
+		- API success (status and response are correct).
+		New ini value is: API.token = nullde978ad1d4403dcdef30a820bc11f585
+
+		Response data: {"token":"nullde978ad1d4403dcdef30a820bc11f585","status":"success","statusCode":"0"}
+
+		---
+
+		- - - 
+
+		# Test Result: PASS
+	Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月22日17時25分17秒 [Portal] POST KA login API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

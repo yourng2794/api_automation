@@ -1,0 +1,222 @@
+
+* Run test case: jq_Api_admin_webPlayer_promo_delete.py
+********Test Case: jq_Api_admin_webPlayer_promo_delete.py********
+
+	Start >>08月23日15時46分14秒 [Feature] API POST webPlayer promo delete
+
+		New ini value is: API.promoId = 131
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+
+		- api params: {'promoId': '131'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.053681 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.053681
+
+		- - -
+
+['PASS']
+		New ini value is: API.promoId = 132
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+
+		- api params: {'promoId': '132'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.049155 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.049155
+
+		- - -
+
+['PASS']
+		New ini value is: API.promoId = 133
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+
+		- api params: {'promoId': '133'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.052293 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.052293
+
+		- - -
+
+['PASS']
+		New ini value is: API.promoId = 134
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+
+		- api params: {'promoId': '134'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.05131 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.05131
+
+		- - -
+
+['PASS']
+		New ini value is: API.promoId = 135
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+
+		- api params: {'promoId': '135'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.052076 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.052076
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.promoId = 
+	<< End Tear Down
+
+
+	End << 08月23日15時46分14秒 [Feature] API POST webPlayer promo delete
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時46分14秒 [Feature] API POST webPlayer promo delete
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+- api params: {'promoId': '131'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.053681 (seconds)
+- API success (status and response are correct).
+- Response time: 0.053681
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+- api params: {'promoId': '132'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.049155 (seconds)
+- API success (status and response are correct).
+- Response time: 0.049155
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+- api params: {'promoId': '133'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.052293 (seconds)
+- API success (status and response are correct).
+- Response time: 0.052293
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+- api params: {'promoId': '134'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.05131 (seconds)
+- API success (status and response are correct).
+- Response time: 0.05131
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/delete
+- api params: {'promoId': '135'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.052076 (seconds)
+- API success (status and response are correct).
+- Response time: 0.052076
+- - -
+# Test Result: PASS
+
+End << 08月23日15時46分14秒 [Feature] API POST webPlayer promo delete
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1546
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

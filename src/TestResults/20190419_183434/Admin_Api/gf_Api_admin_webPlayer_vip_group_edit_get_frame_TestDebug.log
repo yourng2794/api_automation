@@ -1,0 +1,336 @@
+
+* Run test case: gf_Api_admin_webPlayer_vip_group_edit_get_frame.py
+********Test Case: gf_Api_admin_webPlayer_vip_group_edit_get_frame.py********
+
+	Start >>04月19日18時36分12秒 [Feature] API POST webPlayer vip group edit get frame
+
+		New ini value is: API.vipGroupId = 31a71dec774d2b861533f3413c0ee8fc
+		New ini value is: API.api_path = api/webPlayer/vip/group/edit/get/frame
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/group/edit/get/frame
+
+		- api params: {'vipGroupId': '31a71dec774d2b861533f3413c0ee8fc'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.441928 (seconds)
+
+		Response data: 
+<div class="group-column-2">
+ <div class="input-box">
+  <label for="userAcc">
+   庄家帐号
+  </label>
+  <span id="userAcc">
+   QAstep4
+  </span>
+ </div>
+ <div class="input-box">
+  <label for="level">
+   层级群组名称
+  </label>
+  <i class="fas fa-haykal">
+  </i>
+  <input class="input-sty required" id="level" name="level" placeholder="请输入群组名称" type="text" value="QAgp19"/>
+ </div>
+ <div class="txt-note">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  请勿和现有层级群组名称重复！
+ </div>
+</div>
+<h4 class="fal">
+ 层级挂载
+</h4>
+<div class="web-column">
+ <div class="web-column-2">
+  <div class="sub-tit">
+   已挂载
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOnNum">
+    1
+   </span>
+   个层级
+   <div class="btn btn-orange" id="sortBtn">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+    编辑排序
+   </div>
+   <div class="btn btn-orange" id="sortComBtn" style="display:none;">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+    确定排序
+   </div>
+  </div>
+  <ul class="list sort-tit">
+   <li class="title">
+    <div class="list-group">
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      层级
+     </div>
+     <div class="box-15 txt-c">
+      存款次数
+     </div>
+     <div class="box-15 txt-c">
+      存款总额
+     </div>
+    </div>
+    <div class="operate-box oper-box">
+     卸除
+    </div>
+    <div class="operate-box sort-box" style="display:none;">
+     排序
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="dataOnList">
+   <li>
+    <div class="list-group">
+     <div class="box-10 txt-c js-indList">
+      1
+     </div>
+     <div class="box-15 txt-c js-urlId" id="5a03c800d507b03990581e1352bf3848">
+      QAvip19
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+    <div class="operate-box oper-box">
+     <a alt="卸除" title="卸除">
+      <i alt="卸除" class="fas fa-arrow-right js-offUrl" title="卸除">
+      </i>
+     </a>
+    </div>
+    <div aria-hidden="true" class="operate-box sort-box glyphicon-move my-handle" style="display:none;">
+     <a alt="排序" class="sort" title="排序">
+      <i class="fas fa-arrows-alt-v">
+      </i>
+     </a>
+    </div>
+   </li>
+  </ul>
+  <div class="no-data" id="noOn" style="display:none;">
+   无网域
+  </div>
+ </div>
+ <div class="url-trans">
+  <img alt="" src="img/img_url_transfer.jpg"/>
+ </div>
+ <div class="web-column-2">
+  <div class="sub-tit">
+   未挂载
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOffNum">
+    7
+   </span>
+   个层级
+  </div>
+  <ul class="list" id="dataOffList">
+   <li class="title">
+    <div class="list-group-100">
+     <div class="box-10 txt-c">
+      挂载
+     </div>
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      层级
+     </div>
+     <div class="box-15 txt-c">
+      存款次数
+     </div>
+     <div class="box-15 txt-c">
+      存款总额
+     </div>
+    </div>
+   </li>
+   <li>
+    <div class="list-group-100">
+     <div class="box-10 txt-c set-map">
+      <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+      </i>
+     </div>
+     <div class="box-10 txt-c js-indList">
+      1
+     </div>
+     <div class="box-15 txt-c js-urlId" id="4a5517681805229bef638128a55704df">
+      test
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+   </li>
+   <li>
+    <div class="list-group-100">
+     <div class="box-10 txt-c set-map">
+      <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+      </i>
+     </div>
+     <div class="box-10 txt-c js-indList">
+      2
+     </div>
+     <div class="box-15 txt-c js-urlId" id="65419e06b1640cad71140493308ba0dd">
+      QAvip17
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+   </li>
+   <li>
+    <div class="list-group-100">
+     <div class="box-10 txt-c set-map">
+      <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+      </i>
+     </div>
+     <div class="box-10 txt-c js-indList">
+      3
+     </div>
+     <div class="box-15 txt-c js-urlId" id="b87920a6f659c6960bdd9e54ef638a6e">
+      QAvip12
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+   </li>
+   <li>
+    <div class="list-group-100">
+     <div class="box-10 txt-c set-map">
+      <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+      </i>
+     </div>
+     <div class="box-10 txt-c js-indList">
+      4
+     </div>
+     <div class="box-15 txt-c js-urlId" id="d2dc5f6b8f39213bd01b6448a0312ee1">
+      QAvip13
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+   </li>
+   <li>
+    <div class="list-group-100">
+     <div class="box-10 txt-c set-map">
+      <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+      </i>
+     </div>
+     <div class="box-10 txt-c js-indList">
+      5
+     </div>
+     <div class="box-15 txt-c js-urlId" id="d5a30c3b082db0278007a151dbea43bd">
+      QAvip18
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+   </li>
+   <li>
+    <div class="list-group-100">
+     <div class="box-10 txt-c set-map">
+      <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+      </i>
+     </div>
+     <div class="box-10 txt-c js-indList">
+      6
+     </div>
+     <div class="box-15 txt-c js-urlId" id="eabd32b44e2d2fd68a7adcf7cdf3010c">
+      QAvip14
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+   </li>
+   <li>
+    <div class="list-group-100">
+     <div class="box-10 txt-c set-map">
+      <i alt="挂载" class="fas fa-arrow-left js-addUrl" title="挂载">
+      </i>
+     </div>
+     <div class="box-10 txt-c js-indList">
+      7
+     </div>
+     <div class="box-15 txt-c js-urlId" id="f217f1ce1232bc38ad81b439ce4e52a9">
+      QAvip16
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+   </li>
+  </ul>
+  <div class="no-data" id="noOff" style="display:none;">
+   无网域
+  </div>
+ </div>
+</div>
+
+
+		- Success get: QAvip19
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時36分13秒 [Feature] API POST webPlayer vip group edit get frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

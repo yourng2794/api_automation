@@ -1,0 +1,56 @@
+
+* Run test case: b_KA_Start.py
+********Test Case: b_KA_Start.py********
+
+	Start >>03月25日16時42分37秒 [Portal] POST KA start API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_start.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = 80c809c0b873b687128d8529ad838094e154620ed4cade13766ec5b1bdf7d14b
+
+		- api_params: {'hash': '80c809c0b873b687128d8529ad838094e154620ed4cade13766ec5b1bdf7d14b'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/start
+
+		- api params: {'hash': '80c809c0b873b687128d8529ad838094e154620ed4cade13766ec5b1bdf7d14b'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "currency": "CNY", "playerIp": "192.168.50.11", "gameId": "777Vegas", "action": "start", "timestamp": "1553503357000", "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d9a43d22c558218fb03eebc8701441a771553503356 for .o2ogt.com/>, <Cookie cf_use_ob=0 for otg.o2ogt.com/>]>
+
+		- API fail (status or response is incorrect).
+
+		Response data: (X) Exception (ApiResponse): 502 Server Error: Bad Gateway for url: https://otg.o2ogt.com/prvoider/content/start?hash=80c809c0b873b687128d8529ad838094e154620ed4cade13766ec5b1bdf7d14b
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分39秒 [Portal] POST KA start API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

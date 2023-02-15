@@ -1,0 +1,79 @@
+
+* Run test case: nl_Api_admin_provider_payOption_payment_get.py
+********Test Case: nl_Api_admin_provider_payOption_payment_get.py********
+
+	Start >>04月19日18時39分35秒 [Feature] API POST provider payOption payment get
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.currency = CNY
+		New ini value is: API.payOption = 1
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/payment/get
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'currency': 'CNY', 'payOption': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.420827 (seconds)
+
+		Response data: 
+{
+    "金城武幫你出": "6583ffebabe59b03947d7ea960907a93"
+}
+
+		- Success get paymentId: 6583ffebabe59b03947d7ea960907a93
+
+		---
+
+		---
+		New ini value is: API.payOption = 2
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/payment/get
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'currency': 'CNY', 'payOption': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.160707 (seconds)
+
+		Response data: 
+{
+    "金城武幫你出": "6583ffebabe59b03947d7ea960907a93"
+}
+
+		- Success get paymentId: 6583ffebabe59b03947d7ea960907a93
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時39分36秒 [Feature] API POST provider payOption payment get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

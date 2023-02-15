@@ -1,0 +1,92 @@
+
+* Run test case: td_Api_admin_org_employee_list_single.py
+********Test Case: td_Api_admin_org_employee_list_single.py********
+
+	Start >>08月23日15時48分53秒 [Feature] API POST org. employee list single
+
+		New ini value is: API.userId = 66c6226eb1b1243dc3a572bdd3c3b541
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/single
+
+		- api params: {'userId': '66c6226eb1b1243dc3a572bdd3c3b541'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.052266 (seconds)
+
+		Response data: {
+    "dp_name": "QAtitle12",
+    "dp_sid": "a3cdedf30a9b35c1a2b376ab9632ca9b",
+    "og_name": "QAdept12",
+    "og_sid": "c7b15614e29e2c31cdb821de2ab18680",
+    "og_website": [
+        {
+            "web_id": "1c049b9bc588fead28c0e84492f051a2",
+            "web_name": "QAweb12"
+        }
+    ],
+    "user_acc": "QAemployee12",
+    "user_id": "66c6226eb1b1243dc3a572bdd3c3b541",
+    "user_note": "",
+    "user_pwd": "QAemployee12"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.052266
+
+		- Success get userAcc: QAemployee12
+
+		- Success get depTitleId: a3cdedf30a9b35c1a2b376ab9632ca9b
+
+		- Success get depId: c7b15614e29e2c31cdb821de2ab18680
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.userId = 
+	<< End Tear Down
+
+
+	End << 08月23日15時48分53秒 [Feature] API POST org. employee list single
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時48分53秒 [Feature] API POST org. employee list single
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/single
+- api params: {'userId': '66c6226eb1b1243dc3a572bdd3c3b541'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.052266 (seconds)
+- API success (status and response are correct).
+- Response time: 0.052266
+- Success get userAcc: QAemployee12
+- Success get depTitleId: a3cdedf30a9b35c1a2b376ab9632ca9b
+- Success get depId: c7b15614e29e2c31cdb821de2ab18680
+- - -
+# Test Result: PASS
+
+End << 08月23日15時48分53秒 [Feature] API POST org. employee list single
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1548
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,57 @@
+
+* Run test case: UI_Web.py
+********Test Case: UI_Web.py********
+Set up Pre-condition of this case...
+Success open browser.
+
+		- - - 
+
+		- 1, accurate: 96 %
+
+		- 1, accurate: 92 %
+
+		- 1, accurate: 83 %
+
+		- 4, accurate: 97 %
+
+		- - - 
+Exception: on "Browser time out"... Message: Admin_timeout (very_short_time)
+
+
+		- - - 
+
+		- 2, accurate: 97 %
+
+		- 8, accurate: 94 %
+
+		- 2, accurate: 99 %
+
+		- 2, accurate: 92 %
+
+		- - - 
+	03月29日10時03分24秒>> Start to admin UI web
+
+
+	#Test Result: PASS
+	>> Tear Down of this case
+		Driver closed
+	<< End Tear Down
+
+	03月29日10時03分36秒<< End to admin UI web
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

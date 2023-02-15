@@ -1,0 +1,515 @@
+
+* Run test case: gf_Api_admin_webPlayer_vip_group_edit_get_frame.py
+********Test Case: gf_Api_admin_webPlayer_vip_group_edit_get_frame.py********
+
+	Start >>07月22日15時54分13秒 [Feature] API POST webPlayer vip group edit get frame
+
+		New ini value is: API.vipGroupId = cae2dee932b8e8ef94fcb2247ffcbf3b
+		New ini value is: API.api_path = api/webPlayer/vip/group/edit/get/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/group/edit/get/frame
+
+		- api params: {'vipGroupId': 'cae2dee932b8e8ef94fcb2247ffcbf3b'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022677 (seconds)
+
+		- api response: 
+<div class="group-column-2">
+ <div class="input-box">
+  <label for="userAcc">
+   庄家帐号
+  </label>
+  <span id="userAcc">
+   QAbanker1
+  </span>
+ </div>
+ <div class="input-box">
+  <label for="level">
+   层级群组名称
+  </label>
+  <i class="fas fa-haykal">
+  </i>
+  <input class="input-sty required" id="level" name="level" placeholder="请输入群组名称" type="text" value="QAgp1"/>
+ </div>
+ <div class="txt-note">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  请勿和现有层级群组名称重复！
+ </div>
+</div>
+<h4 class="fal">
+ 层级挂载
+</h4>
+<div class="web-column">
+ <div class="web-column-2">
+  <div class="sub-tit">
+   已挂载
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOnNum">
+    1
+   </span>
+   个层级
+   <div class="btn btn-orange" id="sortBtn">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+    编辑排序
+   </div>
+   <div class="btn btn-orange" id="sortComBtn" style="display:none;">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+    确定排序
+   </div>
+  </div>
+  <ul class="list sort-tit">
+   <li class="title">
+    <div class="list-group">
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      层级
+     </div>
+     <div class="box-15 txt-c">
+      存款次数
+     </div>
+     <div class="box-15 txt-c">
+      存款总额
+     </div>
+    </div>
+    <div class="operate-box oper-box">
+     卸除
+    </div>
+    <div class="operate-box sort-box" style="display:none;">
+     排序
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="dataOnList">
+   <li>
+    <div class="list-group">
+     <div class="box-10 txt-c js-indList">
+      1
+     </div>
+     <div class="box-15 txt-c js-urlId" id="b01bf316216d1aa054c9df0aea873425">
+      QAvip1
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+    <div class="operate-box oper-box">
+     <a alt="卸除" title="卸除">
+      <i alt="卸除" class="fas fa-arrow-right js-offUrl" title="卸除">
+      </i>
+     </a>
+    </div>
+    <div aria-hidden="true" class="operate-box sort-box glyphicon-move my-handle" style="display:none;">
+     <a alt="排序" class="sort" title="排序">
+      <i class="fas fa-arrows-alt-v">
+      </i>
+     </a>
+    </div>
+   </li>
+  </ul>
+  <div class="no-data" id="noOn" style="display:none;">
+   无网域
+  </div>
+ </div>
+ <div class="url-trans">
+  <img alt="" src="img/img_url_transfer.jpg"/>
+ </div>
+ <div class="web-column-2">
+  <div class="sub-tit">
+   未挂载
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOffNum">
+    0
+   </span>
+   个层级
+  </div>
+  <ul class="list" id="dataOffList">
+   <li class="title">
+    <div class="list-group-100">
+     <div class="box-10 txt-c">
+      挂载
+     </div>
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      层级
+     </div>
+     <div class="box-15 txt-c">
+      存款次数
+     </div>
+     <div class="box-15 txt-c">
+      存款总额
+     </div>
+    </div>
+   </li>
+  </ul>
+  <div class="no-data" id="noOff" style="display:none;">
+   无网域
+  </div>
+ </div>
+</div>
+
+
+		Response data: <div class="group-column-2">
+ <div class="input-box">
+  <label for="userAcc">
+   庄家帐号
+  </label>
+  <span id="userAcc">
+   QAbanker1
+  </span>
+ </div>
+ <div class="input-box">
+  <label for="level">
+   层级群组名称
+  </label>
+  <i class="fas fa-haykal">
+  </i>
+  <input class="input-sty required" id="level" name="level" placeholder="请输入群组名称" type="text" value="QAgp1"/>
+ </div>
+ <div class="txt-note">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  请勿和现有层级群组名称重复！
+ </div>
+</div>
+<h4 class="fal">
+ 层级挂载
+</h4>
+<div class="web-column">
+ <div class="web-column-2">
+  <div class="sub-tit">
+   已挂载
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOnNum">
+    1
+   </span>
+   个层级
+   <div class="btn btn-orange" id="sortBtn">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+    编辑排序
+   </div>
+   <div class="btn btn-orange" id="sortComBtn" style="display:none;">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+    确定排序
+   </div>
+  </div>
+  <ul class="list sort-tit">
+   <li class="title">
+    <div class="list-group">
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      层级
+     </div>
+     <div class="box-15 txt-c">
+      存款次数
+     </div>
+     <div class="box-15 txt-c">
+      存款总额
+     </div>
+    </div>
+    <div class="operate-box oper-box">
+     卸除
+    </div>
+    <div class="operate-box sort-box" style="display:none;">
+     排序
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="dataOnList">
+   <li>
+    <div class="list-group">
+     <div class="box-10 txt-c js-indList">
+      1
+     </div>
+     <div class="box-15 txt-c js-urlId" id="b01bf316216d1aa054c9df0aea873425">
+      QAvip1
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+    <div class="operate-box oper-box">
+     <a alt="卸除" title="卸除">
+      <i alt="卸除" class="fas fa-arrow-right js-offUrl" title="卸除">
+      </i>
+     </a>
+    </div>
+    <div aria-hidden="true" class="operate-box sort-box glyphicon-move my-handle" style="display:none;">
+     <a alt="排序" class="sort" title="排序">
+      <i class="fas fa-arrows-alt-v">
+      </i>
+     </a>
+    </div>
+   </li>
+  </ul>
+  <div class="no-data" id="noOn" style="display:none;">
+   无网域
+  </div>
+ </div>
+ <div class="url-trans">
+  <img alt="" src="img/img_url_transfer.jpg"/>
+ </div>
+ <div class="web-column-2">
+  <div class="sub-tit">
+   未挂载
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOffNum">
+    0
+   </span>
+   个层级
+  </div>
+  <ul class="list" id="dataOffList">
+   <li class="title">
+    <div class="list-group-100">
+     <div class="box-10 txt-c">
+      挂载
+     </div>
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      层级
+     </div>
+     <div class="box-15 txt-c">
+      存款次数
+     </div>
+     <div class="box-15 txt-c">
+      存款总额
+     </div>
+    </div>
+   </li>
+  </ul>
+  <div class="no-data" id="noOff" style="display:none;">
+   无网域
+  </div>
+ </div>
+</div>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.022677
+
+		- Success get: QAvip1
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.vipGroupId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時54分13秒 [Feature] API POST webPlayer vip group edit get frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時54分13秒 [Feature] API POST webPlayer vip group edit get frame
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/group/edit/get/frame
+- api params: {'vipGroupId': 'cae2dee932b8e8ef94fcb2247ffcbf3b'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022677 (seconds)
+- api response: 
+<div class="group-column-2">
+ <div class="input-box">
+  <label for="userAcc">
+   庄家帐号
+  </label>
+  <span id="userAcc">
+   QAbanker1
+  </span>
+ </div>
+ <div class="input-box">
+  <label for="level">
+   层级群组名称
+  </label>
+  <i class="fas fa-haykal">
+  </i>
+  <input class="input-sty required" id="level" name="level" placeholder="请输入群组名称" type="text" value="QAgp1"/>
+ </div>
+ <div class="txt-note">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  请勿和现有层级群组名称重复！
+ </div>
+</div>
+<h4 class="fal">
+ 层级挂载
+</h4>
+<div class="web-column">
+ <div class="web-column-2">
+  <div class="sub-tit">
+   已挂载
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOnNum">
+    1
+   </span>
+   个层级
+   <div class="btn btn-orange" id="sortBtn">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+    编辑排序
+   </div>
+   <div class="btn btn-orange" id="sortComBtn" style="display:none;">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+    确定排序
+   </div>
+  </div>
+  <ul class="list sort-tit">
+   <li class="title">
+    <div class="list-group">
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      层级
+     </div>
+     <div class="box-15 txt-c">
+      存款次数
+     </div>
+     <div class="box-15 txt-c">
+      存款总额
+     </div>
+    </div>
+    <div class="operate-box oper-box">
+     卸除
+    </div>
+    <div class="operate-box sort-box" style="display:none;">
+     排序
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="dataOnList">
+   <li>
+    <div class="list-group">
+     <div class="box-10 txt-c js-indList">
+      1
+     </div>
+     <div class="box-15 txt-c js-urlId" id="b01bf316216d1aa054c9df0aea873425">
+      QAvip1
+     </div>
+     <div class="box-15 txt-c js-frequency">
+      10
+     </div>
+     <div class="box-15 txt-c js-total">
+      0
+     </div>
+    </div>
+    <div class="operate-box oper-box">
+     <a alt="卸除" title="卸除">
+      <i alt="卸除" class="fas fa-arrow-right js-offUrl" title="卸除">
+      </i>
+     </a>
+    </div>
+    <div aria-hidden="true" class="operate-box sort-box glyphicon-move my-handle" style="display:none;">
+     <a alt="排序" class="sort" title="排序">
+      <i class="fas fa-arrows-alt-v">
+      </i>
+     </a>
+    </div>
+   </li>
+  </ul>
+  <div class="no-data" id="noOn" style="display:none;">
+   无网域
+  </div>
+ </div>
+ <div class="url-trans">
+  <img alt="" src="img/img_url_transfer.jpg"/>
+ </div>
+ <div class="web-column-2">
+  <div class="sub-tit">
+   未挂载
+  </div>
+  <div class="list-info-box">
+   共
+   <span id="dataOffNum">
+    0
+   </span>
+   个层级
+  </div>
+  <ul class="list" id="dataOffList">
+   <li class="title">
+    <div class="list-group-100">
+     <div class="box-10 txt-c">
+      挂载
+     </div>
+     <div class="box-10 txt-c">
+      項目
+     </div>
+     <div class="box-15 txt-c">
+      层级
+     </div>
+     <div class="box-15 txt-c">
+      存款次数
+     </div>
+     <div class="box-15 txt-c">
+      存款总额
+     </div>
+    </div>
+   </li>
+  </ul>
+  <div class="no-data" id="noOff" style="display:none;">
+   无网域
+  </div>
+ </div>
+</div>
+
+- API success (status and response are correct).
+- Response time: 0.022677
+- Success get: QAvip1
+- - -
+# Test Result: PASS
+
+End << 07月22日15時54分13秒 [Feature] API POST webPlayer vip group edit get frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1554
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

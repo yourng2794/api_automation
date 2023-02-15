@@ -1,0 +1,705 @@
+
+* Run test case: tf_Api_admin_org_employee_list_all_frame_m.py
+********Test Case: tf_Api_admin_org_employee_list_all_frame_m.py********
+
+	Start >>07月22日15時58分43秒 [Feature] API POST org. employee list all frame m
+
+		New ini value is: API.api_path = api/organization/department/jobtitle/employee/list/all/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/all/frame/m
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.01276 (seconds)
+
+		- api response: 
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   bdleader1
+  </div>
+  <div class="box-30 txt-c" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-30 txt-c" id="ef6b4590a8f9d43455f92eb06492659f">
+   BD主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="9c33fae409429ed3b4422d94ee9a1238" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   bdemp1
+  </div>
+  <div class="box-30 txt-c" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-30 txt-c" id="b0c00e8b89ff0dda59f8c5f76c5c54a8">
+   BD员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="6526d2800bf420050799cc986d7aa526" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   QAemployee1
+  </div>
+  <div class="box-30 txt-c" id="a9bafa0b40a1f9b038ff496891759a90">
+   QAdept1
+  </div>
+  <div class="box-30 txt-c" id="e7245390615ec4f0651db7bb597f541d">
+   QAtitle1
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="75e4d30a7502b99495ebf32e53a29ea5" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   accleader1
+  </div>
+  <div class="box-30 txt-c" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-30 txt-c" id="65813d07a724b7d745885993a2cac047">
+   会计主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="cb18add156ce597cf071c098f458ee57" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   accemp1
+  </div>
+  <div class="box-30 txt-c" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-30 txt-c" id="6376342a7ed769ae2fb5f09c7e77712c">
+   会计员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="90d15700199fc36f42e7d201d8451019" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   gmleader1
+  </div>
+  <div class="box-30 txt-c" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-30 txt-c" id="88bb8c37365fc3c916373b322f5c9b44">
+   客服主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="0b341d17c107a4b2e8f7ada73b7928c5" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   gmemp1
+  </div>
+  <div class="box-30 txt-c" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-30 txt-c" id="057a7926356a856bdba13d4d714f1077">
+   客服员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="9e571ede172dd2dfc715014f50942f0c" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   affleader1
+  </div>
+  <div class="box-30 txt-c" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-30 txt-c" id="bdc788a37a4aaf7def2b4958816e6d2c">
+   推广主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="0a7657f3d2b16238754dfbdf87762f6e" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   affemp1
+  </div>
+  <div class="box-30 txt-c" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-30 txt-c" id="804f3fb39217da610e25554275a4fd50">
+   推广员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="8a5370fc1e7953c7ef8065839fb26598" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   mleader1
+  </div>
+  <div class="box-30 txt-c" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-30 txt-c" id="d32f3f5b9b6f27cf66e9256b7db805c3">
+   管理主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="9ad23013e71c89cd0a50a1e45f0a3c68" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   memp1
+  </div>
+  <div class="box-30 txt-c" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-30 txt-c" id="5007975a7bf07ad9471fdd44ae9d5f58">
+   管理员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="e138f42b3139ffc4ee088d74e77331ce" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		Response data: <li>
+ <a class="group-box-85">
+  <div class="box-35">
+   bdleader1
+  </div>
+  <div class="box-30 txt-c" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-30 txt-c" id="ef6b4590a8f9d43455f92eb06492659f">
+   BD主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="9c33fae409429ed3b4422d94ee9a1238" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   bdemp1
+  </div>
+  <div class="box-30 txt-c" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-30 txt-c" id="b0c00e8b89ff0dda59f8c5f76c5c54a8">
+   BD员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="6526d2800bf420050799cc986d7aa526" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   QAemployee1
+  </div>
+  <div class="box-30 txt-c" id="a9bafa0b40a1f9b038ff496891759a90">
+   QAdept1
+  </div>
+  <div class="box-30 txt-c" id="e7245390615ec4f0651db7bb597f541d">
+   QAtitle1
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="75e4d30a7502b99495ebf32e53a29ea5" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   accleader1
+  </div>
+  <div class="box-30 txt-c" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-30 txt-c" id="65813d07a724b7d745885993a2cac047">
+   会计主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="cb18add156ce597cf071c098f458ee57" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   accemp1
+  </div>
+  <div class="box-30 txt-c" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-30 txt-c" id="6376342a7ed769ae2fb5f09c7e77712c">
+   会计员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="90d15700199fc36f42e7d201d8451019" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   gmleader1
+  </div>
+  <div class="box-30 txt-c" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-30 txt-c" id="88bb8c37365fc3c916373b322f5c9b44">
+   客服主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="0b341d17c107a4b2e8f7ada73b7928c5" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   gmemp1
+  </div>
+  <div class="box-30 txt-c" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-30 txt-c" id="057a7926356a856bdba13d4d714f1077">
+   客服员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="9e571ede172dd2dfc715014f50942f0c" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   affleader1
+  </div>
+  <div class="box-30 txt-c" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-30 txt-c" id="bdc788a37a4aaf7def2b4958816e6d2c">
+   推广主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="0a7657f3d2b16238754dfbdf87762f6e" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   affemp1
+  </div>
+  <div class="box-30 txt-c" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-30 txt-c" id="804f3fb39217da610e25554275a4fd50">
+   推广员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="8a5370fc1e7953c7ef8065839fb26598" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   mleader1
+  </div>
+  <div class="box-30 txt-c" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-30 txt-c" id="d32f3f5b9b6f27cf66e9256b7db805c3">
+   管理主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="9ad23013e71c89cd0a50a1e45f0a3c68" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   memp1
+  </div>
+  <div class="box-30 txt-c" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-30 txt-c" id="5007975a7bf07ad9471fdd44ae9d5f58">
+   管理员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="e138f42b3139ffc4ee088d74e77331ce" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.01276
+
+		- Success get userAcc: QAemployee1
+
+		- Success get userId: 75e4d30a7502b99495ebf32e53a29ea5
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時58分43秒 [Feature] API POST org. employee list all frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時58分43秒 [Feature] API POST org. employee list all frame m
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/all/frame/m
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.01276 (seconds)
+- api response: 
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   bdleader1
+  </div>
+  <div class="box-30 txt-c" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-30 txt-c" id="ef6b4590a8f9d43455f92eb06492659f">
+   BD主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="9c33fae409429ed3b4422d94ee9a1238" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   bdemp1
+  </div>
+  <div class="box-30 txt-c" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-30 txt-c" id="b0c00e8b89ff0dda59f8c5f76c5c54a8">
+   BD员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="6526d2800bf420050799cc986d7aa526" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   QAemployee1
+  </div>
+  <div class="box-30 txt-c" id="a9bafa0b40a1f9b038ff496891759a90">
+   QAdept1
+  </div>
+  <div class="box-30 txt-c" id="e7245390615ec4f0651db7bb597f541d">
+   QAtitle1
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="75e4d30a7502b99495ebf32e53a29ea5" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   accleader1
+  </div>
+  <div class="box-30 txt-c" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-30 txt-c" id="65813d07a724b7d745885993a2cac047">
+   会计主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="cb18add156ce597cf071c098f458ee57" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   accemp1
+  </div>
+  <div class="box-30 txt-c" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-30 txt-c" id="6376342a7ed769ae2fb5f09c7e77712c">
+   会计员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="90d15700199fc36f42e7d201d8451019" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   gmleader1
+  </div>
+  <div class="box-30 txt-c" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-30 txt-c" id="88bb8c37365fc3c916373b322f5c9b44">
+   客服主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="0b341d17c107a4b2e8f7ada73b7928c5" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   gmemp1
+  </div>
+  <div class="box-30 txt-c" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-30 txt-c" id="057a7926356a856bdba13d4d714f1077">
+   客服员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="9e571ede172dd2dfc715014f50942f0c" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   affleader1
+  </div>
+  <div class="box-30 txt-c" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-30 txt-c" id="bdc788a37a4aaf7def2b4958816e6d2c">
+   推广主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="0a7657f3d2b16238754dfbdf87762f6e" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   affemp1
+  </div>
+  <div class="box-30 txt-c" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-30 txt-c" id="804f3fb39217da610e25554275a4fd50">
+   推广员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="8a5370fc1e7953c7ef8065839fb26598" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   mleader1
+  </div>
+  <div class="box-30 txt-c" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-30 txt-c" id="d32f3f5b9b6f27cf66e9256b7db805c3">
+   管理主管
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="9ad23013e71c89cd0a50a1e45f0a3c68" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <a class="group-box-85">
+  <div class="box-35">
+   memp1
+  </div>
+  <div class="box-30 txt-c" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-30 txt-c" id="5007975a7bf07ad9471fdd44ae9d5f58">
+   管理员工
+  </div>
+ </a>
+ <div class="box-14">
+  <a alt="修改" class="btn-popup" id="e138f42b3139ffc4ee088d74e77331ce" title="修改">
+   <i class="fas fa-edit">
+   </i>
+  </a>
+ </div>
+</li>
+
+- API success (status and response are correct).
+- Response time: 0.01276
+- Success get userAcc: QAemployee1
+- Success get userId: 75e4d30a7502b99495ebf32e53a29ea5
+- - -
+# Test Result: PASS
+
+End << 07月22日15時58分43秒 [Feature] API POST org. employee list all frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1558
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

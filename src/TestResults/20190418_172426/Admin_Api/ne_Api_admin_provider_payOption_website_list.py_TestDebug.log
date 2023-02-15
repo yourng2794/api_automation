@@ -1,0 +1,45 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190418_172426\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190418_172426\\testresults.xml
+********Test Case: ne_Api_admin_provider_payOption_website_list.py********
+
+	Start >>04月18日17時24分26秒 [Feature] API POST provider payOption website list
+
+		New ini value is: API.payOptionId = 53a2ea7f190d9ed06445b8c68b82221c
+
+		- api_params: {'payOptionId': '53a2ea7f190d9ed06445b8c68b82221c'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/website/list
+
+		- api params: {'payOptionId': '53a2ea7f190d9ed06445b8c68b82221c'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=8gJlvckTlqEEkRriJH7WWiYt6XppvWcjTPMreppr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.953959 (seconds)
+
+		Response data: 
+{
+    "list": "{\"\":\"无挂载网站\"}",
+    "payoption_name": "QApay"
+}
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月18日17時24分27秒 [Feature] API POST provider payOption website list
+	Collect temp results or other files...

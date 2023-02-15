@@ -1,0 +1,381 @@
+
+* Run test case: he_Api_admin_webPlayer_web_vip_list_frame.py
+********Test Case: he_Api_admin_webPlayer_web_vip_list_frame.py********
+
+	Start >>04月17日18時42分35秒 [Feature] API POST webPlayer web vip list frame
+
+		New ini value is: API.webId = cc337abf81b4328ad33c1bf0e957ca4c
+
+		- api_params: {'webId': 'cc337abf81b4328ad33c1bf0e957ca4c'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/vip/list/frame
+
+		- api params: {'webId': 'cc337abf81b4328ad33c1bf0e957ca4c'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=dUQQREXPytH05B5lb6f8HAx0JBEnrBOrOXgR0rl7 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.493628 (seconds)
+
+		Response data: 
+<h3 class="fas">
+ <span>
+  Testweb16
+ </span>
+ 层级设定
+</h3>
+<h4 class="fal">
+ 无层级
+</h4>
+<ul class="list mar-bot">
+ <li class="title">
+  <div class="list-group-100">
+   <div class="box-5 txt-c">
+    项目
+   </div>
+   <div class="box-10 txt-c">
+    层级
+   </div>
+   <div class="box-5 txt-c">
+    人数
+   </div>
+   <div class="box-40">
+    网域
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group-100">
+   <div class="box-5 txt-c">
+    1
+   </div>
+   <div class="box-10 txt-c">
+    无层级
+   </div>
+   <div class="box-5 txt-c">
+    0
+   </div>
+   <div class="box-20">
+    <div class="input-box-w list-input-box">
+     10.10.10.229
+    </div>
+   </div>
+  </div>
+ </li>
+</ul>
+<h4 class="fal">
+ 层级群组挂载
+</h4>
+<div class="input-box w300 btn-input-box">
+ <i class="fas fa-haykal">
+ </i>
+ <select class="sel-sty" id="levelGroup" name="levelGroup">
+  <option selected="" value="d45b282c94a1755f5b790709ba586737">
+   QAgp16
+  </option>
+  <option value="9be82529e5d23eac246bb30358b4f514">
+   QAgp14
+  </option>
+  <option value="176a51aae661ee2da6f7bc5b482176c5">
+   QAgp13
+  </option>
+  <option value="2bc7f72c3fd0ce5ded09d770bf8a744d">
+   QAgp12
+  </option>
+  <option value="d603f5a896a7b6dab7570de76f22a35f">
+   QAgp99
+  </option>
+  <option value="08a8fd09a8d1914120e8ff65d933245b">
+   QAgp88
+  </option>
+  <option value="36feb76dbe91649fdcbe6f28de94f15d">
+   QAgp77
+  </option>
+  <option value="ef00caf8a665497064ccab7c565b89d5">
+   QAgp66
+  </option>
+  <option value="18fb670bd54e0e8772d46ffc0366b68b">
+   QAgp55
+  </option>
+  <option value="b32e1c8ea677cdbf66fa569ff1543977">
+   QAgp44
+  </option>
+  <option value="3cdf0596ddcc90da4d93ee44e2658dd9">
+   QAgp33
+  </option>
+  <option value="3f968038c18b4809cd2377ebb0c1c96a">
+   newQAgp22
+  </option>
+  <option value="25f5bf3bbb194e25ecbde73cb5451ddb">
+   QAgp22
+  </option>
+ </select>
+ <div class="btn btn-submit">
+  确定
+  <input id="levelSubmit" type="button"/>
+ </div>
+</div>
+<div id="levelGroupList">
+ <div class="list-info-box">
+  共
+  <span id="dataNum">
+   1
+  </span>
+  个层级
+ </div>
+ <div class="txt-note">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  注册：于特定时段注册，则自动升级为该层级
+ </div>
+ <ul class="list sort-tit">
+  <li class="title">
+   <div class="list-group-100">
+    <div class="box-5 txt-c">
+     項目
+    </div>
+    <div class="box-10 txt-c">
+     层级
+    </div>
+    <div class="box-5 txt-c">
+     人数
+    </div>
+    <div class="box-20">
+     网域
+    </div>
+    <div class="box-35">
+     注册时间
+    </div>
+    <div class="box-20">
+     转移方式
+    </div>
+   </div>
+  </li>
+ </ul>
+ <ul class="list" id="dataList">
+  <li>
+   <div class="list-group-100">
+    <div class="box-5 txt-c">
+     1
+    </div>
+    <div class="box-10 txt-c j-vipIda" id="f217f1ce1232bc38ad81b439ce4e52a9">
+     QAvip16
+    </div>
+    <div class="box-5 txt-c">
+     0
+    </div>
+    <div class="box-20">
+     <div class="input-box-w list-input-box">
+      <a>
+       <i class="fas fa-times-circle">
+       </i>
+      </a>
+      <input class="input-sty list-input j-urlList typeahead" placeholder="请输入网域" type="text" value="10.10.10.229"/>
+     </div>
+    </div>
+    <div class="box-35 list-date j-signTime">
+     <input class="input-sty list-input datepicker-here j-starDay" data-language="zh" data-position="top left" data-timepicker="true" name="starDay" placeholder="注册开始时间" readonly="" type="text"/>
+     ~
+     <input class="input-sty list-input datepicker-here j-endDay" data-language="zh" data-position="top left" data-timepicker="true" name="endDay" placeholder="注册结束时间" readonly="" type="text"/>
+    </div>
+    <div class="box-20">
+     <select class="sel-sty list-sel j-transSty" name="transSty">
+      <option value="1">
+       手动
+      </option>
+      <option selected="selected" value="2">
+       自动
+      </option>
+      <option value="3">
+       定时
+      </option>
+     </select>
+     <select class="sel-sty list-sel j-transTime" name="transTime01" style="display:none;">
+      <option selected="" value="00:00">
+       00:00
+      </option>
+      <option value="00:30">
+       00:30
+      </option>
+      <option value="01:00">
+       01:00
+      </option>
+      <option value="01:30">
+       01:30
+      </option>
+      <option value="02:00">
+       02:00
+      </option>
+      <option value="02:30">
+       02:30
+      </option>
+      <option value="03:00">
+       03:00
+      </option>
+      <option value="03:30">
+       03:30
+      </option>
+      <option value="04:00">
+       04:00
+      </option>
+      <option value="04:30">
+       04:30
+      </option>
+      <option value="05:00">
+       05:00
+      </option>
+      <option value="05:30">
+       05:30
+      </option>
+      <option value="06:00">
+       06:00
+      </option>
+      <option value="06:30">
+       06:30
+      </option>
+      <option value="07:00">
+       07:00
+      </option>
+      <option value="07:30">
+       07:30
+      </option>
+      <option value="08:00">
+       08:00
+      </option>
+      <option value="08:30">
+       08:30
+      </option>
+      <option value="09:00">
+       09:00
+      </option>
+      <option value="09:30">
+       09:30
+      </option>
+      <option value="10:00">
+       10:00
+      </option>
+      <option value="10:30">
+       10:30
+      </option>
+      <option value="11:00">
+       11:00
+      </option>
+      <option value="11:30">
+       11:30
+      </option>
+      <option value="12:00">
+       12:00
+      </option>
+      <option value="12:30">
+       12:30
+      </option>
+      <option value="13:00">
+       13:00
+      </option>
+      <option value="13:30">
+       13:30
+      </option>
+      <option value="14:00">
+       14:00
+      </option>
+      <option value="14:30">
+       14:30
+      </option>
+      <option value="15:00">
+       15:00
+      </option>
+      <option value="15:30">
+       15:30
+      </option>
+      <option value="16:00">
+       16:00
+      </option>
+      <option value="16:30">
+       16:30
+      </option>
+      <option value="17:00">
+       17:00
+      </option>
+      <option value="17:30">
+       17:30
+      </option>
+      <option value="18:00">
+       18:00
+      </option>
+      <option value="18:30">
+       18:30
+      </option>
+      <option value="19:00">
+       19:00
+      </option>
+      <option value="19:30">
+       19:30
+      </option>
+      <option value="20:00">
+       20:00
+      </option>
+      <option value="20:30">
+       20:30
+      </option>
+      <option value="21:00">
+       21:00
+      </option>
+      <option value="21:30">
+       21:30
+      </option>
+      <option value="22:00">
+       22:00
+      </option>
+      <option value="22:30">
+       22:30
+      </option>
+      <option value="23:00">
+       23:00
+      </option>
+      <option value="23:30">
+       23:30
+      </option>
+     </select>
+    </div>
+   </div>
+  </li>
+ </ul>
+ <div class="no-data" id="noData" style="display:none;">
+  无资料
+ </div>
+</div>
+
+
+		- Success get vipGroupName: QAgp16
+
+		- Success get transferSet: 2
+
+		- Success get setTime: 00:00
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時42分35秒 [Feature] API POST webPlayer web vip list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

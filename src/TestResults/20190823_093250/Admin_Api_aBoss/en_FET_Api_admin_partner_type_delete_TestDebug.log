@@ -1,0 +1,75 @@
+
+* Run test case: en_FET_Api_admin_partner_type_delete.py
+********Test Case: en_FET_Api_admin_partner_type_delete.py********
+
+	Start >>08月23日09時34分40秒 [Feature] API POST partner type delete
+
+		New ini value is: API.typeId = 0e31157b7e592ee23d36f5e6b4c722ed
+
+		- api url: http://tadmapi.o2ogt.com/api/partner/type/delete
+
+		- api params: {'typeId': '0e31157b7e592ee23d36f5e6b4c722ed'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.034394 (seconds)
+
+		Response data: {
+    "Error_at": "/data/web/tadmapi.o2ogt.com/app/Http/Controllers/PartnerTypeController.php",
+    "Error_code": "E04",
+    "Error_line": 1778,
+    "Error_message": "Cannot be deleted"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.034394
+
+		- Success (Error_code, Error_message): (E04, Cannot be deleted)
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.typeId = 
+	<< End Tear Down
+
+
+	End << 08月23日09時34分41秒 [Feature] API POST partner type delete
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時34分40秒 [Feature] API POST partner type delete
+
+- api url: http://tadmapi.o2ogt.com/api/partner/type/delete
+- api params: {'typeId': '0e31157b7e592ee23d36f5e6b4c722ed'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.034394 (seconds)
+- API success (status and response are correct).
+- Response time: 0.034394
+- Success (Error_code, Error_message): (E04, Cannot be deleted)
+- - -
+# Test Result: PASS
+
+End << 08月23日09時34分41秒 [Feature] API POST partner type delete
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0934
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

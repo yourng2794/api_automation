@@ -1,0 +1,1776 @@
+
+* Run test case: ud_Api_admin_provider_content_sort_list_games.py
+********Test Case: ud_Api_admin_provider_content_sort_list_games.py********
+
+	Start >>07月22日15時59分12秒 [Feature] API POST provider content sort list games
+
+(X) IniValue Exception: No option 'mg' in section: 'GameType'
+False
+(X) IniValue Exception: No option 'pt' in section: 'GameType'
+False
+		New ini value is: GameType.gameslot = 水果樂園, 聖誕派對, 凤凰涅盘, 升官发财, 幸运麟, 过新年, 中世纪骑士, 文成公主
+
+		- ****No support: lived
+		New ini value is: GameType.gamefish = 捕魚達人, 捕魚達人2, 龙王捕鱼2, 财神捕鱼
+(X) IniValue Exception: No option 'kg' in section: 'GameType'
+False
+		New ini value is: GameType.gamepoker = 二八槓, 炸金花, 通比六牛, 百变抢庄牛牛
+
+		- ****No support: sport
+		New ini value is: GameType.gamelottery = BB 高低, BB 射龍門, 欧洲快乐8, 飙速农场
+		New ini value is: API.type = slot
+		New ini value is: API.webid = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.lang = zh
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/list
+
+		- api params: {'type': 'slot', 'webid': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.019249 (seconds)
+
+		- api response: 
+{
+    "games": [
+        {
+            "act": 0,
+            "createtime": 1559888175150,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "5019",
+            "gamename": "水果樂園",
+            "hot": 0,
+            "iconurl": "img/BBIN/5019.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559888175150,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_SLOT",
+            "providername": "BB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559888175180,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "5029",
+            "gamename": "聖誕派對",
+            "hot": 0,
+            "iconurl": "img/BBIN/5029.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559888175180,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_SLOT",
+            "providername": "BB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "54",
+            "gamename": "凤凰涅盘",
+            "hot": 0,
+            "iconurl": "img/FP/54.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "FP",
+            "providername": "FP",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "56",
+            "gamename": "升官发财",
+            "hot": 0,
+            "iconurl": "img/FP/56.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "FP",
+            "providername": "FP",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1561575768714,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "8007",
+            "gamename": "幸运麟",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/8007/8007_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1561575768714,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_SLOT",
+            "providername": "JDB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1561575768728,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "8017",
+            "gamename": "过新年",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/8017/8017_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1561575768728,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_SLOT",
+            "providername": "JDB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1550225386,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "Knights",
+            "gamename": "中世纪骑士",
+            "hot": 0,
+            "iconurl": "https://gmiconcdn.kga8.com/kaga/gameIcon?game=Knights&lang=zh&type=circular_framed",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1550225386,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "KA",
+            "providername": "KA",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1550225386,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "Wencheng",
+            "gamename": "文成公主",
+            "hot": 0,
+            "iconurl": "https://gmiconcdn.kga8.com/kaga/gameIcon?game=Wencheng&lang=zh&type=circular_framed",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1550225386,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "KA",
+            "providername": "KA",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+
+		Response data: {
+    "games": [
+        {
+            "act": 0,
+            "createtime": 1559888175150,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "5019",
+            "gamename": "水果樂園",
+            "hot": 0,
+            "iconurl": "img/BBIN/5019.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559888175150,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_SLOT",
+            "providername": "BB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559888175180,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "5029",
+            "gamename": "聖誕派對",
+            "hot": 0,
+            "iconurl": "img/BBIN/5029.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559888175180,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_SLOT",
+            "providername": "BB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "54",
+            "gamename": "凤凰涅盘",
+            "hot": 0,
+            "iconurl": "img/FP/54.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "FP",
+            "providername": "FP",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "56",
+            "gamename": "升官发财",
+            "hot": 0,
+            "iconurl": "img/FP/56.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "FP",
+            "providername": "FP",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1561575768714,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "8007",
+            "gamename": "幸运麟",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/8007/8007_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1561575768714,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_SLOT",
+            "providername": "JDB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1561575768728,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "8017",
+            "gamename": "过新年",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/8017/8017_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1561575768728,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_SLOT",
+            "providername": "JDB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1550225386,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "Knights",
+            "gamename": "中世纪骑士",
+            "hot": 0,
+            "iconurl": "https://gmiconcdn.kga8.com/kaga/gameIcon?game=Knights&lang=zh&type=circular_framed",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1550225386,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "KA",
+            "providername": "KA",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1550225386,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "Wencheng",
+            "gamename": "文成公主",
+            "hot": 0,
+            "iconurl": "https://gmiconcdn.kga8.com/kaga/gameIcon?game=Wencheng&lang=zh&type=circular_framed",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1550225386,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "KA",
+            "providername": "KA",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+
+		- API success (status and response do not compare).
+
+		- Response time: 0.019249
+
+		- Success verify [slot] name: 水果樂園
+
+		- Success verify [slot] name: 聖誕派對
+
+		- Success verify [slot] name: 凤凰涅盘
+
+		- Success verify [slot] name: 升官发财
+
+		- Success verify [slot] name: 幸运麟
+
+		- Success verify [slot] name: 过新年
+
+		- Success verify [slot] name: 中世纪骑士
+
+		- Success verify [slot] name: 文成公主
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		- ****No support: lived
+		New ini value is: API.type = fish
+		New ini value is: API.webid = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.lang = zh
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/list
+
+		- api params: {'type': 'fish', 'webid': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022603 (seconds)
+
+		- api response: 
+{
+    "games": [
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "30599",
+            "gamename": "捕魚達人",
+            "hot": 0,
+            "iconurl": "img/BBIN/30599.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_FISH",
+            "providername": "BB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "30598",
+            "gamename": "捕魚達人2",
+            "hot": 0,
+            "iconurl": "img/BBIN/30598.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_FISH",
+            "providername": "BB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "7002",
+            "gamename": "龙王捕鱼2",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/7002/7002_en.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_FISH",
+            "providername": "JDB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "7003",
+            "gamename": "财神捕鱼",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/7003/7003_en.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_FISH",
+            "providername": "JDB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+
+		Response data: {
+    "games": [
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "30599",
+            "gamename": "捕魚達人",
+            "hot": 0,
+            "iconurl": "img/BBIN/30599.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_FISH",
+            "providername": "BB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "30598",
+            "gamename": "捕魚達人2",
+            "hot": 0,
+            "iconurl": "img/BBIN/30598.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_FISH",
+            "providername": "BB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "7002",
+            "gamename": "龙王捕鱼2",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/7002/7002_en.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_FISH",
+            "providername": "JDB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "7003",
+            "gamename": "财神捕鱼",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/7003/7003_en.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_FISH",
+            "providername": "JDB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+
+		- API success (status and response do not compare).
+
+		- Response time: 0.022603
+
+		- Success verify [fish] name: 捕魚達人
+
+		- Success verify [fish] name: 捕魚達人2
+
+		- Success verify [fish] name: 龙王捕鱼2
+
+		- Success verify [fish] name: 财神捕鱼
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.type = poker
+		New ini value is: API.webid = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.lang = zh
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/list
+
+		- api params: {'type': 'poker', 'webid': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.026 (seconds)
+
+		- api response: 
+{
+    "games": [
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "66002",
+            "gamename": "二八槓",
+            "hot": 0,
+            "iconurl": "img/BBIN/66002.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "BB_POKER",
+            "providername": "BB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "66001",
+            "gamename": "炸金花",
+            "hot": 0,
+            "iconurl": "img/BBIN/66001.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "BB_POKER",
+            "providername": "BB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559864587158,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "18013",
+            "gamename": "通比六牛",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/18013/18013_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559864587158,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "JDB_POKER",
+            "providername": "JDB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559864587158,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "18012",
+            "gamename": "百变抢庄牛牛",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/18012/18012_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559864587158,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "JDB_POKER",
+            "providername": "JDB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+
+		Response data: {
+    "games": [
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "66002",
+            "gamename": "二八槓",
+            "hot": 0,
+            "iconurl": "img/BBIN/66002.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "BB_POKER",
+            "providername": "BB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "66001",
+            "gamename": "炸金花",
+            "hot": 0,
+            "iconurl": "img/BBIN/66001.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "BB_POKER",
+            "providername": "BB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559864587158,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "18013",
+            "gamename": "通比六牛",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/18013/18013_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559864587158,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "JDB_POKER",
+            "providername": "JDB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559864587158,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "18012",
+            "gamename": "百变抢庄牛牛",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/18012/18012_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559864587158,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "JDB_POKER",
+            "providername": "JDB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+
+		- API success (status and response do not compare).
+
+		- Response time: 0.026
+
+		- Success verify [poker] name: 二八槓
+
+		- Success verify [poker] name: 炸金花
+
+		- Success verify [poker] name: 通比六牛
+
+		- Success verify [poker] name: 百变抢庄牛牛
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		- ****No support: sport
+		New ini value is: API.type = lottery
+		New ini value is: API.webid = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.lang = zh
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/list
+
+		- api params: {'type': 'lottery', 'webid': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.016099 (seconds)
+
+		- api response: 
+{
+    "games": [
+        {
+            "act": 0,
+            "createtime": 1559887234968,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "BBHL",
+            "gamename": "BB 高低",
+            "hot": 0,
+            "iconurl": "img/BBIN/BBHL.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1559887234968,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_LOTTERY",
+            "providername": "BB_LOTTERY",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559887235029,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "BBLM",
+            "gamename": "BB 射龍門",
+            "hot": 0,
+            "iconurl": "img/BBIN/BBLM.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1559887235029,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_LOTTERY",
+            "providername": "BB_LOTTERY",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917370014,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "14",
+            "gamename": "欧洲快乐8",
+            "hot": 0,
+            "iconurl": "https://csbctest.o2ogt.com/img/lang/dl/zh/14.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1555917370014,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "DL",
+            "providername": "DL",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369941,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "10",
+            "gamename": "飙速农场",
+            "hot": 0,
+            "iconurl": "https://csbctest.o2ogt.com/img/lang/dl/zh/10.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1555917369941,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "DL",
+            "providername": "DL",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+
+		Response data: {
+    "games": [
+        {
+            "act": 0,
+            "createtime": 1559887234968,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "BBHL",
+            "gamename": "BB 高低",
+            "hot": 0,
+            "iconurl": "img/BBIN/BBHL.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1559887234968,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_LOTTERY",
+            "providername": "BB_LOTTERY",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559887235029,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "BBLM",
+            "gamename": "BB 射龍門",
+            "hot": 0,
+            "iconurl": "img/BBIN/BBLM.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1559887235029,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_LOTTERY",
+            "providername": "BB_LOTTERY",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917370014,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "14",
+            "gamename": "欧洲快乐8",
+            "hot": 0,
+            "iconurl": "https://csbctest.o2ogt.com/img/lang/dl/zh/14.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1555917370014,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "DL",
+            "providername": "DL",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369941,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "10",
+            "gamename": "飙速农场",
+            "hot": 0,
+            "iconurl": "https://csbctest.o2ogt.com/img/lang/dl/zh/10.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1555917369941,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "DL",
+            "providername": "DL",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+
+		- API success (status and response do not compare).
+
+		- Response time: 0.016099
+
+		- Success verify [lottery] name: BB 高低
+
+		- Success verify [lottery] name: BB 射龍門
+
+		- Success verify [lottery] name: 欧洲快乐8
+
+		- Success verify [lottery] name: 飙速农场
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.type = 
+		New ini value is: API.webid = 
+		New ini value is: API.lang = 
+	<< End Tear Down
+
+
+	End << 07月22日15時59分12秒 [Feature] API POST provider content sort list games
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時59分12秒 [Feature] API POST provider content sort list games
+
+- ****No support: lived
+- ****No support: sport
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/list
+- api params: {'type': 'slot', 'webid': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.019249 (seconds)
+- api response: 
+{
+    "games": [
+        {
+            "act": 0,
+            "createtime": 1559888175150,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "5019",
+            "gamename": "水果樂園",
+            "hot": 0,
+            "iconurl": "img/BBIN/5019.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559888175150,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_SLOT",
+            "providername": "BB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559888175180,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "5029",
+            "gamename": "聖誕派對",
+            "hot": 0,
+            "iconurl": "img/BBIN/5029.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559888175180,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_SLOT",
+            "providername": "BB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "54",
+            "gamename": "凤凰涅盘",
+            "hot": 0,
+            "iconurl": "img/FP/54.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "FP",
+            "providername": "FP",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "56",
+            "gamename": "升官发财",
+            "hot": 0,
+            "iconurl": "img/FP/56.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "FP",
+            "providername": "FP",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1561575768714,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "8007",
+            "gamename": "幸运麟",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/8007/8007_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1561575768714,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_SLOT",
+            "providername": "JDB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1561575768728,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "8017",
+            "gamename": "过新年",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/8017/8017_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1561575768728,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_SLOT",
+            "providername": "JDB_SLOT",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1550225386,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "Knights",
+            "gamename": "中世纪骑士",
+            "hot": 0,
+            "iconurl": "https://gmiconcdn.kga8.com/kaga/gameIcon?game=Knights&lang=zh&type=circular_framed",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1550225386,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "KA",
+            "providername": "KA",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1550225386,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "Wencheng",
+            "gamename": "文成公主",
+            "hot": 0,
+            "iconurl": "https://gmiconcdn.kga8.com/kaga/gameIcon?game=Wencheng&lang=zh&type=circular_framed",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1550225386,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "KA",
+            "providername": "KA",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 1,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+- API success (status and response do not compare).
+- Response time: 0.019249
+- Success verify [slot] name: 水果樂園
+- Success verify [slot] name: 聖誕派對
+- Success verify [slot] name: 凤凰涅盘
+- Success verify [slot] name: 升官发财
+- Success verify [slot] name: 幸运麟
+- Success verify [slot] name: 过新年
+- Success verify [slot] name: 中世纪骑士
+- Success verify [slot] name: 文成公主
+---
+---
+- ****No support: lived
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/list
+- api params: {'type': 'fish', 'webid': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022603 (seconds)
+- api response: 
+{
+    "games": [
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "30599",
+            "gamename": "捕魚達人",
+            "hot": 0,
+            "iconurl": "img/BBIN/30599.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_FISH",
+            "providername": "BB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "30598",
+            "gamename": "捕魚達人2",
+            "hot": 0,
+            "iconurl": "img/BBIN/30598.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_FISH",
+            "providername": "BB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "7002",
+            "gamename": "龙王捕鱼2",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/7002/7002_en.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_FISH",
+            "providername": "JDB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369924,
+            "enable": 1,
+            "fish": 1,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "7003",
+            "gamename": "财神捕鱼",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/7003/7003_en.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "JDB_FISH",
+            "providername": "JDB_FISH",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+- API success (status and response do not compare).
+- Response time: 0.022603
+- Success verify [fish] name: 捕魚達人
+- Success verify [fish] name: 捕魚達人2
+- Success verify [fish] name: 龙王捕鱼2
+- Success verify [fish] name: 财神捕鱼
+---
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/list
+- api params: {'type': 'poker', 'webid': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.026 (seconds)
+- api response: 
+{
+    "games": [
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "66002",
+            "gamename": "二八槓",
+            "hot": 0,
+            "iconurl": "img/BBIN/66002.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "BB_POKER",
+            "providername": "BB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 123456789,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "66001",
+            "gamename": "炸金花",
+            "hot": 0,
+            "iconurl": "img/BBIN/66001.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 0,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "BB_POKER",
+            "providername": "BB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559864587158,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "18013",
+            "gamename": "通比六牛",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/18013/18013_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559864587158,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "JDB_POKER",
+            "providername": "JDB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559864587158,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "18012",
+            "gamename": "百变抢庄牛牛",
+            "hot": 0,
+            "iconurl": "https://dl.55copy.com/jdb-assetsv3/games/18012/18012_cn.jpg",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 0,
+            "modifytime": 1559864587158,
+            "newest": 0,
+            "poker": 1,
+            "providerid": "JDB_POKER",
+            "providername": "JDB_POKER",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+- API success (status and response do not compare).
+- Response time: 0.026
+- Success verify [poker] name: 二八槓
+- Success verify [poker] name: 炸金花
+- Success verify [poker] name: 通比六牛
+- Success verify [poker] name: 百变抢庄牛牛
+---
+---
+- ****No support: sport
+- api url: http://tadmapi.o2ogt.com/api/provider/content/sort/list
+- api params: {'type': 'lottery', 'webid': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.016099 (seconds)
+- api response: 
+{
+    "games": [
+        {
+            "act": 0,
+            "createtime": 1559887234968,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "BBHL",
+            "gamename": "BB 高低",
+            "hot": 0,
+            "iconurl": "img/BBIN/BBHL.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1559887234968,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_LOTTERY",
+            "providername": "BB_LOTTERY",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1559887235029,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "BBLM",
+            "gamename": "BB 射龍門",
+            "hot": 0,
+            "iconurl": "img/BBIN/BBLM.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1559887235029,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "BB_LOTTERY",
+            "providername": "BB_LOTTERY",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917370014,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "14",
+            "gamename": "欧洲快乐8",
+            "hot": 0,
+            "iconurl": "https://csbctest.o2ogt.com/img/lang/dl/zh/14.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1555917370014,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "DL",
+            "providername": "DL",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        },
+        {
+            "act": 0,
+            "createtime": 1555917369941,
+            "enable": 1,
+            "fish": 0,
+            "game_code": "",
+            "game_type": "all",
+            "gameid": "10",
+            "gamename": "飙速农场",
+            "hot": 0,
+            "iconurl": "https://csbctest.o2ogt.com/img/lang/dl/zh/10.png",
+            "lang": "zh",
+            "lived": 0,
+            "lottery": 1,
+            "modifytime": 1555917369941,
+            "newest": 0,
+            "poker": 0,
+            "providerid": "DL",
+            "providername": "DL",
+            "recommend": 0,
+            "sequence": 0,
+            "slot": 0,
+            "sport": 0
+        }
+    ],
+    "provider": []
+}
+- API success (status and response do not compare).
+- Response time: 0.016099
+- Success verify [lottery] name: BB 高低
+- Success verify [lottery] name: BB 射龍門
+- Success verify [lottery] name: 欧洲快乐8
+- Success verify [lottery] name: 飙速农场
+---
+---# Test Result: PASS
+
+End << 07月22日15時59分12秒 [Feature] API POST provider content sort list games
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1559
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

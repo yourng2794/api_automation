@@ -1,0 +1,61 @@
+
+* Run test case: le_Api_admin_provider_bankCard_edit.py
+********Test Case: le_Api_admin_provider_bankCard_edit.py********
+
+	Start >>04月17日18時44分13秒 [Feature] API POST provider bankCard edit
+
+		New ini value is: API.bankName = QAbank16
+		New ini value is: API.branchName = Branch16
+		New ini value is: API.bankAcc = 00000000123458
+		New ini value is: API.accName = QA3
+		New ini value is: API.cardId = db0637ed9638dc33154dbe53bc9cbf79
+		New ini value is: API.currency = CNY
+
+		- api_params: {'cardId': 'db0637ed9638dc33154dbe53bc9cbf79', 'bankName': 'QAbank16', 'branchName': 'Branch16', 'bankAcc': '00000000123458', 'accName': 'QA3', 'currency': 'CNY', 'amount': '5000', 'maxwithdraw': '3000', 'maxdeposit': '1000', 'mindeposit': '100', 'option': '3', 'enable': '1'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/provider/bankCard/edit
+
+		- api params: {'cardId': 'db0637ed9638dc33154dbe53bc9cbf79', 'bankName': 'QAbank16', 'branchName': 'Branch16', 'bankAcc': '00000000123458', 'accName': 'QA3', 'currency': 'CNY', 'amount': '5000', 'maxwithdraw': '3000', 'maxdeposit': '1000', 'mindeposit': '100', 'option': '3', 'enable': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=irT7mLQEUpeXdGOp0sYUJtvH2fDJiZ96sYFrdLok for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.587731 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.587731
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時44分14秒 [Feature] API POST provider bankCard edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

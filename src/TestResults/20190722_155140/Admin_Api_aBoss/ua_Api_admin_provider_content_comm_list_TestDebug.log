@@ -1,0 +1,284 @@
+
+* Run test case: ua_Api_admin_provider_content_comm_list.py
+********Test Case: ua_Api_admin_provider_content_comm_list.py********
+
+	Start >>07月22日15時59分02秒 [Feature] API POST provider content comm list
+
+		New ini value is: API.type = slot
+
+		- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+
+		- api params: {'type': 'slot'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021577 (seconds)
+
+		- api response: 
+[{"providerid": "BB_SLOT", "providername": "BB_SLOT"}, {"providerid": "FP", "providername": "FP"}, {"providerid": "JDB_SLOT", "providername": "JDB_SLOT"}, {"providerid": "KA", "providername": "KA"}, {"providerid": "MG", "providername": "MG"}, {"providerid": "PT", "providername": "PT"}]
+
+		Response data: [{"providerid": "BB_SLOT", "providername": "BB_SLOT"}, {"providerid": "FP", "providername": "FP"}, {"providerid": "JDB_SLOT", "providername": "JDB_SLOT"}, {"providerid": "KA", "providername": "KA"}, {"providerid": "MG", "providername": "MG"}, {"providerid": "PT", "providername": "PT"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021577
+		New ini value is: TestData.providername_BB_SLOT = BB_SLOT
+		New ini value is: TestData.providername_FP = FP
+		New ini value is: TestData.providername_JDB_SLOT = JDB_SLOT
+		New ini value is: TestData.providername_KA = KA
+		New ini value is: TestData.providername_MG = MG
+		New ini value is: TestData.providername_PT = PT
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: GameType.slot = BB_SLOT, FP, JDB_SLOT, KA, MG, PT
+		New ini value is: API.type = lived
+
+		- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+
+		- api params: {'type': 'lived'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.020981 (seconds)
+
+		- api response: 
+[{"providerid": "AG", "providername": "AG"}, {"providerid": "BB_LIVED", "providername": "BB_LIVED"}, {"providerid": "EVO", "providername": "EVO"}]
+
+		Response data: [{"providerid": "AG", "providername": "AG"}, {"providerid": "BB_LIVED", "providername": "BB_LIVED"}, {"providerid": "EVO", "providername": "EVO"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.020981
+		New ini value is: TestData.providername_AG = AG
+		New ini value is: TestData.providername_BB_LIVED = BB_LIVED
+		New ini value is: TestData.providername_EVO = EVO
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: GameType.lived = AG, BB_LIVED, EVO
+		New ini value is: API.type = fish
+
+		- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+
+		- api params: {'type': 'fish'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021245 (seconds)
+
+		- api response: 
+[{"providerid": "BB_FISH", "providername": "BB_FISH"}, {"providerid": "JDB_FISH", "providername": "JDB_FISH"}]
+
+		Response data: [{"providerid": "BB_FISH", "providername": "BB_FISH"}, {"providerid": "JDB_FISH", "providername": "JDB_FISH"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021245
+		New ini value is: TestData.providername_BB_FISH = BB_FISH
+		New ini value is: TestData.providername_JDB_FISH = JDB_FISH
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: GameType.fish = BB_FISH, JDB_FISH
+		New ini value is: API.type = poker
+
+		- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+
+		- api params: {'type': 'poker'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.020389 (seconds)
+
+		- api response: 
+[{"providerid": "BB_POKER", "providername": "BB_POKER"}, {"providerid": "JDB_POKER", "providername": "JDB_POKER"}, {"providerid": "KG", "providername": "KG"}]
+
+		Response data: [{"providerid": "BB_POKER", "providername": "BB_POKER"}, {"providerid": "JDB_POKER", "providername": "JDB_POKER"}, {"providerid": "KG", "providername": "KG"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.020389
+		New ini value is: TestData.providername_BB_POKER = BB_POKER
+		New ini value is: TestData.providername_JDB_POKER = JDB_POKER
+		New ini value is: TestData.providername_KG = KG
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: GameType.poker = BB_POKER, JDB_POKER, KG
+		New ini value is: API.type = sport
+
+		- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+
+		- api params: {'type': 'sport'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021065 (seconds)
+
+		- api response: 
+[{"providerid": "BB_SPORT", "providername": "BB_SPORT"}]
+
+		Response data: [{"providerid": "BB_SPORT", "providername": "BB_SPORT"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021065
+		New ini value is: TestData.providername_BB_SPORT = BB_SPORT
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: GameType.sport = BB_SPORT
+		New ini value is: API.type = lottery
+
+		- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+
+		- api params: {'type': 'lottery'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021128 (seconds)
+
+		- api response: 
+[{"providerid": "BB_LOTTERY", "providername": "BB_LOTTERY"}, {"providerid": "DL", "providername": "DL"}]
+
+		Response data: [{"providerid": "BB_LOTTERY", "providername": "BB_LOTTERY"}, {"providerid": "DL", "providername": "DL"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021128
+		New ini value is: TestData.providername_BB_LOTTERY = BB_LOTTERY
+		New ini value is: TestData.providername_DL = DL
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: GameType.lottery = BB_LOTTERY, DL
+		New ini value is: TestData.providerGames = BB_SLOT, FP, JDB_SLOT, KA, MG, PT, AG, BB_LIVED, EVO, BB_FISH, JDB_FISH, BB_POKER, JDB_POKER, KG, BB_SPORT, BB_LOTTERY, DL
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.type = 
+	<< End Tear Down
+
+
+	End << 07月22日15時59分02秒 [Feature] API POST provider content comm list
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時59分02秒 [Feature] API POST provider content comm list
+
+- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+- api params: {'type': 'slot'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021577 (seconds)
+- api response: 
+[{"providerid": "BB_SLOT", "providername": "BB_SLOT"}, {"providerid": "FP", "providername": "FP"}, {"providerid": "JDB_SLOT", "providername": "JDB_SLOT"}, {"providerid": "KA", "providername": "KA"}, {"providerid": "MG", "providername": "MG"}, {"providerid": "PT", "providername": "PT"}]
+- API success (status and response are correct).
+- Response time: 0.021577
+---
+- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+- api params: {'type': 'lived'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.020981 (seconds)
+- api response: 
+[{"providerid": "AG", "providername": "AG"}, {"providerid": "BB_LIVED", "providername": "BB_LIVED"}, {"providerid": "EVO", "providername": "EVO"}]
+- API success (status and response are correct).
+- Response time: 0.020981
+---
+- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+- api params: {'type': 'fish'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021245 (seconds)
+- api response: 
+[{"providerid": "BB_FISH", "providername": "BB_FISH"}, {"providerid": "JDB_FISH", "providername": "JDB_FISH"}]
+- API success (status and response are correct).
+- Response time: 0.021245
+---
+- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+- api params: {'type': 'poker'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.020389 (seconds)
+- api response: 
+[{"providerid": "BB_POKER", "providername": "BB_POKER"}, {"providerid": "JDB_POKER", "providername": "JDB_POKER"}, {"providerid": "KG", "providername": "KG"}]
+- API success (status and response are correct).
+- Response time: 0.020389
+---
+- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+- api params: {'type': 'sport'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021065 (seconds)
+- api response: 
+[{"providerid": "BB_SPORT", "providername": "BB_SPORT"}]
+- API success (status and response are correct).
+- Response time: 0.021065
+---
+- api url: http://tadmapi.o2ogt.com//api/provider/content/comm/list
+- api params: {'type': 'lottery'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021128 (seconds)
+- api response: 
+[{"providerid": "BB_LOTTERY", "providername": "BB_LOTTERY"}, {"providerid": "DL", "providername": "DL"}]
+- API success (status and response are correct).
+- Response time: 0.021128
+---# Test Result: PASS
+
+End << 07月22日15時59分02秒 [Feature] API POST provider content comm list
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1559
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

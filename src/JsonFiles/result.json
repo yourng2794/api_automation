@@ -1,0 +1,7 @@
+{
+    "status_id": 1,
+    "comment": "\nStart >>08\u670823\u65e515\u664249\u520627\u79d2 [Portal] API POST logout current account\n\n- api url: http://tadmapi.o2ogt.com/logout\n- api params: {}\n- api data: {}\n- api headers: {'content-type': 'application/json'}\n- Status code: 200\n- Compare response: Success, 0.035429 (seconds)\n- API success (status and response are correct).\n- Response time: 0.035429\n---\n---\n# Test Result: PASS\n\nEnd << 08\u670823\u65e515\u664249\u520627\u79d2 [Portal] API POST logout current account",
+    "elapsed": "1s",
+    "defects": "",
+    "version": "Web build Aug23_1549"
+}

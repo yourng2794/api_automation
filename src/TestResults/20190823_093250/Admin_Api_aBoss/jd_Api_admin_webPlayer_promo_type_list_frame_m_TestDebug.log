@@ -1,0 +1,630 @@
+
+* Run test case: jd_Api_admin_webPlayer_promo_type_list_frame_m.py
+********Test Case: jd_Api_admin_webPlayer_promo_type_list_frame_m.py********
+
+	Start >>08月23日09時35分52秒 [Feature] API POST webPlayer promo type list frame m
+
+		New ini value is: API.bankerId = 619da70cf372717e11eff31f1d619ef9
+		New ini value is: API.promoType = 1
+		New ini value is: API.page = 
+		New ini value is: API.api_path = api/webPlayer/promo/type/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+
+		- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '1', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.051531 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type">
+   QAbanker11
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QA一般範本11
+   </div>
+   <div class="crm-edit btn-popup" id="77">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang469">
+      活动条件
+     </b>
+    </label>
+    <p>
+     1.会员登入
+    </p>
+    <p>
+     2.总投注金额(6)/1000
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang218">
+      奖励内容
+     </b>
+    </label>
+    <p>
+     1.赠送金额:2.5
+    </p>
+    <p>
+     2.优惠稽核倍数:10.00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1083">
+      最后编辑者
+     </b>
+    </label>
+    <p>
+     A_Boss
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1084">
+      最后异动时间
+     </b>
+    </label>
+    <p>
+     2019-08-23 09:35:35
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.051531
+
+		- Success get promoTypeName: QA一般範本11
+
+		- Success get promoTypeId: 77
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 2
+		New ini value is: API.api_path = api/webPlayer/promo/type/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+
+		- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '2', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041701 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type">
+   QAbanker11
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QA生日範本11
+   </div>
+   <div class="crm-edit btn-popup" id="78">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang469">
+      活动条件
+     </b>
+    </label>
+    <p>
+     1.当月存款金额:100
+    </p>
+    <p>
+     2.放宽天数:5
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang218">
+      奖励内容
+     </b>
+    </label>
+    <p>
+     1.赠送金额:2.5
+    </p>
+    <p>
+     2.优惠稽核倍数:10.00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1083">
+      最后编辑者
+     </b>
+    </label>
+    <p>
+     A_Boss
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1084">
+      最后异动时间
+     </b>
+    </label>
+    <p>
+     2019-08-23 09:35:38
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041701
+
+		- Success get promoTypeName: QA生日範本11
+
+		- Success get promoTypeId: 78
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 3
+		New ini value is: API.api_path = api/webPlayer/promo/type/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+
+		- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '3', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.042909 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type">
+   QAbanker11
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QA救援範本11
+   </div>
+   <div class="crm-edit btn-popup" id="79">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang469">
+      活动条件
+     </b>
+    </label>
+    <p>
+     1.派发时间:06:00
+    </p>
+    <p>
+     2.派发下限:10
+    </p>
+    <p>
+     3.派发上限:1000
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang218">
+      奖励内容
+     </b>
+    </label>
+    <p>
+     1.赠送比例:2.50
+    </p>
+    <p>
+     2.优惠稽核倍数:10.00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1083">
+      最后编辑者
+     </b>
+    </label>
+    <p>
+     A_Boss
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1084">
+      最后异动时间
+     </b>
+    </label>
+    <p>
+     2019-08-23 09:35:41
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.042909
+
+		- Success get promoTypeName: QA救援範本11
+
+		- Success get promoTypeId: 79
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 4
+		New ini value is: API.api_path = api/webPlayer/promo/type/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+
+		- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '4', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.064174 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type">
+   QAbanker11
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QA好友範本11
+   </div>
+   <div class="crm-edit btn-popup" id="80">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang469">
+      活动条件
+     </b>
+    </label>
+    <p>
+     1.累计推荐人数:10 / 累计被推荐人存款金额:100 / 达成后可领取:10
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang218">
+      奖励内容
+     </b>
+    </label>
+    <p>
+     1.优惠稽核倍数:10.00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1083">
+      最后编辑者
+     </b>
+    </label>
+    <p>
+     A_Boss
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1084">
+      最后异动时间
+     </b>
+    </label>
+    <p>
+     2019-08-23 09:35:43
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.064174
+
+		- Success get promoTypeName: QA好友範本11
+
+		- Success get promoTypeId: 80
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoType = 5
+		New ini value is: API.api_path = api/webPlayer/promo/type/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+
+		- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '5', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.043668 (seconds)
+
+		Response data: <div class="result-box">
+ <b class="lang110">
+ </b>
+ <span>
+  1
+ </span>
+ <b class="lang947">
+ </b>
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type">
+   QAbanker11
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QA簽到範本11
+   </div>
+   <div class="crm-edit btn-popup" id="81">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang469">
+      活动条件
+     </b>
+    </label>
+    <p>
+     1.每日最低存款金额:100
+    </p>
+    <p>
+     2.累计签到天数:7
+    </p>
+    <p>
+     3.达到天数后可领取:100
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang218">
+      奖励内容
+     </b>
+    </label>
+    <p>
+     1.赠送金额:2.5
+    </p>
+    <p>
+     2.优惠稽核倍数:10.00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1083">
+      最后编辑者
+     </b>
+    </label>
+    <p>
+     A_Boss
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1084">
+      最后异动时间
+     </b>
+    </label>
+    <p>
+     2019-08-23 09:35:46
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.043668
+
+		- Success get promoTypeName: QA簽到範本11
+
+		- Success get promoTypeId: 81
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.promoTypeId = 77
+		New ini value is: API.promoTypeId2 = 78
+		New ini value is: API.promoTypeId3 = 79
+		New ini value is: API.promoTypeId4 = 80
+		New ini value is: API.promoTypeId5 = 81
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日09時35分52秒 [Feature] API POST webPlayer promo type list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時35分52秒 [Feature] API POST webPlayer promo type list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '1', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.051531 (seconds)
+- API success (status and response are correct).
+- Response time: 0.051531
+- Success get promoTypeName: QA一般範本11
+- Success get promoTypeId: 77
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '2', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041701 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041701
+- Success get promoTypeName: QA生日範本11
+- Success get promoTypeId: 78
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '3', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.042909 (seconds)
+- API success (status and response are correct).
+- Response time: 0.042909
+- Success get promoTypeName: QA救援範本11
+- Success get promoTypeId: 79
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '4', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.064174 (seconds)
+- API success (status and response are correct).
+- Response time: 0.064174
+- Success get promoTypeName: QA好友範本11
+- Success get promoTypeId: 80
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/type/list/frame/m
+- api params: {'bankerId': '619da70cf372717e11eff31f1d619ef9', 'promoType': '5', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.043668 (seconds)
+- API success (status and response are correct).
+- Response time: 0.043668
+- Success get promoTypeName: QA簽到範本11
+- Success get promoTypeId: 81
+- - -
+# Test Result: PASS
+
+End << 08月23日09時35分52秒 [Feature] API POST webPlayer promo type list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0935
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

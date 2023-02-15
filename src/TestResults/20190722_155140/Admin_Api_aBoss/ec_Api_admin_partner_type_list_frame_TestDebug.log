@@ -1,0 +1,265 @@
+
+* Run test case: ec_Api_admin_partner_type_list_frame.py
+********Test Case: ec_Api_admin_partner_type_list_frame.py********
+
+	Start >>07月22日15時53分00秒 [Feature] API POST partner type list frame
+
+		New ini value is: API.api_path = api/partner/type/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/partner/type/list/frame
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.02653 (seconds)
+
+		- api response: 
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   1
+  </div>
+  <div class="box-20">
+   QAtype1
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="97a2fa8b151e88da50b01f91835ed0cc" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="97a2fa8b151e88da50b01f91835ed0cc" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="97a2fa8b151e88da50b01f91835ed0cc" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="97a2fa8b151e88da50b01f91835ed0cc" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li class="j-listStatus" data-undelete="1">
+ <div class="list-group main-type">
+  <div class="box-8 txt-c">
+   2
+  </div>
+  <div class="box-20">
+   莊家
+  </div>
+  <div class="box-15 txt-c">
+   7
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="查看" href="client_type_edit.html" id="bankerType" title="查看">
+   <i class="fas fa-info-circle">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="bankerType" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="bankerType" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		Response data: <li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   1
+  </div>
+  <div class="box-20">
+   QAtype1
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="97a2fa8b151e88da50b01f91835ed0cc" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="97a2fa8b151e88da50b01f91835ed0cc" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="97a2fa8b151e88da50b01f91835ed0cc" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="97a2fa8b151e88da50b01f91835ed0cc" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li class="j-listStatus" data-undelete="1">
+ <div class="list-group main-type">
+  <div class="box-8 txt-c">
+   2
+  </div>
+  <div class="box-20">
+   莊家
+  </div>
+  <div class="box-15 txt-c">
+   7
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="查看" href="client_type_edit.html" id="bankerType" title="查看">
+   <i class="fas fa-info-circle">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="bankerType" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="bankerType" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.02653
+
+		- Success get typeName: QAtype1
+
+		- Success get typeId: 97a2fa8b151e88da50b01f91835ed0cc
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'PASS']
+		New ini value is: API.typeid = 97a2fa8b151e88da50b01f91835ed0cc
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時53分00秒 [Feature] API POST partner type list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時53分00秒 [Feature] API POST partner type list frame
+
+- api url: http://tadmapi.o2ogt.com/api/partner/type/list/frame
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.02653 (seconds)
+- api response: 
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   1
+  </div>
+  <div class="box-20">
+   QAtype1
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="97a2fa8b151e88da50b01f91835ed0cc" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="97a2fa8b151e88da50b01f91835ed0cc" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="97a2fa8b151e88da50b01f91835ed0cc" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="97a2fa8b151e88da50b01f91835ed0cc" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li class="j-listStatus" data-undelete="1">
+ <div class="list-group main-type">
+  <div class="box-8 txt-c">
+   2
+  </div>
+  <div class="box-20">
+   莊家
+  </div>
+  <div class="box-15 txt-c">
+   7
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="查看" href="client_type_edit.html" id="bankerType" title="查看">
+   <i class="fas fa-info-circle">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="bankerType" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="bankerType" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+
+- API success (status and response are correct).
+- Response time: 0.02653
+- Success get typeName: QAtype1
+- Success get typeId: 97a2fa8b151e88da50b01f91835ed0cc
+- - -
+# Test Result: PASS
+
+End << 07月22日15時53分00秒 [Feature] API POST partner type list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1553
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

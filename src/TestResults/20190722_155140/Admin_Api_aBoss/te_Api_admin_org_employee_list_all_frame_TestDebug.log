@@ -1,0 +1,1035 @@
+
+* Run test case: te_Api_admin_org_employee_list_all_frame.py
+********Test Case: te_Api_admin_org_employee_list_all_frame.py********
+
+	Start >>07月22日15時58分40秒 [Feature] API POST org. employee list all frame
+
+		New ini value is: API.api_path = api/organization/department/jobtitle/employee/list/all/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/all/frame
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.012091 (seconds)
+
+		- api response: 
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-20">
+   bdleader1
+  </div>
+  <div class="box-15" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-15" id="ef6b4590a8f9d43455f92eb06492659f">
+   BD主管
+  </div>
+  <div class="box-35">
+   BD主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="9c33fae409429ed3b4422d94ee9a1238" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9c33fae409429ed3b4422d94ee9a1238" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   2
+  </div>
+  <div class="box-20">
+   bdemp1
+  </div>
+  <div class="box-15" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-15" id="b0c00e8b89ff0dda59f8c5f76c5c54a8">
+   BD员工
+  </div>
+  <div class="box-35">
+   BD员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="6526d2800bf420050799cc986d7aa526" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="6526d2800bf420050799cc986d7aa526" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   3
+  </div>
+  <div class="box-20">
+   QAemployee1
+  </div>
+  <div class="box-15" id="a9bafa0b40a1f9b038ff496891759a90">
+   QAdept1
+  </div>
+  <div class="box-15" id="e7245390615ec4f0651db7bb597f541d">
+   QAtitle1
+  </div>
+  <div class="box-35">
+   AfterEdit
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="75e4d30a7502b99495ebf32e53a29ea5" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="75e4d30a7502b99495ebf32e53a29ea5" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   4
+  </div>
+  <div class="box-20">
+   accleader1
+  </div>
+  <div class="box-15" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-15" id="65813d07a724b7d745885993a2cac047">
+   会计主管
+  </div>
+  <div class="box-35">
+   会计主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="cb18add156ce597cf071c098f458ee57" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="cb18add156ce597cf071c098f458ee57" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   5
+  </div>
+  <div class="box-20">
+   accemp1
+  </div>
+  <div class="box-15" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-15" id="6376342a7ed769ae2fb5f09c7e77712c">
+   会计员工
+  </div>
+  <div class="box-35">
+   会计员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="90d15700199fc36f42e7d201d8451019" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="90d15700199fc36f42e7d201d8451019" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   6
+  </div>
+  <div class="box-20">
+   gmleader1
+  </div>
+  <div class="box-15" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-15" id="88bb8c37365fc3c916373b322f5c9b44">
+   客服主管
+  </div>
+  <div class="box-35">
+   客服主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="0b341d17c107a4b2e8f7ada73b7928c5" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="0b341d17c107a4b2e8f7ada73b7928c5" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   7
+  </div>
+  <div class="box-20">
+   gmemp1
+  </div>
+  <div class="box-15" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-15" id="057a7926356a856bdba13d4d714f1077">
+   客服员工
+  </div>
+  <div class="box-35">
+   客服员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="9e571ede172dd2dfc715014f50942f0c" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9e571ede172dd2dfc715014f50942f0c" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   8
+  </div>
+  <div class="box-20">
+   affleader1
+  </div>
+  <div class="box-15" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-15" id="bdc788a37a4aaf7def2b4958816e6d2c">
+   推广主管
+  </div>
+  <div class="box-35">
+   推广主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="0a7657f3d2b16238754dfbdf87762f6e" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="0a7657f3d2b16238754dfbdf87762f6e" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   9
+  </div>
+  <div class="box-20">
+   affemp1
+  </div>
+  <div class="box-15" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-15" id="804f3fb39217da610e25554275a4fd50">
+   推广员工
+  </div>
+  <div class="box-35">
+   推广员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="8a5370fc1e7953c7ef8065839fb26598" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="8a5370fc1e7953c7ef8065839fb26598" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   10
+  </div>
+  <div class="box-20">
+   mleader1
+  </div>
+  <div class="box-15" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-15" id="d32f3f5b9b6f27cf66e9256b7db805c3">
+   管理主管
+  </div>
+  <div class="box-35">
+   管理主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="9ad23013e71c89cd0a50a1e45f0a3c68" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9ad23013e71c89cd0a50a1e45f0a3c68" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   11
+  </div>
+  <div class="box-20">
+   memp1
+  </div>
+  <div class="box-15" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-15" id="5007975a7bf07ad9471fdd44ae9d5f58">
+   管理员工
+  </div>
+  <div class="box-35">
+   管理员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="e138f42b3139ffc4ee088d74e77331ce" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="e138f42b3139ffc4ee088d74e77331ce" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		Response data: <li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-20">
+   bdleader1
+  </div>
+  <div class="box-15" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-15" id="ef6b4590a8f9d43455f92eb06492659f">
+   BD主管
+  </div>
+  <div class="box-35">
+   BD主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="9c33fae409429ed3b4422d94ee9a1238" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9c33fae409429ed3b4422d94ee9a1238" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   2
+  </div>
+  <div class="box-20">
+   bdemp1
+  </div>
+  <div class="box-15" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-15" id="b0c00e8b89ff0dda59f8c5f76c5c54a8">
+   BD员工
+  </div>
+  <div class="box-35">
+   BD员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="6526d2800bf420050799cc986d7aa526" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="6526d2800bf420050799cc986d7aa526" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   3
+  </div>
+  <div class="box-20">
+   QAemployee1
+  </div>
+  <div class="box-15" id="a9bafa0b40a1f9b038ff496891759a90">
+   QAdept1
+  </div>
+  <div class="box-15" id="e7245390615ec4f0651db7bb597f541d">
+   QAtitle1
+  </div>
+  <div class="box-35">
+   AfterEdit
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="75e4d30a7502b99495ebf32e53a29ea5" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="75e4d30a7502b99495ebf32e53a29ea5" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   4
+  </div>
+  <div class="box-20">
+   accleader1
+  </div>
+  <div class="box-15" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-15" id="65813d07a724b7d745885993a2cac047">
+   会计主管
+  </div>
+  <div class="box-35">
+   会计主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="cb18add156ce597cf071c098f458ee57" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="cb18add156ce597cf071c098f458ee57" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   5
+  </div>
+  <div class="box-20">
+   accemp1
+  </div>
+  <div class="box-15" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-15" id="6376342a7ed769ae2fb5f09c7e77712c">
+   会计员工
+  </div>
+  <div class="box-35">
+   会计员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="90d15700199fc36f42e7d201d8451019" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="90d15700199fc36f42e7d201d8451019" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   6
+  </div>
+  <div class="box-20">
+   gmleader1
+  </div>
+  <div class="box-15" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-15" id="88bb8c37365fc3c916373b322f5c9b44">
+   客服主管
+  </div>
+  <div class="box-35">
+   客服主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="0b341d17c107a4b2e8f7ada73b7928c5" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="0b341d17c107a4b2e8f7ada73b7928c5" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   7
+  </div>
+  <div class="box-20">
+   gmemp1
+  </div>
+  <div class="box-15" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-15" id="057a7926356a856bdba13d4d714f1077">
+   客服员工
+  </div>
+  <div class="box-35">
+   客服员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="9e571ede172dd2dfc715014f50942f0c" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9e571ede172dd2dfc715014f50942f0c" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   8
+  </div>
+  <div class="box-20">
+   affleader1
+  </div>
+  <div class="box-15" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-15" id="bdc788a37a4aaf7def2b4958816e6d2c">
+   推广主管
+  </div>
+  <div class="box-35">
+   推广主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="0a7657f3d2b16238754dfbdf87762f6e" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="0a7657f3d2b16238754dfbdf87762f6e" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   9
+  </div>
+  <div class="box-20">
+   affemp1
+  </div>
+  <div class="box-15" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-15" id="804f3fb39217da610e25554275a4fd50">
+   推广员工
+  </div>
+  <div class="box-35">
+   推广员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="8a5370fc1e7953c7ef8065839fb26598" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="8a5370fc1e7953c7ef8065839fb26598" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   10
+  </div>
+  <div class="box-20">
+   mleader1
+  </div>
+  <div class="box-15" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-15" id="d32f3f5b9b6f27cf66e9256b7db805c3">
+   管理主管
+  </div>
+  <div class="box-35">
+   管理主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="9ad23013e71c89cd0a50a1e45f0a3c68" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9ad23013e71c89cd0a50a1e45f0a3c68" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   11
+  </div>
+  <div class="box-20">
+   memp1
+  </div>
+  <div class="box-15" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-15" id="5007975a7bf07ad9471fdd44ae9d5f58">
+   管理员工
+  </div>
+  <div class="box-35">
+   管理员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="e138f42b3139ffc4ee088d74e77331ce" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="e138f42b3139ffc4ee088d74e77331ce" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.012091
+
+		- Success get userAcc: QAemployee1
+
+		- Success get userId: 75e4d30a7502b99495ebf32e53a29ea5
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時58分41秒 [Feature] API POST org. employee list all frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時58分40秒 [Feature] API POST org. employee list all frame
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/all/frame
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.012091 (seconds)
+- api response: 
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-20">
+   bdleader1
+  </div>
+  <div class="box-15" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-15" id="ef6b4590a8f9d43455f92eb06492659f">
+   BD主管
+  </div>
+  <div class="box-35">
+   BD主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="9c33fae409429ed3b4422d94ee9a1238" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9c33fae409429ed3b4422d94ee9a1238" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   2
+  </div>
+  <div class="box-20">
+   bdemp1
+  </div>
+  <div class="box-15" id="8aff10c24b8a0fe2504d37a8851023e2">
+   BD部门
+  </div>
+  <div class="box-15" id="b0c00e8b89ff0dda59f8c5f76c5c54a8">
+   BD员工
+  </div>
+  <div class="box-35">
+   BD员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="6526d2800bf420050799cc986d7aa526" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="6526d2800bf420050799cc986d7aa526" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   3
+  </div>
+  <div class="box-20">
+   QAemployee1
+  </div>
+  <div class="box-15" id="a9bafa0b40a1f9b038ff496891759a90">
+   QAdept1
+  </div>
+  <div class="box-15" id="e7245390615ec4f0651db7bb597f541d">
+   QAtitle1
+  </div>
+  <div class="box-35">
+   AfterEdit
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="75e4d30a7502b99495ebf32e53a29ea5" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="75e4d30a7502b99495ebf32e53a29ea5" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   4
+  </div>
+  <div class="box-20">
+   accleader1
+  </div>
+  <div class="box-15" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-15" id="65813d07a724b7d745885993a2cac047">
+   会计主管
+  </div>
+  <div class="box-35">
+   会计主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="cb18add156ce597cf071c098f458ee57" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="cb18add156ce597cf071c098f458ee57" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   5
+  </div>
+  <div class="box-20">
+   accemp1
+  </div>
+  <div class="box-15" id="b8a91b4c5b745c3b21273cd3f4db3d32">
+   会计部门
+  </div>
+  <div class="box-15" id="6376342a7ed769ae2fb5f09c7e77712c">
+   会计员工
+  </div>
+  <div class="box-35">
+   会计员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="90d15700199fc36f42e7d201d8451019" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="90d15700199fc36f42e7d201d8451019" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   6
+  </div>
+  <div class="box-20">
+   gmleader1
+  </div>
+  <div class="box-15" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-15" id="88bb8c37365fc3c916373b322f5c9b44">
+   客服主管
+  </div>
+  <div class="box-35">
+   客服主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="0b341d17c107a4b2e8f7ada73b7928c5" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="0b341d17c107a4b2e8f7ada73b7928c5" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   7
+  </div>
+  <div class="box-20">
+   gmemp1
+  </div>
+  <div class="box-15" id="c566ebabc422b191ac6dc27ca806ee02">
+   客服部门
+  </div>
+  <div class="box-15" id="057a7926356a856bdba13d4d714f1077">
+   客服员工
+  </div>
+  <div class="box-35">
+   客服员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="9e571ede172dd2dfc715014f50942f0c" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9e571ede172dd2dfc715014f50942f0c" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   8
+  </div>
+  <div class="box-20">
+   affleader1
+  </div>
+  <div class="box-15" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-15" id="bdc788a37a4aaf7def2b4958816e6d2c">
+   推广主管
+  </div>
+  <div class="box-35">
+   推广主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="0a7657f3d2b16238754dfbdf87762f6e" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="0a7657f3d2b16238754dfbdf87762f6e" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   9
+  </div>
+  <div class="box-20">
+   affemp1
+  </div>
+  <div class="box-15" id="2e6b2b0c78fa2549b3836d7b6099857f">
+   推广部门
+  </div>
+  <div class="box-15" id="804f3fb39217da610e25554275a4fd50">
+   推广员工
+  </div>
+  <div class="box-35">
+   推广员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="8a5370fc1e7953c7ef8065839fb26598" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="8a5370fc1e7953c7ef8065839fb26598" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   10
+  </div>
+  <div class="box-20">
+   mleader1
+  </div>
+  <div class="box-15" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-15" id="d32f3f5b9b6f27cf66e9256b7db805c3">
+   管理主管
+  </div>
+  <div class="box-35">
+   管理主管
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="9ad23013e71c89cd0a50a1e45f0a3c68" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9ad23013e71c89cd0a50a1e45f0a3c68" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div alt="編輯" class="list-group" title="編輯">
+  <div class="box-10 txt-c">
+   11
+  </div>
+  <div class="box-20">
+   memp1
+  </div>
+  <div class="box-15" id="bossSid">
+   管理部門
+  </div>
+  <div class="box-15" id="5007975a7bf07ad9471fdd44ae9d5f58">
+   管理员工
+  </div>
+  <div class="box-35">
+   管理员工
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="編輯" href="organize_all_mem_edit.html" id="e138f42b3139ffc4ee088d74e77331ce" title="編輯">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="e138f42b3139ffc4ee088d74e77331ce" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+
+- API success (status and response are correct).
+- Response time: 0.012091
+- Success get userAcc: QAemployee1
+- Success get userId: 75e4d30a7502b99495ebf32e53a29ea5
+- - -
+# Test Result: PASS
+
+End << 07月22日15時58分41秒 [Feature] API POST org. employee list all frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1558
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

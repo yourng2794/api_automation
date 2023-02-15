@@ -1,0 +1,88 @@
+
+* Run test case: ff_Api_admin_webPlayer_vip_edit.py
+********Test Case: ff_Api_admin_webPlayer_vip_edit.py********
+
+	Start >>07月22日15時53分54秒 [Feature] API POST webPlayer vip edit
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.vipname = QAvip1
+		New ini value is: API.vipId = b01bf316216d1aa054c9df0aea873425
+		New ini value is: API.deposittimes = 10
+		New ini value is: API.deposittotal = 
+		New ini value is: API.maxdepositamount = 2000
+		New ini value is: API.maxwithdrawalamount = 1000
+		New ini value is: API.withdrawaltimes = 10
+		New ini value is: API.withdrawaltotal = 100
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/edit
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipName': 'QAvip1', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'depositTimes': '10', 'depositTotal': '', 'maxDepositAmount': '2000', 'maxWithdrawalAmount': '1000', 'withdrawalTimes': '10', 'withdrawalTotal': '100'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.034152 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.034152
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 07月22日15時53分54秒 [Feature] API POST webPlayer vip edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時53分54秒 [Feature] API POST webPlayer vip edit
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/edit
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1', 'vipName': 'QAvip1', 'vipId': 'b01bf316216d1aa054c9df0aea873425', 'depositTimes': '10', 'depositTotal': '', 'maxDepositAmount': '2000', 'maxWithdrawalAmount': '1000', 'withdrawalTimes': '10', 'withdrawalTotal': '100'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.034152 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+- API success (status and response are correct).
+- Response time: 0.034152
+- - -
+# Test Result: PASS
+
+End << 07月22日15時53分54秒 [Feature] API POST webPlayer vip edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1553
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

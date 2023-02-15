@@ -1,0 +1,64 @@
+
+* Run test case: fe_Api_admin_webPlayer_vip_edit_get.py
+********Test Case: fe_Api_admin_webPlayer_vip_edit_get.py********
+
+	Start >>04月19日18時35分49秒 [Feature] API POST webPlayer vip edit get
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.vipId = 5a03c800d507b03990581e1352bf3848
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/edit/get
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'vipId': '5a03c800d507b03990581e1352bf3848'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.501502 (seconds)
+
+		Response data: 
+{
+    "banker_id": "835bd15c55ec6df3fe054f3aed828e41",
+    "createtime": "2019-04-19 10:35:40",
+    "depositTimes": "10",
+    "depositTotal": 0,
+    "maxDepositAmount": "2000",
+    "maxWithdrawalAmount": "1000",
+    "pt_id": "123456",
+    "pt_name": "Bonnie",
+    "vip_id": "5a03c800d507b03990581e1352bf3848",
+    "vip_name": "QAvip19",
+    "web_site": "",
+    "withdrawalTimes": "10",
+    "withdrawalTotal": "100"
+}
+
+		- Success get: pt_id.
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時35分49秒 [Feature] API POST webPlayer vip edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

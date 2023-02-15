@@ -1,0 +1,292 @@
+
+* Run test case: fh_Api_admin_webPlayer_vip_delete.py
+********Test Case: fh_Api_admin_webPlayer_vip_delete.py********
+
+	Start >>08月23日15時44分47秒 [Feature] API POST webPlayer vip delete
+
+		New ini value is: API.webId = 1c049b9bc588fead28c0e84492f051a2
+		New ini value is: API.bankerId = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.vipname = DeleteVIP
+		New ini value is: API.depositTimes = 100
+		New ini value is: API.depositTotal = 
+		New ini value is: API.webDomainId = 508ed892fd23d591f2113b078c2bbe9d
+		New ini value is: API.webDomainUrl = 10.1.10.12
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/create
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'vipName': 'DeleteVIP', 'depositTimes': '100', 'depositTotal': '', 'webDomainId': '508ed892fd23d591f2113b078c2bbe9d', 'webDomainUrl': '10.1.10.12', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.06268 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.06268
+
+		- - -
+
+['PASS']
+		New ini value is: API.webId = 1c049b9bc588fead28c0e84492f051a2
+		New ini value is: API.bankerId = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.api_path = api/webPlayer/vip/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/list/frame
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.04196 (seconds)
+
+		Response data: <div class="list-info-box">
+ <b class="lang796">
+  共
+ </b>
+ <span id="dataNum">
+  2
+ </span>
+ 个层级
+ <b class="lang21">
+ </b>
+ <div class="btn btn-orange" id="sortBtn">
+  <i class="fas fa-arrows-alt-v">
+  </i>
+  <b class="lang538">
+   编辑排序
+  </b>
+ </div>
+ <div class="btn btn-orange" id="sortComBtn" style="display: none;">
+  <i class="fas fa-arrows-alt-v">
+  </i>
+  <b class="lang499">
+   确定排序
+  </b>
+ </div>
+ <a class="btn btn-orange" href="web_level_add.html" id="levelAddBtn">
+  <i class="far fa-plus">
+  </i>
+  <b class="lang371">
+  </b>
+ </a>
+</div>
+<ul class="list sort-tit">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    <b class="lang744">
+    </b>
+   </div>
+   <div class="box-12">
+    <b class="lang244">
+    </b>
+   </div>
+   <div class="box-12 txt-c">
+    <b class="lang38">
+     人数
+    </b>
+   </div>
+   <div class="box-12 txt-c">
+    <b class="lang282">
+     庄家
+    </b>
+   </div>
+   <div class="box-25">
+    <b class="lang170">
+    </b>
+   </div>
+  </div>
+ </li>
+</ul>
+<ul class="list" id="sortList">
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-12" id="e1f69f6148f64c940e76b08809050fe8">
+    QAvip12
+   </div>
+   <div class="box-12 txt-c">
+    0
+   </div>
+   <div class="box-12 txt-c">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-08-23 07:44:29
+   </div>
+  </div>
+  <div class="operate-box oper-box">
+   <a alt="lang531" href="web_level_edit.html" id="e1f69f6148f64c940e76b08809050fe8" title="lang531">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="lang158" class="del" href="#" id="e1f69f6148f64c940e76b08809050fe8" title="lang158">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+  <div class="operate-box sort-box" style="display: none;">
+   <a alt="排序" class="sort" id="" title="排序">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    2
+   </div>
+   <div class="box-12" id="6c0f4cd4f969e1aecb8e7dc4d8916026">
+    DeleteVIP
+   </div>
+   <div class="box-12 txt-c">
+    0
+   </div>
+   <div class="box-12 txt-c">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-08-23 07:44:46
+   </div>
+  </div>
+  <div class="operate-box oper-box">
+   <a alt="lang531" href="web_level_edit.html" id="6c0f4cd4f969e1aecb8e7dc4d8916026" title="lang531">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="lang158" class="del" href="#" id="6c0f4cd4f969e1aecb8e7dc4d8916026" title="lang158">
+    <i class="fas fa-times">
+    </i>
+   </a>
+  </div>
+  <div class="operate-box sort-box" style="display: none;">
+   <a alt="排序" class="sort" id="" title="排序">
+    <i class="fas fa-arrows-alt-v">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.04196
+
+		- Success get vipname: DeleteVIP
+
+		- Success get vipid: 6c0f4cd4f969e1aecb8e7dc4d8916026
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.webId = 1c049b9bc588fead28c0e84492f051a2
+		New ini value is: API.vipId = 6c0f4cd4f969e1aecb8e7dc4d8916026
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/delete
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'vipId': '6c0f4cd4f969e1aecb8e7dc4d8916026'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.040407 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040407
+
+		- - -
+
+['PASS']
+[True, True, True]
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+		New ini value is: API.vipId = 
+	<< End Tear Down
+
+
+	End << 08月23日15時44分47秒 [Feature] API POST webPlayer vip delete
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時44分47秒 [Feature] API POST webPlayer vip delete
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/create
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'vipName': 'DeleteVIP', 'depositTimes': '100', 'depositTotal': '', 'webDomainId': '508ed892fd23d591f2113b078c2bbe9d', 'webDomainUrl': '10.1.10.12', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.06268 (seconds)
+- API success (status and response are correct).
+- Response time: 0.06268
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/list/frame
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.04196 (seconds)
+- API success (status and response are correct).
+- Response time: 0.04196
+- Success get vipname: DeleteVIP
+- Success get vipid: 6c0f4cd4f969e1aecb8e7dc4d8916026
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/vip/delete
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'vipId': '6c0f4cd4f969e1aecb8e7dc4d8916026'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.040407 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040407
+- - -
+# Test Result: PASS
+
+End << 08月23日15時44分47秒 [Feature] API POST webPlayer vip delete
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1544
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

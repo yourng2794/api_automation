@@ -1,0 +1,103 @@
+
+* Run test case: me_Api_admin_provider_bankCard_edit.py
+********Test Case: me_Api_admin_provider_bankCard_edit.py********
+
+	Start >>07月22日15時56分49秒 [Feature] API POST provider bankCard edit
+
+		New ini value is: API.bankName = QAbank1
+		New ini value is: API.branchName = Branch1
+		New ini value is: API.bankAcc = 000000001231
+		New ini value is: API.accName = QAbank1
+		New ini value is: API.cardId = 21bc3b3696d75a846fffb7cd3b67317b
+		New ini value is: API.currency = CNY
+		New ini value is: API.amount = 5000
+		New ini value is: API.maxwithdraw = 3000
+		New ini value is: API.maxdeposit = 1000
+		New ini value is: API.mindeposit = 100
+		New ini value is: API.option = 3
+		New ini value is: API.enable = 1
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/bankCard/edit
+
+		- api params: {'cardId': '21bc3b3696d75a846fffb7cd3b67317b', 'bankName': 'QAbank1', 'branchName': 'Branch1', 'bankAcc': '000000001231', 'accName': 'QAbank1', 'currency': 'CNY', 'amount': '5000', 'maxwithdraw': '3000', 'maxdeposit': '1000', 'mindeposit': '100', 'option': '3', 'enable': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.03457 (seconds)
+
+		- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.03457
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankName = 
+		New ini value is: API.branchName = 
+		New ini value is: API.bankAcc = 
+		New ini value is: API.accName = 
+		New ini value is: API.cardId = 
+		New ini value is: API.currency = 
+		New ini value is: API.amount = 
+		New ini value is: API.maxwithdraw = 
+		New ini value is: API.maxdeposit = 
+		New ini value is: API.mindeposit = 
+		New ini value is: API.option = 
+		New ini value is: API.enable = 
+	<< End Tear Down
+
+
+	End << 07月22日15時56分49秒 [Feature] API POST provider bankCard edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時56分49秒 [Feature] API POST provider bankCard edit
+
+- api url: http://tadmapi.o2ogt.com/api/provider/bankCard/edit
+- api params: {'cardId': '21bc3b3696d75a846fffb7cd3b67317b', 'bankName': 'QAbank1', 'branchName': 'Branch1', 'bankAcc': '000000001231', 'accName': 'QAbank1', 'currency': 'CNY', 'amount': '5000', 'maxwithdraw': '3000', 'maxdeposit': '1000', 'mindeposit': '100', 'option': '3', 'enable': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.03457 (seconds)
+- api response: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+- API success (status and response are correct).
+- Response time: 0.03457
+- - -
+# Test Result: PASS
+
+End << 07月22日15時56分49秒 [Feature] API POST provider bankCard edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1556
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

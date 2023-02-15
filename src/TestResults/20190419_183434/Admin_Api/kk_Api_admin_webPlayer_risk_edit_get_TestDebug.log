@@ -1,0 +1,89 @@
+
+* Run test case: kk_Api_admin_webPlayer_risk_edit_get.py
+********Test Case: kk_Api_admin_webPlayer_risk_edit_get.py********
+
+	Start >>04月19日18時38分09秒 [Feature] API POST webPlayer risk edit get
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.riskid = e3ed4f74eb62925bb76a28a1457fddbe
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/risk/edit/get
+
+		- api params: {'riskid': 'e3ed4f74eb62925bb76a28a1457fddbe', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.213359 (seconds)
+
+		Response data: 
+{
+    "id": "e3ed4f74eb62925bb76a28a1457fddbe",
+    "name": "QArisk",
+    "opt": [
+        {
+            "amount": null,
+            "count": "1",
+            "interval": "1",
+            "name": "单一IP登入",
+            "time": "min",
+            "type": "ipLogin"
+        }
+    ],
+    "website": [
+        {
+            "web_id": "0b82165981316ecf67ad30a5887aa1e9",
+            "web_name": "Testweb19"
+        }
+    ]
+}
+>> Start isInt
+<< Success, End isInt
+>> Start isInt
+<< Success, End isInt
+>> Start isInt
+<< Success, End isInt
+>> Start isInt
+<< Success, End isInt
+
+		- Success get riskid: e3ed4f74eb62925bb76a28a1457fddbe
+
+		- Success get riskname: QArisk
+
+		- Success get opt_name: 单一IP登入
+
+		- Success get opt_count: 1
+
+		- Success get opt_interval: 1
+
+		- Success get opt_time: min
+
+		- Success get opt_type: ipLogin
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時38分09秒 [Feature] API POST webPlayer risk edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

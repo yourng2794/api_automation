@@ -1,0 +1,127 @@
+
+* Run test case: td_Api_admin_org_employee_list_single.py
+********Test Case: td_Api_admin_org_employee_list_single.py********
+
+	Start >>07月22日15時58分38秒 [Feature] API POST org. employee list single
+
+		New ini value is: API.userId = 75e4d30a7502b99495ebf32e53a29ea5
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/single
+
+		- api params: {'userId': '75e4d30a7502b99495ebf32e53a29ea5'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.019657 (seconds)
+
+		- api response: 
+{
+    "dp_name": "QAtitle1",
+    "dp_sid": "e7245390615ec4f0651db7bb597f541d",
+    "og_name": "QAdept1",
+    "og_sid": "a9bafa0b40a1f9b038ff496891759a90",
+    "og_website": [
+        {
+            "web_id": "",
+            "web_name": ""
+        }
+    ],
+    "user_acc": "QAemployee1",
+    "user_id": "75e4d30a7502b99495ebf32e53a29ea5",
+    "user_note": "",
+    "user_pwd": "QAemployee1"
+}
+
+		Response data: {
+    "dp_name": "QAtitle1",
+    "dp_sid": "e7245390615ec4f0651db7bb597f541d",
+    "og_name": "QAdept1",
+    "og_sid": "a9bafa0b40a1f9b038ff496891759a90",
+    "og_website": [
+        {
+            "web_id": "",
+            "web_name": ""
+        }
+    ],
+    "user_acc": "QAemployee1",
+    "user_id": "75e4d30a7502b99495ebf32e53a29ea5",
+    "user_note": "",
+    "user_pwd": "QAemployee1"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.019657
+
+		- Success get userAcc: QAemployee1
+
+		- Success get depTitleId: e7245390615ec4f0651db7bb597f541d
+
+		- Success get depId: a9bafa0b40a1f9b038ff496891759a90
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.userId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時58分38秒 [Feature] API POST org. employee list single
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時58分38秒 [Feature] API POST org. employee list single
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/employee/list/single
+- api params: {'userId': '75e4d30a7502b99495ebf32e53a29ea5'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.019657 (seconds)
+- api response: 
+{
+    "dp_name": "QAtitle1",
+    "dp_sid": "e7245390615ec4f0651db7bb597f541d",
+    "og_name": "QAdept1",
+    "og_sid": "a9bafa0b40a1f9b038ff496891759a90",
+    "og_website": [
+        {
+            "web_id": "",
+            "web_name": ""
+        }
+    ],
+    "user_acc": "QAemployee1",
+    "user_id": "75e4d30a7502b99495ebf32e53a29ea5",
+    "user_note": "",
+    "user_pwd": "QAemployee1"
+}
+- API success (status and response are correct).
+- Response time: 0.019657
+- Success get userAcc: QAemployee1
+- Success get depTitleId: e7245390615ec4f0651db7bb597f541d
+- Success get depId: a9bafa0b40a1f9b038ff496891759a90
+- - -
+# Test Result: PASS
+
+End << 07月22日15時58分38秒 [Feature] API POST org. employee list single
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1558
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

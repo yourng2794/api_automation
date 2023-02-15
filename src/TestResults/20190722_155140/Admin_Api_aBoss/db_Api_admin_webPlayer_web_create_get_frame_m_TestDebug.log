@@ -1,0 +1,479 @@
+
+* Run test case: db_Api_admin_webPlayer_web_create_get_frame_m.py
+********Test Case: db_Api_admin_webPlayer_web_create_get_frame_m.py********
+
+	Start >>07月22日15時52分23秒 [Feature] API POST admin webPlayer web create get frame m
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+		New ini value is: API.api_path = api/webPlayer/web/create/get/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/create/get/frame/m
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.027513 (seconds)
+
+		- api response: 
+<div class="sub-group">
+ <div class="input-box">
+  <label for="webName">
+   庄家名称
+  </label>
+  <p data-bankerid="a97e6eec6fc58c8d8ce2c339b555bbb1" id="bankerName">
+   QAbanker1
+  </p>
+ </div>
+ <div class="input-box">
+  <label for="webName">
+   网站名称
+  </label>
+  <div class="input-sty">
+   <i class="fas fa-user-circle">
+   </i>
+   <input id="webName" name="webName" placeholder="请输入网站名称" type="text" value=""/>
+  </div>
+ </div>
+</div>
+<h4>
+ <i class="far fa-caret-right">
+ </i>
+ 已挂载
+</h4>
+<div class="sub-group">
+ <div class="input-box-b" id="subInput">
+  <div class="input-sty">
+   <input id="srcAddUrl" placeholder="请输入要搜索的网域关键字" type="text" value=""/>
+  </div>
+ </div>
+ <div class="submit-box">
+  <input class="btn cancel" id="clearOnBtn" type="button" value="清除"/>
+  <input class="btn submit" id="srcAddUrlBtn" type="button" value="搜索"/>
+ </div>
+ <div class="result-box">
+  共
+  <span id="dataOnNum">
+   0
+  </span>
+  个网域
+ </div>
+ <ul class="list" id="listOn">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-75">
+     网域
+    </div>
+    <div class="box-20">
+     主网域
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+ </ul>
+ <ul class="list" id="dataOnList">
+ </ul>
+ <div class="no-data" id="noOn">
+  无网域
+ </div>
+</div>
+<h4>
+ <i class="far fa-caret-right">
+ </i>
+ 未挂载
+</h4>
+<div class="sub-group">
+ <div class="input-box-b">
+  <div class="input-sty">
+   <input id="srcUrl" placeholder="请输入要搜索的网域关键字" type="text" value="">
+    <i class="fas fa-times-circle">
+    </i>
+   </input>
+  </div>
+ </div>
+ <div class="submit-box">
+  <input class="btn cancel" id="clearOffBtn" type="button" value="清除"/>
+  <input class="btn submit" id="srcUrlBtn" type="button" value="搜索"/>
+ </div>
+ <div class="result-box">
+  共
+  <span id="dataOffNum">
+   2
+  </span>
+  个网域
+ </div>
+ <ul class="list" id="listOff">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-100">
+     网域
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+ </ul>
+ <ul class="list" id="dataOffList">
+  <li>
+   <div class="group-box-85">
+    <div class="box-100 js-urlId" id="0a3be320a9e6795812440593ab7c8aee">
+     10.1.11.1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="挂载" title="挂载">
+     <i class="fas fa-arrow-up js-addUrl">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-100 js-urlId" id="c0f63e237cebde21e3b7ef9580d2349b">
+     10.1.10.1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="挂载" title="挂载">
+     <i class="fas fa-arrow-up js-addUrl">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+ <div class="no-data" id="noOff" style="display: none;">
+  无网域
+ </div>
+</div>
+
+		Response data: <div class="sub-group">
+ <div class="input-box">
+  <label for="webName">
+   庄家名称
+  </label>
+  <p data-bankerid="a97e6eec6fc58c8d8ce2c339b555bbb1" id="bankerName">
+   QAbanker1
+  </p>
+ </div>
+ <div class="input-box">
+  <label for="webName">
+   网站名称
+  </label>
+  <div class="input-sty">
+   <i class="fas fa-user-circle">
+   </i>
+   <input id="webName" name="webName" placeholder="请输入网站名称" type="text" value=""/>
+  </div>
+ </div>
+</div>
+<h4>
+ <i class="far fa-caret-right">
+ </i>
+ 已挂载
+</h4>
+<div class="sub-group">
+ <div class="input-box-b" id="subInput">
+  <div class="input-sty">
+   <input id="srcAddUrl" placeholder="请输入要搜索的网域关键字" type="text" value=""/>
+  </div>
+ </div>
+ <div class="submit-box">
+  <input class="btn cancel" id="clearOnBtn" type="button" value="清除"/>
+  <input class="btn submit" id="srcAddUrlBtn" type="button" value="搜索"/>
+ </div>
+ <div class="result-box">
+  共
+  <span id="dataOnNum">
+   0
+  </span>
+  个网域
+ </div>
+ <ul class="list" id="listOn">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-75">
+     网域
+    </div>
+    <div class="box-20">
+     主网域
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+ </ul>
+ <ul class="list" id="dataOnList">
+ </ul>
+ <div class="no-data" id="noOn">
+  无网域
+ </div>
+</div>
+<h4>
+ <i class="far fa-caret-right">
+ </i>
+ 未挂载
+</h4>
+<div class="sub-group">
+ <div class="input-box-b">
+  <div class="input-sty">
+   <input id="srcUrl" placeholder="请输入要搜索的网域关键字" type="text" value="">
+    <i class="fas fa-times-circle">
+    </i>
+   </input>
+  </div>
+ </div>
+ <div class="submit-box">
+  <input class="btn cancel" id="clearOffBtn" type="button" value="清除"/>
+  <input class="btn submit" id="srcUrlBtn" type="button" value="搜索"/>
+ </div>
+ <div class="result-box">
+  共
+  <span id="dataOffNum">
+   2
+  </span>
+  个网域
+ </div>
+ <ul class="list" id="listOff">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-100">
+     网域
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+ </ul>
+ <ul class="list" id="dataOffList">
+  <li>
+   <div class="group-box-85">
+    <div class="box-100 js-urlId" id="0a3be320a9e6795812440593ab7c8aee">
+     10.1.11.1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="挂载" title="挂载">
+     <i class="fas fa-arrow-up js-addUrl">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-100 js-urlId" id="c0f63e237cebde21e3b7ef9580d2349b">
+     10.1.10.1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="挂载" title="挂载">
+     <i class="fas fa-arrow-up js-addUrl">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+ <div class="no-data" id="noOff" style="display: none;">
+  无网域
+ </div>
+</div>
+
+		- API success (status and response are correct).
+
+		- Response time: 0.027513
+
+		- Available webDomain for mount: 10.1.10.1
+
+		- Available webDomainId for mount: c0f63e237cebde21e3b7ef9580d2349b
+
+		- Available webDomain for mount: 10.1.11.1
+
+		- Available webDomainId for mount: 0a3be320a9e6795812440593ab7c8aee
+
+		- - -
+
+['PASS']
+['FAIL', 'PASS', 'PASS', 'FAIL']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時52分23秒 [Feature] API POST admin webPlayer web create get frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時52分23秒 [Feature] API POST admin webPlayer web create get frame m
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/create/get/frame/m
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.027513 (seconds)
+- api response: 
+<div class="sub-group">
+ <div class="input-box">
+  <label for="webName">
+   庄家名称
+  </label>
+  <p data-bankerid="a97e6eec6fc58c8d8ce2c339b555bbb1" id="bankerName">
+   QAbanker1
+  </p>
+ </div>
+ <div class="input-box">
+  <label for="webName">
+   网站名称
+  </label>
+  <div class="input-sty">
+   <i class="fas fa-user-circle">
+   </i>
+   <input id="webName" name="webName" placeholder="请输入网站名称" type="text" value=""/>
+  </div>
+ </div>
+</div>
+<h4>
+ <i class="far fa-caret-right">
+ </i>
+ 已挂载
+</h4>
+<div class="sub-group">
+ <div class="input-box-b" id="subInput">
+  <div class="input-sty">
+   <input id="srcAddUrl" placeholder="请输入要搜索的网域关键字" type="text" value=""/>
+  </div>
+ </div>
+ <div class="submit-box">
+  <input class="btn cancel" id="clearOnBtn" type="button" value="清除"/>
+  <input class="btn submit" id="srcAddUrlBtn" type="button" value="搜索"/>
+ </div>
+ <div class="result-box">
+  共
+  <span id="dataOnNum">
+   0
+  </span>
+  个网域
+ </div>
+ <ul class="list" id="listOn">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-75">
+     网域
+    </div>
+    <div class="box-20">
+     主网域
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+ </ul>
+ <ul class="list" id="dataOnList">
+ </ul>
+ <div class="no-data" id="noOn">
+  无网域
+ </div>
+</div>
+<h4>
+ <i class="far fa-caret-right">
+ </i>
+ 未挂载
+</h4>
+<div class="sub-group">
+ <div class="input-box-b">
+  <div class="input-sty">
+   <input id="srcUrl" placeholder="请输入要搜索的网域关键字" type="text" value="">
+    <i class="fas fa-times-circle">
+    </i>
+   </input>
+  </div>
+ </div>
+ <div class="submit-box">
+  <input class="btn cancel" id="clearOffBtn" type="button" value="清除"/>
+  <input class="btn submit" id="srcUrlBtn" type="button" value="搜索"/>
+ </div>
+ <div class="result-box">
+  共
+  <span id="dataOffNum">
+   2
+  </span>
+  个网域
+ </div>
+ <ul class="list" id="listOff">
+  <li class="title">
+   <div class="group-box-85">
+    <div class="box-100">
+     网域
+    </div>
+   </div>
+   <div class="box-14">
+    操作
+   </div>
+  </li>
+ </ul>
+ <ul class="list" id="dataOffList">
+  <li>
+   <div class="group-box-85">
+    <div class="box-100 js-urlId" id="0a3be320a9e6795812440593ab7c8aee">
+     10.1.11.1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="挂载" title="挂载">
+     <i class="fas fa-arrow-up js-addUrl">
+     </i>
+    </a>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-85">
+    <div class="box-100 js-urlId" id="c0f63e237cebde21e3b7ef9580d2349b">
+     10.1.10.1
+    </div>
+   </div>
+   <div class="box-14">
+    <a alt="挂载" title="挂载">
+     <i class="fas fa-arrow-up js-addUrl">
+     </i>
+    </a>
+   </div>
+  </li>
+ </ul>
+ <div class="no-data" id="noOff" style="display: none;">
+  无网域
+ </div>
+</div>
+- API success (status and response are correct).
+- Response time: 0.027513
+- Available webDomain for mount: 10.1.10.1
+- Available webDomainId for mount: c0f63e237cebde21e3b7ef9580d2349b
+- Available webDomain for mount: 10.1.11.1
+- Available webDomainId for mount: 0a3be320a9e6795812440593ab7c8aee
+- - -
+# Test Result: PASS
+
+End << 07月22日15時52分23秒 [Feature] API POST admin webPlayer web create get frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1552
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

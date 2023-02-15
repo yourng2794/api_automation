@@ -1,0 +1,69 @@
+
+* Run test case: oo_Api_admin_provider_payOption_edit.py
+********Test Case: oo_Api_admin_provider_payOption_edit.py********
+
+	Start >>08月23日09時38分54秒 [Feature] API POST provider payOption edit
+
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_payOption_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit
+
+		- api params: {}
+
+		- api data: {"webId": "eefe247755b8b16c33e8730e9e168211", "payOptionId": "8b4dfc4c17c8e02e2b922d5c878d3be2", "payName": "QApay11", "currency": ["CNY"], "duplicateWithdrawHours": "2", "freeProcessFeeTimes": "1", "withdrawProcessRate": "10", "withdrawProcessMax": "100", "withdrawMax": "10000", "withdrawMin": "100", "review": "1", "reviewAmount": "5000", "reviewHour": "1", "onlinePromo": "1", "onlineCount": "", "onlineAmount": "100", "onlineRatio": "50", "onlineMaxdep": "5000", "onlineMindep": "10", "onlineLimit": "1000", "preferentialAudit": "1", "preferentialAuditTimes": "10", "preferentialBalanceAudit": "1", "normalAudit": "0", "normalAuditPercent": "100", "normalAuditRelaxationAmount": "10", "normalAuditProcessRate": "50", "companyPromo": "1", "companyCount": "", "companyAmount": "100", "companyRatio": "50", "companyMaxdep": "5000", "companyMindep": "10", "companyLimit": "100", "transferPreferentialAmount": "100", "transferPreferentialRate": "1", "transferPreferentialMaximum": "500", "transferPreferentialMaximumADay": "500", "compPreferentialAudit": "1", "compPreferentialAuditTimes": "10", "compPreferentialBalanceAudit": "1", "compNormalAudit": "0", "compNormalAuditPercent": "100", "compNormalAuditRelaxationAmount": "10", "compNormalAuditProcessRate": "50", "withdraw": {"CNY": ["b8eb8bb9c2291fcf4299b1023d9713cf"]}, "deposit": {"CNY": ["b8eb8bb9c2291fcf4299b1023d9713cf"]}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.058374 (seconds)
+
+		Response data: {
+    "Error_at": "/data/web/tadmapi.o2ogt.com/app/Http/Controllers/PayOptionController.php",
+    "Error_code": "E23",
+    "Error_line": 808,
+    "Error_message": "Error Parameters"
+}
+
+		- API fail (status or response is incorrect).
+
+		- - -
+
+['FAIL']
+# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日09時38分54秒 [Feature] API POST provider payOption edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 5
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時38分54秒 [Feature] API POST provider payOption edit
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payOption/edit
+- api params: {}
+- api data: {"webId": "eefe247755b8b16c33e8730e9e168211", "payOptionId": "8b4dfc4c17c8e02e2b922d5c878d3be2", "payName": "QApay11", "currency": ["CNY"], "duplicateWithdrawHours": "2", "freeProcessFeeTimes": "1", "withdrawProcessRate": "10", "withdrawProcessMax": "100", "withdrawMax": "10000", "withdrawMin": "100", "review": "1", "reviewAmount": "5000", "reviewHour": "1", "onlinePromo": "1", "onlineCount": "", "onlineAmount": "100", "onlineRatio": "50", "onlineMaxdep": "5000", "onlineMindep": "10", "onlineLimit": "1000", "preferentialAudit": "1", "preferentialAuditTimes": "10", "preferentialBalanceAudit": "1", "normalAudit": "0", "normalAuditPercent": "100", "normalAuditRelaxationAmount": "10", "normalAuditProcessRate": "50", "companyPromo": "1", "companyCount": "", "companyAmount": "100", "companyRatio": "50", "companyMaxdep": "5000", "companyMindep": "10", "companyLimit": "100", "transferPreferentialAmount": "100", "transferPreferentialRate": "1", "transferPreferentialMaximum": "500", "transferPreferentialMaximumADay": "500", "compPreferentialAudit": "1", "compPreferentialAuditTimes": "10", "compPreferentialBalanceAudit": "1", "compNormalAudit": "0", "compNormalAuditPercent": "100", "compNormalAuditRelaxationAmount": "10", "compNormalAuditProcessRate": "50", "withdraw": {"CNY": ["b8eb8bb9c2291fcf4299b1023d9713cf"]}, "deposit": {"CNY": ["b8eb8bb9c2291fcf4299b1023d9713cf"]}}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Fail, 0.058374 (seconds)
+- API fail (status or response is incorrect).
+- - -
+# Test Result: FAIL
+
+End << 08月23日09時38分54秒 [Feature] API POST provider payOption edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0938
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

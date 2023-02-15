@@ -1,0 +1,280 @@
+
+* Run test case: lb_Api_admin_provider_bankCard_list_frame.py
+********Test Case: lb_Api_admin_provider_bankCard_list_frame.py********
+
+	Start >>04月19日18時38分19秒 [Feature] API POST provider bankCard list frame
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/provider/bankCard/list/frame
+
+		- api url: http://admtest.o2ogt.com/api/provider/bankCard/list/frame
+
+		- api params: {'option': '0', 'enable': '2', 'page': '', 'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.14412 (seconds)
+
+		Response data: 
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  5
+ </span>
+ 银行卡
+ <a class="btn btn-orange" href="provider_card_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增银行卡
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-10 txt-c">
+    项目
+   </div>
+   <div class="box-15">
+    银行名称
+   </div>
+   <div class="box-10">
+    类型
+   </div>
+   <div class="box-5 txt-c">
+    币别
+   </div>
+   <div class="box-10 txt-r">
+    单日额度
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+   <div class="box-25 txt-r">
+    卡号
+   </div>
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-10 txt-c">
+    1
+   </div>
+   <div class="box-15">
+    QAbank18
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    <img alt="" class="coin" src="img/coin/coin_CNY.png"/>
+   </div>
+   <div class="box-10 txt-r">
+    5000
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-25 txt-r">
+    **************0123460
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_card_edit.html" id="13306150968120ad6125838e2a6f4b81" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <!-- <a href="#" title="刪除" alt="刪除" class="del">
+
+                    <i class="fas fa-times"></i>
+
+                </a> -->
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-10 txt-c">
+    2
+   </div>
+   <div class="box-15">
+    QAbank19
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    <img alt="" class="coin" src="img/coin/coin_CNY.png"/>
+   </div>
+   <div class="box-10 txt-r">
+    5000
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-25 txt-r">
+    **************0123461
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_card_edit.html" id="7a730eb6bb46f3581525c2db5e8bb66e" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <!-- <a href="#" title="刪除" alt="刪除" class="del">
+
+                    <i class="fas fa-times"></i>
+
+                </a> -->
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-10 txt-c">
+    3
+   </div>
+   <div class="box-15">
+    QAbank16
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    <img alt="" class="coin" src="img/coin/coin_CNY.png"/>
+   </div>
+   <div class="box-10 txt-r">
+    5000
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-25 txt-r">
+    **************0123458
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_card_edit.html" id="db0637ed9638dc33154dbe53bc9cbf79" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <!-- <a href="#" title="刪除" alt="刪除" class="del">
+
+                    <i class="fas fa-times"></i>
+
+                </a> -->
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-10 txt-c">
+    4
+   </div>
+   <div class="box-15">
+    QAbank17
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    <img alt="" class="coin" src="img/coin/coin_CNY.png"/>
+   </div>
+   <div class="box-10 txt-r">
+    5000
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-25 txt-r">
+    **************0123459
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_card_edit.html" id="f3e8b9de304a9911416c24c40d2f04c0" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <!-- <a href="#" title="刪除" alt="刪除" class="del">
+
+                    <i class="fas fa-times"></i>
+
+                </a> -->
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-10 txt-c">
+    5
+   </div>
+   <div class="box-15">
+    QAbank1
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    <img alt="" class="coin" src="img/coin/coin_CNY.png"/>
+   </div>
+   <div class="box-10 txt-r">
+    5000
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-25 txt-r">
+    **************0123456
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_card_edit.html" id="f50dbac0ad17f7e2c339ef668a2559eb" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <!-- <a href="#" title="刪除" alt="刪除" class="del">
+
+                    <i class="fas fa-times"></i>
+
+                </a> -->
+  </div>
+ </li>
+</ul>
+
+		New ini value is: API.cardid = 13306150968120ad6125838e2a6f4b81
+
+		- Success get cardId: 13306150968120ad6125838e2a6f4b81
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時38分19秒 [Feature] API POST provider bankCard list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

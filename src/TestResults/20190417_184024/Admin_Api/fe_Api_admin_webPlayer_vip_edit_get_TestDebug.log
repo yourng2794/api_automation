@@ -1,0 +1,83 @@
+
+* Run test case: fe_Api_admin_webPlayer_vip_edit_get.py
+********Test Case: fe_Api_admin_webPlayer_vip_edit_get.py********
+
+	Start >>04月17日18時41分48秒 [Feature] API POST webPlayer vip edit get
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.vipId = f217f1ce1232bc38ad81b439ce4e52a9
+
+		- api_params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'vipId': 'f217f1ce1232bc38ad81b439ce4e52a9'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/edit/get
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'vipId': 'f217f1ce1232bc38ad81b439ce4e52a9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=RjEgNbZ2Ua9D2hFYzY7BggBl4TLkWarG8qTbj0oh for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.433963 (seconds)
+
+		Response data: 
+{
+    "banker_id": "835bd15c55ec6df3fe054f3aed828e41",
+    "createtime": "2019-04-17 10:41:38",
+    "depositTimes": "10",
+    "depositTotal": 0,
+    "maxDepositAmount": "2000",
+    "maxWithdrawalAmount": "1000",
+    "pt_id": "123456",
+    "pt_name": "Bonnie",
+    "vip_id": "f217f1ce1232bc38ad81b439ce4e52a9",
+    "vip_name": "QAvip16",
+    "web_site": {
+        "212b97d2151382781bd1f06c24cf5d08": "Testweb14",
+        "2c72b136f7392fa00f10778dbebeb4f7": "TestWeb",
+        "2ecf5a0f2835b2928740daae2c92e90e": "Testweb15",
+        "3743bb7a69166950fda91a0a098faae1": "Testwebss",
+        "457d2df425945c88209f40857c00bc99": "Testwebs",
+        "52126d837733703e832bb6854f46fd3a": "Testweb66",
+        "6e0cf20b5d29293655a929122a631567": "Testweb99",
+        "86746712cb5fd15a235d62dbd97d4052": "Testweb33",
+        "914f95e80273f5b5bed03ef066b8b388": "Testweb88",
+        "91fe256bb1ac33ce7e662f1837bdce1e": "Testweb55",
+        "9c5d7e63de37f06fe5daa6b03a7e85a1": "Qa test",
+        "b5b3094b34fee8ad7f237976d3673af9": "Testweb22",
+        "bce99199a6e39decb77d6b1abdb427ce": "Testweb12",
+        "cc337abf81b4328ad33c1bf0e957ca4c": "Testweb16",
+        "d900073f7aade1f3bbeb1233f6ecd72a": "Testweb13",
+        "f4581b0de48191bf6b6c1d92519e5b64": "Testweb88"
+    },
+    "withdrawalTimes": "10",
+    "withdrawalTotal": "100"
+}
+
+		- Success get: pt_id.
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時41分49秒 [Feature] API POST webPlayer vip edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

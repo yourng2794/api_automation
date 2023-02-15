@@ -1,0 +1,97 @@
+
+* Run test case: kd_Api_admin_webPlayer_promo_commission_create_get.py
+********Test Case: kd_Api_admin_webPlayer_promo_commission_create_get.py********
+
+	Start >>07月22日15時55分39秒 [Feature] API POST webPlayer promo commission create get
+
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/create/get
+
+		- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022337 (seconds)
+
+		- api response: 
+{
+    "commission_type_list": [
+        {
+            "commission_type_id": 3,
+            "web_commission_name": "SQArake_0722_155531"
+        }
+    ]
+}
+
+		Response data: {
+    "commission_type_list": [
+        {
+            "commission_type_id": 3,
+            "web_commission_name": "SQArake_0722_155531"
+        }
+    ]
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.022337
+
+		- Success get (commissionTypeName, commissionTypeId): (SQArake_0722_155531, 3)
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時55分39秒 [Feature] API POST webPlayer promo commission create get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時55分39秒 [Feature] API POST webPlayer promo commission create get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/create/get
+- api params: {'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022337 (seconds)
+- api response: 
+{
+    "commission_type_list": [
+        {
+            "commission_type_id": 3,
+            "web_commission_name": "SQArake_0722_155531"
+        }
+    ]
+}
+- API success (status and response are correct).
+- Response time: 0.022337
+- Success get (commissionTypeName, commissionTypeId): (SQArake_0722_155531, 3)
+- - -
+# Test Result: PASS
+
+End << 07月22日15時55分39秒 [Feature] API POST webPlayer promo commission create get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1555
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,214 @@
+
+* Run test case: kh_Api_admin_webPlayer_promo_commission_list_frame_m.py
+********Test Case: kh_Api_admin_webPlayer_promo_commission_list_frame_m.py********
+
+	Start >>08月23日15時46分36秒 [Feature] API POST webPlayer promo commission list frame m
+
+		New ini value is: API.bankerId = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.webId = 1c049b9bc588fead28c0e84492f051a2
+		New ini value is: API.vipId = e1f69f6148f64c940e76b08809050fe8
+		New ini value is: API.page = 
+		New ini value is: API.webCommissionName = QArake
+		New ini value is: API.api_path = api/webPlayer/promo/commission/list/frame/m
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/list/frame/m
+
+		- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'vipId': 'e1f69f6148f64c940e76b08809050fe8', 'webCommissionName': 'QArake', 'page': '', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.051823 (seconds)
+
+		Response data: <div class="note-base note-mesg">
+ <i class="fas fa-bullseye-arrow">
+ </i>
+ <b class="lang283">
+  币值
+ </b>
+ ：
+ <span>
+  <b class="lang825">
+   人民币
+  </b>
+ </span>
+</div>
+<div class="result-box">
+ <b class="lang110">
+  共
+ </b>
+ <span>
+  1
+ </span>
+ <b class="">
+  笔挂载
+ </b>
+</div>
+<ul class="crm-list mem-list">
+ <li>
+  <div class="crm-type">
+   QAweb12-QAvip12
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info" style="border-bottom: 0px;">
+   <div class="crm-name">
+    QArake
+   </div>
+   <div class="crm-edit btn-popup">
+    <i class="fas fa-edit">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display: none;">
+   <div class="crm-item">
+    <label>
+     <b class="lang1077">
+      有效总投注
+     </b>
+    </label>
+    <p>
+     400.00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1078">
+      优惠上限
+     </b>
+    </label>
+    <p>
+     500.00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1079">
+      综合打码倍数
+     </b>
+    </label>
+    <p>
+     200
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1080">
+      每日领取次数
+     </b>
+    </label>
+    <p>
+     5
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1081">
+      单次最低领取金额
+     </b>
+    </label>
+    <p>
+     100.00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1082">
+      每日最高领取金额
+     </b>
+    </label>
+    <p>
+     600.00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1083">
+      最后编辑者
+     </b>
+    </label>
+    <p>
+     A_Boss
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang1084">
+      最后异动时间
+     </b>
+    </label>
+    <p>
+     2019-08-23 07:46:30
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     <b class="lang307">
+      庄家
+     </b>
+    </label>
+    <p>
+     QAbanker12
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.051823
+
+		- Success get webCommissionName: QArake
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.webId = 
+		New ini value is: API.vipId = 
+		New ini value is: API.page = 
+		New ini value is: API.webCommissionName = 
+	<< End Tear Down
+
+
+	End << 08月23日15時46分36秒 [Feature] API POST webPlayer promo commission list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時46分36秒 [Feature] API POST webPlayer promo commission list frame m
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/list/frame/m
+- api params: {'webId': '1c049b9bc588fead28c0e84492f051a2', 'vipId': 'e1f69f6148f64c940e76b08809050fe8', 'webCommissionName': 'QArake', 'page': '', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.051823 (seconds)
+- API success (status and response are correct).
+- Response time: 0.051823
+- Success get webCommissionName: QArake
+- - -
+# Test Result: PASS
+
+End << 08月23日15時46分36秒 [Feature] API POST webPlayer promo commission list frame m
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1546
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

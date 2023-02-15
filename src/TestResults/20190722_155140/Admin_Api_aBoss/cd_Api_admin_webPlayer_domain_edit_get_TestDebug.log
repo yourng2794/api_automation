@@ -1,0 +1,102 @@
+
+* Run test case: cd_Api_admin_webPlayer_domain_edit_get.py
+********Test Case: cd_Api_admin_webPlayer_domain_edit_get.py********
+
+	Start >>07月22日15時52分15秒 [Feature] API POST web domain edit get
+
+		New ini value is: API.webDomainId = c0f63e237cebde21e3b7ef9580d2349b
+		New ini value is: API.bankerId = a97e6eec6fc58c8d8ce2c339b555bbb1
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/edit/get
+
+		- api params: {'webDomainId': 'c0f63e237cebde21e3b7ef9580d2349b', 'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.021452 (seconds)
+
+		- api response: 
+{
+    "bankerAcc": "QAbanker1",
+    "bankerId": "a97e6eec6fc58c8d8ce2c339b555bbb1",
+    "pt_acc": "A_Boss",
+    "use_status": 1,
+    "web_createtime": "2019-07-22 07:52:06",
+    "web_domain_id": "c0f63e237cebde21e3b7ef9580d2349b",
+    "web_domain_url": "10.1.10.1"
+}
+
+		Response data: {
+    "bankerAcc": "QAbanker1",
+    "bankerId": "a97e6eec6fc58c8d8ce2c339b555bbb1",
+    "pt_acc": "A_Boss",
+    "use_status": 1,
+    "web_createtime": "2019-07-22 07:52:06",
+    "web_domain_id": "c0f63e237cebde21e3b7ef9580d2349b",
+    "web_domain_url": "10.1.10.1"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.021452
+
+		- Success get bankerAcc: QAbanker1
+
+		- - -
+
+['PASS']
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webDomainId = 
+		New ini value is: API.bankerId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時52分15秒 [Feature] API POST web domain edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時52分15秒 [Feature] API POST web domain edit get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/edit/get
+- api params: {'webDomainId': 'c0f63e237cebde21e3b7ef9580d2349b', 'bankerId': 'a97e6eec6fc58c8d8ce2c339b555bbb1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.021452 (seconds)
+- api response: 
+{
+    "bankerAcc": "QAbanker1",
+    "bankerId": "a97e6eec6fc58c8d8ce2c339b555bbb1",
+    "pt_acc": "A_Boss",
+    "use_status": 1,
+    "web_createtime": "2019-07-22 07:52:06",
+    "web_domain_id": "c0f63e237cebde21e3b7ef9580d2349b",
+    "web_domain_url": "10.1.10.1"
+}
+- API success (status and response are correct).
+- Response time: 0.021452
+- Success get bankerAcc: QAbanker1
+- - -
+# Test Result: PASS
+
+End << 07月22日15時52分15秒 [Feature] API POST web domain edit get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1552
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

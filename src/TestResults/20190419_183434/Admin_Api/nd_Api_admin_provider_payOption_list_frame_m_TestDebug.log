@@ -1,0 +1,105 @@
+
+* Run test case: nd_Api_admin_provider_payOption_list_frame_m.py
+********Test Case: nd_Api_admin_provider_payOption_list_frame_m.py********
+
+	Start >>04月19日18時39分07秒 [Feature] API POST provider payOption list frame m
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/provider/payOption/list/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/list/frame/m
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.919984 (seconds)
+
+		Response data: 
+<div class="result-box">
+ 共
+ <span>
+  2
+ </span>
+ 项支付组合
+</div>
+<ul class="list">
+ <li class="title">
+  <div class="group-box-85">
+   <div class="box-70">
+    支付名称
+   </div>
+   <div class="box-25 txt-c">
+    挂载网站
+   </div>
+  </div>
+  <div class="box-14">
+   操作
+  </div>
+ </li>
+ <li>
+  <a class="group-box-85" href="">
+   <div class="box-70">
+    QApay19
+   </div>
+   <div class="box-25 txt-c">
+    0
+   </div>
+  </a>
+  <div class="box-14">
+   <a alt="修改" class="btn-popup" id="40f00ddd4665100fdce55c92dd6ff9b2" title="修改">
+    <i class="fas fa-edit">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="group-box-85" href="">
+   <div class="box-70">
+    QApay
+   </div>
+   <div class="box-25 txt-c">
+    2
+   </div>
+  </a>
+  <div class="box-14">
+   <a alt="修改" class="btn-popup" id="53a2ea7f190d9ed06445b8c68b82221c" title="修改">
+    <i class="fas fa-edit">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- Success get payOptionName: QApay19
+
+		- Exception: on admin_provider_payOption_list_frame_m... 'NoneType' object has no attribute 'get'
+
+		---
+['PASS', 'FAIL']
+['FAIL', 'FAIL', 'FAIL', 'FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時39分08秒 [Feature] API POST provider payOption list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

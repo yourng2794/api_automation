@@ -1,0 +1,104 @@
+
+* Run test case: je_Api_admin_webPlayer_promo_edit_get.py
+********Test Case: je_Api_admin_webPlayer_promo_edit_get.py********
+
+	Start >>04月17日18時42分59秒 [Feature] API POST webPlayer promo edit get
+
+		New ini value is: API.ptId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.promoId = befaaf980c63f056e9eac8180225ad09
+
+		- api_params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/edit/get
+
+		- api params: {'promoid': 'befaaf980c63f056e9eac8180225ad09', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=fYGinufwQwbPx66o3glWj9arnh961wGmdpZehQpE for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.538019 (seconds)
+
+		Response data: 
+{
+    "condition": [
+        {
+            "name": "会员登入"
+        }
+    ],
+    "etime": "2019-04-18 18:42:45",
+    "game": {
+        "list": [],
+        "name": "单一产品投注金额"
+    },
+    "id": "befaaf980c63f056e9eac8180225ad09",
+    "name": "QApromo",
+    "reward": [
+        {
+            "amount": 1,
+            "name": "返水"
+        },
+        {
+            "amount": null,
+            "name": "现金奖励"
+        }
+    ],
+    "stime": "2019-04-16 18:42:45",
+    "type": "edit",
+    "website": [
+        {
+            "pt_acc": "Bonnie",
+            "pt_id": "123456",
+            "use_status": 1,
+            "web_code": null,
+            "web_createtime": "2019-04-17 10:41:07",
+            "web_id": "cc337abf81b4328ad33c1bf0e957ca4c",
+            "web_modifytime": "2019-04-17 10:41:07",
+            "web_name": "Testweb16",
+            "web_state": 2
+        }
+    ]
+}
+
+		- Success compare condition_reg: 0
+
+		- Success compare condition_login: 1
+
+		- Success compare condition_trunover: ""
+
+		- Fail compare reward_rio: 1
+
+		- Success compare reward_cash: null
+>> Start isInt
+<< Success, End isInt
+>> Start isInt
+<< Success, End isInt
+
+		- Success compare (webId, webName): (cc337abf81b4328ad33c1bf0e957ca4c ,Testweb16)
+
+		---
+
+		---
+['PASS', 'PASS', 'PASS', 'Fail', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時42分59秒 [Feature] API POST webPlayer promo edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

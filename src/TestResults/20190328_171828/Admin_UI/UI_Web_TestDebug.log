@@ -1,0 +1,43 @@
+
+* Run test case: UI_Web.py
+********Test Case: UI_Web.py********
+Set up Pre-condition of this case...
+Success open browser.
+
+		- - - 
+
+		- 2, accurate: 95 %
+
+		- 7, accurate: 95 %
+
+		- 5, accurate: 90 %
+
+		- 2, accurate: 95 %
+
+		- - - 
+	03月28日17時20分29秒>> Start to admin UI web
+
+
+	#Test Result: PASS
+	>> Tear Down of this case
+		Driver closed
+	<< End Tear Down
+
+	03月28日17時20分51秒<< End to admin UI web
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+(X) fillTestResultsToTestRail Exception: TestRail API returned HTTP 400 ("Field :case_id is not a valid test case.")
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

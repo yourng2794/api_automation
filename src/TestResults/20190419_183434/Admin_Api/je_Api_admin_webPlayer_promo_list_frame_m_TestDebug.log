@@ -1,0 +1,128 @@
+
+* Run test case: je_Api_admin_webPlayer_promo_list_frame_m.py
+********Test Case: je_Api_admin_webPlayer_promo_list_frame_m.py********
+
+	Start >>04月19日18時37分01秒 [Feature] API POST webPlayer promo list frame m
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/promo/list/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/list/frame/m
+
+		- api params: {'type': 'all', 'ptid': '835bd15c55ec6df3fe054f3aed828e41', 'page': '', 'ln': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.650121 (seconds)
+
+		Response data: 
+<div class="result-box">
+ 共
+ <span>
+  2
+ </span>
+ 项活动
+</div>
+<ul class="crm-list event-list">
+ <li>
+  <div class="crm-type e-running">
+   進行中
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info">
+   <div class="crm-name">
+    QApromo
+   </div>
+   <div class="crm-edit btn-run-popup">
+    <i class="fas fa-edit" id="ad676be91ab834b540d14d01963b5415">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display:none;">
+   <div class="crm-item">
+    <label>
+     开始时间
+    </label>
+    <p>
+     2019-04-18 18:36:54
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     结束时间
+    </label>
+    <p>
+     2019-04-20 18:36:54
+    </p>
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="crm-type e-not-embed">
+   未挂载
+   <i class="far fa-angle-down">
+   </i>
+  </div>
+  <div class="crm-info">
+   <div class="crm-name">
+    OHNO
+   </div>
+   <div class="crm-edit btn-popup-ui">
+    <i class="fas fa-edit" id="351d4e4fe0abc4940513677aa51e73b0">
+    </i>
+   </div>
+  </div>
+  <div class="crm-detial" style="display:none;">
+   <div class="crm-item">
+    <label>
+     开始时间
+    </label>
+    <p>
+     2019-04-16 12:24:00
+    </p>
+   </div>
+   <div class="crm-item">
+    <label>
+     结束时间
+    </label>
+    <p>
+     2019-04-18 12:24:00
+    </p>
+   </div>
+  </div>
+ </li>
+</ul>
+
+
+		Success get promoName: QApromo
+
+		- Exception: on admin_webPlayer_promo_list_frame_m... 'NoneType' object has no attribute 'get'
+
+		---
+['PASS', 'FAIL']
+['FAIL', 'FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時37分01秒 [Feature] API POST webPlayer promo list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

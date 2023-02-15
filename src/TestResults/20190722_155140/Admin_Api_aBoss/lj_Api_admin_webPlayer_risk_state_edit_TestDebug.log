@@ -1,0 +1,133 @@
+
+* Run test case: lj_Api_admin_webPlayer_risk_state_edit.py
+********Test Case: lj_Api_admin_webPlayer_risk_state_edit.py********
+
+	Start >>07月22日15時56分33秒 [Feature] API POST webPlayer risk state edit delete
+
+		New ini value is: API.riskid = 4d0aa30798771435f51d850bc85b96ed
+		New ini value is: API.enable = 0
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/state/edit
+
+		- api params: {'riskid': '4d0aa30798771435f51d850bc85b96ed', 'enable': '0'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.036361 (seconds)
+
+		- api response: 
+{
+    "state": "停止"
+}
+
+		Response data: {
+    "state": "停止"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.036361
+
+		- Success get state: 停止
+
+		- - -
+
+['PASS', 'PASS']
+		New ini value is: API.enable = 1
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/state/edit
+
+		- api params: {'riskid': '4d0aa30798771435f51d850bc85b96ed', 'enable': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.058217 (seconds)
+
+		- api response: 
+{
+    "state": "监控中"
+}
+
+		Response data: {
+    "state": "监控中"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.058217
+
+		- Success get state: 监控中
+
+		- - -
+
+['PASS', 'PASS']
+[True, True]
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.riskid = 
+		New ini value is: API.enable = 
+	<< End Tear Down
+
+
+	End << 07月22日15時56分33秒 [Feature] API POST webPlayer risk state edit delete
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時56分33秒 [Feature] API POST webPlayer risk state edit delete
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/state/edit
+- api params: {'riskid': '4d0aa30798771435f51d850bc85b96ed', 'enable': '0'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.036361 (seconds)
+- api response: 
+{
+    "state": "停止"
+}
+- API success (status and response are correct).
+- Response time: 0.036361
+- Success get state: 停止
+- - -
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/state/edit
+- api params: {'riskid': '4d0aa30798771435f51d850bc85b96ed', 'enable': '1'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.058217 (seconds)
+- api response: 
+{
+    "state": "监控中"
+}
+- API success (status and response are correct).
+- Response time: 0.058217
+- Success get state: 监控中
+- - -
+# Test Result: PASS
+
+End << 07月22日15時56分33秒 [Feature] API POST webPlayer risk state edit delete
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1556
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

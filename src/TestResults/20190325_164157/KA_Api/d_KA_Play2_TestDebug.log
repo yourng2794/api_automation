@@ -1,0 +1,58 @@
+
+* Run test case: d_KA_Play2.py
+********Test Case: d_KA_Play2.py********
+
+	Start >>03月25日16時42分54秒 [Portal] POST KA play2 API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_play2.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = ba649ac394c2d1589961c2054d76e3bc209294404233b55e8605549d8872c039
+
+		- api_params: {'hash': 'ba649ac394c2d1589961c2054d76e3bc209294404233b55e8605549d8872c039'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/play
+
+		- api params: {'hash': 'ba649ac394c2d1589961c2054d76e3bc209294404233b55e8605549d8872c039'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503374000, "currency": "CNY", "operatorName": "OTG", "action": "play", "transactionId": "49886353ff304aaca16731c9fc22e98b", "betAmount": 1280, "winAmount": 0, "selections": 8, "betPerSelection": 160, "freeGames": False, "round": 1, "roundsRemaining": 0, "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d1c4cd4b9a30f7246cc4ab5bd7b60c9e61553503373 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.423022 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分55秒 [Portal] POST KA play2 API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

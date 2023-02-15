@@ -1,0 +1,45 @@
+{
+    "webid": "0e4e80449b7f4492c7725b69c1d8d6de",
+    "data": {
+        "hot": [
+            {
+                "providerid": "BB_SLOT",
+                "gameid": "5030"
+            },
+            {
+                "providerid": "BB_SLOT",
+                "gameid": "5030"
+            }
+        ],
+        "recommend": [
+            {
+                "providerid": "BB_SLOT",
+                "gameid": "5057"
+            },
+            {
+                "providerid": "BB_SLOT",
+                "gameid": "5057"
+            }
+        ],
+        "newest": [
+            {
+                "providerid": "BB_SLOT",
+                "gameid": "5123"
+            },
+            {
+                "providerid": "BB_SLOT",
+                "gameid": "5123"
+            }
+        ],
+        "act": [
+            {
+                "providerid": "BB_SLOT",
+                "gameid": "5140"
+            },
+            {
+                "providerid": "BB_SLOT",
+                "gameid": "5140"
+            }
+        ]
+    }
+}

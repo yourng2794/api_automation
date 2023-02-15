@@ -1,0 +1,72 @@
+
+* Run test case: rg_Api_admin_org_dept_list.py
+********Test Case: rg_Api_admin_org_dept_list.py********
+
+	Start >>08月23日15時48分23秒 [Feature] API POST org. dept. list
+
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/list
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041999 (seconds)
+
+		Response data: [{"og_name": "test", "og_sid": "2803ef08090d48fa483dd2ad67eb9142"}, {"og_name": "推广部门", "og_sid": "2e6b2b0c78fa2549b3836d7b6099857f"}, {"og_name": "QAdept4", "og_sid": "4ecb75de3b10793fd58fab06b3032b28"}, {"og_name": "QAdept10", "og_sid": "7d28e69d0b4c81c803ca1c52a03b3597"}, {"og_name": "QAdept6", "og_sid": "884e089b90f8224ccfe88f7676bd091b"}, {"og_name": "BD部门", "og_sid": "8aff10c24b8a0fe2504d37a8851023e2"}, {"og_name": "QAdept3", "og_sid": "a6af5339de7c550eb62232e649f1a09b"}, {"og_name": "QAdept1", "og_sid": "a9bafa0b40a1f9b038ff496891759a90"}, {"og_name": "QAdept5", "og_sid": "ac876d00d7d3a1b636bfc2082324b7f4"}, {"og_name": "会计部门", "og_sid": "b8a91b4c5b745c3b21273cd3f4db3d32"}, {"og_name": "測試0822", "og_sid": "bfc633b1589fcb3ef11d35f29167fc90"}, {"og_name": "管理部門", "og_sid": "bossSid"}, {"og_name": "QAdept2", "og_sid": "c355363b15a08221a3e21359513d2e7a"}, {"og_name": "客服部门", "og_sid": "c566ebabc422b191ac6dc27ca806ee02"}, {"og_name": "QAdept12", "og_sid": "c7b15614e29e2c31cdb821de2ab18680"}, {"og_name": "QAdept11", "og_sid": "ce7e87808db3b345cc752ef0490eed63"}, {"og_name": "test0822", "og_sid": "e5ecd949d96d35293c7adc9f74cd3a85"}, {"og_name": "QA測試部", "og_sid": "e7ccdcfe28a00b9c60bc14c16bbbb1a1"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041999
+
+		- Success get depName: QAdept12
+
+		- Success get depId: c7b15614e29e2c31cdb821de2ab18680
+
+		- - -
+
+['PASS']
+['PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日15時48分23秒 [Feature] API POST org. dept. list
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時48分23秒 [Feature] API POST org. dept. list
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/list
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041999 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041999
+- Success get depName: QAdept12
+- Success get depId: c7b15614e29e2c31cdb821de2ab18680
+- - -
+# Test Result: PASS
+
+End << 08月23日15時48分23秒 [Feature] API POST org. dept. list
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1548
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

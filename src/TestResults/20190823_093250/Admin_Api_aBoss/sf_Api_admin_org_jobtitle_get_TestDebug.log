@@ -1,0 +1,239 @@
+
+* Run test case: sf_Api_admin_org_jobtitle_get.py
+********Test Case: sf_Api_admin_org_jobtitle_get.py********
+
+	Start >>08月23日09時39分37秒 [Feature] API POST org. jobtitle get
+
+		New ini value is: API.titleId = 6314dc7d820ba20c934919b15159ae2b
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/get
+
+		- api params: {'titleId': '6314dc7d820ba20c934919b15159ae2b'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.043844 (seconds)
+
+		Response data: {
+    "accCont01": {
+        "ir": []
+    },
+    "accCont02": {
+        "qs": []
+    },
+    "accCont03": {
+        "gl": [],
+        "or": [],
+        "orb": [],
+        "ord": [],
+        "orp": [],
+        "orplr": [],
+        "orpvd": [],
+        "orw": [],
+        "plrr": [],
+        "prr": [],
+        "wr": []
+    },
+    "accCont04": {
+        "dp": {
+            "dp_c": 1,
+            "dp_d": 1,
+            "dp_r": 1,
+            "dp_u": 1
+        },
+        "ee": {
+            "ee_c": 1,
+            "ee_d": 1,
+            "ee_r": 1,
+            "ee_u": 1
+        }
+    },
+    "accCont05": {
+        "prt": [],
+        "pt": [],
+        "ptr": [],
+        "ptt": []
+    },
+    "accCont06": {
+        "cms": [],
+        "dm": [],
+        "gs": [],
+        "lv": [],
+        "ma": [],
+        "ms": [],
+        "nt": [],
+        "plr": [],
+        "plrd": [],
+        "plrt": [],
+        "pr": [],
+        "promo": [],
+        "risk": [],
+        "sl": [],
+        "st": [],
+        "wb": []
+    },
+    "accCont07": {
+        "bc": [],
+        "pm": [],
+        "po": [],
+        "pvd": []
+    },
+    "accCont08": {
+        "bh": [],
+        "bt": [],
+        "er": [],
+        "ia": [],
+        "md": [],
+        "mw": [],
+        "rfs": [],
+        "rp": [],
+        "rs": [],
+        "wa": []
+    },
+    "dp_descrip": "",
+    "dp_name": "QAtitle11"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.043844
+
+		- Success get depTitle: QAtitle11
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.titleId = 
+	<< End Tear Down
+
+
+	End << 08月23日09時39分37秒 [Feature] API POST org. jobtitle get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時39分37秒 [Feature] API POST org. jobtitle get
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/get
+- api params: {'titleId': '6314dc7d820ba20c934919b15159ae2b'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.043844 (seconds)
+- API success (status and response are correct).
+- Response time: 0.043844
+- Success get depTitle: QAtitle11
+- - -
+# Test Result: PASS
+
+End << 08月23日09時39分37秒 [Feature] API POST org. jobtitle get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0939
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

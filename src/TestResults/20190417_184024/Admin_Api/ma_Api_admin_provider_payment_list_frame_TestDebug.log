@@ -1,0 +1,134 @@
+
+* Run test case: ma_Api_admin_provider_payment_list_frame.py
+********Test Case: ma_Api_admin_provider_payment_list_frame.py********
+
+	Start >>04月17日18時44分17秒 [Feature] API POST provider payment list frame
+
+
+		- api_params: {'option': '3', 'enable': '1', 'page': ''}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/list/frame
+
+		- api params: {'option': '3', 'enable': '1', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=8dnyN2tN9lIpBGMYtsSi3eH3TtUweH4bMjuJ88EY for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.509687 (seconds)
+
+		Response data: 
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 金流
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    项目
+   </div>
+   <div class="box-15">
+    金流名称
+   </div>
+   <div class="box-10">
+    类型
+   </div>
+   <div class="box-5 txt-c">
+    虚拟币
+   </div>
+   <div class="box-5 txt-c">
+    国币
+   </div>
+   <div class="box-8 txt-r">
+    费率
+   </div>
+   <div class="box-15 txt-r">
+    出款最大额度
+   </div>
+   <div class="box-10 txt-r">
+    入款额度
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+  </div>
+ </li>
+ <li>
+  <div alt="編輯" class="list-group" title="編輯">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-15">
+    金城武幫你出
+   </div>
+   <div class="box-10">
+    出款+入款
+   </div>
+   <div class="box-5 txt-c">
+    1
+   </div>
+   <div class="box-5 txt-c">
+    3
+   </div>
+   <div class="box-8 txt-r">
+    5
+   </div>
+   <div class="box-15 txt-r">
+    1000000
+   </div>
+   <div class="box-10 txt-r">
+    0-10000000
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="編輯" href="provider_cash_edit.html" id="6583ffebabe59b03947d7ea960907a93" title="編輯">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="银行卡开关" href="provider_cash_card_edit.html" title="银行卡开关">
+    <i class="fas fa-credit-card-front">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+		New ini value is: API.paymentid = 6583ffebabe59b03947d7ea960907a93
+		New ini value is: API.paymentname = 金城武幫你出
+
+		---
+
+		---
+['PASS']
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時44分17秒 [Feature] API POST provider payment list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

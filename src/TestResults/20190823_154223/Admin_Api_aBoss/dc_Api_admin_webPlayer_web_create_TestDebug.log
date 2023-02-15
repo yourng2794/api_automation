@@ -1,0 +1,74 @@
+
+* Run test case: dc_Api_admin_webPlayer_web_create.py
+********Test Case: dc_Api_admin_webPlayer_web_create.py********
+
+	Start >>08月23日15時43分09秒 [Feature] API POST admin webPlayer web create
+
+		New ini value is: API.bankerId = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.webdomainId = {"508ed892fd23d591f2113b078c2bbe9d":"1"}
+		New ini value is: API.webName = QAweb12
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/create
+
+		- api params: {'webName': 'QAweb12', 'webDomainId': '{"508ed892fd23d591f2113b078c2bbe9d":"1"}', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.062174 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.062174
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.bankerId = 
+		New ini value is: API.webdomainId = 
+		New ini value is: API.webName = 
+	<< End Tear Down
+
+
+	End << 08月23日15時43分09秒 [Feature] API POST admin webPlayer web create
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時43分09秒 [Feature] API POST admin webPlayer web create
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/web/create
+- api params: {'webName': 'QAweb12', 'webDomainId': '{"508ed892fd23d591f2113b078c2bbe9d":"1"}', 'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.062174 (seconds)
+- API success (status and response are correct).
+- Response time: 0.062174
+- - -
+# Test Result: PASS
+
+End << 08月23日15時43分09秒 [Feature] API POST admin webPlayer web create
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1543
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

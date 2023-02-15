@@ -1,0 +1,85 @@
+
+* Run test case: nm_Api_admin_provider_payOption_edit_get_withdraw.py
+********Test Case: nm_Api_admin_provider_payOption_edit_get_withdraw.py********
+
+	Start >>04月19日18時39分39秒 [Feature] API POST provider payOption edit get withdraw
+
+		New ini value is: API.payOptionId = 40f00ddd4665100fdce55c92dd6ff9b2
+		New ini value is: API.currency = CNY
+		New ini value is: API.payOption = 1
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/edit/get/withdraw
+
+		- api params: {'payOptionId': '40f00ddd4665100fdce55c92dd6ff9b2', 'currency': 'CNY', 'payOption': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.640874 (seconds)
+
+		Response data: 
+{
+    "金城武幫你出": [
+        "6583ffebabe59b03947d7ea960907a93",
+        "1"
+    ]
+}
+
+		- Success get list_payment: ['6583ffebabe59b03947d7ea960907a93', '1']
+
+		---
+
+		---
+		New ini value is: API.payOption = 2
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/edit/get/withdraw
+
+		- api params: {'payOptionId': '40f00ddd4665100fdce55c92dd6ff9b2', 'currency': 'CNY', 'payOption': '2'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.147931 (seconds)
+
+		Response data: 
+{
+    "金城武幫你出": [
+        "6583ffebabe59b03947d7ea960907a93",
+        "1"
+    ]
+}
+
+		- Success get list_payment: ['6583ffebabe59b03947d7ea960907a93', '1']
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時39分39秒 [Feature] API POST provider payOption edit get withdraw
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

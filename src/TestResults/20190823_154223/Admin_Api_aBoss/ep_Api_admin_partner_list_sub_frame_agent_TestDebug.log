@@ -1,0 +1,221 @@
+
+* Run test case: ep_Api_admin_partner_list_sub_frame_agent.py
+********Test Case: ep_Api_admin_partner_list_sub_frame_agent.py********
+
+	Start >>08月23日15時44分19秒 [Feature] API POST partner list sub frame agent
+
+		New ini value is: API.parentId = e5cdf39b1bbfe5293636b7cab00c040c
+		New ini value is: API.api_path = api/partner/list/sub/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/partner/list/sub/frame
+
+		- api params: {'parentId': 'e5cdf39b1bbfe5293636b7cab00c040c', 'searchType': '', 'search': '', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.043587 (seconds)
+
+		Response data: <div class="bb49393a1b6b9e58aa6a346df8d2d758" id="bankType">
+</div>
+<div class="A_Boss" id="userAcc">
+</div>
+<div class="QAwebmaster12" id="parentAcc">
+</div>
+<div class="1" id="rank">
+</div>
+<div class="1" id="num">
+</div>
+<div class="0" id="level">
+</div>
+<div class="bb49393a1b6b9e58aa6a346df8d2d758" id="grand_parent_id">
+</div>
+<ul class="list" id="datalist">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    項目
+   </div>
+   <div class="box-10">
+    庄家名称
+   </div>
+   <div class="box-10">
+    上层帐号
+   </div>
+   <div class="box-10">
+    姓名
+   </div>
+   <div class="box-10">
+    帐号
+   </div>
+   <div class="box-10 txt-c">
+    客户类型
+   </div>
+   <div class="box-8 txt-c">
+    代理人数
+   </div>
+   <div class="box-8 txt-c">
+    会员人数
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+   <div class="box-14 txt-c">
+    网站
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-5 txt-c">
+    1
+   </div>
+   <div class="box-10">
+    QAbanker12
+   </div>
+   <div class="box-10">
+    QAwebmaster12
+   </div>
+   <div class="box-10">
+    QATEST12
+   </div>
+   <div class="box-10">
+    QAagent1_12
+   </div>
+   <div class="box-10 txt-c">
+    QAtype12
+   </div>
+   <div class="box-8 txt-c">
+    0
+   </div>
+   <div class="box-8 txt-c">
+    2
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-14 txt-c">
+    <a class="url-out" href="###">
+     <a class="url-out" href="###">
+      QAweb12
+     </a>
+    </a>
+   </div>
+  </div>
+  <div class="operate-box operate-box02">
+   <a alt="新增" href="client_add.html?id=f2113c195bd2e61da073b03f38b69d61" id="f2113c195bd2e61da073b03f38b69d61" title="新增">
+    <i class="fas fa-user-plus">
+    </i>
+   </a>
+   <a alt="编辑" href="client_edit.html?id=e5cdf39b1bbfe5293636b7cab00c040c&amp;num=f2113c195bd2e61da073b03f38b69d61" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="层级" href="client_mem_under_list.html?id=f2113c195bd2e61da073b03f38b69d61" title="层级">
+    <i class="fas fa-sitemap">
+    </i>
+   </a>
+   <a alt="时间" class="s-time" href="#" id="0" title="时间">
+    <i class="fas fa-clock">
+    </i>
+    <div class="time-box">
+     <div>
+      <span>
+       创建时间
+      </span>
+      2019-08-23 15:44:16
+     </div>
+     <div>
+      <span>
+       登入时间
+      </span>
+      2018/09/14 12:12:00
+     </div>
+    </div>
+   </a>
+  </div>
+ </li>
+</ul>
+<div class="pagination-box">
+ <div class="pagination">
+  <a data-pagin="1" onclick="Pagination(1 );">
+   <i class="fas fa-caret-left">
+   </i>
+  </a>
+  <div class="page">
+   <input id="keyPage" onkeyup="value=value.replace(/[^\d]/g,'')" type="text" value="1"/>
+   <span>
+    of
+   </span>
+   <span class="total-page">
+    1
+   </span>
+  </div>
+  <a data-pagin="1" onclick="Pagination(1 );">
+   <i class="fas fa-caret-right">
+   </i>
+  </a>
+ </div>
+</div>
+
+		- API success (status and response are correct).
+
+		- Response time: 0.043587
+
+		- Success get agent_acc: QAagent1_12
+
+		- Success get agent_id: f2113c195bd2e61da073b03f38b69d61
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+		New ini value is: API.agentId = f2113c195bd2e61da073b03f38b69d61
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.parentId = 
+		New ini value is: API.searchType = 
+		New ini value is: API.search = 
+		New ini value is: API.page = 
+	<< End Tear Down
+
+
+	End << 08月23日15時44分19秒 [Feature] API POST partner list sub frame agent
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時44分19秒 [Feature] API POST partner list sub frame agent
+
+- api url: http://tadmapi.o2ogt.com/api/partner/list/sub/frame
+- api params: {'parentId': 'e5cdf39b1bbfe5293636b7cab00c040c', 'searchType': '', 'search': '', 'page': ''}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.043587 (seconds)
+- API success (status and response are correct).
+- Response time: 0.043587
+- Success get agent_acc: QAagent1_12
+- Success get agent_id: f2113c195bd2e61da073b03f38b69d61
+- - -
+# Test Result: PASS
+
+End << 08月23日15時44分19秒 [Feature] API POST partner list sub frame agent
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1544
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,96 @@
+
+* Run test case: ee_Api_admin_partner_type_list.py
+********Test Case: ee_Api_admin_partner_type_list.py********
+
+	Start >>08月23日15時43分49秒 [Feature] API POST partner type list
+
+
+		- api url: http://tadmapi.o2ogt.com/api/partner/type/list
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.042449 (seconds)
+
+		Response data: [{"pt_type_id": "0e31157b7e592ee23d36f5e6b4c722ed", "pt_type_name": "QAtype11"}, {"pt_type_id": "0fa8dd50d49b1c8c726af90d0fcae0b2", "pt_type_name": "QAtype2"}, {"pt_type_id": "19349e314bbad795337cba59538f450a", "pt_type_name": "代理"}, {"pt_type_id": "2a62223962cabfa80d9fa971ea86c3ec", "pt_type_name": "站長"}, {"pt_type_id": "4074bfaa651885e6185420d50bdd96c7", "pt_type_name": "QAtype10"}, {"pt_type_id": "47297f2f3656dcbf750851add91e2366", "pt_type_name": "QAtype6"}, {"pt_type_id": "5ed4a6b7f1d8d5b05596f65312872ff0", "pt_type_name": "測測新權限"}, {"pt_type_id": "84a07a18fbdb5c7d024e461ce7521db6", "pt_type_name": "QAtype3"}, {"pt_type_id": "8dccf4efcfa3f7b099967f164138e96d", "pt_type_name": "QAtype12"}, {"pt_type_id": "97a2fa8b151e88da50b01f91835ed0cc", "pt_type_name": "QAtype1"}, {"pt_type_id": "b44e760b288a58fb932b9041d3cf8fa5", "pt_type_name": "123"}, {"pt_type_id": "bankerType", "pt_type_name": "莊家"}, {"pt_type_id": "c4ad0c9f642c0048ad33bd2deada779b", "pt_type_name": "QAtype5"}, {"pt_type_id": "c6484c2167a6c43e8dfe3c4ac7465ea5", "pt_type_name": "QAtype4"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.042449
+
+		- Fail get pt_type_name: QAtype11 != QAtype12
+
+		- Fail get pt_type_name: QAtype2 != QAtype12
+
+		- Fail get pt_type_name: 代理 != QAtype12
+
+		- Fail get pt_type_name: 站長 != QAtype12
+
+		- Fail get pt_type_name: QAtype10 != QAtype12
+
+		- Fail get pt_type_name: QAtype6 != QAtype12
+
+		- Fail get pt_type_name: 測測新權限 != QAtype12
+
+		- Fail get pt_type_name: QAtype3 != QAtype12
+
+		- Success get pt_type_name: QAtype12
+
+		- Success get pt_type_id: 8dccf4efcfa3f7b099967f164138e96d
+
+		- - -
+
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日15時43分49秒 [Feature] API POST partner type list
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時43分49秒 [Feature] API POST partner type list
+
+- api url: http://tadmapi.o2ogt.com/api/partner/type/list
+- api params: {}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.042449 (seconds)
+- API success (status and response are correct).
+- Response time: 0.042449
+- Fail get pt_type_name: QAtype11 != QAtype12
+- Fail get pt_type_name: QAtype2 != QAtype12
+- Fail get pt_type_name: 代理 != QAtype12
+- Fail get pt_type_name: 站長 != QAtype12
+- Fail get pt_type_name: QAtype10 != QAtype12
+- Fail get pt_type_name: QAtype6 != QAtype12
+- Fail get pt_type_name: 測測新權限 != QAtype12
+- Fail get pt_type_name: QAtype3 != QAtype12
+- Success get pt_type_name: QAtype12
+- Success get pt_type_id: 8dccf4efcfa3f7b099967f164138e96d
+- - -
+# Test Result: PASS
+
+End << 08月23日15時43分49秒 [Feature] API POST partner type list
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1543
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

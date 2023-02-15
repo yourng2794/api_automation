@@ -1,0 +1,85 @@
+
+* Run test case: cf_Api_admin_webPlayer_domain_edit.py
+********Test Case: cf_Api_admin_webPlayer_domain_edit.py********
+
+	Start >>04月19日18時35分03秒 [Feature] API POST webPlayer domain edit
+
+		New ini value is: API.webDomainId = cce895fad5ced5f3129c300a72cbe5bc
+		New ini value is: API.webDomain = 10.10.10.232
+		New ini value is: API.status = 0
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/domain/edit
+
+		- api params: {'webDomainId': 'cce895fad5ced5f3129c300a72cbe5bc', 'webDomain': '10.10.10.232', 'status': '0'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.459784 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.459784
+
+		---
+
+		---
+		New ini value is: API.status = 1
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/domain/edit
+
+		- api params: {'webDomainId': 'cce895fad5ced5f3129c300a72cbe5bc', 'webDomain': '10.10.10.232', 'status': '1'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.134167 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.134167
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時35分03秒 [Feature] API POST webPlayer domain edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

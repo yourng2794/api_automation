@@ -1,0 +1,1154 @@
+
+* Run test case: dd_Api_admin_webPlayer_web_list_frame.py
+********Test Case: dd_Api_admin_webPlayer_web_list_frame.py********
+
+	Start >>04月19日18時35分19秒 [Feature] API POST webPlayer web list frame
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/web/list/frame
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/list/frame
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41', 'page': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.593545 (seconds)
+
+		Response data: 
+<div class="src-group">
+ <div class="src-box">
+  <select class="sel-sty" id="selBanker" name="preAcc">
+   <option value="67418b3849638cfcaf93453997a88db2">
+    0001
+   </option>
+   <option value="fd833d86ecf046f4429d53490e682b58">
+    09876
+   </option>
+   <option value="918c6247827c76ec5f2d0d4bc98eb068">
+    11
+   </option>
+   <option value="640f76128467fa6c5fc9947bc9956c0d">
+    1111
+   </option>
+   <option value="7a70a4e17b6f0fb8e6bc1582dc6007a5">
+    111aa
+   </option>
+   <option value="522c757dffe7bbd08eca5abf316eda91">
+    122
+   </option>
+   <option value="bd4c3d718008889017a0fea6ee535dac">
+    123
+   </option>
+   <option value="7f4c311c66342caffe1fa5de8a8ba21f">
+    123456855sss
+   </option>
+   <option value="d26568b25ff40d321bec2d27c57d2868">
+    456
+   </option>
+   <option value="c4b043c3b60c365009cf609fa56d80bc">
+    9865
+   </option>
+   <option value="f5e35d9a363e39355f9b1b760a1e48af">
+    a0001
+   </option>
+   <option value="d883a51896b4a2b4bb3e354beeb3ac43">
+    a0007
+   </option>
+   <option value="7878b77aa0affe1315dcab49a882b060">
+    a001
+   </option>
+   <option value="e751dac5d1c412c2f7b16bdbe6bffa53">
+    a004
+   </option>
+   <option value="28e792b0963c959af392d250aa464a0f">
+    A006
+   </option>
+   <option value="10777f4971820152fccb85009361d95d">
+    a0061
+   </option>
+   <option value="56454f79596cb70a5b1f37d404f71980">
+    ACE
+   </option>
+   <option value="0ed2fd5a3a2f223fe9109294e29ef662">
+    allallopen
+   </option>
+   <option value="22611212d81ef8cb3594b4d205136912">
+    allopen
+   </option>
+   <option value="a9c81630ab8f124fd428730c1b5346c0">
+    aw3
+   </option>
+   <option value="8ed0e833b845efd30343705d29db49d6">
+    bankercat
+   </option>
+   <option value="be5085874c6852cb5e142797b4f96679">
+    bankerdog
+   </option>
+   <option value="9f35c3d5505732682dbc0542ffbff15c">
+    bobobo
+   </option>
+   <option value="172fb3cc0cc624fd062daeb09a9c818a">
+    brian
+   </option>
+   <option value="fbf54aee3f88beff1700eebe45426133">
+    firemice
+   </option>
+   <option value="cc65ac42fd28d8997570f30c9af20f0d">
+    givememoney
+   </option>
+   <option value="5734f8229eb938b87e676bbb37cda87e">
+    gugugu
+   </option>
+   <option value="b6dfa4d08cac40c754626c6cf3cb6f10">
+    kipupu
+   </option>
+   <option value="b028f02265e2e58945d04d7ee059d71e">
+    lightning666
+   </option>
+   <option value="b824e48a7a38681a74f04895bfb23656">
+    mainbanker
+   </option>
+   <option value="85d4f8fc8067e351614dad01e31f0b5b">
+    micebanker
+   </option>
+   <option value="159fbfc0c5f4e2bcc15e6cedc9baccfc">
+    micebankermice
+   </option>
+   <option value="4d5d1c424bc689e8a5662bb4e28a5efd">
+    nini
+   </option>
+   <option value="7f09300b8b44d07eae1a5a362e7b1627">
+    nuderlist
+   </option>
+   <option value="e98cb75b973ba616983c728cce2a0dea">
+    o2ogmcom3
+   </option>
+   <option value="97b148ebdb8bf9dec7855600240b8260">
+    o2ogtcom
+   </option>
+   <option value="909a93942974f58ea3ecc6cab72c05df">
+    o2ogtcom2
+   </option>
+   <option value="ede200227850546aaee4545ac83d3a08">
+    Owen
+   </option>
+   <option selected="selected" value="835bd15c55ec6df3fe054f3aed828e41">
+    QAstep4
+   </option>
+   <option value="451c26b4747218590596d3ed949dc1d6">
+    qatest2
+   </option>
+   <option value="7a68e472e577de9fcf217b4fd97af51e">
+    qatest5
+   </option>
+   <option value="9cd579a99f94324a8a5183740d02d18d">
+    QQ123
+   </option>
+   <option value="ae90c7af66b832211ff8a0d97f742e5f">
+    sfaf
+   </option>
+   <option value="abdaa321c8351d33ab8cee64df032043">
+    test10
+   </option>
+   <option value="6b321ac85a37e04390013cb3f4159d8c">
+    test11
+   </option>
+   <option value="b8e2518cc99f772bb69ef616a669a0ae">
+    test12
+   </option>
+   <option value="800b1e035cc2b5a630c291ae4b1a5a11">
+    test2
+   </option>
+   <option value="7edf633d11837398d98b4b1bc266af7e">
+    test3
+   </option>
+   <option value="10de263ee5a8d2d7e84d219762e80e40">
+    test4
+   </option>
+   <option value="0d0bb627deb582cde4e2944b70b55d2a">
+    test448866
+   </option>
+   <option value="b69ea200878506f30a4f71fce3e2d0ca">
+    test5
+   </option>
+   <option value="e8a0ee2664a672b638d6b3be66ce9fb4">
+    test6
+   </option>
+   <option value="590557e390e50f06103eb1499fed27e1">
+    testtest
+   </option>
+   <option value="c48c66f29e58d1292e6351e5deb2deb2">
+    tr00
+   </option>
+   <option value="36322a5d678f18f2bcebaa6decacf949">
+    truesun
+   </option>
+   <option value="c5408217a3fcf9a372f1073331040084">
+    truesun123
+   </option>
+   <option value="504e17217fcb45f71a80d81991b1d84e">
+    tu
+   </option>
+   <option value="67d8055d44df916e03024e3fbfc83a2c">
+    tur111
+   </option>
+  </select>
+ </div>
+ <div class="btn btn-submit">
+  搜索
+  <input id="srcBtn" type="button"/>
+ </div>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  19
+ </span>
+ 个网站
+ <a class="btn btn-orange" href="web_website_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增网站
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10 txt-c">
+    网站
+   </div>
+   <div class="box-10 txt-c">
+    状态
+   </div>
+   <div class="box-10 txt-c">
+    人数
+   </div>
+   <div class="box-15">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <!-- 申請狀態不用跳編輯的box -->
+ <!-- 建置狀態不用跳編輯的box -->
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10 txt-c">
+    Testweb19
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/19 10:35:10
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="0b82165981316ecf67ad30a5887aa1e9" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    2
+   </div>
+   <div class="box-10 txt-c">
+    Testweb14
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/16 04:16:59
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="212b97d2151382781bd1f06c24cf5d08" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    3
+   </div>
+   <div class="box-10 txt-c">
+    TestWeb
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/08 07:35:44
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="2c72b136f7392fa00f10778dbebeb4f7" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    4
+   </div>
+   <div class="box-10 txt-c">
+    Testweb15
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/17 10:37:15
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="2ecf5a0f2835b2928740daae2c92e90e" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    5
+   </div>
+   <div class="box-10 txt-c">
+    Testwebss
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/08 09:48:05
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="3743bb7a69166950fda91a0a098faae1" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    6
+   </div>
+   <div class="box-10 txt-c">
+    Testwebs
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/08 09:42:48
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="457d2df425945c88209f40857c00bc99" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    7
+   </div>
+   <div class="box-10 txt-c">
+    Testweb66
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/15 02:04:33
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="52126d837733703e832bb6854f46fd3a" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    8
+   </div>
+   <div class="box-10 txt-c">
+    Testweb99
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/15 04:27:16
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="6e0cf20b5d29293655a929122a631567" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    9
+   </div>
+   <div class="box-10 txt-c">
+    Testweb33
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/10 04:12:31
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="86746712cb5fd15a235d62dbd97d4052" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    10
+   </div>
+   <div class="box-10 txt-c">
+    Testweb88
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/10 05:39:44
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="914f95e80273f5b5bed03ef066b8b388" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    11
+   </div>
+   <div class="box-10 txt-c">
+    Testweb55
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/12 09:23:10
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="91fe256bb1ac33ce7e662f1837bdce1e" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    12
+   </div>
+   <div class="box-10 txt-c">
+    Qa test
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/08 09:07:40
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="9c5d7e63de37f06fe5daa6b03a7e85a1" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    13
+   </div>
+   <div class="box-10 txt-c">
+    Testweb22
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/10 04:05:33
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="b5b3094b34fee8ad7f237976d3673af9" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    14
+   </div>
+   <div class="box-10 txt-c">
+    Testweb17
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/18 02:05:42
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="b5ba81093d96a08e0f67db94ab820a05" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    15
+   </div>
+   <div class="box-10 txt-c">
+    Testweb12
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/15 08:17:34
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="bce99199a6e39decb77d6b1abdb427ce" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    16
+   </div>
+   <div class="box-10 txt-c">
+    Testweb18
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/18 02:13:47
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="ca6dc2a642b321ca705b45495dec1434" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    17
+   </div>
+   <div class="box-10 txt-c">
+    Testweb16
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/17 10:41:07
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="cc337abf81b4328ad33c1bf0e957ca4c" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    18
+   </div>
+   <div class="box-10 txt-c">
+    Testweb13
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-success">
+     完成
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/15 08:34:28
+   </div>
+  </a>
+  <div class="operate-box operate-box02">
+   <a alt="编辑" href="web_website_edit.html" id="d900073f7aade1f3bbeb1233f6ecd72a" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <a class="list-group">
+   <div class="box-8 txt-c">
+    19
+   </div>
+   <div class="box-10 txt-c">
+    Testweb88
+   </div>
+   <div class="box-10 txt-c">
+    <div class="status-tag tag-apply">
+     申请
+    </div>
+   </div>
+   <div class="box-10 txt-c">
+    0
+   </div>
+   <div class="box-15">
+    Bonnie
+   </div>
+   <div class="box-25">
+    2019/04/15 03:19:09
+   </div>
+  </a>
+  <div class="operate-box operate-box02" style="display:none;">
+   <a alt="编辑" href="web_website_edit.html" id="f4581b0de48191bf6b6c1d92519e5b64" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+   <a alt="游戏" href="web_website_game_list.html" title="游戏">
+    <i class="fas fa-dice">
+    </i>
+   </a>
+   <a alt="层级" href="web_website_level_list.html" title="层级">
+    <i class="fas fa-star">
+    </i>
+   </a>
+   <a alt="报表分析" href="#" title="报表分析">
+    <i class="fas fa-analytics">
+    </i>
+   </a>
+   <a alt="汇出" href="#" title="汇出">
+    <i class="fas fa-file-spreadsheet">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.593545
+
+		---
+
+		- Success get webname: Testweb19
+		New ini value is: API.webid = 0b82165981316ecf67ad30a5887aa1e9
+
+		- Success get webid: 0b82165981316ecf67ad30a5887aa1e9
+
+		---
+['PASS']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時35分19秒 [Feature] API POST webPlayer web list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

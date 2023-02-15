@@ -1,0 +1,28 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190326_183037\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190326_183037\\testresults.xml
+********Test Case: UI_Web.py********
+Set up Pre-condition of this case...
+Success open browser.
+
+		- - - 
+
+		- 2, accurate: 98 %
+
+		- 1, accurate: 95 %
+
+		- 4, accurate: 95 %
+
+		- 2, accurate: 90 %
+
+		- - - 
+	03月26日18時30分48秒>> Start to admin web
+
+
+	#Test Result: FAIL
+	>> Tear Down of this case
+		Driver closed
+	<< End Tear Down
+
+	03月26日18時30分50秒<< End to admin web
+	Collect temp results or other files...

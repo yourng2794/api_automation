@@ -1,0 +1,123 @@
+
+* Run test case: kk_Api_admin_webPlayer_promo_commission_edit_get.py
+********Test Case: kk_Api_admin_webPlayer_promo_commission_edit_get.py********
+
+	Start >>07月22日15時55分58秒 [Feature] API POST webPlayer promo commission edit get
+
+		New ini value is: API.webId = a8b3c8bfc49c9301c2a86e55e1bff764
+		New ini value is: API.vipId = b01bf316216d1aa054c9df0aea873425
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/get
+
+		- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.022043 (seconds)
+
+		- api response: 
+{
+    "banker_acc": "QAbanker1",
+    "commission_times": 200,
+    "max_receive_amount": 600,
+    "promotion_limit": 500,
+    "receive_times_daily": 5,
+    "single_min_receive_amount": 100,
+    "total_bet": 400,
+    "web_commission_name": "QArake"
+}
+
+		Response data: {
+    "banker_acc": "QAbanker1",
+    "commission_times": 200,
+    "max_receive_amount": 600,
+    "promotion_limit": 500,
+    "receive_times_daily": 5,
+    "single_min_receive_amount": 100,
+    "total_bet": 400,
+    "web_commission_name": "QArake"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.022043
+
+		- Success get max_receive_amount: 600
+
+		- Success get promotion_limit: 500
+
+		- Success get total_bet: 400
+
+		- Success get commission_times: 200
+
+		- Success get single_min_receive_amount: 100
+
+		- Success get receive_times_daily: 5
+
+		- Success get web_commission_name: QArake
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webId = 
+		New ini value is: API.vipId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時55分58秒 [Feature] API POST webPlayer promo commission edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時55分58秒 [Feature] API POST webPlayer promo commission edit get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/promo/commission/edit/get
+- api params: {'webId': 'a8b3c8bfc49c9301c2a86e55e1bff764', 'vipId': 'b01bf316216d1aa054c9df0aea873425'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.022043 (seconds)
+- api response: 
+{
+    "banker_acc": "QAbanker1",
+    "commission_times": 200,
+    "max_receive_amount": 600,
+    "promotion_limit": 500,
+    "receive_times_daily": 5,
+    "single_min_receive_amount": 100,
+    "total_bet": 400,
+    "web_commission_name": "QArake"
+}
+- API success (status and response are correct).
+- Response time: 0.022043
+- Success get max_receive_amount: 600
+- Success get promotion_limit: 500
+- Success get total_bet: 400
+- Success get commission_times: 200
+- Success get single_min_receive_amount: 100
+- Success get receive_times_daily: 5
+- Success get web_commission_name: QArake
+- - -
+# Test Result: PASS
+
+End << 07月22日15時55分58秒 [Feature] API POST webPlayer promo commission edit get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1555
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

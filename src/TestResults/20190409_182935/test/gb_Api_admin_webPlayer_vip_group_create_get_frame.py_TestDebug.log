@@ -1,0 +1,94 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190409_182935\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190409_182935\\testresults.xml
+********Test Case: gb_Api_admin_webPlayer_vip_group_create_get_frame.py********
+
+	Start >>04月09日18時29分35秒 [Feature] API POST webPlayer vip group create get frame
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/group/create/get/frame
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=FgxvSlC5LJ44AU6U8Hp0FnNupsVq7A5nk6W0Em9l for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.647901 (seconds)
+
+		- API success (status and response are correct).
+
+		- Response time: 0.647901
+
+		Response data: <div class="sub-tit">未挂载</div>
+<div class="list-info-box">
+    共
+    <span id="dataOffNum">3</span>
+    个层级
+</div>
+<ul class="list" id="dataOffList">
+    <li class="title">
+        <div class="list-group-100">
+            <div class="box-10 txt-c">挂载</div>
+            <div class="box-10 txt-c">項目</div>
+            <div class="box-15 txt-c">层级</div>
+            <div class="box-15 txt-c">存款次数</div>
+            <div class="box-15 txt-c">存款总额</div>
+        </div>
+    </li>
+                        <li>
+                <div class="list-group-100">
+                    <div class="box-10 txt-c set-map">
+                        <i class="fas fa-arrow-left js-addUrl" title="挂载" alt="挂载"></i>
+                    </div>
+                    <div class="box-10 txt-c js-indList">1</div>
+                    <div class="box-15 txt-c js-urlId" id="7c0ec2974ab763ac5a67b98e2eae227c">QATestvip2</div>
+                    <div class="box-15 txt-c js-frequency">10</div>
+                    <div class="box-15 txt-c js-total">0</div>
+                </div>
+            </li>
+                    <li>
+                <div class="list-group-100">
+                    <div class="box-10 txt-c set-map">
+                        <i class="fas fa-arrow-left js-addUrl" title="挂载" alt="挂载"></i>
+                    </div>
+                    <div class="box-10 txt-c js-indList">2</div>
+                    <div class="box-15 txt-c js-urlId" id="a9552ed88df997133b3485896c90faf6">QAvip11</div>
+                    <div class="box-15 txt-c js-frequency">10</div>
+                    <div class="box-15 txt-c js-total">0</div>
+                </div>
+            </li>
+                    <li>
+                <div class="list-group-100">
+                    <div class="box-10 txt-c set-map">
+                        <i class="fas fa-arrow-left js-addUrl" title="挂载" alt="挂载"></i>
+                    </div>
+                    <div class="box-10 txt-c js-indList">3</div>
+                    <div class="box-15 txt-c js-urlId" id="a99bdcd15f33315a87260a5e95d1bf0b">QATestvip</div>
+                    <div class="box-15 txt-c js-frequency">10</div>
+                    <div class="box-15 txt-c js-total">0</div>
+                </div>
+            </li>
+            </ul>
+<div class="no-data" id="noOff" style="display:none;">无网域</div>
+
+
+
+		---
+---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月09日18時29分36秒 [Feature] API POST webPlayer vip group create get frame
+	Collect temp results or other files...

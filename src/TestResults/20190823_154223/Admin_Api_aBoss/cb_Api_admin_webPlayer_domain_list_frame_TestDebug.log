@@ -1,0 +1,241 @@
+
+* Run test case: cb_Api_admin_webPlayer_domain_list_frame.py
+********Test Case: cb_Api_admin_webPlayer_domain_list_frame.py********
+
+	Start >>08月23日15時42分53秒 [Feature] API POST webPlayer domain list frame
+
+		New ini value is: API.webDomain = 10.1.10.12
+		New ini value is: API.bankerid = bb49393a1b6b9e58aa6a346df8d2d758
+		New ini value is: API.api_path = api/webPlayer/domain/list/frame
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/list/frame
+
+		- api params: {'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'webDomain': '10.1.10.12', 'webId': 'all'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.050574 (seconds)
+
+		Response data: <div class="src-group">
+ <form action="###">
+  <label for="selBanker">
+   庄家帐号
+  </label>
+  <div class="src-box">
+   <select class="sel-sty" id="selBanker" name="level">
+    <option selected="" value="bb49393a1b6b9e58aa6a346df8d2d758">
+     QAbanker12
+    </option>
+    <option value="619da70cf372717e11eff31f1d619ef9">
+     QAbanker11
+    </option>
+    <option value="2aade99c42b43ed4f69df9fa45cbd429">
+     QAbanker10
+    </option>
+    <option value="0936a9a61157ad93a984f73d5de8b692">
+     B_Banker001
+    </option>
+    <option value="ac3587c2ac84f7035079d7b0d7b5afb3">
+     B_BANKER666
+    </option>
+    <option value="410fa981da48e2ce75e65ca1b388edfe">
+     B_superman
+    </option>
+    <option value="7b079a0af4afaa0c5c5eb610d449c663">
+     QAbanker6
+    </option>
+    <option value="f194e28aa4c0e6440c59b61f1a73b789">
+     QAbanker5
+    </option>
+    <option value="7c699591a21ae5b90f735383bc6c431f">
+     QAbanker4
+    </option>
+    <option value="8e4a14b9ab5670cb5191ff4279141b11">
+     QAbanker3
+    </option>
+    <option value="d167eafa0a4317c06b7561f2840fa1fa">
+     B_Chris001
+    </option>
+    <option value="79465b7dfbad75b215e2e7f9d6dac69f">
+     B_DDD
+    </option>
+    <option value="c6f3d86c6161b7a78949af9526aa3b02">
+     B_banker13
+    </option>
+    <option value="027ed3857c6bb61a10bcd38856f5f98d">
+     B_789
+    </option>
+    <option value="5ad55444c706520f54f03ba384b857d1">
+     QAbanker2
+    </option>
+    <option value="bb641ea343d63186a1fdd9f1ea1dd4a6">
+     B_DD
+    </option>
+    <option value="1d31b3161100ce16f7c8e6d89a596570">
+     QAbanker0
+    </option>
+    <option value="a97e6eec6fc58c8d8ce2c339b555bbb1">
+     QAbanker1
+    </option>
+    <option value="3c7344d76648d2044fbac8b6e9e0950d">
+     B_cindy
+    </option>
+    <option value="6185a3710cd25372dcfb908843a563b0">
+     B_Nicole
+    </option>
+    <option value="2a2b8009b766549fc9daec26af8959c8">
+     B_simple
+    </option>
+    <option value="d64241f0cd521c6b3aa4aa163edcbf13">
+     B_cc1211
+    </option>
+    <option value="258931eec7b31ba22fa91e08cdeabb40">
+     B_banker2
+    </option>
+    <option value="bffcb58b29c8b639e302aed425e02a54">
+     B_banker1
+    </option>
+   </select>
+  </div>
+  <div class="src-box">
+   <select class="sel-sty" id="website" name="website">
+    <option selected="" value="all">
+     全部网站
+    </option>
+    <option value="nothing">
+     无挂载网站
+    </option>
+   </select>
+  </div>
+  <div class="src-box">
+   <input class="input-sty" id="srcName" name="srcName" placeholder="请输入网域名称" type="text" value=" 10.1.10.12 "/>
+  </div>
+  <div class="btn btn-submit">
+   搜索
+   <input id="srcBtn" type="button"/>
+  </div>
+ </form>
+</div>
+<div class="list-info-box">
+ 共
+ <span id="dataNum">
+  1
+ </span>
+ 个网域
+ <a class="btn btn-orange" href="web_url_add.html">
+  <i class="far fa-plus">
+  </i>
+  新增网域
+ </a>
+</div>
+<ul class="list" id="dataList">
+ <li class="title">
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    項目
+   </div>
+   <div class="box-10">
+    网站
+   </div>
+   <div class="box-8 txt-c">
+    状态
+   </div>
+   <div class="box-25">
+    网域
+   </div>
+   <div class="box-15">
+    创建帐号
+   </div>
+   <div class="box-25">
+    創建時間
+   </div>
+  </div>
+ </li>
+ <li>
+  <div class="list-group">
+   <div class="box-8 txt-c">
+    1
+   </div>
+   <div class="box-10">
+    无挂载网站
+   </div>
+   <div class="box-8 txt-c">
+    <div class="status-tag tag-open">
+     启用
+    </div>
+   </div>
+   <div class="box-25">
+    10.1.10.12
+   </div>
+   <div class="box-15">
+    A_Boss
+   </div>
+   <div class="box-25">
+    2019-08-23 07:42:50
+   </div>
+  </div>
+  <div class="operate-box">
+   <a alt="编辑" href="web_url_edit.html" id="508ed892fd23d591f2113b078c2bbe9d" title="编辑">
+    <i class="fas fa-pencil-alt">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.050574
+
+		- Success get webdomainid: 508ed892fd23d591f2113b078c2bbe9d
+
+		- - -
+
+['PASS']
+['PASS']
+		New ini value is: API.webdomainid = 508ed892fd23d591f2113b078c2bbe9d
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.webDomain = 
+		New ini value is: API.bankerid = 
+	<< End Tear Down
+
+
+	End << 08月23日15時42分53秒 [Feature] API POST webPlayer domain list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時42分53秒 [Feature] API POST webPlayer domain list frame
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/domain/list/frame
+- api params: {'bankerId': 'bb49393a1b6b9e58aa6a346df8d2d758', 'webDomain': '10.1.10.12', 'webId': 'all'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.050574 (seconds)
+- API success (status and response are correct).
+- Response time: 0.050574
+- Success get webdomainid: 508ed892fd23d591f2113b078c2bbe9d
+- - -
+# Test Result: PASS
+
+End << 08月23日15時42分53秒 [Feature] API POST webPlayer domain list frame
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1542
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

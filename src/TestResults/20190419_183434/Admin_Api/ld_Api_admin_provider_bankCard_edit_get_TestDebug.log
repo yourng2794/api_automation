@@ -1,0 +1,77 @@
+
+* Run test case: ld_Api_admin_provider_bankCard_edit_get.py
+********Test Case: ld_Api_admin_provider_bankCard_edit_get.py********
+
+	Start >>04月19日18時38分25秒 [Feature] API POST provider bankCard edit get
+
+		New ini value is: API.cardId = 13306150968120ad6125838e2a6f4b81
+
+		- api url: http://admtest.o2ogt.com/api/provider/bankCard/edit/get
+
+		- api params: {'cardId': '13306150968120ad6125838e2a6f4b81'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.089977 (seconds)
+
+		Response data: 
+{
+    "acc_name": "QA5",
+    "amount": 5000,
+    "bank_acc": "00000000123460",
+    "bank_name": "QAbank18",
+    "branch_name": "Branch18",
+    "card_option": 3,
+    "currency": "CNY",
+    "enable": 1,
+    "maxdeposit": 1000,
+    "maxwithdraw": 3000,
+    "mindeposit": 100
+}
+
+		- Fail get acc_name: QA5 != QA6
+
+		- Fail get bank_acc: 00000000123460 != 00000000123461
+
+		- Fail get bank_name: QAbank18 != QAbank19
+
+		- Fail get branch_name: Branch18 != Branch19
+
+		- Success get enable: 1
+
+		- Success get amount: 5000
+
+		- Success get maxdeposit: 1000
+
+		- Success get maxwithdraw: 3000
+
+		- Success get mindeposit: 100
+
+		---
+
+		---
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時38分25秒 [Feature] API POST provider bankCard edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

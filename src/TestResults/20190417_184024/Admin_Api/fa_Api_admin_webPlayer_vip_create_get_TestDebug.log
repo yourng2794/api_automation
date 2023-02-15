@@ -1,0 +1,50 @@
+
+* Run test case: fa_Api_admin_webPlayer_vip_create_get.py
+********Test Case: fa_Api_admin_webPlayer_vip_create_get.py********
+
+	Start >>04月17日18時41分35秒 [Feature] API POST webPlayer vip create get
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/vip/create/get
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=SJ05JOvIEo7487D7NIhXmITGggGPerS4hzEnIA4R for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.396674 (seconds)
+
+		Response data: [{"67418b3849638cfcaf93453997a88db2":"0001"},{"fd833d86ecf046f4429d53490e682b58":"09876"},{"918c6247827c76ec5f2d0d4bc98eb068":"11"},{"640f76128467fa6c5fc9947bc9956c0d":"1111"},{"7a70a4e17b6f0fb8e6bc1582dc6007a5":"111aa"},{"522c757dffe7bbd08eca5abf316eda91":"122"},{"bd4c3d718008889017a0fea6ee535dac":"123"},{"7f4c311c66342caffe1fa5de8a8ba21f":"123456855sss"},{"d26568b25ff40d321bec2d27c57d2868":"456"},{"c4b043c3b60c365009cf609fa56d80bc":"9865"},{"f5e35d9a363e39355f9b1b760a1e48af":"a0001"},{"d883a51896b4a2b4bb3e354beeb3ac43":"a0007"},{"7878b77aa0affe1315dcab49a882b060":"a001"},{"e751dac5d1c412c2f7b16bdbe6bffa53":"a004"},{"28e792b0963c959af392d250aa464a0f":"A006"},{"10777f4971820152fccb85009361d95d":"a0061"},{"56454f79596cb70a5b1f37d404f71980":"ACE"},{"0ed2fd5a3a2f223fe9109294e29ef662":"allallopen"},{"22611212d81ef8cb3594b4d205136912":"allopen"},{"a9c81630ab8f124fd428730c1b5346c0":"aw3"},{"8ed0e833b845efd30343705d29db49d6":"bankercat"},{"be5085874c6852cb5e142797b4f96679":"bankerdog"},{"9f35c3d5505732682dbc0542ffbff15c":"bobobo"},{"172fb3cc0cc624fd062daeb09a9c818a":"brian"},{"fbf54aee3f88beff1700eebe45426133":"firemice"},{"cc65ac42fd28d8997570f30c9af20f0d":"givememoney"},{"5734f8229eb938b87e676bbb37cda87e":"gugugu"},{"b6dfa4d08cac40c754626c6cf3cb6f10":"kipupu"},{"b028f02265e2e58945d04d7ee059d71e":"lightning666"},{"b824e48a7a38681a74f04895bfb23656":"mainbanker"},{"85d4f8fc8067e351614dad01e31f0b5b":"micebanker"},{"159fbfc0c5f4e2bcc15e6cedc9baccfc":"micebankermice"},{"4d5d1c424bc689e8a5662bb4e28a5efd":"nini"},{"7f09300b8b44d07eae1a5a362e7b1627":"nuderlist"},{"e98cb75b973ba616983c728cce2a0dea":"o2ogmcom3"},{"97b148ebdb8bf9dec7855600240b8260":"o2ogtcom"},{"909a93942974f58ea3ecc6cab72c05df":"o2ogtcom2"},{"ede200227850546aaee4545ac83d3a08":"Owen"},{"835bd15c55ec6df3fe054f3aed828e41":"QAstep4"},{"451c26b4747218590596d3ed949dc1d6":"qatest2"},{"7a68e472e577de9fcf217b4fd97af51e":"qatest5"},{"9cd579a99f94324a8a5183740d02d18d":"QQ123"},{"ae90c7af66b832211ff8a0d97f742e5f":"sfaf"},{"abdaa321c8351d33ab8cee64df032043":"test10"},{"6b321ac85a37e04390013cb3f4159d8c":"test11"},{"b8e2518cc99f772bb69ef616a669a0ae":"test12"},{"800b1e035cc2b5a630c291ae4b1a5a11":"test2"},{"7edf633d11837398d98b4b1bc266af7e":"test3"},{"10de263ee5a8d2d7e84d219762e80e40":"test4"},{"0d0bb627deb582cde4e2944b70b55d2a":"test448866"},{"b69ea200878506f30a4f71fce3e2d0ca":"test5"},{"e8a0ee2664a672b638d6b3be66ce9fb4":"test6"},{"590557e390e50f06103eb1499fed27e1":"testtest"},{"c48c66f29e58d1292e6351e5deb2deb2":"tr00"},{"36322a5d678f18f2bcebaa6decacf949":"truesun"},{"c5408217a3fcf9a372f1073331040084":"truesun123"},{"504e17217fcb45f71a80d81991b1d84e":"tu"},{"67d8055d44df916e03024e3fbfc83a2c":"tur111"}]
+
+		- Success get: {"835bd15c55ec6df3fe054f3aed828e41":"QAstep4"}
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時41分35秒 [Feature] API POST webPlayer vip create get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

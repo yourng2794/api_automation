@@ -1,0 +1,563 @@
+ -------------------- Running a single Test Case --------------------
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190423_183027\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190423_183027\\testresults.xml
+********Test Case: b_Api_admin_partner_type_list_frame.py********
+
+	Start >>04月23日18時30分27秒 [Portal] API POST partner type list frame
+
+
+		- api url: http://admtest.o2ogt.com/api/partner/type/list/frame
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=uouaNbW3vhM1nbuRODzZKWpoagjIKKtAp2ZCdTvr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.984575 (seconds)
+
+		Response data: 
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   1
+  </div>
+  <div class="box-20">
+   QA
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="943248d47366fdac4e6ddfa4cd4e3f1b" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="943248d47366fdac4e6ddfa4cd4e3f1b" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="943248d47366fdac4e6ddfa4cd4e3f1b" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="943248d47366fdac4e6ddfa4cd4e3f1b" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li class="j-listStatus" data-undelete="1">
+ <div class="list-group main-type">
+  <div class="box-8 txt-c">
+   2
+  </div>
+  <div class="box-20">
+   超級大莊家(不可刪除)
+  </div>
+  <div class="box-15 txt-c">
+   1
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="查看" href="client_type_edit.html" id="61568d3a50b2f5e8eaab2e03c18807f9" title="查看">
+   <i class="fas fa-info-circle">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="61568d3a50b2f5e8eaab2e03c18807f9" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="61568d3a50b2f5e8eaab2e03c18807f9" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   3
+  </div>
+  <div class="box-20">
+   超有錢股東快來快來
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="7f202f9924e6803f92fb8bc454c6748e" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="7f202f9924e6803f92fb8bc454c6748e" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="7f202f9924e6803f92fb8bc454c6748e" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="7f202f9924e6803f92fb8bc454c6748e" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   4
+  </div>
+  <div class="box-20">
+   快放假了!!!!
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="7599a190412e54d211a532fb97ba22f0" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="7599a190412e54d211a532fb97ba22f0" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="7599a190412e54d211a532fb97ba22f0" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="7599a190412e54d211a532fb97ba22f0" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   5
+  </div>
+  <div class="box-20">
+   綠燈一執行!!!!!!!
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="9f12d9dae19d004ab5891c71506420c8" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="9f12d9dae19d004ab5891c71506420c8" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9f12d9dae19d004ab5891c71506420c8" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="9f12d9dae19d004ab5891c71506420c8" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   6
+  </div>
+  <div class="box-20">
+   拿來刪除用的類型
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="9f706579fef951c88136d1851cf03b9c" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="9f706579fef951c88136d1851cf03b9c" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="9f706579fef951c88136d1851cf03b9c" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="9f706579fef951c88136d1851cf03b9c" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   7
+  </div>
+  <div class="box-20">
+   揪齁勝
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="92187ba46c3bdca039e0ec4c0b3960b9" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="92187ba46c3bdca039e0ec4c0b3960b9" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="92187ba46c3bdca039e0ec4c0b3960b9" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="92187ba46c3bdca039e0ec4c0b3960b9" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   8
+  </div>
+  <div class="box-20">
+   沒有停押盤口
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="6dc1122af55ecc2d81c490ea5030c04e" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="6dc1122af55ecc2d81c490ea5030c04e" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="6dc1122af55ecc2d81c490ea5030c04e" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="6dc1122af55ecc2d81c490ea5030c04e" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   9
+  </div>
+  <div class="box-20">
+   我是文科太太不能新增只好打文科太太2
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="78324baa561fcdc916ced4da8ed2dfa8" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="78324baa561fcdc916ced4da8ed2dfa8" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="78324baa561fcdc916ced4da8ed2dfa8" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="78324baa561fcdc916ced4da8ed2dfa8" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   10
+  </div>
+  <div class="box-20">
+   賣竹鼠一隻三元三隻十元
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="852ba06469da049dd67b663318376ee6" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="852ba06469da049dd67b663318376ee6" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="852ba06469da049dd67b663318376ee6" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="852ba06469da049dd67b663318376ee6" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   11
+  </div>
+  <div class="box-20">
+   測試開關盤口
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="16e16d2434a9e960eae49b423329a715" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="16e16d2434a9e960eae49b423329a715" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="16e16d2434a9e960eae49b423329a715" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="16e16d2434a9e960eae49b423329a715" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   12
+  </div>
+  <div class="box-20">
+   只是一隻竹鼠123
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="34cca589f904ea6f994903cbf497c380" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="34cca589f904ea6f994903cbf497c380" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="34cca589f904ea6f994903cbf497c380" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="34cca589f904ea6f994903cbf497c380" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   13
+  </div>
+  <div class="box-20">
+   盤口貴子123
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="97cf8dafba35e4f9ac4bd767728e096a" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="97cf8dafba35e4f9ac4bd767728e096a" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="97cf8dafba35e4f9ac4bd767728e096a" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="97cf8dafba35e4f9ac4bd767728e096a" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   14
+  </div>
+  <div class="box-20">
+   比超級大莊家還大
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="1e5fd84049f436a2d4bce1470f87d57f" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="1e5fd84049f436a2d4bce1470f87d57f" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="1e5fd84049f436a2d4bce1470f87d57f" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="1e5fd84049f436a2d4bce1470f87d57f" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   15
+  </div>
+  <div class="box-20">
+   三八阿拉
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="fd4e3bdf99cff2c34a0e26af93f46dfa" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="fd4e3bdf99cff2c34a0e26af93f46dfa" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="fd4e3bdf99cff2c34a0e26af93f46dfa" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="fd4e3bdf99cff2c34a0e26af93f46dfa" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   16
+  </div>
+  <div class="box-20">
+   僅限金城武使用
+  </div>
+  <div class="box-15 txt-c">
+   0
+  </div>
+ </div>
+ <div class="operate-box oper-box">
+  <a alt="编辑" href="client_type_edit.html" id="8eea92a620c310f347dacf530ef3d2de" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="汇出" href="#" id="8eea92a620c310f347dacf530ef3d2de" title="汇出">
+   <i class="fas fa-file-spreadsheet">
+   </i>
+  </a>
+  <a alt="刪除" class="del" href="#" id="8eea92a620c310f347dacf530ef3d2de" title="刪除">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+ <div class="operate-box sort-box" style="display:none;">
+  <a alt="排序" class="sort" id="8eea92a620c310f347dacf530ef3d2de" title="排序">
+   <i class="fas fa-arrows-alt-v">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API fail (status or response is incorrect).
+
+		---
+
+		---
+['FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月23日18時30分28秒 [Portal] API POST partner type list frame
+	Collect temp results or other files...

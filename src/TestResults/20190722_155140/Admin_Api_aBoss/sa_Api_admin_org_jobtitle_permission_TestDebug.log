@@ -1,0 +1,464 @@
+
+* Run test case: sa_Api_admin_org_jobtitle_permission.py
+********Test Case: sa_Api_admin_org_jobtitle_permission.py********
+
+	Start >>07月22日15時58分11秒 [Feature] API POST org. jobtitle permission
+
+		New ini value is: API.depId = a9bafa0b40a1f9b038ff496891759a90
+
+		- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/permission/get
+
+		- api params: {'depId': 'a9bafa0b40a1f9b038ff496891759a90'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=EMQESzNrsQjmtnrIiTtavGr0wfe1EFVhuqIEhBug for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.019956 (seconds)
+
+		- api response: 
+{
+    "accCont01": {
+        "ir": []
+    },
+    "accCont02": {
+        "qs": []
+    },
+    "accCont03": {
+        "gl": [],
+        "or": [],
+        "orb": [],
+        "ord": [],
+        "orp": [],
+        "orplr": [],
+        "orpvd": [],
+        "orw": [],
+        "plrr": [],
+        "prr": [],
+        "wr": []
+    },
+    "accCont04": {
+        "dp": {
+            "dp_c": 1,
+            "dp_d": 1,
+            "dp_r": 1,
+            "dp_u": 1
+        },
+        "ee": {
+            "ee_c": 1,
+            "ee_d": 1,
+            "ee_r": 1,
+            "ee_u": 1
+        }
+    },
+    "accCont05": {
+        "prt": [],
+        "pt": [],
+        "ptr": [],
+        "ptt": []
+    },
+    "accCont06": {
+        "cms": [],
+        "dm": [],
+        "gs": [],
+        "lv": [],
+        "ma": [],
+        "ms": [],
+        "nt": [],
+        "plr": [],
+        "plrd": [],
+        "plrt": [],
+        "pr": [],
+        "promo": [],
+        "risk": [],
+        "st": [],
+        "wb": []
+    },
+    "accCont07": {
+        "bc": [],
+        "pm": [],
+        "po": [],
+        "pvd": []
+    },
+    "accCont08": {
+        "bh": [],
+        "bt": [],
+        "er": [],
+        "ia": [],
+        "md": [],
+        "mw": [],
+        "rfs": [],
+        "rp": [],
+        "rs": [],
+        "wa": []
+    }
+}
+
+		Response data: {
+    "accCont01": {
+        "ir": []
+    },
+    "accCont02": {
+        "qs": []
+    },
+    "accCont03": {
+        "gl": [],
+        "or": [],
+        "orb": [],
+        "ord": [],
+        "orp": [],
+        "orplr": [],
+        "orpvd": [],
+        "orw": [],
+        "plrr": [],
+        "prr": [],
+        "wr": []
+    },
+    "accCont04": {
+        "dp": {
+            "dp_c": 1,
+            "dp_d": 1,
+            "dp_r": 1,
+            "dp_u": 1
+        },
+        "ee": {
+            "ee_c": 1,
+            "ee_d": 1,
+            "ee_r": 1,
+            "ee_u": 1
+        }
+    },
+    "accCont05": {
+        "prt": [],
+        "pt": [],
+        "ptr": [],
+        "ptt": []
+    },
+    "accCont06": {
+        "cms": [],
+        "dm": [],
+        "gs": [],
+        "lv": [],
+        "ma": [],
+        "ms": [],
+        "nt": [],
+        "plr": [],
+        "plrd": [],
+        "plrt": [],
+        "pr": [],
+        "promo": [],
+        "risk": [],
+        "st": [],
+        "wb": []
+    },
+    "accCont07": {
+        "bc": [],
+        "pm": [],
+        "po": [],
+        "pvd": []
+    },
+    "accCont08": {
+        "bh": [],
+        "bt": [],
+        "er": [],
+        "ia": [],
+        "md": [],
+        "mw": [],
+        "rfs": [],
+        "rp": [],
+        "rs": [],
+        "wa": []
+    }
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.019956
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True', 'True', 'True', 'True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+	['True']
+<< END Success, jsonValueCompare
+
+		- - -
+
+['PASS']
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.depId = 
+	<< End Tear Down
+
+
+	End << 07月22日15時58分11秒 [Feature] API POST org. jobtitle permission
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>07月22日15時58分11秒 [Feature] API POST org. jobtitle permission
+
+- api url: http://tadmapi.o2ogt.com/api/organization/department/jobtitle/permission/get
+- api params: {'depId': 'a9bafa0b40a1f9b038ff496891759a90'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.019956 (seconds)
+- api response: 
+{
+    "accCont01": {
+        "ir": []
+    },
+    "accCont02": {
+        "qs": []
+    },
+    "accCont03": {
+        "gl": [],
+        "or": [],
+        "orb": [],
+        "ord": [],
+        "orp": [],
+        "orplr": [],
+        "orpvd": [],
+        "orw": [],
+        "plrr": [],
+        "prr": [],
+        "wr": []
+    },
+    "accCont04": {
+        "dp": {
+            "dp_c": 1,
+            "dp_d": 1,
+            "dp_r": 1,
+            "dp_u": 1
+        },
+        "ee": {
+            "ee_c": 1,
+            "ee_d": 1,
+            "ee_r": 1,
+            "ee_u": 1
+        }
+    },
+    "accCont05": {
+        "prt": [],
+        "pt": [],
+        "ptr": [],
+        "ptt": []
+    },
+    "accCont06": {
+        "cms": [],
+        "dm": [],
+        "gs": [],
+        "lv": [],
+        "ma": [],
+        "ms": [],
+        "nt": [],
+        "plr": [],
+        "plrd": [],
+        "plrt": [],
+        "pr": [],
+        "promo": [],
+        "risk": [],
+        "st": [],
+        "wb": []
+    },
+    "accCont07": {
+        "bc": [],
+        "pm": [],
+        "po": [],
+        "pvd": []
+    },
+    "accCont08": {
+        "bh": [],
+        "bt": [],
+        "er": [],
+        "ia": [],
+        "md": [],
+        "mw": [],
+        "rfs": [],
+        "rp": [],
+        "rs": [],
+        "wa": []
+    }
+}
+Response data: {
+    "accCont01": {
+        "ir": []
+    },
+    "accCont02": {
+        "qs": []
+    },
+    "accCont03": {
+        "gl": [],
+        "or": [],
+        "orb": [],
+        "ord": [],
+        "orp": [],
+        "orplr": [],
+        "orpvd": [],
+        "orw": [],
+        "plrr": [],
+        "prr": [],
+        "wr": []
+    },
+    "accCont04": {
+        "dp": {
+            "dp_c": 1,
+            "dp_d": 1,
+            "dp_r": 1,
+            "dp_u": 1
+        },
+        "ee": {
+            "ee_c": 1,
+            "ee_d": 1,
+            "ee_r": 1,
+            "ee_u": 1
+        }
+    },
+    "accCont05": {
+        "prt": [],
+        "pt": [],
+        "ptr": [],
+        "ptt": []
+    },
+    "accCont06": {
+        "cms": [],
+        "dm": [],
+        "gs": [],
+        "lv": [],
+        "ma": [],
+        "ms": [],
+        "nt": [],
+        "plr": [],
+        "plrd": [],
+        "plrt": [],
+        "pr": [],
+        "promo": [],
+        "risk": [],
+        "st": [],
+        "wb": []
+    },
+    "accCont07": {
+        "bc": [],
+        "pm": [],
+        "po": [],
+        "pvd": []
+    },
+    "accCont08": {
+        "bh": [],
+        "bt": [],
+        "er": [],
+        "ia": [],
+        "md": [],
+        "mw": [],
+        "rfs": [],
+        "rp": [],
+        "rs": [],
+        "wa": []
+    }
+}
+- API success (status and response are correct).
+- Response time: 0.019956
+- - -
+# Test Result: PASS
+
+End << 07月22日15時58分11秒 [Feature] API POST org. jobtitle permission
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Jul22_1558
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

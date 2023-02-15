@@ -1,0 +1,154 @@
+Folder created: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190322_172448\\
+Test Result XML: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\TestResults\20190322_172448\\testresults.xml
+<< Success, End replaceJSONValue.
+{'id': 61, 'suite_id': 1, 'name': 'Automation test report Mar22_1724', 'description': None, 'milestone_id': None, 'assignedto_id': 1, 'include_all': False, 'is_completed': False, 'completed_on': None, 'config': None, 'config_ids': [], 'passed_count': 0, 'blocked_count': 0, 'untested_count': 14, 'retest_count': 0, 'failed_count': 0, 'custom_status1_count': 0, 'custom_status2_count': 0, 'custom_status3_count': 0, 'custom_status4_count': 0, 'custom_status5_count': 0, 'custom_status6_count': 0, 'custom_status7_count': 0, 'project_id': 1, 'plan_id': None, 'created_on': 1553246687, 'created_by': 1, 'url': 'https://o2ogt.testrail.io/index.php?/runs/view/61'}
+		New ini value is: TestRail.TestRailRunID = 61
+------------------------ Test is started------------------------
+>> Enter Test Suites: Admin_Api
+	find test case: a_Api_Login.py
+	find test case: b_Api_admin_profile.py
+	find test case: z_Api_Logout.py
+
+
+* Run test case: a_Api_Login.py
+********Test Case: a_Api_Login.py********
+
+	Start >>03月22日17時24分52秒 [Portal] API POST login exist account
+
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=jCChUo2F1lT2TY5LQH8wZ5mcBjvvvFHWVSQ0YB9e for .o2ogt.com/>, <Cookie laravel_session=jCChUo2F1lT2TY5LQH8wZ5mcBjvvvFHWVSQ0YB9e for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.479215 (seconds)
+
+		- Session expired until: 17:25:53
+
+		- API success (status and response are correct).
+
+		- Response time: 0.479215
+
+		Response data: /9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAHgBaAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9XS88WLFa3NuND1mxfE7z2rvbvLEVOFhQl0LZ2sHaQKc7cL9+vJfFms+Eda+Lcy+Pre5sLCw0xIY7Scszeczb9xNsz/wt6+le7XVtYvf2NzcWcct3G7pazm33tCWQlsPg+WCq4JyAeB1IBxNF0HwsniXVdWsXtr3XGlK3twZlllhOTtjIHEeAAoAAJCjOSM0AY3w70b4cJPPq/gdYGm8ryJmS4mZ0RiGwySNlclOCQPun3rqdX8L6JruhLomo6bDLpqhAluuY1jCfd2bcFcAY4xxkdDXmWt+HtFf9obSYP7LsbiK/wBNklvreW3SRCw37ZCpBAYlVGfb3NdZrFn4b0eVLO58aT6RI+ycw3uqR3Bk2tlHC3nm7drKSCm3kc5KjAByHxH8P6Le6zpXgbw3oGjWeqan++ubyPT4g1rbKTlgQAQTg9x0xxkGvS9J0vS7FrXSrGCaKDRowsUT2pEe514kSRk+ZwpcEo3/AC0YNyRjx3wX4nWXxn4l8W3Wt+GJbyWb7BDHf3n2HdCgGJIyTIQp2r8uDk5O4YIb0K2+I+jahf20EmmyXc8Ll/O02SDUVhYIymRVgdpghyVDmNfvgMF3YoA7T/Q7yf8A5YTzWcvszQSFP/HW2SfXa/oakkjZ3hZZpIwj7mVQuJBtI2tkE4yQeMHKjnGQfJF+JEuv63c6LomuXVr9hi2mf+xJru5nZcKzvEkYCDd14XkjgZwNjw34gmC3lpqeja39oWZWgks9Nu7eO7PmNIDgqqRszsd7MVVt3zkqDWaqXdrM6p4Xkp8/PFvTS+uv4PzSba69TtxPbyxQ38uoQNaNKklnLFKURhIoRAzBtsu5nO3sdyYG5Qx870qfxz4xXXdS0jxZFp9tBf3FtY2z2EUiuqfdJkwSAcgZwxHPB6V1UfiPVlM1qPCfiN51BkEsv2LaA7NtUEThW24xgHcAF3ctk+f6T8N7W20v7Nq/hfxRqdyGZkn+12kIiJOcoguiAe+TnJr18BUoU4TlVkk9EvcU/V2enb7zimm7WPVfD9hq2nWDw6zrX9r3JlLLP9lS32pgALtXg8gnPv7Vq15R8PNe8Xk6x4fNjbXx0e4EazalqBilCNu2o2yOUMw2nJ3YGQASBmtuc/FlriVrePwVHAXJjSR7p2Vc8AsAATjvgZ9BXLjIShXkpfgrLXVO1la68iou6Nz/AIQ3S/8An61z/wAHt7/8erj/ABD8FNK1LWBq2kXi6deMu2X7TaJfRynj52SXOXPUsSSScnkknuLx7e21PR2v082+mu5re1mgUxhA0ckm1/m5XZEARyC6q20YG25Z2TWiQRrLHHBAjxR29vCscQTcPLGOSCigLwQDljt6BeYZwXgz4R+FtJt5b+5Fn4glv0SQTzWkJgC8kNCgBVQ2R0J4Ax79jpeladpkVpaW2lwabId108GnIyQeZtCNuZVVX+8MBwCdoYLlPl2Kr/Zc6j9sNxOcReUsO/Ea5OS20dWOFGTnAX5cbm3AGD4T8FWHhPRZtIika9tGu/tcZukVnDfIwLEcMwddwIAx8vcZPTUVHPBDdW8tvcRRzQSoUkjkUMrqRggg8EEcYoA8f8I+Ej438Mvb6zcOmm291IUt440JknPJkYsp6Btoxjqa0PCPhmLSPEms+HoLu8sbiApcwXVhMY0ZWVVJMBzAWxtBJjJzk9QCLOpX158NNQumt4YLzStSnM0UBkMbwyH72Dgjb0/L89bwBo98kdx4h1e/N7qGoqoDkKNsa8AHaqjPA6AdPc1w0rJxgviW/ofU5hzTp1cTNL2U0nDRX5rr5rS976P7i41l4r/s0rDqUFykkOPIv4vs92pYchriBjGrKScFIiPlAz/HXG203xO8L6b9nn8PWWu3NqjeTq4uvNdImYNIhVtsshwo4UckLw2MV63UccEMLzPFFGjzPvlZVALttC5b1O1VGT2AHavVpV3Ti4NJp62fl57/AInyrVzzTwBc6RoNyYtV19o/EWsyyT3FtdwNa+c7MgXasyK5wWIXGAxaTAbZ8vZz+NPCtrcS29x4l0aGeJykkcl/ErIwOCCC2QQeMUazrmm2tvrlvf2slxBp+mC9u4zGrrLC4lBQAnDEiFwQcDkc8nEf/CCeD/8AoVND/wDBdD/8TU16869R1J7sErKyP//Z
+
+		---
+
+		- - - 
+
+		- 5, accurate: 96 %
+
+		- 7, accurate: 95 %
+
+		- 8, accurate: 94 %
+
+		- 5, accurate: 89 %
+
+		- - - 
+New code: 5785
+		New ini value is: API.code = 5785
+
+		- api_params: {'acc': 'tur111', 'pwd': '111', 'code': '5785'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'tur111', 'pwd': '111', 'code': '5785'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=jCChUo2F1lT2TY5LQH8wZ5mcBjvvvFHWVSQ0YB9e for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.151749 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"Error_code":"E06","Error_message":"Failed to security verify"}
+
+		---
+
+		- - - 
+
+		- api url: http://admtest.o2ogt.com/login/code
+
+		- api params: {}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _code=jCChUo2F1lT2TY5LQH8wZ5mcBjvvvFHWVSQ0YB9e for .o2ogt.com/>, <Cookie laravel_session=jCChUo2F1lT2TY5LQH8wZ5mcBjvvvFHWVSQ0YB9e for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.058515 (seconds)
+
+		- Session expired until: 17:25:54
+
+		- API success (status and response are correct).
+
+		- Response time: 0.058515
+
+		Response data: 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
+
+		---
+
+		- - - 
+
+		- 9, accurate: 93 %
+
+		- 9, accurate: 96 %
+
+		- 5, accurate: 93 %
+
+		- 9, accurate: 91 %
+
+		- - - 
+New code: 9959
+		New ini value is: API.code = 9959
+
+		- api_params: {'acc': 'tur111', 'pwd': '111', 'code': '9959'}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/login
+
+		- api params: {'acc': 'tur111', 'pwd': '111', 'code': '9959'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie _admin=pTBBTLcgRIQuExF6%2BHpH7NET7f88TdJRhipcliH%2FjkfAvbbgZ4pkYOXaII2rpvSzmJZUBbdSlhN1NIrrT0lgYwipjlb5uvoK80HY6VwhypWUMRFYK6mu3djTBGup3AWfHwrrv11KSmbHuMchhPAeED%2Bb7KYXwneA0tXrG6nv4Z8%3D for .o2ogt.com/>, <Cookie laravel_session=ldrF1W22vdlaGOvzMNxjjSIoKEqVLbIMqdS0uEKy for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.14259 (seconds)
+
+		- - - 
+['PASS', 'PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月22日17時24分54秒 [Portal] API POST login exist account
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

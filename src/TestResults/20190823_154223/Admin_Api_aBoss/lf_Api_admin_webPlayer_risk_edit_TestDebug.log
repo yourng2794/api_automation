@@ -1,0 +1,73 @@
+
+* Run test case: lf_Api_admin_webPlayer_risk_edit.py
+********Test Case: lf_Api_admin_webPlayer_risk_edit.py********
+
+	Start >>08月23日15時47分09秒 [Feature] API POST webPlayer risk edit
+
+	<< END Success, isInt
+	<< END Success, checkJSONFile: {'type': 'ipLogin', 'interval': '1', 'time': 'min', 'amount': '', 'count': '1'}
+	<< END Success, replaceJSONValue.
+
+		exist_data: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_risk_edit.json
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/edit
+
+		- api params: {}
+
+		- api data: {"name": "QArisk", "ptid": "bb49393a1b6b9e58aa6a346df8d2d758", "webid": "1c049b9bc588fead28c0e84492f051a2", "opt": [{"type": "ipLogin", "interval": "1", "time": "min", "amount": "", "count": "1"}], "riskid": "3f701406a44256514ceb0d807994007b", "oldWebid": "1c049b9bc588fead28c0e84492f051a2"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.051941 (seconds)
+
+		Response data: {
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.051941
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 08月23日15時47分09秒 [Feature] API POST webPlayer risk edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時47分09秒 [Feature] API POST webPlayer risk edit
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/edit
+- api params: {}
+- api data: {"name": "QArisk", "ptid": "bb49393a1b6b9e58aa6a346df8d2d758", "webid": "1c049b9bc588fead28c0e84492f051a2", "opt": [{"type": "ipLogin", "interval": "1", "time": "min", "amount": "", "count": "1"}], "riskid": "3f701406a44256514ceb0d807994007b", "oldWebid": "1c049b9bc588fead28c0e84492f051a2"}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Compare response: Success, 0.051941 (seconds)
+- API success (status and response are correct).
+- Response time: 0.051941
+- - -
+# Test Result: PASS
+
+End << 08月23日15時47分09秒 [Feature] API POST webPlayer risk edit
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1547
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

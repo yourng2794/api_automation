@@ -1,0 +1,214 @@
+
+* Run test case: kd_Api_admin_webPlayer_risk_list_frame.py
+********Test Case: kd_Api_admin_webPlayer_risk_list_frame.py********
+
+	Start >>04月19日18時37分45秒 [Feature] API POST webPlayer risk list frame
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/risk/list/frame
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/risk/list/frame
+
+		- api params: {'type': 'all', 'ptid': '835bd15c55ec6df3fe054f3aed828e41', 'page': '', 'ln': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.492838 (seconds)
+
+		Response data: 
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   1
+  </div>
+  <div class="box-40" id="e3ed4f74eb62925bb76a28a1457fddbe">
+   QArisk
+  </div>
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-10 txt-c">
+   <div class="status-tag tag-open">
+    监控中
+   </div>
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="活动资讯" class="js-link-view" href="web_monitor_data.html?riskid=e3ed4f74eb62925bb76a28a1457fddbe" title="活动资讯">
+   <i class="fas fa-info-circle">
+   </i>
+  </a>
+  <a alt="停止" class="del js-enable" title="停止" value="0">
+   <i class="fas fa-ban">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   2
+  </div>
+  <div class="box-40" id="9a86c7318dc83dc69416c6d4633e6998">
+   test2
+  </div>
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-10 txt-c">
+   <div class="status-tag tag-yellow">
+    停止
+   </div>
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="启动" class="js-enable" title="启动" value="1">
+   <i class="fas fa-charging-station">
+   </i>
+  </a>
+  <a alt="编辑" class="js-link-edit" href="web_monitor_edit.html?riskid=9a86c7318dc83dc69416c6d4633e6998" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="删除" class="del js-enable" title="删除" value="2">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   3
+  </div>
+  <div class="box-40" id="3ce4c576a864b20451b857e1b13ba594">
+   test1
+  </div>
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-10 txt-c">
+   <div class="status-tag tag-yellow">
+    停止
+   </div>
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="启动" class="js-enable" title="启动" value="1">
+   <i class="fas fa-charging-station">
+   </i>
+  </a>
+  <a alt="编辑" class="js-link-edit" href="web_monitor_edit.html?riskid=3ce4c576a864b20451b857e1b13ba594" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="删除" class="del js-enable" title="删除" value="2">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   4
+  </div>
+  <div class="box-40" id="957d8284506abcc45515b85c654c2168">
+   test
+  </div>
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-10 txt-c">
+   <div class="status-tag tag-yellow">
+    停止
+   </div>
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="启动" class="js-enable" title="启动" value="1">
+   <i class="fas fa-charging-station">
+   </i>
+  </a>
+  <a alt="编辑" class="js-link-edit" href="web_monitor_edit.html?riskid=957d8284506abcc45515b85c654c2168" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="删除" class="del js-enable" title="删除" value="2">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   5
+  </div>
+  <div class="box-40" id="1902ff72bdb53ba1d7175744ee978a76">
+   test
+  </div>
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-10 txt-c">
+   <div class="status-tag tag-yellow">
+    停止
+   </div>
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="启动" class="js-enable" title="启动" value="1">
+   <i class="fas fa-charging-station">
+   </i>
+  </a>
+  <a alt="编辑" class="js-link-edit" href="web_monitor_edit.html?riskid=1902ff72bdb53ba1d7175744ee978a76" title="编辑">
+   <i class="fas fa-pencil-alt">
+   </i>
+  </a>
+  <a alt="删除" class="del js-enable" title="删除" value="2">
+   <i class="fas fa-times">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.492838
+
+		---
+
+		- Success get riskName: QArisk
+		New ini value is: API.riskid = e3ed4f74eb62925bb76a28a1457fddbe
+
+		- Success get riskId: e3ed4f74eb62925bb76a28a1457fddbe
+
+		---
+['PASS']
+['FAIL', 'FAIL', 'PASS', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時37分46秒 [Feature] API POST webPlayer risk list frame
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

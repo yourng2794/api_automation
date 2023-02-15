@@ -1,0 +1,55 @@
+
+* Run test case: no_Api_admin_provider_payOption_edit.py
+********Test Case: no_Api_admin_provider_payOption_edit.py********
+
+	Start >>04月19日18時39分45秒 [Feature] API POST provider payOption edit
+
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_payOption_edit.json
+
+		- api url: http://admtest.o2ogt.com/api/provider/payOption/edit
+
+		- api params: {}
+
+		- api data: {"payOptionId": "40f00ddd4665100fdce55c92dd6ff9b2", "bankerId": "835bd15c55ec6df3fe054f3aed828e41", "payName": "QApay19", "currency": ["CNY"], "review": "0", "reviewAmount": "", "reviewHour": "", "onlinePromo": "3", "onlineCount": "10", "onlineAmount": "100", "onlineRatio": "1.5", "onlineMaxdep": "100000", "onlineMindep": "10", "onlineLimit": "1000", "companyPromo": "3", "companyCount": "15", "companyAmount": "50", "companyRatio": "1.6", "companyMaxdep": "1000000", "companyMindep": "10000", "companyLimit": "500", "withdraw": {"CNY": ["6583ffebabe59b03947d7ea960907a93"]}, "deposit": {"CNY": ["6583ffebabe59b03947d7ea960907a93"]}}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.85824 (seconds)
+
+		Response data: 
+{
+    "Error_code": "S01",
+    "Error_message": "Success"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.85824
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時39分46秒 [Feature] API POST provider payOption edit
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

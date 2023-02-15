@@ -1,0 +1,117 @@
+
+* Run test case: li_Api_admin_webPlayer_risk_edit_get.py
+********Test Case: li_Api_admin_webPlayer_risk_edit_get.py********
+
+	Start >>08月23日09時37分44秒 [Feature] API POST webPlayer risk edit get
+
+		New ini value is: API.ptid = 619da70cf372717e11eff31f1d619ef9
+		New ini value is: API.riskid = e79e4bd7d8b608c3b4e68bbc5f50c4d0
+	<< END Success, isInt
+	<< END Success, checkJSONFile: ipLogin
+	<< END Success, isInt
+	<< END Success, checkJSONFile: 1
+	<< END Success, isInt
+	<< END Success, checkJSONFile: min
+	<< END Success, isInt
+	<< END Success, checkJSONFile: 1
+
+		- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/edit/get
+
+		- api params: {'riskid': 'e79e4bd7d8b608c3b4e68bbc5f50c4d0', 'ptid': '619da70cf372717e11eff31f1d619ef9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=5qC9274YdecLIpH08p4EeDazZMg4AlUfryM43wmN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.045597 (seconds)
+
+		Response data: {
+    "id": "e79e4bd7d8b608c3b4e68bbc5f50c4d0",
+    "name": "QArisk",
+    "opt": [
+        {
+            "amount": 0,
+            "count": "1",
+            "interval": "1",
+            "name": "单一IP登入",
+            "time": "min",
+            "type": "ipLogin"
+        }
+    ],
+    "website": [
+        {
+            "web_id": "eefe247755b8b16c33e8730e9e168211",
+            "web_name": "QAweb11"
+        }
+    ]
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.045597
+
+		- Success get riskid: e79e4bd7d8b608c3b4e68bbc5f50c4d0
+
+		- Success get riskname: QArisk
+
+		- Success get opt_name: 单一IP登入
+
+		- Success get opt_count: 1
+
+		- Success get opt_interval: 1
+
+		- Success get opt_time: min
+
+		- Success get opt_type: ipLogin
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.ptid = 
+		New ini value is: API.riskid = 
+	<< End Tear Down
+
+
+	End << 08月23日09時37分44秒 [Feature] API POST webPlayer risk edit get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日09時37分44秒 [Feature] API POST webPlayer risk edit get
+
+- api url: http://tadmapi.o2ogt.com/api/webPlayer/risk/edit/get
+- api params: {'riskid': 'e79e4bd7d8b608c3b4e68bbc5f50c4d0', 'ptid': '619da70cf372717e11eff31f1d619ef9'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.045597 (seconds)
+- API success (status and response are correct).
+- Response time: 0.045597
+- Success get riskid: e79e4bd7d8b608c3b4e68bbc5f50c4d0
+- Success get riskname: QArisk
+- Success get opt_name: 单一IP登入
+- Success get opt_count: 1
+- Success get opt_interval: 1
+- Success get opt_time: min
+- Success get opt_type: ipLogin
+- - -
+# Test Result: PASS
+
+End << 08月23日09時37分44秒 [Feature] API POST webPlayer risk edit get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_0937
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

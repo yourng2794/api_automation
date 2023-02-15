@@ -1,0 +1,63 @@
+
+* Run test case: mc_Api_admin_provider_payment_edit_info_get.py
+********Test Case: mc_Api_admin_provider_payment_edit_info_get.py********
+
+	Start >>04月19日18時38分38秒 [Feature] API POST provider payment edit info get
+
+		New ini value is: API.paymentId = 6583ffebabe59b03947d7ea960907a93
+
+		- api url: http://admtest.o2ogt.com/api/provider/payment/edit/info/get
+
+		- api params: {'paymentId': '6583ffebabe59b03947d7ea960907a93'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.142209 (seconds)
+
+		Response data: 
+{
+    "enable": 1,
+    "maxdeposit": 10000000,
+    "maxwithdraw": 1000000,
+    "mindeposit": 0,
+    "option": 3,
+    "payacc": "888888",
+    "payment_id": "6583ffebabe59b03947d7ea960907a93",
+    "payname": "金城武幫你出",
+    "payratio": 5,
+    "payurl": "www.168.com",
+    "secretkey": "f455ff77fa023376d810a97b68e54e32"
+}
+
+		- Success get payment_id: 6583ffebabe59b03947d7ea960907a93
+
+		- Success get payname: 金城武幫你出
+
+		---
+
+		---
+['PASS', 'PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時38分38秒 [Feature] API POST provider payment edit info get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

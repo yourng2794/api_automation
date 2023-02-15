@@ -1,0 +1,426 @@
+
+* Run test case: jl_Api_admin_webPlayer_promo_cnr_frame_m.py
+********Test Case: jl_Api_admin_webPlayer_promo_cnr_frame_m.py********
+
+	Start >>04月19日18時37分25秒 [Feature] API POST webPlayer promo cnr frame m
+
+		New ini value is: API.promoid = ad676be91ab834b540d14d01963b5415
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/promo/cnr/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/promo/cnr/frame/m
+
+		- api params: {'promoid': 'ad676be91ab834b540d14d01963b5415', 'ptid': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.547473 (seconds)
+
+		Response data: 
+<div id="step1">
+ <div class="step-box">
+  <div class="step-area act">
+   <span>
+    资料
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+  <div class="step-area">
+   <span>
+    条件
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+  <div class="step-area">
+   <span>
+    奖励
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+  <div class="step-area">
+   <span>
+    网站
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+ </div>
+ <h4>
+  <i class="far fa-caret-right">
+  </i>
+  基本资料
+ </h4>
+ <div class="sub-group">
+  <div class="input-box">
+   <label for="name">
+    活动名称
+   </label>
+   <div class="input-sty">
+    <i class="far fa-atom">
+    </i>
+    <input id="name" name="name" placeholder="请输入活动名称" type="text" value="QApromo"/>
+   </div>
+  </div>
+  <div class="input-box">
+   <label for="stime">
+    开始时间
+   </label>
+   <div class="input-sty">
+    <i class="far fa-hourglass-start">
+    </i>
+    <input id="stime" name="stime" placeholder="请选择开始时间" readonly="" type="text" value="2019-04-18 18:36:54"/>
+   </div>
+  </div>
+  <div class="input-box">
+   <label for="etime">
+    结束时间
+   </label>
+   <div class="input-sty">
+    <i class="far fa-hourglass-end">
+    </i>
+    <input id="etime" name="etime" placeholder="请选择结束时间" readonly="" type="text" value="2019-04-20 18:36:54"/>
+   </div>
+  </div>
+ </div>
+ <div class="btn-img-box" id="goStep2">
+  <span>
+   下一步
+  </span>
+  <input type="submit" value=""/>
+  <img alt="" src="img/btn_img_next.png"/>
+ </div>
+</div>
+<div id="step2">
+ <div class="step-box">
+  <div class="step-area act">
+   <span>
+    资料
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+  <div class="step-area act">
+   <span>
+    条件
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+  <div class="step-area">
+   <span>
+    奖励
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+  <div class="step-area">
+   <span>
+    网站
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+ </div>
+ <h4>
+  <i class="far fa-caret-right">
+  </i>
+  活动条件
+ </h4>
+ <div class="sub-group">
+  <div class="note-base note-mesg">
+   <i class="fas fa-bullseye-arrow">
+   </i>
+   请勾选要启用的条件！
+  </div>
+  <div class="note-base note-mesg">
+   <i class="fas fa-bullseye-arrow">
+   </i>
+   投注金额适用所有币值。
+  </div>
+  <ul class="list no-mar-list">
+   <li class="title">
+    <div class="group-box-100">
+     <div class="box-10 txt-c">
+     </div>
+     <div class="box-50">
+      名称
+     </div>
+     <div class="box-30 txt-c">
+      累积投注金额
+     </div>
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="betCondition">
+   <li>
+    <div class="group-box-100">
+     <div class="box-10 txt-c">
+      <input id="conditionReg" type="checkbox" value="0"/>
+     </div>
+     <div class="box-50">
+      <label for="conditionReg">
+       会员注册
+      </label>
+     </div>
+     <div class="box-30 txt-c">
+     </div>
+    </div>
+   </li>
+   <li>
+    <div class="group-box-100">
+     <div class="box-10 txt-c">
+      <input checked="checked" id="conditionLogin" type="checkbox" value="0"/>
+     </div>
+     <div class="box-50">
+      <label for="conditionLogin">
+       会员登入
+      </label>
+     </div>
+     <div class="box-30 txt-c">
+     </div>
+    </div>
+   </li>
+   <li>
+    <div class="group-box-100">
+     <div class="box-10 txt-c">
+      <input id="conditionTrunover" type="checkbox" value="0"/>
+     </div>
+     <div class="box-50">
+      <label for="conditionTrunover">
+       总投注金额
+      </label>
+     </div>
+     <div class="box-30 txt-c">
+      <input class="input-money" id="trunover" type="number" value=""/>
+     </div>
+    </div>
+   </li>
+  </ul>
+  <div class="sel-box two-sel">
+   <label for="">
+    单一产品投注金额
+   </label>
+   <div class="select-sty">
+    <select id="gamebetType" name="gamebetType">
+     <option value="slot">
+      电子游戏
+     </option>
+     <option value="fish">
+      捕鱼
+     </option>
+     <option value="lived">
+      真人视讯
+     </option>
+     <option value="lottery">
+      彩票
+     </option>
+     <option value="poker">
+      棋牌
+     </option>
+     <option value="sport">
+      体育
+     </option>
+    </select>
+    <i class="fas fa-caret-down">
+    </i>
+   </div>
+   <div class="select-sty" id="gameFilter">
+    <select id="supplierName" name="supplierName">
+    </select>
+    <i class="fas fa-caret-down">
+    </i>
+   </div>
+   <div class="btn-add">
+    <i class="fas fa-plus-circle">
+    </i>
+   </div>
+  </div>
+  <div class="list-no">
+   暂无列表资讯，请由上方选单做新增！
+  </div>
+  <ul class="list no-mar-list" style="display:none;">
+   <li class="title">
+    <div class="group-box-100">
+     <div class="box-50">
+      名称/供应商
+     </div>
+     <div class="box-30 txt-c">
+      累积投注金额
+     </div>
+     <div class="box-15 txt-c">
+      删除
+     </div>
+    </div>
+   </li>
+  </ul>
+  <ul class="list" id="gameBetProd">
+  </ul>
+ </div>
+ <div class="btn-step" id="upStep1">
+  <span>
+   <i class="far fa-angle-left">
+   </i>
+   上一步
+  </span>
+  <img alt="" src="img/btn_step.png"/>
+ </div>
+ <div class="btn-step mar-right" id="goStep3">
+  <span>
+   下一步
+   <i class="far fa-angle-right">
+   </i>
+  </span>
+  <img alt="" src="img/btn_step.png"/>
+ </div>
+</div>
+<div id="step3">
+ <div class="step-box">
+  <div class="step-area act">
+   <span>
+    资料
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+  <div class="step-area act">
+   <span>
+    条件
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+  <div class="step-area act">
+   <span>
+    奖励
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+  <div class="step-area">
+   <span>
+    网站
+   </span>
+   <div class="step-cricle">
+   </div>
+  </div>
+ </div>
+ <h4>
+  <i class="far fa-caret-right">
+  </i>
+  奖励内容
+ </h4>
+ <div class="sub-group">
+  <!-- ↓↓ 這是新版的 ↓↓-->
+  <div class="sub-input-checkbox">
+   <div class="label-reward" id="">
+    <label class="check-box" for="rewardRio">
+     <input checked="checked" id="rewardRio" name="rewardRio" type="checkbox">
+      <i class="fa fa-square">
+      </i>
+      <span>
+       返水
+      </span>
+     </input>
+    </label>
+   </div>
+   <div class="reward-box">
+    <div class="input-box w90">
+     <label for="">
+      比例
+     </label>
+     <div class="input-sty">
+      <input id="rewRio" placeholder="00" type="number" value="1">
+       %
+      </input>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="sub-input-checkbox">
+   <div class="label-reward">
+    <label class="check-box" for="rewardCash">
+     <input id="rewardCash" name="rewardCash" type="checkbox">
+      <i class="fa fa-square">
+      </i>
+      <span>
+       现金奖励
+      </span>
+     </input>
+    </label>
+   </div>
+   <div class="reward-box">
+    <div class="input-box">
+     <label for="">
+      金额
+     </label>
+     <div class="note-base note-mesg">
+      <i class="fas fa-bullseye-arrow">
+      </i>
+      投注金额适用所有币值。
+     </div>
+     <div class="input-sty">
+      <input id="rewCash" placeholder="000" type="number" value="">
+      </input>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- ↑↑ 這是新版的 ↑↑-->
+ <div class="btn-step" id="upStep2">
+  <span>
+   <i class="far fa-angle-left">
+   </i>
+   上一步
+  </span>
+  <img alt="" src="img/btn_step.png"/>
+ </div>
+ <div class="btn-step mar-right" id="goStep4">
+  <span>
+   下一步
+   <i class="far fa-angle-right">
+   </i>
+  </span>
+  <img alt="" src="img/btn_step.png"/>
+ </div>
+</div>
+
+		Fail to find file: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_promo.json
+		Fail to find file: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_promo.json
+		Fail to find file: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_promo.json
+		Fail to find file: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_promo.json
+		Fail to find file: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\admin_promo.json
+
+		- Success get name: QApromo
+
+		- Exception: on admin_webPlayer_promo_cnr_frame_m... must be str, not bool
+
+		---
+['PASS', 'FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時37分26秒 [Feature] API POST webPlayer promo cnr frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

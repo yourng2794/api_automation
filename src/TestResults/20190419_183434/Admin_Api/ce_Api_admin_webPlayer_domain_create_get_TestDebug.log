@@ -1,0 +1,55 @@
+
+* Run test case: ce_Api_admin_webPlayer_domain_create_get.py
+********Test Case: ce_Api_admin_webPlayer_domain_create_get.py********
+
+	Start >>04月19日18時34分59秒 [Feature] API POST webPlayer domain create get
+
+		New ini value is: API.bankerId = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_response = {"bankerId":"835bd15c55ec6df3fe054f3aed828e41","bankerAcc":"QAstep4"}
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/domain/create/get
+
+		- api params: {'bankerId': '835bd15c55ec6df3fe054f3aed828e41'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Success, 0.664024 (seconds)
+
+		Response data: 
+{
+    "bankerAcc": "QAstep4",
+    "bankerId": "835bd15c55ec6df3fe054f3aed828e41"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.664024
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時35分00秒 [Feature] API POST webPlayer domain create get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

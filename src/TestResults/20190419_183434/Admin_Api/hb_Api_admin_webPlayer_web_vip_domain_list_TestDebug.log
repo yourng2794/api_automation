@@ -1,0 +1,51 @@
+
+* Run test case: hb_Api_admin_webPlayer_web_vip_domain_list.py
+********Test Case: hb_Api_admin_webPlayer_web_vip_domain_list.py********
+
+	Start >>04月19日18時36分25秒 [Feature] API POST webPlayer web vip domain list
+
+		New ini value is: API.webId = 0b82165981316ecf67ad30a5887aa1e9
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/vip/domain/list
+
+		- api params: {'webId': '0b82165981316ecf67ad30a5887aa1e9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.575915 (seconds)
+
+		Response data: 
+{
+    "cce895fad5ced5f3129c300a72cbe5bc": "10.10.10.232"
+}
+
+		- Success get response_data: {"cce895fad5ced5f3129c300a72cbe5bc":"10.10.10.232"}
+
+		---
+
+		---
+['PASS']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時36分26秒 [Feature] API POST webPlayer web vip domain list
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

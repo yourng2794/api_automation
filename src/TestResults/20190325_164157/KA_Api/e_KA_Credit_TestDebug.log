@@ -1,0 +1,58 @@
+
+* Run test case: e_KA_Credit.py
+********Test Case: e_KA_Credit.py********
+
+	Start >>03月25日16時42分58秒 [Portal] POST KA credit API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_credit.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = 61b502a9bc74a83dfc8edcdb3ddb75e7ecd5eb315b03cead78026c665295b390
+
+		- api_params: {'hash': '61b502a9bc74a83dfc8edcdb3ddb75e7ecd5eb315b03cead78026c665295b390'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/credit
+
+		- api params: {'hash': '61b502a9bc74a83dfc8edcdb3ddb75e7ecd5eb315b03cead78026c665295b390'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11bij", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553503378000, "currency": "CNY", "operatorName": "OTG", "action": "credit", "transactionId": "49886353ff304aaca16731c9fc22e98b", "amount": 0, "type": "BonusPick", "creditIndex": 0, "token": "nullb3732e31abb9c233fee4242d69848276"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie __cfduid=d7c271c4987d11802b4383fad5c5861b41553503377 for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.409046 (seconds)
+
+		- API fail (status or response is incorrect).
+
+		Response data: {"status":"session not find","statusCode":"17"}
+
+		---
+
+		- - - 
+
+		# Test Result: FAIL
+	Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月25日16時42分58秒 [Portal] POST KA credit API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

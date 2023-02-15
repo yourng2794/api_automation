@@ -1,0 +1,117 @@
+
+* Run test case: nf_Api_admin_provider_payment_edit_payType_get.py
+********Test Case: nf_Api_admin_provider_payment_edit_payType_get.py********
+
+	Start >>08月23日15時47分55秒 [Feature] API POST provider payment edit PayType get
+
+		New ini value is: API.paymentId = fb4eca6bd1ee54d4102db856f1f79894
+		New ini value is: API.payTypeId = 4
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/payment/edit/payType/get
+
+		- api params: {'paymentId': 'fb4eca6bd1ee54d4102db856f1f79894', 'payTypeId': '4'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.031632 (seconds)
+
+		Response data: {
+    "deposit_acc": "888888",
+    "deposit_payratio": 5,
+    "deposit_secretkey": "f455ff77fa023376d810a97b68e54e32",
+    "max_deposit": 88888,
+    "max_withdraw": 6666,
+    "min_deposit": 10,
+    "pay_option": 3,
+    "pay_type_id": 4,
+    "payment_id": "fb4eca6bd1ee54d4102db856f1f79894",
+    "withdraw_acc": "666666",
+    "withdraw_payratio": 5,
+    "withdraw_secretkey": "f455ff77fa023376d810a97b68e54e33"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.031632
+
+		- Success get deposit_acc: 888888
+
+		- Success get deposit_payratio: 5
+
+		- Success get deposit_secretkey: f455ff77fa023376d810a97b68e54e32
+
+		- Success get max_deposit: 88888
+
+		- Success get max_withdraw: 6666
+
+		- Success get min_deposit: 10
+
+		- Success get pay_option: 3
+
+		- Success get pay_type_id: 4
+
+		- Success get payment_id: fb4eca6bd1ee54d4102db856f1f79894
+
+		- Success get withdraw_acc: 666666
+
+		- Success get withdraw_payratio: 5
+
+		- Success get withdraw_secretkey: f455ff77fa023376d810a97b68e54e33
+
+		- - -
+
+['PASS']
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.paymentId = 
+	<< End Tear Down
+
+
+	End << 08月23日15時47分55秒 [Feature] API POST provider payment edit PayType get
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時47分55秒 [Feature] API POST provider payment edit PayType get
+
+- api url: http://tadmapi.o2ogt.com/api/provider/payment/edit/payType/get
+- api params: {'paymentId': 'fb4eca6bd1ee54d4102db856f1f79894', 'payTypeId': '4'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.031632 (seconds)
+- API success (status and response are correct).
+- Response time: 0.031632
+- Success get deposit_acc: 888888
+- Success get deposit_payratio: 5
+- Success get deposit_secretkey: f455ff77fa023376d810a97b68e54e32
+- Success get max_deposit: 88888
+- Success get max_withdraw: 6666
+- Success get min_deposit: 10
+- Success get pay_option: 3
+- Success get pay_type_id: 4
+- Success get payment_id: fb4eca6bd1ee54d4102db856f1f79894
+- Success get withdraw_acc: 666666
+- Success get withdraw_payratio: 5
+- Success get withdraw_secretkey: f455ff77fa023376d810a97b68e54e33
+- - -
+# Test Result: PASS
+
+End << 08月23日15時47分55秒 [Feature] API POST provider payment edit PayType get
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1547
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

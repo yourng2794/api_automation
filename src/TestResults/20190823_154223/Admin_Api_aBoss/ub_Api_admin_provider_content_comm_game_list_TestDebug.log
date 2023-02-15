@@ -1,0 +1,922 @@
+
+* Run test case: ub_Api_admin_provider_content_comm_game_list.py
+********Test Case: ub_Api_admin_provider_content_comm_game_list.py********
+
+	Start >>08月23日15時49分15秒 [Feature] API POST provider content comm game list
+
+		New ini value is: API.lang = zh
+		New ini value is: API.providerid = BB_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'BB_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.045735 (seconds)
+
+		Response data: [{"gameid": "5005", "gamename": "惑星戰記"}, {"gameid": "5006", "gamename": "Staronic"}, {"gameid": "5007", "gamename": "激爆水果盤"}, {"gameid": "5008", "gamename": "猴子爬樹"}, {"gameid": "5009", "gamename": "金剛爬樓"}, {"gameid": "5010", "gamename": "外星戰記"}, {"gameid": "5012", "gamename": "外星爭霸"}, {"gameid": "5013", "gamename": "傳統"}, {"gameid": "5014", "gamename": "叢林"}, {"gameid": "5015", "gamename": "FIFA2010"}, {"gameid": "5016", "gamename": "史前叢林冒險"}, {"gameid": "5017", "gamename": "星際大戰"}, {"gameid": "5018", "gamename": "齊天大聖"}, {"gameid": "5019", "gamename": "水果樂園"}, {"gameid": "5025", "gamename": "法海鬥白蛇"}, {"gameid": "5026", "gamename": "2012 倫敦奧運"}, {"gameid": "5027", "gamename": "功夫龍"}, {"gameid": "5028", "gamename": "中秋月光派對"}, {"gameid": "5029", "gamename": "聖誕派對"}, {"gameid": "5030", "gamename": "幸運財神"}, {"gameid": "5034", "gamename": "王牌5PK"}, {"gameid": "5035", "gamename": "加勒比撲克"}, {"gameid": "5039", "gamename": "魚蝦蟹"}, {"gameid": "5040", "gamename": "百搭二王"}, {"gameid": "5041", "gamename": "7PK"}, {"gameid": "5043", "gamename": "鑽石水果盤"}, {"gameid": "5044", "gamename": "明星97II"}, {"gameid": "5045", "gamename": "森林舞會"}, {"gameid": "5046", "gamename": "鬥魂"}, {"gameid": "5054", "gamename": "爆骰"}, {"gameid": "5057", "gamename": "明星97"}, {"gameid": "5058", "gamename": "瘋狂水果盤"}, {"gameid": "5060", "gamename": "動物奇觀五"}, {"gameid": "5061", "gamename": "超級7"}, {"gameid": "5062", "gamename": "龍在囧途"}, {"gameid": "5063", "gamename": "水果拉霸"}, {"gameid": "5064", "gamename": "撲克拉霸"}, {"gameid": "5065", "gamename": "筒子拉霸"}, {"gameid": "5066", "gamename": "足球拉霸"}, {"gameid": "5067", "gamename": "大話西遊"}, {"gameid": "5068", "gamename": "酷搜馬戲團"}, {"gameid": "5069", "gamename": "水果擂台"}, {"gameid": "5070", "gamename": "黃金大轉輪"}, {"gameid": "5073", "gamename": "百家樂大轉輪"}, {"gameid": "5076", "gamename": "數字大轉輪"}, {"gameid": "5077", "gamename": "水果大轉輪"}, {"gameid": "5078", "gamename": "象棋大轉輪"}, {"gameid": "5079", "gamename": "3D數字大轉輪"}, {"gameid": "5080", "gamename": "樂透轉輪"}, {"gameid": "5083", "gamename": "鑽石列車"}, {"gameid": "5084", "gamename": "聖獸傳說"}, {"gameid": "5088", "gamename": "鬥大"}, {"gameid": "5089", "gamename": "紅狗"}, {"gameid": "5090", "gamename": "金雞報喜"}, {"gameid": "5091", "gamename": "三國拉霸"}, {"gameid": "5092", "gamename": "封神榜"}, {"gameid": "5093", "gamename": "金瓶梅"}, {"gameid": "5094", "gamename": "金瓶梅2"}, {"gameid": "5095", "gamename": "鬥雞"}, {"gameid": "5096", "gamename": "五行"}, {"gameid": "5097", "gamename": "海底世界"}, {"gameid": "5098", "gamename": "五福臨門"}, {"gameid": "5099", "gamename": "金狗旺歲"}, {"gameid": "5100", "gamename": "七夕"}, {"gameid": "5105", "gamename": "歐式輪盤"}, {"gameid": "5106", "gamename": "三國"}, {"gameid": "5107", "gamename": "美式輪盤"}, {"gameid": "5108", "gamename": "彩金輪盤"}, {"gameid": "5109", "gamename": "法式輪盤"}, {"gameid": "5110", "gamename": "夜上海"}, {"gameid": "5116", "gamename": "西班牙21點"}, {"gameid": "5117", "gamename": "維加斯21點"}, {"gameid": "5118", "gamename": "獎金21點"}, {"gameid": "5119", "gamename": "神秘島"}, {"gameid": "5120", "gamename": "女媧補天"}, {"gameid": "5121", "gamename": "奧林帕斯"}, {"gameid": "5122", "gamename": "球球大作戰"}, {"gameid": "5123", "gamename": "經典21點"}, {"gameid": "5127", "gamename": "絕地求生"}, {"gameid": "5128", "gamename": "多福多財"}, {"gameid": "5131", "gamename": "皇家德州撲克"}, {"gameid": "5138", "gamename": "夾豬珠"}, {"gameid": "5139", "gamename": "熊貓樂園"}, {"gameid": "5140", "gamename": "啤酒嘉年華"}, {"gameid": "5142", "gamename": "魔光幻音"}, {"gameid": "5201", "gamename": "火燄山"}, {"gameid": "5202", "gamename": "月光寶盒"}, {"gameid": "5203", "gamename": "愛你一萬年"}, {"gameid": "5204", "gamename": "2014 FIFA"}, {"gameid": "5402", "gamename": "夜市人生"}, {"gameid": "5404", "gamename": "沙灘排球"}, {"gameid": "5406", "gamename": "神舟27"}, {"gameid": "5407", "gamename": "大紅帽與小野狼"}, {"gameid": "5601", "gamename": "秘境冒險"}, {"gameid": "5701", "gamename": "連連看"}, {"gameid": "5703", "gamename": "發達囉"}, {"gameid": "5704", "gamename": "鬥牛"}, {"gameid": "5705", "gamename": "聚寶盆"}, {"gameid": "5706", "gamename": "濃情巧克力"}, {"gameid": "5707", "gamename": "金錢豹"}, {"gameid": "5802", "gamename": "阿基里斯"}, {"gameid": "5803", "gamename": "阿兹特克寶藏"}, {"gameid": "5804", "gamename": "大明星"}, {"gameid": "5805", "gamename": "凱薩帝國"}, {"gameid": "5806", "gamename": "奇幻花園"}, {"gameid": "5808", "gamename": "浪人武士"}, {"gameid": "5809", "gamename": "空戰英豪"}, {"gameid": "5810", "gamename": "航海時代"}, {"gameid": "5823", "gamename": "發大財"}, {"gameid": "5824", "gamename": "惡龍傳說"}, {"gameid": "5825", "gamename": "金蓮"}, {"gameid": "5826", "gamename": "金礦工"}, {"gameid": "5827", "gamename": "老船長"}, {"gameid": "5828", "gamename": "霸王龍"}, {"gameid": "5835", "gamename": "喜福牛年"}, {"gameid": "5836", "gamename": "龍捲風"}, {"gameid": "5837", "gamename": "喜福猴年"}, {"gameid": "5839", "gamename": "經典高球"}, {"gameid": "5901", "gamename": "連環奪寶"}, {"gameid": "5902", "gamename": "糖果派對"}, {"gameid": "5903", "gamename": "秦皇祕寶"}, {"gameid": "5904", "gamename": "蒸氣炸彈"}, {"gameid": "5907", "gamename": "趣味台球"}, {"gameid": "5908", "gamename": "糖果派對2"}, {"gameid": "5909", "gamename": "開心消消樂"}, {"gameid": "5910", "gamename": "魔法元素"}, {"gameid": "5912", "gamename": "連環奪寶2"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.045735
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = CQ9_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'CQ9_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.038319 (seconds)
+
+		Response data: [{"gameid": "1", "gamename": "钻石水果王"}, {"gameid": "2", "gamename": "棋圣"}, {"gameid": "3", "gamename": "血之吻"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.038319
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = FP_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'FP_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.029084 (seconds)
+
+		Response data: [{"gameid": "1", "gamename": "爱尔兰小精灵"}, {"gameid": "10", "gamename": "五行"}, {"gameid": "11", "gamename": "荷塘月色"}, {"gameid": "12", "gamename": "失落之城"}, {"gameid": "13", "gamename": "喜福猪年"}, {"gameid": "14", "gamename": "金矿达人"}, {"gameid": "15", "gamename": "麻将"}, {"gameid": "16", "gamename": "致富之夜"}, {"gameid": "17", "gamename": "五福临门"}, {"gameid": "18", "gamename": "埃及艳后"}, {"gameid": "19", "gamename": "连环夺宝"}, {"gameid": "2", "gamename": "幸运钻石"}, {"gameid": "20", "gamename": "艾丽斯"}, {"gameid": "21", "gamename": "印加帝国"}, {"gameid": "22", "gamename": "桃园三结义"}, {"gameid": "23", "gamename": "欧冠杯"}, {"gameid": "24", "gamename": "冰雪乐园"}, {"gameid": "25", "gamename": "龙卷风"}, {"gameid": "26", "gamename": "招财熊猫"}, {"gameid": "27", "gamename": "花开富贵"}, {"gameid": "28", "gamename": "阿拉丁"}, {"gameid": "29", "gamename": "连环计"}, {"gameid": "3", "gamename": "经典 888"}, {"gameid": "30", "gamename": "维京海盗"}, {"gameid": "31", "gamename": "经典 水果"}, {"gameid": "32", "gamename": "幸运双喜"}, {"gameid": "33", "gamename": "墨西哥辣椒"}, {"gameid": "34", "gamename": "三世情缘"}, {"gameid": "35", "gamename": "王者之剑"}, {"gameid": "36", "gamename": "海底世界"}, {"gameid": "37", "gamename": "经典 168"}, {"gameid": "38", "gamename": "波赛顿"}, {"gameid": "39", "gamename": "宝石派对"}, {"gameid": "4", "gamename": "福禄双喜"}, {"gameid": "40", "gamename": "福尔摩沙"}, {"gameid": "41", "gamename": "糖果梦公园"}, {"gameid": "42", "gamename": "马达加斯加"}, {"gameid": "43", "gamename": "皇宫宝藏"}, {"gameid": "44", "gamename": "超级霓虹"}, {"gameid": "45", "gamename": "幸运宝石"}, {"gameid": "46", "gamename": "恭喜发财"}, {"gameid": "47", "gamename": "八仙过海"}, {"gameid": "48", "gamename": "喵吉拉"}, {"gameid": "49", "gamename": "恶龙宝藏"}, {"gameid": "5", "gamename": "亡灵节"}, {"gameid": "50", "gamename": "水果王"}, {"gameid": "51", "gamename": "三只小狼"}, {"gameid": "52", "gamename": "富贵千金"}, {"gameid": "53", "gamename": "蒸气帝国"}, {"gameid": "54", "gamename": "凤凰涅盘"}, {"gameid": "55", "gamename": "招财神兽"}, {"gameid": "56", "gamename": "升官发财"}, {"gameid": "6", "gamename": "非洲草原"}, {"gameid": "7", "gamename": "四季招财"}, {"gameid": "8", "gamename": "女娲传说"}, {"gameid": "9", "gamename": "大唐盛世"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.029084
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = JDB_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'JDB_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.042409 (seconds)
+
+		Response data: [{"gameid": "14001", "gamename": "斗鸡"}, {"gameid": "14002", "gamename": "玛雅"}, {"gameid": "14003", "gamename": "屌丝熊猫"}, {"gameid": "14004", "gamename": "塞尔达传说"}, {"gameid": "14005", "gamename": "包大人"}, {"gameid": "14006", "gamename": "亿万富翁"}, {"gameid": "14007", "gamename": "一拳超人"}, {"gameid": "14008", "gamename": "神龙大侠"}, {"gameid": "14010", "gamename": "飞龙在天"}, {"gameid": "14011", "gamename": "银河护卫队"}, {"gameid": "14012", "gamename": "街头霸王"}, {"gameid": "14013", "gamename": "春宵苦短"}, {"gameid": "14015", "gamename": "星球大战"}, {"gameid": "14016", "gamename": "王牌特工"}, {"gameid": "14017", "gamename": "少女前线"}, {"gameid": "14018", "gamename": "妲己"}, {"gameid": "14019", "gamename": "宝石物语"}, {"gameid": "14020", "gamename": "魔法乳神"}, {"gameid": "14021", "gamename": "钱滚钱"}, {"gameid": "14022", "gamename": "采矿土豪"}, {"gameid": "14023", "gamename": "赌王扑克"}, {"gameid": "14025", "gamename": "幸运赛车"}, {"gameid": "14026", "gamename": "发大财"}, {"gameid": "14027", "gamename": "好运777"}, {"gameid": "14029", "gamename": "东方神兽"}, {"gameid": "14030", "gamename": "三倍金刚"}, {"gameid": "14032", "gamename": "发发"}, {"gameid": "14033", "gamename": "飞鸟派对"}, {"gameid": "14034", "gamename": "狗来富"}, {"gameid": "14035", "gamename": "龙舞"}, {"gameid": "14036", "gamename": "超级牛B"}, {"gameid": "15001", "gamename": "金鸡报囍"}, {"gameid": "15002", "gamename": "齐天大圣"}, {"gameid": "15004", "gamename": " 火牛阵"}, {"gameid": "15005", "gamename": "幸运福娃"}, {"gameid": "15006", "gamename": "印加帝国"}, {"gameid": "15009", "gamename": "忍者大进击"}, {"gameid": "15010", "gamename": "熊猫厨王"}, {"gameid": "15011", "gamename": "后羿傳"}, {"gameid": "15012", "gamename": "五福临门"}, {"gameid": "15013", "gamename": "九尾狐"}, {"gameid": "8001", "gamename": "幸运龙"}, {"gameid": "8002", "gamename": "唐伯虎点秋香"}, {"gameid": "8003", "gamename": "变脸"}, {"gameid": "8004", "gamename": "悟空"}, {"gameid": "8005", "gamename": "骆马大冒险"}, {"gameid": "8006", "gamename": "台湾黑熊"}, {"gameid": "8007", "gamename": "幸运麟"}, {"gameid": "8014", "gamename": "招财狮"}, {"gameid": "8015", "gamename": "月光秘宝"}, {"gameid": "8016", "gamename": "上班族狂想曲"}, {"gameid": "8017", "gamename": "过新年"}, {"gameid": "8018", "gamename": "拿破仑"}, {"gameid": "8019", "gamename": "文房四宝"}, {"gameid": "8020", "gamename": "芝麻开门"}, {"gameid": "8021", "gamename": "黄金香蕉帝国"}, {"gameid": "8022", "gamename": "麻雀无双"}, {"gameid": "8023", "gamename": "奥林匹亚神庙"}, {"gameid": "8024", "gamename": "水晶王国"}, {"gameid": "8025", "gamename": "神偷妙贼"}, {"gameid": "8026", "gamename": "热舞教父"}, {"gameid": "8027", "gamename": "料理厨王"}, {"gameid": "8028", "gamename": "幸运淘金鼠"}, {"gameid": "8029", "gamename": "奇幻糖果岛"}, {"gameid": "8030", "gamename": "疯狂科学家"}, {"gameid": "8031", "gamename": "金饺子"}, {"gameid": "8032", "gamename": "爆发虎"}, {"gameid": "8034", "gamename": "金钱侠"}, {"gameid": "8035", "gamename": "幸运凤"}, {"gameid": "8036", "gamename": "龙王"}, {"gameid": "8037", "gamename": "魔术秀"}, {"gameid": "8040", "gamename": "抓金龙"}, {"gameid": "8041", "gamename": "福来了"}, {"gameid": "8042", "gamename": "梦幻峇里岛"}, {"gameid": "8043", "gamename": "人鱼公主"}, {"gameid": "8044", "gamename": "江山美人"}, {"gameid": "8046", "gamename": "关公"}, {"gameid": "8047", "gamename": "变脸II"}, {"gameid": "8048", "gamename": "芝麻开门II"}, {"gameid": "8049", "gamename": "唐伯虎点秋香II"}, {"gameid": "8050", "gamename": "马上有钱"}, {"gameid": "8051", "gamename": "喜洋羊"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.042409
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = KA_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'KA_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.040243 (seconds)
+
+		Response data: [{"gameid": "777Vegas", "gamename": "777拉斯维加斯"}, {"gameid": "AliceInWonderland", "gamename": "梦游爱丽丝"}, {"gameid": "Apes", "gamename": "猿人"}, {"gameid": "Ares", "gamename": "战神之战"}, {"gameid": "Aurora", "gamename": "极光"}, {"gameid": "Bakery", "gamename": "香甜面包店"}, {"gameid": "BaWangBieJi", "gamename": "霸王别姬"}, {"gameid": "BoyToys", "gamename": "高富帅"}, {"gameid": "CaiYuanGuangJin", "gamename": "财源广进"}, {"gameid": "CandyStorm", "gamename": "糖果风暴"}, {"gameid": "ChineseOpera", "gamename": "中国戏曲"}, {"gameid": "Cinderella", "gamename": "灰姑娘的玻璃鞋"}, {"gameid": "Cowboys", "gamename": "西部牛仔"}, {"gameid": "CrazyCircus", "gamename": "疯狂马戏团"}, {"gameid": "DaVinci", "gamename": "发明家达芬奇"}, {"gameid": "DayOfDead", "gamename": "亡灵节"}, {"gameid": "DeepSea", "gamename": "深海之旅"}, {"gameid": "DimSum", "gamename": "中式点心"}, {"gameid": "DragonGate", "gamename": "鲤鱼跃龙门"}, {"gameid": "DragonsLegend", "gamename": "九龙传说"}, {"gameid": "Dreamcatcher", "gamename": "捕梦网"}, {"gameid": "Egypt", "gamename": "神秘金字塔"}, {"gameid": "EgyptianEmpress", "gamename": "埃及艳后"}, {"gameid": "Enchanted", "gamename": "魔幻世界"}, {"gameid": "FairyDust", "gamename": "妖精的尘埃"}, {"gameid": "Fantasy777", "gamename": "梦幻777"}, {"gameid": "FantasyPark", "gamename": "奇幻乐园"}, {"gameid": "Fastbreak", "gamename": "快攻"}, {"gameid": "Flaming7", "gamename": "火焰777"}, {"gameid": "FlowersFruitMountain", "gamename": "花果山"}, {"gameid": "FluffyBuddy", "gamename": "胆小毛毛怪"}, {"gameid": "FormosanBirds", "gamename": "灵雀"}, {"gameid": "FortuneGod", "gamename": "财神爷报到"}, {"gameid": "FortunePiggyBank", "gamename": "猪元滚滚"}, {"gameid": "FourBeauties", "gamename": "四大美人"}, {"gameid": "FruitParty", "gamename": "水果派对"}, {"gameid": "Gem", "gamename": "钻石闪亮亮"}, {"gameid": "Giants", "gamename": "巨人"}, {"gameid": "GoldenShanghai", "gamename": "夜上海"}, {"gameid": "GoldRush", "gamename": "加州淘金潮"}, {"gameid": "HappyFarm", "gamename": "活力庄园"}, {"gameid": "Horoscope", "gamename": "星座"}, {"gameid": "HuaMulan", "gamename": "花木兰"}, {"gameid": "ImperialGuards", "gamename": "大明锦衣卫"}, {"gameid": "Jungle", "gamename": "丛林冒险"}, {"gameid": "Kitty", "gamename": "猫咪生活"}, {"gameid": "Knights", "gamename": "中世纪骑士"}, {"gameid": "KungFu", "gamename": "功夫传说"}, {"gameid": "LandOfGold", "gamename": "黄金之源"}, {"gameid": "LastFantasy", "gamename": "最终幻想曲"}, {"gameid": "LeagueOfGods", "gamename": "媚狐妲己"}, {"gameid": "Leprechauns", "gamename": "魔法精灵"}, {"gameid": "LiveStreamingStar", "gamename": "直播主"}, {"gameid": "LostRealm", "gamename": "失落的王国"}, {"gameid": "LotusLamp", "gamename": "宝莲灯"}, {"gameid": "LuxuryGarage", "gamename": "豪华车库"}, {"gameid": "Mahjong", "gamename": "牌神"}, {"gameid": "MayanGold", "gamename": "玛雅宝藏"}, {"gameid": "Mermaid", "gamename": "美人鱼"}, {"gameid": "Millionaires", "gamename": "百万富翁"}, {"gameid": "MissTiger", "gamename": "虎妞"}, {"gameid": "Mushrooms", "gamename": "迷幻蘑菇"}, {"gameid": "Mythic", "gamename": "神话世纪"}, {"gameid": "Neanderthals", "gamename": "尼安德塔人"}, {"gameid": "Nezha", "gamename": "哪吒"}, {"gameid": "OriginOfFire", "gamename": "火之源"}, {"gameid": "PartyGirl", "gamename": "夜店美眉"}, {"gameid": "Pirate", "gamename": "海盗船长"}, {"gameid": "PirateKing", "gamename": "海贼王寻宝"}, {"gameid": "Polynesian", "gamename": "南岛风情"}, {"gameid": "Poseidon", "gamename": "波塞顿的宝藏"}, {"gameid": "QuickPlayJewels", "gamename": "钻石闪闪亮"}, {"gameid": "RedRidingHood", "gamename": "小红帽"}, {"gameid": "RoyalDemeanor", "gamename": "王者风范"}, {"gameid": "Safari", "gamename": "野外探险"}, {"gameid": "Samurai", "gamename": "武士道"}, {"gameid": "SevenHeroines", "gamename": "巾帼7烈传"}, {"gameid": "SilkRoad", "gamename": "丝路"}, {"gameid": "SNS", "gamename": "社交网之友"}, {"gameid": "Space", "gamename": "太空旋转"}, {"gameid": "StockedBar", "gamename": "不醉不归"}, {"gameid": "Stonehenge", "gamename": "巨石阵"}, {"gameid": "SuperKeno", "gamename": "超级基诺"}, {"gameid": "SuperShot", "gamename": "超级旋转"}, {"gameid": "SuperVideoPoker", "gamename": "电动扑克"}, {"gameid": "TaiwanBlackBear", "gamename": "台湾黑熊"}, {"gameid": "Tao", "gamename": "炼丹术"}, {"gameid": "ThreeGods", "gamename": "福禄寿报喜"}, {"gameid": "ThreeLittlePigs", "gamename": "三只小猪"}, {"gameid": "TRex", "gamename": "霸王龙"}, {"gameid": "UFO", "gamename": "飞碟"}, {"gameid": "Vampire", "gamename": "吸血鬼传说"}, {"gameid": "Viking", "gamename": "维京时代"}, {"gameid": "Wencheng", "gamename": "文成公主"}, {"gameid": "WildAlaska", "gamename": "荒野生存"}, {"gameid": "Wizardry", "gamename": "魔法师的巫术"}, {"gameid": "Yamato", "gamename": "宇宙战舰"}, {"gameid": "YuGong", "gamename": "愚公移山"}, {"gameid": "YunCaiTongZi", "gamename": "运财童子"}, {"gameid": "ZombieLand", "gamename": "僵尸的世界"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040243
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = MG_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'MG_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.027853 (seconds)
+
+		Response data: [{"gameid": "SMG_108Heroes", "gamename": "108好汉"}, {"gameid": "SMG_actionOpsSnowAndSable", "gamename": "秘密行动-雪诺和塞布尔"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.027853
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = PT_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'PT_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.040217 (seconds)
+
+		Response data: [{"gameid": "arc", "gamename": "弓箭手"}, {"gameid": "asfa", "gamename": "亚洲幻想"}, {"gameid": "athn", "gamename": "众神时代：智慧女神"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040217
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = SW_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'SW_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.02987 (seconds)
+
+		Response data: [{"gameid": "sw_20_times", "gamename": "20 Times Pay"}, {"gameid": "sw_2pd", "gamename": "2 Powerful Dragons"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.02987
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = AG_SLOT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'AG_SLOT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041201 (seconds)
+
+		Response data: {
+    "Error_at": "/data/web/tadmapi.o2ogt.com/app/Http/Controllers/ProviderContentController.php",
+    "Error_code": "S02",
+    "Error_line": 74,
+    "Error_message": "No Data"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041201
+
+		- Success (Error_code, Error_message): (S02, No Data)
+
+		- No data
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = BB_LIVED
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'BB_LIVED', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.037321 (seconds)
+
+		Response data: [{"gameid": "3001", "gamename": "百家樂"}, {"gameid": "3001", "gamename": "百家樂"}, {"gameid": "3001", "gamename": "百家樂"}, {"gameid": "3001", "gamename": "百家樂"}, {"gameid": "3001", "gamename": "百家樂"}, {"gameid": "3001", "gamename": "百家樂"}, {"gameid": "3001", "gamename": "百家樂"}, {"gameid": "3001", "gamename": "百家樂"}, {"gameid": "3001", "gamename": "百家樂"}, {"gameid": "3003", "gamename": "龍虎鬥"}, {"gameid": "3003", "gamename": "龍虎鬥"}, {"gameid": "3005", "gamename": "三公"}, {"gameid": "3006", "gamename": "溫州牌九"}, {"gameid": "3007", "gamename": "輪盤"}, {"gameid": "3008", "gamename": "骰寶"}, {"gameid": "3008", "gamename": "骰寶"}, {"gameid": "3010", "gamename": "德州撲克"}, {"gameid": "3011", "gamename": "色碟"}, {"gameid": "3012", "gamename": "牛牛"}, {"gameid": "3014", "gamename": "無限21點"}, {"gameid": "3015", "gamename": "番攤"}, {"gameid": "3016", "gamename": "魚蝦蟹"}, {"gameid": "3017", "gamename": "保險百家樂"}, {"gameid": "3018", "gamename": "炸金花"}, {"gameid": "3019", "gamename": "幸運轉輪"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.037321
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = EVO_LIVED
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'EVO_LIVED', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.038617 (seconds)
+
+		Response data: {
+    "Error_at": "/data/web/tadmapi.o2ogt.com/app/Http/Controllers/ProviderContentController.php",
+    "Error_code": "S02",
+    "Error_line": 74,
+    "Error_message": "No Data"
+}
+
+		- API success (status and response are correct).
+
+		- Response time: 0.038617
+
+		- Success (Error_code, Error_message): (S02, No Data)
+
+		- No data
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = MG_LIVED
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'MG_LIVED', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.029426 (seconds)
+
+		Response data: [{"gameid": "Baccarat - Playboy", "gamename": "百家乐 花花公子"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.029426
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = BB_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'BB_FISH', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.027921 (seconds)
+
+		Response data: [{"gameid": "30598", "gamename": "捕魚達人2"}, {"gameid": "30599", "gamename": "捕魚達人"}, {"gameid": "38001", "gamename": "捕魚大師"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.027921
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = CQ9_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'CQ9_FISH', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.039098 (seconds)
+
+		Response data: [{"gameid": "AB1", "gamename": "皇金渔场2"}, {"gameid": "AB3", "gamename": "皇金渔场"}, {"gameid": "AP01", "gamename": "海霸龙"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.039098
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = FP_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'FP_FISH', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.039813 (seconds)
+
+		Response data: [{"gameid": "57", "gamename": "李逵劈鱼"}, {"gameid": "58", "gamename": "金蟾捕鱼"}, {"gameid": "59", "gamename": "招财钱龟"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.039813
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = JDB_FISH
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'JDB_FISH', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.042766 (seconds)
+
+		Response data: [{"gameid": "7001", "gamename": "龙王捕鱼"}, {"gameid": "7002", "gamename": "龙王捕鱼2"}, {"gameid": "7003", "gamename": "财神捕鱼"}, {"gameid": "7004", "gamename": "五龙捕魚"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.042766
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = BB_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'BB_POKER', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.037591 (seconds)
+
+		Response data: [{"gameid": "66001", "gamename": "炸金花"}, {"gameid": "66002", "gamename": "二八槓"}, {"gameid": "66003", "gamename": "通比牛牛"}, {"gameid": "66004", "gamename": "搶莊牛牛"}, {"gameid": "66005", "gamename": "大話骰"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.037591
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = CQ9_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'CQ9_POKER', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.039 (seconds)
+
+		Response data: [{"gameid": "AD03", "gamename": "斗地主"}, {"gameid": "AD04", "gamename": "万人牛牛"}, {"gameid": "BG04", "gamename": "骰宝"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.039
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = JDB_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'JDB_POKER', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.038551 (seconds)
+
+		Response data: [{"gameid": "18001", "gamename": "通比牛牛"}, {"gameid": "18002", "gamename": "抢庄牛牛"}, {"gameid": "18004", "gamename": "押庄射龙门"}, {"gameid": "18008", "gamename": "通比德州斗牛"}, {"gameid": "18010", "gamename": "金葫芦5PK"}, {"gameid": "18011", "gamename": "幸运星5PK"}, {"gameid": "18012", "gamename": "百变抢庄牛牛"}, {"gameid": "18013", "gamename": "通比六牛"}, {"gameid": "18014", "gamename": "抢庄六牛"}, {"gameid": "18015", "gamename": "千变百人牛牛"}, {"gameid": "18016", "gamename": "极速炸金花"}, {"gameid": "18017", "gamename": "抢庄三公"}, {"gameid": "18018", "gamename": "德州抢庄斗牛"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.038551
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = KY_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'KY_POKER', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.037581 (seconds)
+
+		Response data: [{"gameid": "620", "gamename": "德州扑克"}, {"gameid": "720", "gamename": "二八杠"}, {"gameid": "830", "gamename": "抢庄牛牛"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.037581
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = PT_POKER
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'PT_POKER', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.041517 (seconds)
+
+		Response data: [{"gameid": "car", "gamename": "加勒比扑克"}, {"gameid": "cheaa", "gamename": "赌场Hold 'Em游戏"}, {"gameid": "mobbj", "gamename": "21点"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.041517
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = BB_SPORT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'BB_SPORT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.039973 (seconds)
+
+		Response data: [{"gameid": "BK", "gamename": "籃球"}, {"gameid": "BS", "gamename": "棒球"}, {"gameid": "CB", "gamename": "混合過關"}, {"gameid": "F1", "gamename": "其他"}, {"gameid": "FB", "gamename": "美式足球"}, {"gameid": "FT", "gamename": "足球"}, {"gameid": "IH", "gamename": "冰球"}, {"gameid": "SP", "gamename": "冠軍賽"}, {"gameid": "TN", "gamename": "網球"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.039973
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = CR_SPORT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'CR_SPORT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.039882 (seconds)
+
+		Response data: [{"gameid": "Lobby", "gamename": "大廳"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.039882
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = SABA_SPORT
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'SABA_SPORT', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.040925 (seconds)
+
+		Response data: [{"gameid": "Lobby", "gamename": "大廳"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.040925
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = BB_LOTTERY
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'BB_LOTTERY', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.038976 (seconds)
+
+		Response data: [{"gameid": "B1E5", "gamename": "BB 11選5"}, {"gameid": "B1PK", "gamename": "BB 北京PK拾"}, {"gameid": "B1Q3", "gamename": "BB 快3"}, {"gameid": "B1SC", "gamename": "BB 重慶時時彩"}, {"gameid": "B1SF", "gamename": "BB 十分彩"}, {"gameid": "BB3D", "gamename": "BB3D"}, {"gameid": "BBAD", "gamename": "BB 雙喜龍門"}, {"gameid": "BBGE", "gamename": "BB 淘金蛋"}, {"gameid": "BBHL", "gamename": "BB 高低"}, {"gameid": "BBLM", "gamename": "BB 射龍門"}, {"gameid": "BBLT", "gamename": "BB 六合彩"}, {"gameid": "BBPK", "gamename": "BB PK3"}, {"gameid": "BBPT", "gamename": "BB 深海派對"}, {"gameid": "BBQK", "gamename": "BB 競速快樂彩"}, {"gameid": "BBQL", "gamename": "BB 競速六合彩"}, {"gameid": "BBRB", "gamename": "BB 滾球王"}, {"gameid": "BCR1", "gamename": "BB 百家彩票-TB1"}, {"gameid": "BCR2", "gamename": "BB 百家彩票-TB2"}, {"gameid": "BCRA", "gamename": "BB 百家彩票-A"}, {"gameid": "BCRB", "gamename": "BB 百家彩票-B"}, {"gameid": "BCRC", "gamename": "BB 百家彩票-C"}, {"gameid": "BCRD", "gamename": "BB 百家彩票-D"}, {"gameid": "BCRE", "gamename": "BB 百家彩票-E"}, {"gameid": "BJ3D", "gamename": "3D彩"}, {"gameid": "BJKN", "gamename": "北京快樂8"}, {"gameid": "BJPK", "gamename": "北京PK拾"}, {"gameid": "BQ3D", "gamename": "BB 競速3D"}, {"gameid": "CQSC", "gamename": "重慶時時彩"}, {"gameid": "CQWC", "gamename": "重慶百變王牌"}, {"gameid": "GDE5", "gamename": "廣東11選5"}, {"gameid": "GXSF", "gamename": "廣西十分彩"}, {"gameid": "JSQ3", "gamename": "江蘇快3"}, {"gameid": "JXE5", "gamename": "江西11選5"}, {"gameid": "LDDR", "gamename": "梯子遊戲"}, {"gameid": "LDRS", "gamename": "經典梯子"}, {"gameid": "LKPA", "gamename": "BB 幸運熊貓"}, {"gameid": "LT", "gamename": "六合彩"}, {"gameid": "PL3D", "gamename": "排列三"}, {"gameid": "RDPK", "gamename": "BB 雷電PK"}, {"gameid": "SDE5", "gamename": "山東十一運奪金"}, {"gameid": "SH3D", "gamename": "上海時時樂"}, {"gameid": "TJSC", "gamename": "天津時時彩"}, {"gameid": "TJSF", "gamename": "天津十分彩"}, {"gameid": "XJSC", "gamename": "新疆時時彩"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.038976
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+		New ini value is: API.providerid = DL_LOTTERY
+
+		- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+
+		- api params: {'providerid': 'DL_LOTTERY', 'lang': 'zh'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=mTRwvH73dQzqi4yZUS3jYhuMy2CUErwbHMCCq6jr for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.03958 (seconds)
+
+		Response data: [{"gameid": "1", "gamename": "北京赛车"}, {"gameid": "10", "gamename": "飙速农场"}, {"gameid": "11", "gamename": "飙速飞艇"}, {"gameid": "12", "gamename": "欧洲快乐"}, {"gameid": "13", "gamename": "欧洲快乐5"}, {"gameid": "14", "gamename": "欧洲快乐8"}, {"gameid": "2", "gamename": "幸运飞艇"}, {"gameid": "3", "gamename": "重庆时时彩"}, {"gameid": "4", "gamename": "新疆时时彩"}, {"gameid": "6", "gamename": "飙速赛车"}, {"gameid": "7", "gamename": "飙速时时彩"}, {"gameid": "8", "gamename": "快乐十分"}, {"gameid": "9", "gamename": "幸运农场"}]
+
+		- API success (status and response are correct).
+
+		- Response time: 0.03958
+
+		---
+['PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS', 'PASS']
+
+		- 未接遊戲的供應商: AG_SLOT, EVO_LIVED
+
+		- 已接遊戲的供應商: BB_SLOT(127), CQ9_SLOT(3), FP_SLOT(56), JDB_SLOT(82), KA_SLOT(100), MG_SLOT(2), PT_SLOT(3), SW_SLOT(2), BB_LIVED(25), MG_LIVED(1), BB_FISH(3), CQ9_FISH(3), FP_FISH(3), JDB_FISH(4), BB_POKER(5), CQ9_POKER(3), JDB_POKER(13), KY_POKER(3), PT_POKER(3), BB_SPORT(9), CR_SPORT(1), SABA_SPORT(1), BB_LOTTERY(44), DL_LOTTERY(13)
+		New ini value is: TestData.provider_without_games = AG_SLOT, EVO_LIVED
+		New ini value is: TestData.provider_with_games = BB_SLOT(127), CQ9_SLOT(3), FP_SLOT(56), JDB_SLOT(82), KA_SLOT(100), MG_SLOT(2), PT_SLOT(3), SW_SLOT(2), BB_LIVED(25), MG_LIVED(1), BB_FISH(3), CQ9_FISH(3), FP_FISH(3), JDB_FISH(4), BB_POKER(5), CQ9_POKER(3), JDB_POKER(13), KY_POKER(3), PT_POKER(3), BB_SPORT(9), CR_SPORT(1), SABA_SPORT(1), BB_LOTTERY(44), DL_LOTTERY(13)
+# Test Result: PASS
+	>> Start Tear Down
+		New ini value is: API.providerid = 
+		New ini value is: API.lang = 
+	<< End Tear Down
+
+
+	End << 08月23日15時49分17秒 [Feature] API POST provider content comm game list
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+	<< END Success, checkJSONFile: 1
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 
+Start >>08月23日15時49分15秒 [Feature] API POST provider content comm game list
+
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'BB_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.045735 (seconds)
+- API success (status and response are correct).
+- Response time: 0.045735
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'CQ9_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.038319 (seconds)
+- API success (status and response are correct).
+- Response time: 0.038319
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'FP_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.029084 (seconds)
+- API success (status and response are correct).
+- Response time: 0.029084
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'JDB_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.042409 (seconds)
+- API success (status and response are correct).
+- Response time: 0.042409
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'KA_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.040243 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040243
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'MG_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.027853 (seconds)
+- API success (status and response are correct).
+- Response time: 0.027853
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'PT_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.040217 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040217
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'SW_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.02987 (seconds)
+- API success (status and response are correct).
+- Response time: 0.02987
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'AG_SLOT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041201 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041201
+- Success (Error_code, Error_message): (S02, No Data)
+- No data
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'BB_LIVED', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.037321 (seconds)
+- API success (status and response are correct).
+- Response time: 0.037321
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'EVO_LIVED', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.038617 (seconds)
+- API success (status and response are correct).
+- Response time: 0.038617
+- Success (Error_code, Error_message): (S02, No Data)
+- No data
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'MG_LIVED', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.029426 (seconds)
+- API success (status and response are correct).
+- Response time: 0.029426
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'BB_FISH', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.027921 (seconds)
+- API success (status and response are correct).
+- Response time: 0.027921
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'CQ9_FISH', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.039098 (seconds)
+- API success (status and response are correct).
+- Response time: 0.039098
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'FP_FISH', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.039813 (seconds)
+- API success (status and response are correct).
+- Response time: 0.039813
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'JDB_FISH', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.042766 (seconds)
+- API success (status and response are correct).
+- Response time: 0.042766
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'BB_POKER', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.037591 (seconds)
+- API success (status and response are correct).
+- Response time: 0.037591
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'CQ9_POKER', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.039 (seconds)
+- API success (status and response are correct).
+- Response time: 0.039
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'JDB_POKER', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.038551 (seconds)
+- API success (status and response are correct).
+- Response time: 0.038551
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'KY_POKER', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.037581 (seconds)
+- API success (status and response are correct).
+- Response time: 0.037581
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'PT_POKER', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.041517 (seconds)
+- API success (status and response are correct).
+- Response time: 0.041517
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'BB_SPORT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.039973 (seconds)
+- API success (status and response are correct).
+- Response time: 0.039973
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'CR_SPORT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.039882 (seconds)
+- API success (status and response are correct).
+- Response time: 0.039882
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'SABA_SPORT', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.040925 (seconds)
+- API success (status and response are correct).
+- Response time: 0.040925
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'BB_LOTTERY', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.038976 (seconds)
+- API success (status and response are correct).
+- Response time: 0.038976
+---
+- api url: http://tadmapi.o2ogt.com/api/provider/content/comm/game/list
+- api params: {'providerid': 'DL_LOTTERY', 'lang': 'zh'}
+- api data: {}
+- api headers: {'content-type': 'application/json'}
+- Status code: 200
+- Don't compare response: Success, 0.03958 (seconds)
+- API success (status and response are correct).
+- Response time: 0.03958
+---
+- 未接遊戲的供應商: AG_SLOT, EVO_LIVED
+- 已接遊戲的供應商: BB_SLOT(127), CQ9_SLOT(3), FP_SLOT(56), JDB_SLOT(82), KA_SLOT(100), MG_SLOT(2), PT_SLOT(3), SW_SLOT(2), BB_LIVED(25), MG_LIVED(1), BB_FISH(3), CQ9_FISH(3), FP_FISH(3), JDB_FISH(4), BB_POKER(5), CQ9_POKER(3), JDB_POKER(13), KY_POKER(3), PT_POKER(3), BB_SPORT(9), CR_SPORT(1), SABA_SPORT(1), BB_LOTTERY(44), DL_LOTTERY(13)# Test Result: PASS
+
+End << 08月23日15時49分17秒 [Feature] API POST provider content comm game list
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: 1s
+	<< END Success, replaceJSONValue.
+	<< END Success, checkJSONFile: Web build Aug23_1549
+	<< END Success, replaceJSONValue.
+	<< End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

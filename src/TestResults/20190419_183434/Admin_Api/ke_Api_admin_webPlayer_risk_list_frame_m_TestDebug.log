@@ -1,0 +1,152 @@
+
+* Run test case: ke_Api_admin_webPlayer_risk_list_frame_m.py
+********Test Case: ke_Api_admin_webPlayer_risk_list_frame_m.py********
+
+	Start >>04月19日18時37分48秒 [Feature] API POST webPlayer risk list frame m
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+		New ini value is: API.api_path = api/webPlayer/risk/list/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/risk/list/frame/m
+
+		- api params: {'type': 'all', 'ptid': '835bd15c55ec6df3fe054f3aed828e41', 'page': '', 'ln': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.581487 (seconds)
+
+		Response data: 
+<ul class="list">
+ <li class="title">
+  <div class="group-box-85">
+   <div class="box-70">
+    名称
+   </div>
+   <div class="box-25 txt-c">
+    状态
+   </div>
+  </div>
+  <div class="box-14">
+   操作
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-70">
+    QArisk
+   </div>
+   <div class="box-25 txt-c monitoring">
+    监控中
+   </div>
+  </div>
+  <div class="box-14">
+   <a alt="修改" class="btn-run-popup" id="e3ed4f74eb62925bb76a28a1457fddbe" title="修改">
+    <i class="fas fa-edit">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-70">
+    test2
+   </div>
+   <div class="box-25 txt-c stopping">
+    停止
+   </div>
+  </div>
+  <div class="box-14">
+   <a alt="修改" class="btn-stop-popup" id="9a86c7318dc83dc69416c6d4633e6998" title="修改">
+    <i class="fas fa-edit">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-70">
+    test1
+   </div>
+   <div class="box-25 txt-c stopping">
+    停止
+   </div>
+  </div>
+  <div class="box-14">
+   <a alt="修改" class="btn-stop-popup" id="3ce4c576a864b20451b857e1b13ba594" title="修改">
+    <i class="fas fa-edit">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-70">
+    test
+   </div>
+   <div class="box-25 txt-c stopping">
+    停止
+   </div>
+  </div>
+  <div class="box-14">
+   <a alt="修改" class="btn-stop-popup" id="957d8284506abcc45515b85c654c2168" title="修改">
+    <i class="fas fa-edit">
+    </i>
+   </a>
+  </div>
+ </li>
+ <li>
+  <div class="group-box-85">
+   <div class="box-70">
+    test
+   </div>
+   <div class="box-25 txt-c stopping">
+    停止
+   </div>
+  </div>
+  <div class="box-14">
+   <a alt="修改" class="btn-stop-popup" id="1902ff72bdb53ba1d7175744ee978a76" title="修改">
+    <i class="fas fa-edit">
+    </i>
+   </a>
+  </div>
+ </li>
+</ul>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.581487
+
+		---
+
+		- Success get riskName: QArisk
+
+		- Exception: on admin_webPlayer_risk_list_frame_m... 'NoneType' object has no attribute 'get'
+
+		---
+['PASS', 'FAIL']
+['FAIL', 'FAIL', 'FAIL', 'FAIL', 'FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時37分49秒 [Feature] API POST webPlayer risk list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

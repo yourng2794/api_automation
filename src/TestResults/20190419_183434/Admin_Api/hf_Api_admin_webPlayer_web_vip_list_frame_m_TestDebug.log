@@ -1,0 +1,209 @@
+
+* Run test case: hf_Api_admin_webPlayer_web_vip_list_frame_m.py
+********Test Case: hf_Api_admin_webPlayer_web_vip_list_frame_m.py********
+
+	Start >>04月19日18時36分40秒 [Feature] API POST webPlayer web vip list frame m
+
+		New ini value is: API.webId = 0b82165981316ecf67ad30a5887aa1e9
+		New ini value is: API.api_path = api/webPlayer/web/vip/list/frame/m
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/web/vip/list/frame/m
+
+		- api params: {'webId': '0b82165981316ecf67ad30a5887aa1e9'}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=IfFJE8cH7ob0r2muLPL7fEOyAYfz1CdEcATAx3bN for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.65266 (seconds)
+
+		Response data: 
+<div class="sub-group">
+ <h3>
+  <i class="fas fa-caret-right">
+  </i>
+  Testweb19 层级设定
+ </h3>
+ <ul class="list">
+  <li class="title">
+   <div class="group-box-100">
+    <div class="box-25">
+     层级
+    </div>
+    <div class="box-20 txt-c">
+     人数
+    </div>
+    <div class="box-50 wb">
+     网域
+    </div>
+   </div>
+  </li>
+  <li>
+   <div class="group-box-100">
+    <div class="box-25">
+     无层级
+    </div>
+    <div class="box-20 txt-c">
+     0
+    </div>
+    <div class="box-50">
+     10.10.10.232
+    </div>
+   </div>
+  </li>
+ </ul>
+ <div class="sel-box sel-box-short">
+  <label for="leveAt">
+   层级群组挂载
+  </label>
+  <div class="select-sty">
+   <i class="fas fa-map-marker-alt">
+   </i>
+   <select id="leveAt" name="leveAt">
+    <option selected="" value="31a71dec774d2b861533f3413c0ee8fc">
+     QAgp19
+    </option>
+    <option value="55e922911d627d5726749deb749dc85a">
+     QAgp18
+    </option>
+    <option value="18ade9724b1e242b6bd5b5c3b554bbe1">
+     QAgp17
+    </option>
+    <option value="d45b282c94a1755f5b790709ba586737">
+     QAgp16
+    </option>
+    <option value="9be82529e5d23eac246bb30358b4f514">
+     QAgp14
+    </option>
+    <option value="176a51aae661ee2da6f7bc5b482176c5">
+     QAgp13
+    </option>
+    <option value="2bc7f72c3fd0ce5ded09d770bf8a744d">
+     QAgp12
+    </option>
+    <option value="d603f5a896a7b6dab7570de76f22a35f">
+     QAgp99
+    </option>
+    <option value="08a8fd09a8d1914120e8ff65d933245b">
+     QAgp88
+    </option>
+    <option value="36feb76dbe91649fdcbe6f28de94f15d">
+     QAgp77
+    </option>
+    <option value="ef00caf8a665497064ccab7c565b89d5">
+     QAgp66
+    </option>
+    <option value="18fb670bd54e0e8772d46ffc0366b68b">
+     QAgp55
+    </option>
+    <option value="b32e1c8ea677cdbf66fa569ff1543977">
+     QAgp44
+    </option>
+    <option value="3cdf0596ddcc90da4d93ee44e2658dd9">
+     QAgp33
+    </option>
+    <option value="3f968038c18b4809cd2377ebb0c1c96a">
+     newQAgp22
+    </option>
+    <option value="25f5bf3bbb194e25ecbde73cb5451ddb">
+     QAgp22
+    </option>
+   </select>
+   <i class="fas fa-caret-down">
+   </i>
+  </div>
+  <div class="btn" id="levelSubmit">
+   确定
+  </div>
+ </div>
+ <div class="note-base note-mesg">
+  <i class="fas fa-bullseye-arrow">
+  </i>
+  <span>
+   注册：于特定时段注册，则自动升级为该层级
+  </span>
+ </div>
+ <div id="levelGroupList">
+  <ul class="list">
+   <li class="title">
+    <div class="group-box-85">
+     <div class="box-25">
+      层级
+     </div>
+     <div class="box-20 txt-c">
+      人数
+     </div>
+     <div class="box-15 txt-c">
+      注册
+     </div>
+     <div class="box-35">
+      网域
+     </div>
+    </div>
+    <div class="box-14">
+     操作
+    </div>
+   </li>
+   <li>
+    <div class="group-box-85">
+     <div class="box-25">
+      QAvip19
+     </div>
+     <div class="box-20 txt-c">
+      0
+     </div>
+     <div class="box-15 txt-c light-gold">
+      <i class="fas fa-clock">
+      </i>
+     </div>
+     <div class="box-35 wb" id="cce895fad5ced5f3129c300a72cbe5bc">
+      10.10.10.232
+     </div>
+    </div>
+    <div class="box-14">
+     <a alt="操作" class="btn-popup" id="5a03c800d507b03990581e1352bf3848" title="操作">
+      <i class="fas fa-edit">
+      </i>
+     </a>
+    </div>
+   </li>
+  </ul>
+  <div class="result-box txt-c">
+   共设定
+   <span>
+    1
+   </span>
+   组阶级
+  </div>
+ </div>
+</div>
+
+
+		- Success get vipGroupName: QAgp19
+
+		- Exception: on admin_webPlayer_web_vip_list_frame_m... list index out of range
+
+		---
+['PASS', 'FAIL']
+
+		# Test Result: FAIL
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月19日18時36分41秒 [Feature] API POST webPlayer web vip list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

@@ -1,0 +1,58 @@
+
+* Run test case: f_KA_Balance.py
+********Test Case: f_KA_Balance.py********
+
+	Start >>03月22日17時25分32秒 [Portal] POST KA balance API
+
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+
+		exist_params: C:\Users\tommy\git\tommy_autotest\ApiAutomation\src\JsonFiles\Api_Json\ka_balance.json
+
+		- signature exist, goto hash.
+		New ini value is: API.hash = 47e510806deaeaad2bd6a69b627fe26669b1854c1e8e9520c1145c6445e7a0e0
+
+		- api_params: {'hash': '47e510806deaeaad2bd6a69b627fe26669b1854c1e8e9520c1145c6445e7a0e0'}type(api_params): <class 'dict'>
+
+		- api url: https://otg.o2ogt.com/prvoider/content/balance
+
+		- api params: {'hash': '47e510806deaeaad2bd6a69b627fe26669b1854c1e8e9520c1145c6445e7a0e0'}
+
+		- api data: {"sessionid": "1d61124f82204a56ad7e55643d11afg", "partnerPlayerId": "dae8fc1ed2a6e1287ec76dd4ebe732d9", "playerIp": "192.168.50.11", "gameId": "777Vegas", "timestamp": 1553246732000, "currency": "CNY", "operatorName": "OTG", "action": "balance", "transactionId": "49886353ff304aaca16731c9fc22e98b", "token": "nullde978ad1d4403dcdef30a820bc11f585"}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[]>
+
+		- Status code: 200
+
+		- Compare response: Fail, 0.328907 (seconds)
+
+		- API success (status and response are correct).
+
+		Response data: {"balance":"7440","status":"success","statusCode":"0"}
+
+		---
+
+		- - - 
+
+		# Test Result: PASS
+	Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 03月22日17時25分33秒 [Portal] POST KA balance API
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder

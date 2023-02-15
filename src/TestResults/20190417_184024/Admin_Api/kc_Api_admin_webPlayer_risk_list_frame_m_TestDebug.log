@@ -1,0 +1,87 @@
+
+* Run test case: kc_Api_admin_webPlayer_risk_list_frame_m.py
+********Test Case: kc_Api_admin_webPlayer_risk_list_frame_m.py********
+
+	Start >>04月17日18時43分33秒 [Feature] API POST webPlayer risk list frame m
+
+		New ini value is: API.ptid = 835bd15c55ec6df3fe054f3aed828e41
+
+		- api_params: {'type': 'all', 'ptid': '835bd15c55ec6df3fe054f3aed828e41', 'page': '', 'ln': ''}type(api_params): <class 'dict'>
+
+		- api url: http://admtest.o2ogt.com/api/webPlayer/risk/list/frame
+
+		- api params: {'type': 'all', 'ptid': '835bd15c55ec6df3fe054f3aed828e41', 'page': '', 'ln': ''}
+
+		- api data: {}
+
+		- api headers: {'content-type': 'application/json'}
+
+		<RequestsCookieJar[<Cookie laravel_session=H8r6hkLSyV3FlhkpbShib0msCUVyg28cJAJAiLCG for .o2ogt.com/>]>
+
+		- Status code: 200
+
+		- Don't compare response: Success, 0.624293 (seconds)
+
+		Response data: 
+<li>
+ <div class="list-group">
+  <div class="box-8 txt-c">
+   1
+  </div>
+  <div class="box-40" id="56affa5ebc9033d66958ebc5d7d0174e">
+   QArisk
+  </div>
+  <div class="box-10 txt-c">
+   1
+  </div>
+  <div class="box-10 txt-c">
+   <div class="status-tag tag-open">
+    监控中
+   </div>
+  </div>
+ </div>
+ <div class="operate-box">
+  <a alt="活动资讯" class="js-link-view" href="web_monitor_data.html?riskid=56affa5ebc9033d66958ebc5d7d0174e" title="活动资讯">
+   <i class="fas fa-info-circle">
+   </i>
+  </a>
+  <a alt="停止" class="del js-enable" title="停止" value="0">
+   <i class="fas fa-ban">
+   </i>
+  </a>
+ </div>
+</li>
+
+
+		- API success (status and response are correct).
+
+		- Response time: 0.624293
+
+		---
+
+		- Success get riskName: QArisk
+		New ini value is: API.riskid = 56affa5ebc9033d66958ebc5d7d0174e
+
+		- Success get riskId: 56affa5ebc9033d66958ebc5d7d0174e
+
+		---
+['PASS']
+['FAIL', 'FAIL', 'PASS', 'FAIL', 'FAIL', 'FAIL', 'FAIL']
+
+		# Test Result: PASS
+	>> Start Tear Down
+	<< End Tear Down
+
+
+	End << 04月17日18時43分34秒 [Feature] API POST webPlayer risk list frame m
+	Generate test result of this case:
+	>> Start write XML
+		Test result is saved.
+	<< End write XML
+	>> Start write to TestRail
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+<< Success, End replaceJSONValue.
+	>> End write to TestRail
+	>> Start collect TestDebug.log to Test Run Folder
